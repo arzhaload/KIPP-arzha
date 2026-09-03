@@ -1,8 +1,8 @@
 ---
 title: "Character Map"
 week: 1
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
 categories: [Fondasi, Person]
@@ -14,12 +14,87 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 
 ## Evidence wajib
 
-- Lima character dari sedikitnya tiga domain kehidupan.
-- Objective, responsibility, repertoire, dan risiko tiap character.
-- Satu contoh perubahan language ketika character berubah.
+Berikut pemetaan lima *character* dari berbagai domain kehidupan beserta *objective, responsibility, repertoire,* dan risikonya:
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 1](../examples/week-01.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+1. **Diri Sendiri (Evaluator Batin):**
+   - *Objective & Responsibility:* Mengelola fokus studi dan proyek (seperti *coding* Python/C) tanpa *burnout*.
+   - *Repertoire Utama:* Refleksi mandiri, menyusun jadwal di Notion.
+   - *Risiko jika gagal:* Penurunan motivasi dan tugas kuliah terbengkalai.
+2. **Keluarga/Sahabat (Sahabat Pendengar):**
+   - *Objective & Responsibility:* Memvalidasi emosi teman satu kos/jurusan.
+   - *Repertoire Utama:* Mendengarkan aktif, menahan diri memberi solusi instan.
+   - *Risiko jika gagal:* Teman merasa dihakimi atau diabaikan.
+3. **Akademik (Anggota Tim Pengembang):**
+   - *Objective & Responsibility:* Memastikan integrasi kode (misal: repositori GitHub) berjalan lancar.
+   - *Repertoire Utama:* Menjelaskan alur logika program, *brainstorming*.
+   - *Risiko jika gagal:* Miskomunikasi struktur data antar-anggota tim.
+4. **Komunitas (Koordinator Operasional Siaran):**
+   - *Objective & Responsibility:* Mengarahkan krew LFM dan mengontrol *output* (OBS/Audio *mixer*) saat *live streaming*.
+   - *Repertoire Utama:* Instruksi verbal cepat, pengambilan keputusan instan.
+   - *Risiko jika gagal:* *Dead air* (kekosongan acara) atau *error* tayangan publik.
+5. **Publik (Liaison Officer):**
+   - *Objective & Responsibility:* Berkoordinasi dengan birokrasi sekolah mitra (misal: SMA Sabilillah) untuk *roadshow*.
+   - *Repertoire Utama:* Negosiasi santun, penyampaian informasi birokrasi formal.
+   - *Risiko jika gagal:* Terganggunya logistik acara dan citra institusi.
+
+**Satu contoh perubahan *language* ketika *character* berubah:**
+Ketika saya berperan sebagai *Liaison Officer* ke pihak sekolah, bahasa saya sangat formal dan berstruktur lengkap ("Selamat pagi Bapak, izin mengonfirmasi jadwal persiapan teknis acara..."). Namun, saat *character* saya beralih menjadi *Koordinator Operasional Siaran*, bahasa saya berubah drastis menjadi sangat ringkas, memotong basa-basi, dan instruktif ("Kabel *mixer* jalur 2 masuk sekarang, matikan *mic* 1").
+
+## Konteks performance
+
+**Tanggal dan setting:** Maret 2026. Berlokasi di ruang kontrol produksi (*control room*) saat simulasi/gladi kotor persiapan *live streaming* sebuah acara.
+
+**Persons dan relationship:** Saya bertindak sebagai penanggung jawab *routing* audio dan OBS, berinteraksi dengan tiga krew lapangan dari Liga Film Mahasiswa (LFM) ITB dalam situasi yang menuntut ketangkasan.
+
+**Objective dan initial state:** Mengubah *state* krew dari kebingungan terkait *input* perangkat (*initial state*) menjadi paham dan siap mengeksekusi transisi *scene* visual dan audio secara presisi (*objective*).
+
+## Evidence
+
+::: {.evidence-block}
+- Tautan Foto Layar OBS saat gladi bersih: https://drive.google.com/file/d/1yls9c-5hOBRnFSzazWf2UpJCWgVN3QF2/view?usp=share_link
+- Tautan Tangkapan Layar *chat* koordinasi krew: https://drive.google.com/file/d/1Xnqccqj3UPm5vf5nNS5cOBBVmys5a27l/view?usp=share_link
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Saya menjalankan *character* **Koordinator Operasional Siaran**. Kepribadian (*personality*) dasar saya yang cenderung diam ketika panik harus ditekan agar *character* ini bisa memimpin secara verbal dan taktis. |
+| Objective & state | Krew yang awalnya ragu terkait kabel *mixer* mana yang aktif (*initial state*), berhasil beralih ke *state* siap bertindak dan mengerti arahan (*objective tercapai*). |
+| Repertoire & language | Saya memilih *repertoire* instruksi langsung. *Language* yang dipakai asertif, singkat, dan bertempo cepat: "Cek saluran 2, turunkan level audio 10 persen, *standby* layar utama." |
+| Response & adaptation | Membaca isyarat fisik dari krew dan indikator *leveling* audio. Saya beradaptasi dengan menurunkan nada suara yang tegang menjadi lebih tenang setelah indikator menunjukkan hasil yang benar. |
+| Agreement/action | Krew berhasil mengeksekusi transisi layar di OBS tanpa jeda waktu kosong. |
+| Relationship outcome | Meningkatkan rasa saling percaya antar-krew. Krew merasa aman karena mengetahui kendali teknis diarahkan secara jelas tanpa sikap menyalahkan. |
+
+## Penggunaan AI
+
+`Tidak menggunakan AI` dalam menyusun refleksi pribadi maupun *evidence*. AI hanya digunakan pada tahap prapengumpulan untuk menstrukturkan tabel Markdown dan merapikan tata letak agar sesuai dengan format *template* statis yang diwajibkan repositori.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Rekan krew (*Mitra F*) menyebutkan bahwa instruksi teknis saya tepat, tetapi intonasi awal saya terdengar terlalu terburu-buru sehingga sempat memicu kepanikan singkat di meja operator.
+
+**Adaptation/replay:** Pada sesi pergantian *scene* berikutnya, saya menghentikan aktivitas fisik sejenak sebelum menekan interkom, agar artikulasi saya lebih stabil dan tidak menularkan kepanikan.
+
+**Next practice:** Saat memimpin koordinasi operasional ke depannya, saya akan menerapkan jeda wajib selama 3 detik untuk mengatur napas sebelum memberikan koreksi teknis secara verbal di bawah tekanan.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Kelima *character* dan perbedaannya terpetakan sangat jelas. |
+| Objective & State | 4 | *State* krew terdefinisi dengan jelas dari bingung menjadi siap tempur. |
+| Repertoire, Language & AI | 3 | Perubahan *language* tergambar konkret, *repertoire* dijabarkan sesuai situasi produksi. |
+| Response & Adaptation | 4 | Terdapat adaptasi emosi dan intonasi setelah membaca respons non-verbal krew. |
+| Agreement, Action & Relationship | 3 | Tindakan berhasil, namun terdapat ruang perbaikan pada penyampaian awal berdasarkan *feedback*. |
+
+**Total:** 18 / 20
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.31">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +46,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-42db6082498c64b8158b8611e7fb4138.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-795ae1ca5c1dbc58ec319c3e1f3f461f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -306,40 +309,63 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="evidence-wajib" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<p>Berikut pemetaan lima <em>character</em> dari berbagai domain kehidupan beserta <em>objective, responsibility, repertoire,</em> dan risikonya:</p>
+<ol type="1">
+<li><strong>Diri Sendiri (Evaluator Batin):</strong>
 <ul>
-<li>Lima character dari sedikitnya tiga domain kehidupan.</li>
-<li>Objective, responsibility, repertoire, dan risiko tiap character.</li>
-<li>Satu contoh perubahan language ketika character berubah.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-01.html">Buka contoh fiktif Minggu 1</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<li><em>Objective &amp; Responsibility:</em> Mengelola fokus studi dan proyek (seperti <em>coding</em> Python/C) tanpa <em>burnout</em>.</li>
+<li><em>Repertoire Utama:</em> Refleksi mandiri, menyusun jadwal di Notion.</li>
+<li><em>Risiko jika gagal:</em> Penurunan motivasi dan tugas kuliah terbengkalai.</li>
+</ul></li>
+<li><strong>Keluarga/Sahabat (Sahabat Pendengar):</strong>
+<ul>
+<li><em>Objective &amp; Responsibility:</em> Memvalidasi emosi teman satu kos/jurusan.</li>
+<li><em>Repertoire Utama:</em> Mendengarkan aktif, menahan diri memberi solusi instan.</li>
+<li><em>Risiko jika gagal:</em> Teman merasa dihakimi atau diabaikan.</li>
+</ul></li>
+<li><strong>Akademik (Anggota Tim Pengembang):</strong>
+<ul>
+<li><em>Objective &amp; Responsibility:</em> Memastikan integrasi kode (misal: repositori GitHub) berjalan lancar.</li>
+<li><em>Repertoire Utama:</em> Menjelaskan alur logika program, <em>brainstorming</em>.</li>
+<li><em>Risiko jika gagal:</em> Miskomunikasi struktur data antar-anggota tim.</li>
+</ul></li>
+<li><strong>Komunitas (Koordinator Operasional Siaran):</strong>
+<ul>
+<li><em>Objective &amp; Responsibility:</em> Mengarahkan krew LFM dan mengontrol <em>output</em> (OBS/Audio <em>mixer</em>) saat <em>live streaming</em>.</li>
+<li><em>Repertoire Utama:</em> Instruksi verbal cepat, pengambilan keputusan instan.</li>
+<li><em>Risiko jika gagal:</em> <em>Dead air</em> (kekosongan acara) atau <em>error</em> tayangan publik.</li>
+</ul></li>
+<li><strong>Publik (Liaison Officer):</strong>
+<ul>
+<li><em>Objective &amp; Responsibility:</em> Berkoordinasi dengan birokrasi sekolah mitra (misal: SMA Sabilillah) untuk <em>roadshow</em>.</li>
+<li><em>Repertoire Utama:</em> Negosiasi santun, penyampaian informasi birokrasi formal.</li>
+<li><em>Risiko jika gagal:</em> Terganggunya logistik acara dan citra institusi.</li>
+</ul></li>
+</ol>
+<p><strong>Satu contoh perubahan <em>language</em> ketika <em>character</em> berubah:</strong> Ketika saya berperan sebagai <em>Liaison Officer</em> ke pihak sekolah, bahasa saya sangat formal dan berstruktur lengkap (“Selamat pagi Bapak, izin mengonfirmasi jadwal persiapan teknis acara…”). Namun, saat <em>character</em> saya beralih menjadi <em>Koordinator Operasional Siaran</em>, bahasa saya berubah drastis menjadi sangat ringkas, memotong basa-basi, dan instruktif (“Kabel <em>mixer</em> jalur 2 masuk sekarang, matikan <em>mic</em> 1”).</p>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Maret 2026. Berlokasi di ruang kontrol produksi (<em>control room</em>) saat simulasi/gladi kotor persiapan <em>live streaming</em> sebuah acara.</p>
+<p><strong>Persons dan relationship:</strong> Saya bertindak sebagai penanggung jawab <em>routing</em> audio dan OBS, berinteraksi dengan tiga krew lapangan dari Liga Film Mahasiswa (LFM) ITB dalam situasi yang menuntut ketangkasan.</p>
+<p><strong>Objective dan initial state:</strong> Mengubah <em>state</em> krew dari kebingungan terkait <em>input</em> perangkat (<em>initial state</em>) menjadi paham dan siap mengeksekusi transisi <em>scene</em> visual dan audio secara presisi (<em>objective</em>).</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
 <div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
+<ul>
+<li>Tautan Foto Layar OBS saat gladi bersih: https://drive.google.com/file/d/1yls9c-5hOBRnFSzazWf2UpJCWgVN3QF2/view?usp=share_link</li>
+<li>Tautan Tangkapan Layar <em>chat</em> koordinasi krew: https://drive.google.com/file/d/1Xnqccqj3UPm5vf5nNS5cOBBVmys5a27l/view?usp=share_link</li>
+</ul>
 </div>
 </section>
 <section id="analisis-komunikasi" class="level2">
 <h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Elemen</th>
@@ -349,51 +375,49 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Saya menjalankan <em>character</em> <strong>Koordinator Operasional Siaran</strong>. Kepribadian (<em>personality</em>) dasar saya yang cenderung diam ketika panik harus ditekan agar <em>character</em> ini bisa memimpin secara verbal dan taktis.</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Krew yang awalnya ragu terkait kabel <em>mixer</em> mana yang aktif (<em>initial state</em>), berhasil beralih ke <em>state</em> siap bertindak dan mengerti arahan (<em>objective tercapai</em>).</td>
 </tr>
 <tr class="odd">
 <td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Saya memilih <em>repertoire</em> instruksi langsung. <em>Language</em> yang dipakai asertif, singkat, dan bertempo cepat: “Cek saluran 2, turunkan level audio 10 persen, <em>standby</em> layar utama.”</td>
 </tr>
 <tr class="even">
 <td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Membaca isyarat fisik dari krew dan indikator <em>leveling</em> audio. Saya beradaptasi dengan menurunkan nada suara yang tegang menjadi lebih tenang setelah indikator menunjukkan hasil yang benar.</td>
 </tr>
 <tr class="odd">
 <td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Krew berhasil mengeksekusi transisi layar di OBS tanpa jeda waktu kosong.</td>
 </tr>
 <tr class="even">
 <td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Meningkatkan rasa saling percaya antar-krew. Krew merasa aman karena mengetahui kendali teknis diarahkan secara jelas tanpa sikap menyalahkan.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="penggunaan-ai" class="level2">
 <h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<p><code>Tidak menggunakan AI</code> dalam menyusun refleksi pribadi maupun <em>evidence</em>. AI hanya digunakan pada tahap prapengumpulan untuk menstrukturkan tabel Markdown dan merapikan tata letak agar sesuai dengan format <em>template</em> statis yang diwajibkan repositori.</p>
 </section>
 <section id="feedback-dan-tindak-lanjut" class="level2">
 <h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<p><strong>Feedback yang diterima:</strong> Rekan krew (<em>Mitra F</em>) menyebutkan bahwa instruksi teknis saya tepat, tetapi intonasi awal saya terdengar terlalu terburu-buru sehingga sempat memicu kepanikan singkat di meja operator.</p>
+<p><strong>Adaptation/replay:</strong> Pada sesi pergantian <em>scene</em> berikutnya, saya menghentikan aktivitas fisik sejenak sebelum menekan interkom, agar artikulasi saya lebih stabil dan tidak menularkan kepanikan.</p>
+<p><strong>Next practice:</strong> Saat memimpin koordinasi operasional ke depannya, saya akan menerapkan jeda wajib selama 3 detik untuk mengatur napas sebelum memberikan koreksi teknis secara verbal di bawah tekanan.</p>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
@@ -404,32 +428,32 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Kelima <em>character</em> dan perbedaannya terpetakan sangat jelas.</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td><em>State</em> krew terdefinisi dengan jelas dari bingung menjadi siap tempur.</td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Perubahan <em>language</em> tergambar konkret, <em>repertoire</em> dijabarkan sesuai situasi produksi.</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Terdapat adaptasi emosi dan intonasi setelah membaca respons non-verbal krew.</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Tindakan berhasil, namun terdapat ruang perbaikan pada penyampaian awal berdasarkan <em>feedback</em>.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total:</strong> 18 / 20</p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>
@@ -858,7 +882,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Portfolio KIPP-2 · Nama Mahasiswa</p>
+<p>Portfolio KIPP-2 · Ammar Zharif Fakhrudin</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
