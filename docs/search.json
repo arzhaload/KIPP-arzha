@@ -1630,66 +1630,33 @@
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence-wajib",
-    "href": "portfolio/week-04.html#evidence-wajib",
+    "objectID": "portfolio/week-04.html#core-meaning-detoks-jargon",
+    "href": "portfolio/week-04.html#core-meaning-detoks-jargon",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nLima versi untuk friend, technical peer, manager, customer, dan public.\nAlasan perubahan language dan repertoire.\nFeedback understanding dari sedikitnya satu target.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 4 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Core meaning (Detoks Jargon)",
+    "text": "Core meaning (Detoks Jargon)\nKonsep Teknis: Git Pull Conflict dan Sinkronisasi Repositori.\nDefinisi Teknis Awal: “Proses git pull dari remote branch ditolak (aborted) karena terdapat perbedaan riwayat komit pada local repository. Untuk mengatasi merge conflict ini tanpa mempertahankan editan lokal, pengguna harus mengeksekusi git fetch dilanjutkan dengan git reset --hard untuk melakukan penimpaan (overwrite) secara utuh dari server.”\nDaftar Jargon & Arti Sederhana: 1. Remote repository \\(\\rightarrow\\) File utama proyek yang disimpan di cloud/internet (misal: GitHub). 2. Merge conflict \\(\\rightarrow\\) Bentrok data; sistem kebingungan waktu mau ngegabungin editan versi lama dan versi baru. 3. Hard reset / overwrite \\(\\rightarrow\\) Menghapus paksa file lokal yang error, lalu menggantinya 100% pakai versi terbaru dari server.\nFakta yang tidak boleh berubah (Kebenaran Inti): Sistem gagal mengunduh pembaruan karena ada file di laptop kita yang bentrok. Solusinya, kita harus hapus file lokal yang bermasalah itu, lalu unduh ulang versi utuhnya dari server biar sistem jalan normal lagi.\n\n\n\n\n\n\n\n\nTarget/character\nVersi language\nAlasan adaptasi\n\n\n\n\nAnak-anak (Usia 10)\n“Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuknya. Biar mainannya nggak hancur karena tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu.”\nPakai analogi fisik (mainan lego) yang gampang dibayangin anak-anak, soalnya mereka belum paham konsep file digital atau coding yang nggak kelihatan bentuknya.\n\n\nSahabat (Beda Jurusan)\n“Bro, file game di laptop lu tuh bentrok pas mau narik update terbaru dari gw. Biar ga pusing, lu hapus aja folder lamanya yang ada di laptop lu, terus download ulang semuanya dari awal pake link baru. Dijamin langsung aman.”\nBahasanya super kasual (lu/gw), langsung ke point action yang harus dilakuin, dan ngebuang semua istilah pusing kayak Git, pull, atau merge.\n\n\nTechnical peer\n“Lokal branch lu konflik tuh sama origin gara-gara beda timeline. Daripada ribet resolve conflict manual, mending lu ketik git fetch --all terus git reset --hard origin/main. Ntar local state lu otomatis ke-overwrite sama versi stabil yang baru gw push.”\nPakai instruksi terminal (command prompt) yang presisi dan istilah asli developer karena target butuh akurasi dan udah paham konteks teknisnya.\n\n\nManager\n“Pak, ada sedikit kendala sinkronisasi data di perangkat salah satu anggota yang bikin proses testing terhambat. Biar efisien, saya sarankan kita force-sync langsung dari server utama. Ini tidak memakan biaya dan testing bisa langsung jalan lagi dalam 5 menit.”\nFokus ke efisiensi waktu, manajemen risiko, dan usulan penyelesaian masalah. Manajer nggak peduli soal coding errornya, yang penting masalahnya cepat beres.\n\n\nCustomer / Public\n“Pembaruan gagal dipasang karena ada data lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus aplikasi lamanya lalu unduh ulang versi terbarunya lewat tautan resmi kami supaya aplikasi berjalan lancar kembali.”\nFokus ngasih instruksi pelayanan yang ramah, menenangkan user, dan ngasih tahu solusi yang gampang diikutin tanpa nyalahin penggunanya.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#konteks-performance",
-    "href": "portfolio/week-04.html#konteks-performance",
+    "objectID": "portfolio/week-04.html#evidence-understanding",
+    "href": "portfolio/week-04.html#evidence-understanding",
     "title": "Five-Language Translation Portfolio",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Evidence understanding",
+    "text": "Evidence understanding\nAku nyobain ngetes versi “Sahabat” ini ke temen sekelompok (inisial F) yang kebingungan gara-gara gagal nge-pull project terbaru ke laptopnya. F ternyata langsung nangkep inti pesannya kalau dia harus ngambil ulang file dari GitHub. Tapi dia nanya buat mastiin, “Berarti file old game gw delete ye sebelum download ulang?”[cite: 17].\nDi situ aku tambahin kalimat: “Iya, lu delete manual aja foldernya, baru narik data lagi.” Adaptasi ini ngebantu ngasih kejelasan (actionable step) tanpa ngerusak pesan intinya (buang yang lama, ambil yang baru).",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence",
-    "href": "portfolio/week-04.html#evidence",
+    "objectID": "portfolio/week-04.html#analisis-dan-batas-refleksi",
+    "href": "portfolio/week-04.html#analisis-dan-batas-refleksi",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Five-Language Translation Portfolio"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-04.html#analisis-komunikasi",
-    "href": "portfolio/week-04.html#analisis-komunikasi",
-    "title": "Five-Language Translation Portfolio",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Five-Language Translation Portfolio"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-04.html#penggunaan-ai",
-    "href": "portfolio/week-04.html#penggunaan-ai",
-    "title": "Five-Language Translation Portfolio",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Five-Language Translation Portfolio"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
-    "title": "Five-Language Translation Portfolio",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Analisis dan batas (Refleksi)",
+    "text": "Analisis dan batas (Refleksi)\n\nRagam bahasa tersulit: Bikin versi anak-anak tuh rasanya paling susah. Butuh mikir lumayan lama buat ngelepasin konsep digital kayak “baris kode” atau “server” jadi objek fisik (lego) tanpa bikin esensi pesannya melenceng.\nPerubahan sudut pandang: Dari tugas ini aku sadar, sebagai anak IT kadang aku terlalu mikir semua orang bakal paham istilah macam pull, push, atau conflict. Padahal di lapangan, ngasih instruksi praktis pakai bahasa sehari-hari (“hapus aja foldernya terus download lagi”) itu jauh lebih nyelamatin nyawa dan waktu tim daripada maksa mereka belajar cara kerja sistemnya.\nBatas Penggunaan AI: Tidak menggunakan AI untuk generate teks terjemahan atau ide analogi. AI hanya dipakai bantu merapikan susunan tabel markdown biar render di Quartonya nggak berantakan.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1700,7 +1667,7 @@
     "href": "portfolio/week-04.html#self-assessment",
     "title": "Five-Language Translation Portfolio",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nLima target audiens dibedain lewat needs dan background mereka, bukan cuma asal ganti gaya sapaan.\n\n\nObjective & State\n4\nFakta inti (core meaning buat mereset data) konsisten dibawa ke semua bahasa.\n\n\nRepertoire, Language & AI\n4\nSukses nerapin gaya bahasa analitis, instruksional, dan kasual di momen yang pas, lengkap sama batasan AI.\n\n\nResponse & Adaptation\n3\nTarget (Si F) paham maksudnya, dan respons pertanyaannya berhasil dijawab dengan instruksi yang makin clear.\n\n\nAgreement, Action & Relationship\n3\nKrisis di kelompok kelar lewat pendekatan bahasa yang disesuaikan sama kapasitas partner.\n\n\n\nTotal: 17/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1810,7 +1777,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n16\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
