@@ -1,69 +1,89 @@
 ---
-title: "Peta Karakter Komunikasi Pribadi"
+title: "Character Map"
 week: 1
 status: "Siap dinilai"
-self_score: "4"
+self_score: "18"
 assessor_score: "—"
-description: "Peta 5 Domain, Analisis Kontras, dan Sasaran Pertumbuhan Perilaku."
+description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
 categories: [Fondasi, Person]
 ---
 
-**Nama Mahasiswa:** Ammar Zharif Fakhrudin 
-**Tanggal Pengerjaan:** 14 September 2026
+## Kompetensi target
 
-## Bagian A: Peta 5 Domain Kehidupan
+Membedakan person, personality, dan character serta memilih objective, repertoire, dan language yang sesuai.
 
-| Domain Kehidupan | Peran yang Saya Ambil | Siapa yang Saya Jumpai | Tanggung Jawab Utama Komunikasi |
-| :--- | :--- | :--- | :--- |
-| **1. Diri Sendiri** | Evaluator Batin | Diri sendiri (*self-talk*) | Mengelola fokus studi dan proyek (seperti *coding* Python/C) tanpa *burnout*, dengan melakukan refleksi mandiri dan menyusun jadwal di Notion. |
-| **2. Keluarga / Sahabat** | Sahabat Pendengar | Teman satu kos / jurusan | Memvalidasi emosi teman secara aktif dan menahan diri dari memberikan solusi instan. |
-| **3. Profesional / Akademik** | Anggota Tim Pengembang | Rekan kelompok & Dosen | Memastikan integrasi kode (repositori GitHub) berjalan lancar melalui *brainstorming* dan penjelasan alur logika program. |
-| **4. Komunitas / Kelompok** | Koordinator Operasional Siaran | Krew lapangan LFM ITB | Mengarahkan krew dan mengontrol *output* (OBS/Audio *mixer*) dengan instruksi verbal cepat saat *live streaming*. |
-| **5. Dunia / Publik** | *Liaison Officer* (Penghubung) | Birokrasi sekolah mitra (misal: SMA Sabilillah) | Berkoordinasi terkait *roadshow*, melakukan negosiasi santun, dan menyampaikan informasi birokrasi secara formal. |
+## Evidence wajib
 
-## Bagian B: Analisis Kontras Dua Peran Utama
+**1. Lima Character dalam 5 Domain Kehidupan (Peta Edunex):**
 
-Pilihan dua peran:  
-**Peran A:** Anggota Tim Pengembang (Domain Akademik)  
-**Peran B:** Koordinator Operasional Siaran (Domain Komunitas)
+| Domain & Character | Person & Relationship | Objective & Responsibility | Repertoire & Language | Risiko jika gagal |
+|---|---|---|---|---|
+| **Intra-Self** — Evaluator Batin | Diri sendiri saat *coding* Python/C. | Mengelola fokus studi tanpa *burnout*. | Refleksi mandiri, menyusun jadwal di Notion. | Penurunan motivasi dan tugas kuliah terbengkalai. |
+| **Family/Friends** — Sahabat Pendengar | Teman satu kos / jurusan. | Memvalidasi emosi teman secara aktif. | Mendengarkan aktif, menahan diri memberi solusi instan. | Teman merasa dihakimi atau diabaikan. |
+| **Academic** — Tim Pengembang | Rekan kelompok & Dosen. | Memastikan integrasi kode di GitHub berjalan lancar. | Menjelaskan alur logika program, *brainstorming*. | Miskomunikasi struktur data antar-anggota tim. |
+| **Community** — Koordinator Operasional | Krew lapangan LFM ITB. | Mengarahkan krew dan mengontrol *output* (OBS/Audio *mixer*). | Instruksi lisan yang asertif, singkat, dan cepat. | *Dead air* (kekosongan acara) atau *error* tayangan. |
+| **Public** — *Liaison Officer* | Birokrasi sekolah mitra (SMA Sabilillah). | Berkoordinasi terkait *roadshow* secara formal. | Negosiasi santun, penyampaian informasi birokrasi. | Terganggunya logistik acara dan citra institusi. |
 
-| Unsur Komunikasi | Peran A: Anggota Tim Pengembang | Peran B: Koordinator Operasional Siaran |
-| :--- | :--- | :--- |
-| **1. Tujuan Tugas & Relasi** | Memastikan integrasi kode berjalan lancar dan mencegah miskomunikasi struktur data antar-anggota tim. | Mengubah *state* krew dari bingung terkait *input* perangkat menjadi paham dan siap mengeksekusi transisi *scene* secara presisi. |
-| **2. Repertoar Utama** | Menjelaskan alur logika program, *brainstorming*, dan diskusi teknis terstruktur. | Instruksi lisan langsung yang asertif, singkat, dan bertempo cepat. |
-| **3. Pilihan Bahasa & Nada** | Bahasa reflektif, eksploratif, dan tenang. | Bahasa ringkas, memotong basa-basi, dan instruktif (contoh: "Kabel *mixer* jalur 2 masuk sekarang"). |
-| **4. Respons yang Harus Dibaca** | Kesepahaman rekan tim terhadap logika program atau argumen *pull request*. | Isyarat fisik dari krew (*thumbs up*) dan indikator visual pada layar OBS atau *leveling* audio. |
-| **5. Tindakan yang Diharapkan** | Kode terintegrasi tanpa *error* di repositori. | Krew mengeksekusi transisi layar di OBS tanpa jeda waktu kosong (*dead air*). |
-| **6. Relasi yang Harus Dirawat** | Kepercayaan atas kompetensi kolaborasi analisis kode. | Kepercayaan krew di lapangan bahwa kendali teknis diarahkan secara jelas tanpa sikap menyalahkan. |
+**2. Contoh Perubahan Language:**
+Ketika saya berperan sebagai ***Liaison Officer***, bahasa saya sangat formal dan santun ("Selamat pagi Bapak, izin mengonfirmasi jadwal persiapan teknis..."). Namun, saat beralih menjadi **Koordinator Operasional Siaran**, bahasa saya berubah menjadi sangat ringkas, memotong basa-basi, dan imperatif ("Kabel *mixer* jalur 2 masuk sekarang").
 
-## Bagian C: Eksplorasi Kepribadian dan Sasaran Pertumbuhan
+## Konteks performance
 
-* **Nilai Utama:**  
-  Kejujuran intelektual, tanggung jawab terhadap komitmen teknis, dan ketulusan dalam mendengarkan rekan.
+**Tanggal dan setting:** Maret 2026. Berlokasi di ruang kontrol produksi (*control room*) saat simulasi/gladi kotor persiapan *live streaming* sebuah acara.
 
-* **Kekuatan Komunikasi:**  
-  Kecenderungan analitis yang kuat, memungkinkan saya mengubah masalah teknis menjadi instruksi operasional yang logis.
+**Persons dan relationship:** Saya bertindak sebagai penanggung jawab *routing* audio dan OBS, berinteraksi dengan tiga krew lapangan dari Liga Film Mahasiswa (LFM) ITB dalam situasi yang menuntut ketangkasan.
 
-* **Pola Hambatan Otomatis:**  
-  Saat menghadapi krisis di meja produksi, saya cenderung diam, menekan emosi panik, bertindak terburu-buru, dan langsung mengambil alih *hardware* secara sepihak alih-alih mendelegasikan. Nada bicara saya sering kali terlalu cepat sehingga menularkan kepanikan kepada operator lain.
+**Objective dan initial state:** Mengubah *state* krew dari kebingungan terkait *input* perangkat keras (*initial state*) menjadi paham dan siap mengeksekusi transisi *scene* visual dan audio secara presisi (*objective*).
 
-* **Ketegangan Peran & Kepribadian:**  
-  Saya cenderung menarik diri dan bertindak terburu-buru secara mandiri saat panik, tetapi peran saya sebagai Koordinator Operasional Siaran menuntut saya untuk memberikan instruksi verbal yang tenang, jelas, dan mendelegasikan tugas kontrol *hardware* kepada krew lapangan.
+## Evidence
 
-* **Sasaran Pertumbuhan Perilaku Terukur:**  
-  Saat memimpin koordinasi operasional ke depannya, saya akan menerapkan jeda wajib selama 3 detik untuk mengatur napas sebelum memberikan koreksi teknis secara verbal (seperti "Cek saluran 2, turunkan level audio 10 persen") di bawah tekanan, agar artikulasi saya lebih stabil dan tidak memicu kepanikan krew.
+::: {.evidence-block}
+- **Tautan Foto Layar OBS saat gladi bersih:** [Lihat Dokumentasi OBS](https://drive.google.com/file/d/1yls9c-5hOBRnFSzazWf2UpJCWgVN3QF2/view?usp=share_link)
+- **Tautan Tangkapan Layar chat koordinasi krew:** [Lihat Dokumentasi Chat](https://drive.google.com/file/d/1Xnqccqj3UPm5vf5nNS5cOBBVmys5a27l/view?usp=share_link)
+:::
 
-* **Umpan Balik Jujur:**  
-  Mitra F (Rekan krew LFM).
+## Analisis komunikasi
 
-## 4. Rubrik Penilaian & Evaluasi Mandiri
+*(Mengintegrasikan Analisis Kontras dan Eksplorasi Kepribadian)*
 
-| Dimensi | Skor Mandiri | Justifikasi |
-| :--- | :---: | :--- |
-| **Tingkat Kinerja** | 4 (Unggul) | Berhasil memetakan kelima domain kehidupan dan membedakan peran naratif secara eksplisit. Sasaran pertumbuhan dirumuskan spesifik (jeda 3 detik) untuk mengatasi kepanikan instruksional, dilengkapi umpan balik dari rekan krew. |
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Nilai utama saya adalah tanggung jawab teknis dengan kekuatan analitis. Namun, ada **ketegangan kepribadian**: saat panik di lapangan, saya cenderung diam dan mengambil alih *hardware* sepihak. Peran Koordinator menuntut saya menekan ego tersebut dan mendelegasikan secara verbal. |
+| **Objective & state** | Krew yang awalnya ragu terkait kabel *mixer* mana yang aktif (*initial state*), berhasil beralih ke *state* siap bertindak dan mengerti arahan. |
+| **Repertoire & language** | Saya menggunakan *repertoire* instruksi langsung. *Language* yang dipakai asertif, singkat, dan bertempo cepat: "Cek saluran 2, turunkan level audio 10 persen, *standby* layar utama." |
+| **Response & adaptation** | Membaca isyarat fisik dari krew dan indikator *leveling* audio. Saya beradaptasi dengan menurunkan nada suara yang tegang menjadi lebih tenang setelah indikator aman. |
+| **Agreement/action** | Krew berhasil mengeksekusi transisi layar di OBS tanpa jeda waktu kosong. |
+| **Relationship outcome** | Meningkatkan rasa saling percaya antar-krew. Krew merasa aman karena mengetahui kendali teknis diarahkan secara jelas tanpa sikap menyalahkan. |
 
----
+## Penggunaan AI
 
-## 5. Lampiran Evidence
-* **Tautan Foto Layar OBS saat gladi bersih:** [Lihat Dokumentasi](https://drive.google.com/file/d/1yls9c-5hOBRnFSzazWf2UpJCWgVN3QF2/view?usp=share_link)
-* **Tautan Tangkapan Layar chat koordinasi krew:** [Lihat Dokumentasi](https://drive.google.com/file/d/1Xnqccqj3UPm5vf5nNS5cOBBVmys5a27l/view?usp=share_link)
+`Tidak menggunakan AI` dalam menyusun refleksi pribadi maupun *evidence*. AI hanya digunakan sebagai asisten untuk menstrukturkan format tabel Markdown agar sesuai dengan sistem penilaian repositori.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Rekan krew (*Mitra F*) menyebutkan bahwa instruksi teknis saya tepat, tetapi intonasi awal saya terdengar terlalu terburu-buru sehingga sempat memicu kepanikan singkat di meja operator.
+
+**Adaptation/replay:** Pada sesi pergantian *scene* berikutnya, saya menghentikan aktivitas fisik sejenak sebelum menekan interkom, agar artikulasi saya lebih stabil dan tidak menularkan kepanikan.
+
+**Next practice (Sasaran Pertumbuhan Terukur):** Saat memimpin koordinasi operasional ke depannya, saya akan menerapkan jeda wajib selama 3 detik untuk mengatur napas sebelum memberikan koreksi teknis secara verbal di bawah tekanan.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Lima domain dan ketegangan kepribadian (*autopilot* vs tuntutan peran) terpetakan jelas. |
+| Objective & State | 4 | *State* krew terdefinisi dengan spesifik dari bingung menjadi siap tempur. |
+| Repertoire, Language & AI | 3 | Perubahan *language* antar peran tergambar konkret dan asertif. |
+| Response & Adaptation | 4 | Terdapat adaptasi emosi dan intonasi setelah membaca respons non-verbal krew. |
+| Agreement, Action & Relationship | 3 | Tindakan berhasil, sasaran perbaikan spesifik (jeda 3 detik) dirumuskan dari umpan balik nyata. |
+
+**Total: 18 / 20**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
