@@ -1733,62 +1733,62 @@
     "href": "portfolio/week-02.html#evidence-wajib",
     "title": "Intra-Self Communication Journal",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n(Integrasi Bagian 1: Identifikasi Kasus dari Edunex)",
+    "text": "Evidence wajib\n\nSatu episode komunikasi dengan diri sendiri.\nInitial story dan sedikitnya dua alternative narratives.\nInternal agreement dan bukti tindakan berikutnya.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 2 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#episode",
-    "href": "portfolio/week-02.html#episode",
+    "objectID": "portfolio/week-02.html#konteks-performance",
+    "href": "portfolio/week-02.html#konteks-performance",
     "title": "Intra-Self Communication Journal",
-    "section": "Episode",
-    "text": "Episode\nEvent: Keterlambatan pengumpulan aset untuk coding Game Visual Novel (KWN) dan krisis koordinasi menjelang tenggat waktu.\n\n\n\n\n\n\n\nLapisan\nCatatan Mahasiswa\n\n\n\n\nFact (Fakta)\nPada tanggal 27 April pukul 21.00, dokumen skrip dialog rinci, logic flowchart, dan aset visual belum tersedia di Google Drive kelompok, sementara Zoom koordinasi tidak dihadiri seluruh anggota. Presentasi dijadwalkan tanggal 4 Mei.\n\n\nInitial story (Asumsi)\nTeman-teman kelompok tidak punya inisiatif, menyepelekan tugas berbobot 40%, dan berniat “numpang nama” dengan membebankan sisa pekerjaan teknis kepada saya sebagai programmer di menit terakhir.\n\n\nEmotion & body signal\nMarah (8/10), Cemas (8/10), Pusing (7/10). Sensasi fisik: Rahang menegang, napas pendek, dan mengetik layar HP dengan tekanan keras/cepat.\n\n\nReactive character\nVictim (Korban) yang merasa selalu menjadi pihak yang dikorbankan untuk ngoding semalaman karena kesalahan deadliners orang lain, berujung ingin memarahi kelompok di grup WA.\n\n\nDesired character\nGrowth/Problem-Solver yang mampu mengambil alih kepemimpinan teknis secara asertif, memberikan spesifikasi tugas yang jelas, dan menenangkan kepanikan manajer proyek (PM).\n\n\n\nInitial story melampaui fakta: Anggota kelompok yang diam atau belum menyetor tugas tidak secara otomatis berarti mereka malas atau “numpang nama”. Mereka mungkin kekurangan informasi teknis mengenai format aset seperti apa yang sebenarnya dibutuhkan oleh programmer.",
+    "section": "Konteks performance",
+    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#alternative-narratives",
-    "href": "portfolio/week-02.html#alternative-narratives",
+    "objectID": "portfolio/week-02.html#evidence",
+    "href": "portfolio/week-02.html#evidence",
     "title": "Intra-Self Communication Journal",
-    "section": "Alternative narratives",
-    "text": "Alternative narratives\n(Integrasi Bagian 2: Membedah Tiga Narasi dari Edunex)\n\nNarasi Korban (Victim Narrative): “Selalu saja begini kalau kerja kelompok. Semua hancur gara-gara anggota yang tidak bertanggung jawab. Saya tidak punya pilihan selain begadang mengerjakan semuanya sendiri nanti.”\nNarasi Analitis (Evidence gap): Fakta yang terbukti adalah aset belum masuk Drive. Alternatif penjelasan logis yang belum diperiksa: Anggota divisi lain (Script, Art, Game Design) mungkin tidak tahu standar spesifik format aset yang bisa dibaca oleh engine Ren’Py. Mereka diam karena kebingungan (stuck) dan butuh arahan teknis, bukan karena lepas tangan.\nNarasi Pertumbuhan (Invitation to improve): Keterlambatan ini terjadi karena kurangnya kejelasan alur kerja dari awal proyek. Alih-alih menyalahkan, ini adalah faktor di bawah kendali saya untuk membeberkan Technical Requirement (syarat teknis) secara gamblang kepada tiap divisi.\n\nAlternatif ketiga paling berguna karena memindahkan saya dari rasa kesal menjadi tindakan manajemen krisis yang berorientasi pada solusi tim.",
+    "section": "Evidence",
+    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#internal-conversation-dan-agreement",
-    "href": "portfolio/week-02.html#internal-conversation-dan-agreement",
+    "objectID": "portfolio/week-02.html#analisis-komunikasi",
+    "href": "portfolio/week-02.html#analisis-komunikasi",
     "title": "Intra-Self Communication Journal",
-    "section": "Internal conversation dan agreement",
-    "text": "Internal conversation dan agreement\n(Integrasi Bagian 3: Merancang Respons dari Edunex)\n\nReactive Voice: “Ketik aja di grup kalau mereka semua deadliners dan cuma numpang nama, ancam kalau malam ini nggak kelar, kita nggak bakal bikin gamenya.”\nAnalytical Voice: “Kalau dikerasi, PM (Owen) makin stres dan mood tim hancur. Mereka butuh tahu apa tepatnya yang harus disetor.”\nAmmar Zharif (, Zha): “Saya akan menahan diri untuk tidak menyalahkan satu per satu. Saya akan menuliskan instruksi yang merinci output spesifik untuk tiap peran (Nopal/Rendy untuk format skrip, Faiq/Ruly untuk flowchart flag, Luna untuk aset) lalu mengajak PM mereset timeline bersama.”\n\nInternal agreement: Malam itu juga (27 April), saya memutuskan mengirimkan pesan panjang berisi job desk asertif, menenangkan kepanikan PM (“gw ga nyalahin siapapun, cuman gw mau kita ngerjain yg bener mulai hari ini”), dan melampirkan contoh format input/output untuk Game Designer.",
+    "section": "Analisis komunikasi",
+    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#evidence-tindakan",
-    "href": "portfolio/week-02.html#evidence-tindakan",
+    "objectID": "portfolio/week-02.html#penggunaan-ai",
+    "href": "portfolio/week-02.html#penggunaan-ai",
     "title": "Intra-Self Communication Journal",
-    "section": "Evidence tindakan",
-    "text": "Evidence tindakan\n\n\nTautan Screenshot Chat WA (Instruksi Teknis 27 April 21:36): [https://drive.google.com/file/d/1jdXlA7Gtc8SfKAX37klPTpdQ8eSfljoa/view?usp=sharing]\nTautan Screenshot Chat WA (Problem Solving 27 April 21:44 & 21:51): [https://drive.google.com/file/d/1Z9AGGfYWNgUjdcAXGDyQiekfu-rTmiIV/view?usp=sharing]\n\n\nCatatan: Nama rekan (Fathir/Owen) bertindak sebagai pendukung (support) jalannya koordinasi baru ini.",
+    "section": "Penggunaan AI",
+    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#feedback-ai-dan-refleksi",
-    "href": "portfolio/week-02.html#feedback-ai-dan-refleksi",
+    "objectID": "portfolio/week-02.html#feedback-dan-tindak-lanjut",
+    "href": "portfolio/week-02.html#feedback-dan-tindak-lanjut",
     "title": "Intra-Self Communication Journal",
-    "section": "Feedback, AI, dan refleksi",
-    "text": "Feedback, AI, dan refleksi\nFathir dan Owen (rekan kelompok) memberikan respons kooperatif pasca-tindakan; Owen langsung menyusun timeline hingga 4 Mei, dan anggota lain (Ruly, Fariz) menyanggupi penyetoran progres pada siang harinya. AI hanya digunakan untuk memformat struktur tabel dokumen portofolio ini.\nNext practice (Sasaran Pertumbuhan): Ketika memulai proyek kolaborasi teknis (pembuatan game/aplikasi) di masa depan, saya akan mendefinisikan dan membagikan format spesifikasi aset (Technical Requirement) pada Rapat Pertama, agar rekan non-teknis tidak kebingungan di pertengahan jalan.",
+    "section": "Feedback dan tindak lanjut",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1799,7 +1799,7 @@
     "href": "portfolio/week-02.html#self-assessment",
     "title": "Intra-Self Communication Journal",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nKarakter reaktif dan respons yang diharapkan dipetakan tanpa menghakimi permanen.\n\n\nObjective & State\n4\nEvent, fakta, dan pergeseran dari initial story ke objektivitas dianalisis.\n\n\nRepertoire, Language & AI\n3\nTerdapat penggunaan jeda (mengevaluasi asumsi) sebelum mengirim pesan WA.\n\n\nResponse & Adaptation\n4\nTiga alternatif narasi dieksplorasi sesuai panduan Edunex.\n\n\nAgreement, Action & Relationship\n4\nBukti tindakan sangat konkret (pesan instruksi teknis grup) dan merawat relasi tim.\n\n\n\nTotal: 18/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1810,7 +1810,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"

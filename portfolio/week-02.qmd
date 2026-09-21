@@ -1,8 +1,8 @@
 ---
 title: "Intra-Self Communication Journal"
 week: 2
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Evidence perubahan dari reaction menuju response."
 categories: [Fondasi, Intra-Self]
@@ -14,12 +14,73 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 
 ## Evidence wajib
 
-- Satu episode komunikasi dengan diri sendiri.
-- Initial story dan sedikitnya dua alternative narratives.
-- Internal agreement dan bukti tindakan berikutnya.
+**(Integrasi Bagian 1: Identifikasi Kasus dari Edunex)**
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 2](../examples/week-02.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+## Episode
+
+**Event:** Keterlambatan pengumpulan aset untuk *coding* Game Visual Novel (KWN) dan krisis koordinasi menjelang tenggat waktu.
+
+| Lapisan | Catatan Mahasiswa |
+|---|---|
+| **Fact (Fakta)** | Pada tanggal 27 April pukul 21.00, dokumen skrip dialog rinci, *logic flowchart*, dan aset visual belum tersedia di Google Drive kelompok, sementara Zoom koordinasi tidak dihadiri seluruh anggota. Presentasi dijadwalkan tanggal 4 Mei. |
+| **Initial story (Asumsi)** | Teman-teman kelompok tidak punya inisiatif, menyepelekan tugas berbobot 40%, dan berniat "numpang nama" dengan membebankan sisa pekerjaan teknis kepada saya sebagai *programmer* di menit terakhir. |
+| **Emotion & body signal** | Marah (8/10), Cemas (8/10), Pusing (7/10). Sensasi fisik: Rahang menegang, napas pendek, dan mengetik layar HP dengan tekanan keras/cepat. |
+| **Reactive character** | *Victim* (Korban) yang merasa selalu menjadi pihak yang dikorbankan untuk *ngoding* semalaman karena kesalahan *deadliners* orang lain, berujung ingin memarahi kelompok di grup WA. |
+| **Desired character** | *Growth/Problem-Solver* yang mampu mengambil alih kepemimpinan teknis secara asertif, memberikan spesifikasi tugas yang jelas, dan menenangkan kepanikan manajer proyek (PM). |
+
+*Initial story melampaui fakta:* Anggota kelompok yang diam atau belum menyetor tugas tidak secara otomatis berarti mereka malas atau "numpang nama". Mereka mungkin kekurangan informasi teknis mengenai format aset seperti apa yang sebenarnya dibutuhkan oleh *programmer*.
+
+## Alternative narratives
+
+**(Integrasi Bagian 2: Membedah Tiga Narasi dari Edunex)**
+
+1. **Narasi Korban (*Victim Narrative*):** "Selalu saja begini kalau kerja kelompok. Semua hancur gara-gara anggota yang tidak bertanggung jawab. Saya tidak punya pilihan selain begadang mengerjakan semuanya sendiri nanti."
+2. **Narasi Analitis (*Evidence gap*):** Fakta yang terbukti adalah aset belum masuk Drive. Alternatif penjelasan logis yang belum diperiksa: Anggota divisi lain (Script, Art, Game Design) mungkin tidak tahu standar spesifik format aset yang bisa dibaca oleh *engine* Ren'Py. Mereka diam karena kebingungan (*stuck*) dan butuh arahan teknis, bukan karena lepas tangan.
+3. **Narasi Pertumbuhan (*Invitation to improve*):** Keterlambatan ini terjadi karena kurangnya kejelasan alur kerja dari awal proyek. Alih-alih menyalahkan, ini adalah faktor di bawah kendali saya untuk membeberkan *Technical Requirement* (syarat teknis) secara gamblang kepada tiap divisi.
+
+*Alternatif ketiga paling berguna* karena memindahkan saya dari rasa kesal menjadi tindakan manajemen krisis yang berorientasi pada solusi tim.
+
+## Internal conversation dan agreement
+
+**(Integrasi Bagian 3: Merancang Respons dari Edunex)**
+
+*   **Reactive Voice:** "Ketik aja di grup kalau mereka semua *deadliners* dan cuma numpang nama, ancam kalau malam ini nggak kelar, kita nggak bakal bikin gamenya."
+*   **Analytical Voice:** "Kalau dikerasi, PM (Owen) makin stres dan *mood* tim hancur. Mereka butuh tahu *apa* tepatnya yang harus disetor."
+*   **Ammar Zharif (, Zha):** "Saya akan menahan diri untuk tidak menyalahkan satu per satu. Saya akan menuliskan instruksi yang merinci *output* spesifik untuk tiap peran (Nopal/Rendy untuk format skrip, Faiq/Ruly untuk *flowchart* *flag*, Luna untuk aset) lalu mengajak PM mereset *timeline* bersama."
+
+**Internal agreement:** Malam itu juga (27 April), saya memutuskan mengirimkan pesan panjang berisi *job desk* asertif, menenangkan kepanikan PM ("*gw ga nyalahin siapapun, cuman gw mau kita ngerjain yg bener mulai hari ini*"), dan melampirkan contoh format *input/output* untuk Game Designer.
+
+## Evidence tindakan
+
+::: {.evidence-block}
+- **Tautan Screenshot Chat WA (Instruksi Teknis 27 April 21:36):** [https://drive.google.com/file/d/1jdXlA7Gtc8SfKAX37klPTpdQ8eSfljoa/view?usp=sharing]
+- **Tautan Screenshot Chat WA (Problem Solving 27 April 21:44 & 21:51):** [https://drive.google.com/file/d/1Z9AGGfYWNgUjdcAXGDyQiekfu-rTmiIV/view?usp=sharing]
 :::
+*Catatan: Nama rekan (Fathir/Owen) bertindak sebagai pendukung (support) jalannya koordinasi baru ini.*
 
-{{< include ../includes/evidence-template.md >}}
+## Feedback, AI, dan refleksi
+
+Fathir dan Owen (rekan kelompok) memberikan respons kooperatif pasca-tindakan; Owen langsung menyusun *timeline* hingga 4 Mei, dan anggota lain (Ruly, Fariz) menyanggupi penyetoran progres pada siang harinya. AI hanya digunakan untuk memformat struktur tabel dokumen portofolio ini.
+
+**Next practice (Sasaran Pertumbuhan):** Ketika memulai proyek kolaborasi teknis (pembuatan *game*/aplikasi) di masa depan, saya akan mendefinisikan dan membagikan format spesifikasi aset (*Technical Requirement*) pada **Rapat Pertama**, agar rekan non-teknis tidak kebingungan di pertengahan jalan.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Karakter reaktif dan respons yang diharapkan dipetakan tanpa menghakimi permanen. |
+| Objective & State | 4 | *Event*, fakta, dan pergeseran dari *initial story* ke objektivitas dianalisis. |
+| Repertoire, Language & AI | 3 | Terdapat penggunaan jeda (mengevaluasi asumsi) sebelum mengirim pesan WA. |
+| Response & Adaptation | 4 | Tiga alternatif narasi dieksplorasi sesuai panduan Edunex. |
+| Agreement, Action & Relationship | 4 | Bukti tindakan sangat konkret (pesan instruksi teknis grup) dan merawat relasi tim. |
+
+**Total: 18/20 — Kompeten.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
