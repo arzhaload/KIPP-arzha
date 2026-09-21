@@ -53,8 +53,8 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 ## Evidence tindakan
 
 ::: {.evidence-block}
-- **Tautan Screenshot Chat WA (Instruksi Teknis 27 April 21:36):** [https://drive.google.com/file/d/1jdXlA7Gtc8SfKAX37klPTpdQ8eSfljoa/view?usp=sharing]
-- **Tautan Screenshot Chat WA (Problem Solving 27 April 21:44 & 21:51):** [https://drive.google.com/file/d/1Z9AGGfYWNgUjdcAXGDyQiekfu-rTmiIV/view?usp=sharing]
+- **Tautan Screenshot Chat WA (Instruksi Teknis 27 April 21:36):** [Lihat Dokumentasi Chat](https://drive.google.com/file/d/1jdXlA7Gtc8SfKAX37klPTpdQ8eSfljoa/view?usp=sharing)
+- **Tautan Screenshot Chat WA (Problem Solving 27 April 21:44 & 21:51):** [Lihat Dokumentasi Chat](https://drive.google.com/file/d/1Z9AGGfYWNgUjdcAXGDyQiekfu-rTmiIV/view?usp=sharing)
 :::
 *Catatan: Nama rekan (Fathir/Owen) bertindak sebagai pendukung (support) jalannya koordinasi baru ini.*
 
