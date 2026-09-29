@@ -1,8 +1,8 @@
 ---
 title: "Professional Discovery Interview"
 week: 5
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
@@ -12,14 +12,64 @@ categories: [Professional, Discovery]
 
 Mendengar sebelum proposing dan membangun shared problem statement dengan person.
 
-## Evidence wajib
+## Initial assumption dan rencana discovery
 
-- Initial assumption dan pertanyaan discovery.
-- Transcript/paraphrase serta problem impact dan constraint.
-- Shared problem statement yang dikonfirmasi partner.
+**Initial assumption:** 
+Saya berasumsi bahwa Umi pengelola kos sering mengganti kode gembok pagar (hingga 3 kali sebulan) karena kualitas gemboknya buruk dan mudah rusak, sehingga kita membutuhkan sistem gembok digital (*smart door lock*) agar lebih awet.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 5](../examples/week-05.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+**Rencana Discovery (5 Pertanyaan Utama):**
+Saya melakukan wawancara (berbasis percakapan nyata) dengan "Mitra U" (Pemilik Kos) untuk mencari tahu akar masalahnya.
+1. *Apa yang sedang terjadi?* (Bertanya alasan gembok sering diganti).
+2. *Mengapa hal itu menjadi masalah?* (Menggali dampak ke Umi dan penghuni).
+3. *Siapa yang terdampak?* (Memeriksa pihak selain anak kos).
+4. *Keadaan yang lebih baik seperti apa?* (Mencari tahu ekspektasi Umi tentang akses kos).
+5. *Apa kendalanya?* (Memeriksa alasan Umi tidak memakai opsi pengamanan lain).
+
+## Potongan transcript
+
+**Mahasiswa:** "Umi, akhir-akhir ini kode gembok sering banget diganti ya, dari 36790 jadi 34578, terus diganti lagi. Itu gemboknya yang gampang rusak atau gimana Umi?"
+**Mitra U:** "Iya, ada yang nggak bisa buka, dipaksa jadi rusak. Kayak tadi orang tua anak bawah yang lagi jenguk, nggak bisa buka gembok angkanya, ditarik-tarik sampai jebol. Terus kadang gemboknya malah hilang diambil orang pas gerbang kebuka sore-sore."
+**Mahasiswa:** "Oh, jadi masalahnya ditarik paksa sama tamu ya Umi? Emangnya seberapa ngerepotin sih Umi kejadian kayak gini buat Umi dan penghuni lain?"
+**Mitra U:** "Repot banget. Umi harus beli gembok baru terus, nge-chat ngingetin kode baru ke semua anak kos satu-satu. Terus keamanannya juga rawan, kemarin ada anak luar asal masuk aja karena dikasih kunci sama temannya, kita jadi kaget."
+**Mahasiswa:** "Idealnya, Umi pengen akses masuk kosan ini jalannya gimana supaya aman tapi nggak pada ngerusak gembok?"
+**Mitra U:** "Pengennya tuh gerbang selalu dikunci rapat habis keluar-masuk. Dan kuncinya gampang dipakai, jadi kalau ada keluarga yang jenguk nggak bingung terus ngerusak gembok lagi."
+**Mahasiswa:** "Kira-kira apa yang bikin Umi belum beralih ke kunci kartu atau kunci digital biar orang tua nggak usah muter-muter angka gembok?"
+**Mitra U:** "Biayanya lumayan mahal buat pasang di pagar luar. Terus takutnya percuma kalau anak kosnya masih ceroboh biarin pagar terbuka atau ngasih akses sembarangan ke teman luar."
+
+## Pembaruan pembacaan dan Shared problem statement
+
+**Pembaruan Pembacaan:**
+*Initial assumption* saya tentang "gembok berkualitas buruk" terbukti salah. Hasil *discovery* menunjukkan akar masalahnya adalah **Human Error & Usability** (ketidakmampuan orang awam/tamu menggunakan gembok kombinasi angka). *Constraint* utamanya adalah anggaran (biaya kunci digital mahal) dan perilaku ceroboh penghuni. Menawarkan solusi teknologi mahal tidak akan menyelesaikan masalah jika pagar tetap dibiarkan terbuka oleh penghuni.
+
+**Shared problem statement yang dikonfirmasi:**
+> "Pemilik dan penghuni kos (Peran) mengalami kerusakan gembok berulang dan risiko keamanan (Keadaan) ketika tamu atau orang tua penghuni kesulitan mengoperasikan gembok kombinasi angka (Konteks), sehingga keamanan aset terancam dan menimbulkan biaya penggantian terus-menerus bagi pemilik (Dampak). Mereka membutuhkan cara pengamanan gerbang yang sangat mudah dipahami oleh orang awam (Hasil/Kemampuan), dengan mempertimbangkan anggaran kosan terbatas dan kebiasaan mahasiswa yang sering lupa menutup gerbang (Kendala)."
+
+Pernyataan masalah (*Shared problem statement*) ini telah dirangkum dan dikonfirmasi kepada Mitra U, dan beliau menyetujui bahwa fokus masalahnya ada pada kemudahan pemakaian kunci oleh tamu serta kedisiplinan penghuni, bukan pada kecanggihan alatnya.
+
+## Evidence, feedback, dan next step
+
+* **Evidence Artefak:** [https://drive.google.com/file/d/1taXJ7coMCJIFcfWebbZ72t7EEDQ6yclC/view?usp=sharing] (Tangkapan layar percakapan dengan pengelola kos yang menunjukkan keluhan tentang gembok yang rusak akibat dipaksa oleh tamu/orang tua penghuni). Transkrip wawancara di atas dikembangkan dari log percakapan nyata ini.
+* **Feedback Observer:** Terdapat pertanyaan yang sedikit *leading* di bagian akhir ("Kira-kira apa yang bikin Umi belum beralih ke kunci kartu..."), yang berisiko membuat narasumber terkurung pada ide "kunci kartu" dari pewawancara.
+* **Next practice:** Pada *discovery* berikutnya, saya akan menggunakan pertanyaan murni terkait kendala: *"Apa kendala Umi untuk membuat sistem yang gampang dipakai itu?"* tanpa menyisipkan ide solusi apa pun di dalam pertanyaan.
+* **Penggunaan AI:** `Tidak menggunakan AI` untuk melakukan wawancara, membaca empati narasumber, atau merumuskan formula *Problem Statement*. AI hanya digunakan sebagai asisten pemformatan tabel dan hierarki Markdown agar laporan sesuai standar Quarto repositori.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Mewawancarai pemangku kepentingan (*stakeholder*) nyata (pengelola kos) dengan melihat masalah dari sudut pandang kerugiannya. |
+| Objective & State | 4 | Berhasil mengubah asumsi solusi teknis ("beli gembok canggih") menjadi penemuan masalah nyata ("tamu kesulitan pakai gembok"). |
+| Repertoire, Language & AI | 3 | Menerapkan 5 pertanyaan *discovery* (Apa, Mengapa, Siapa, Hasil, Kendala) secara terstruktur. Batas AI jelas. |
+| Response & Adaptation | 3 | Mengadaptasi arah pertanyaan setelah mengetahui penyebab rusaknya gembok adalah orang tua/tamu. |
+| Agreement, Action & Relationship | 4 | Merumuskan *Shared Problem Statement* menggunakan formula yang persis dengan standar buku ajar. |
+
+**Total: 18/20 — Kompeten.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}
