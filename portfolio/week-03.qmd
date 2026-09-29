@@ -42,10 +42,10 @@ Melakukan personal conversation dengan listening, clarity, boundary, dan relatio
 
 ## Relationship outcome dan evidence
 
-* **Catatan kesepakatan:** Menyepakati rencana pertemuan santai di akhir pekan (*weekend*) di area *noisy matcha* tanpa tekanan waktu atau topik yang kaku.
-* **Observer role-play:** Mengonfirmasi bahwa validasi emosi terhadap rasa lelah mitra berhasil menurunkan ketegangan sosial khas interaksi introvert.
-* **Relationship state sesudah percakapan:** Kecanggungan awal berhasil dicairkan, ditandai dengan respon mitra yang semakin terbuka, antusias merencanakan kegiatan bersama, dan terbangunnya rasa saling percaya (*rapport*).
-
+* **Catatan kesepakatan:** Menyepakati rencana pertemuan santai di akhir pekan (*weekend*) di area *noisy matcha* tanpa tekanan waktu.
+* **Bukti State Sebelum (Kelelahan & Hambatan Komunikasi):** [https://drive.google.com/file/d/11Rr-ldjquOQkwELQomt8ccw8OQ-Af-oC/view?usp=sharing] (Tangkapan layar percakapan awal yang menunjukkan mitra mengeluhkan rasa lelah karena kelas pagi dan mengafirmasi bahwa dirinya kehabisan topik akibat sifat introvert).
+* **Bukti State Sesudah (Cair & Resolusi):** [https://drive.google.com/file/d/1Q5a_ndCuHUASj1H6cxsyE4Eny1YAcvlW/view?usp=sharing] (Tangkapan layar yang menunjukkan mitra menerima validasi, merespons dengan positif, dan sepakat merencanakan pertemuan di lokasi tujuan).
+* **Relationship state sesudah percakapan:** Kecanggungan awal berhasil dicairkan, ditandai dengan respon mitra yang semakin terbuka dan antusias merencanakan kegiatan fisik bersama, membuktikan efektivitas validasi emosi.
 ## Penggunaan AI
 
 `Tidak menggunakan AI` dalam menyusun isi transkrip atau percakapan personal. AI hanya digunakan untuk membantu menyusun struktur dokumen portofolio Markdown sesuai standar repositori.
