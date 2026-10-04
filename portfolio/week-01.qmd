@@ -38,8 +38,15 @@ Ketika saya berperan sebagai ***Liaison Officer***, bahasa saya sangat formal da
 ## Evidence
 
 ::: {.evidence-block}
-- **Tautan Foto Layar OBS saat gladi bersih:** [Lihat Dokumentasi OBS](https://drive.google.com/file/d/1yls9c-5hOBRnFSzazWf2UpJCWgVN3QF2/view?usp=share_link)
-- **Tautan Tangkapan Layar chat koordinasi krew:** [Lihat Dokumentasi Chat](https://drive.google.com/file/d/1Xnqccqj3UPm5vf5nNS5cOBBVmys5a27l/view?usp=share_link)
+### 1. Dokumentasi Layar OBS saat Gladi Bersih
+![Dokumentasi Layar OBS](../assets/portfolio-evidence/week-01/w01-obs.jpeg)
+
+*Keterangan: Tampilan alur routing audio dan visual pada OBS Studio saat gladi bersih persiapan live streaming bersama krew LFM ITB.*
+
+### 2. Tangkapan Layar Chat Koordinasi Krew
+![Dokumentasi Chat Krew](../assets/portfolio-evidence/week-01/w01-chat.jpeg)
+
+*Keterangan: Bukti komunikasi instruksional dan koordinasi teknis bersama krew lapangan.*
 :::
 
 ## Analisis komunikasi
