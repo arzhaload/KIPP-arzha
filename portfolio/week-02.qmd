@@ -53,10 +53,18 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 ## Evidence tindakan
 
 ::: {.evidence-block}
-- **Tautan Screenshot Chat WA (Instruksi Teknis 27 April 21:36):** [Lihat Dokumentasi Chat](https://drive.google.com/file/d/1jdXlA7Gtc8SfKAX37klPTpdQ8eSfljoa/view?usp=sharing)
-- **Tautan Screenshot Chat WA (Problem Solving 27 April 21:44 & 21:51):** [Lihat Dokumentasi Chat](https://drive.google.com/file/d/1Z9AGGfYWNgUjdcAXGDyQiekfu-rTmiIV/view?usp=sharing)
+### 1. Bukti Visual Chat WA (Instruksi Teknis 27 April)
+
+![Dokumentasi Chat WA Instruksi Teknis](../assets/portfolio-evidence/week-02/w02-chat1.png)
+
+![Dokumentasi Chat WA Problem Solving](../assets/portfolio-evidence/week-02/w02-chat2.png)
+
+### 2. Teks Mentah Percakapan WA (Artefak Konkret)
+
+> **[27/04/26, 21:36:57] , Zha:** *"Gw ga nyalahin siapapun, cuman gw mau kita ngerjain yang bener mulai hari ini. Ini rincian job desk spesifik dan format aset yang dibutuhkan biar program game kita di Ren'Py bisa jalan."*  
+> **[27/04/26, 21:44:12] Owen (PM):** *"Sip Zha, thanks banget udah dijembrengin jelas. Ntar gw rapihin timeline baru berdasarkan arahan lu."*  
+> **[27/04/26, 21:51:05] Fathir:** *"Oke Zha, bagian gw yang masukin aset sama ngerubah dialog novel jadi code siap dilaksanakan."*
 :::
-*Catatan: Nama rekan (Fathir/Owen) bertindak sebagai pendukung (support) jalannya koordinasi baru ini.*
 
 ## Feedback, AI, dan refleksi
 
