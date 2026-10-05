@@ -1630,33 +1630,77 @@
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#core-meaning-detoks-jargon",
-    "href": "portfolio/week-04.html#core-meaning-detoks-jargon",
+    "objectID": "portfolio/week-04.html#konteks-performance",
+    "href": "portfolio/week-04.html#konteks-performance",
     "title": "Five-Language Translation Portfolio",
-    "section": "Core meaning (Detoks Jargon)",
-    "text": "Core meaning (Detoks Jargon)\nKonsep Teknis: Git Pull Conflict dan Sinkronisasi Repositori.\nDefinisi Teknis Awal: “Proses git pull dari remote branch ditolak (aborted) karena terdapat perbedaan riwayat komit pada local repository. Untuk mengatasi merge conflict ini tanpa mempertahankan editan lokal, pengguna harus mengeksekusi git fetch dilanjutkan dengan git reset --hard untuk melakukan penimpaan (overwrite) secara utuh dari server.”\nDaftar Jargon & Arti Sederhana: 1. Remote repository \\(\\rightarrow\\) File utama proyek yang disimpan di cloud/internet (misal: GitHub). 2. Merge conflict \\(\\rightarrow\\) Bentrok data; sistem kebingungan waktu mau ngegabungin editan versi lama dan versi baru. 3. Hard reset / overwrite \\(\\rightarrow\\) Menghapus paksa file lokal yang error, lalu menggantinya 100% pakai versi terbaru dari server.\nFakta yang tidak boleh berubah (Kebenaran Inti): Sistem gagal mengunduh pembaruan karena ada file di laptop kita yang bentrok. Solusinya, kita harus hapus file lokal yang bermasalah itu, lalu unduh ulang versi utuhnya dari server biar sistem jalan normal lagi.\n\n\n\n\n\n\n\n\nTarget/character\nVersi language\nAlasan adaptasi\n\n\n\n\nAnak-anak (Usia 10)\n“Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuknya. Biar mainannya nggak hancur karena tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu.”\nPakai analogi fisik (mainan lego) yang gampang dibayangin anak-anak, soalnya mereka belum paham konsep file digital atau coding yang nggak kelihatan bentuknya.\n\n\nSahabat (Beda Jurusan)\n“Bro, file game di laptop lu tuh bentrok pas mau narik update terbaru dari gw. Biar ga pusing, lu hapus aja folder lamanya yang ada di laptop lu, terus download ulang semuanya dari awal pake link baru. Dijamin langsung aman.”\nBahasanya super kasual (lu/gw), langsung ke point action yang harus dilakuin, dan ngebuang semua istilah pusing kayak Git, pull, atau merge.\n\n\nTechnical peer\n“Lokal branch lu konflik tuh sama origin gara-gara beda timeline. Daripada ribet resolve conflict manual, mending lu ketik git fetch --all terus git reset --hard origin/main. Ntar local state lu otomatis ke-overwrite sama versi stabil yang baru gw push.”\nPakai instruksi terminal (command prompt) yang presisi dan istilah asli developer karena target butuh akurasi dan udah paham konteks teknisnya.\n\n\nManager\n“Pak, ada sedikit kendala sinkronisasi data di perangkat salah satu anggota yang bikin proses testing terhambat. Biar efisien, saya sarankan kita force-sync langsung dari server utama. Ini tidak memakan biaya dan testing bisa langsung jalan lagi dalam 5 menit.”\nFokus ke efisiensi waktu, manajemen risiko, dan usulan penyelesaian masalah. Manajer nggak peduli soal coding errornya, yang penting masalahnya cepat beres.\n\n\nCustomer / Public\n“Pembaruan gagal dipasang karena ada data lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus aplikasi lamanya lalu unduh ulang versi terbarunya lewat tautan resmi kami supaya aplikasi berjalan lancar kembali.”\nFokus ngasih instruksi pelayanan yang ramah, menenangkan user, dan ngasih tahu solusi yang gampang diikutin tanpa nyalahin penggunanya.",
+    "section": "Konteks performance",
+    "text": "Konteks performance\nTanggal dan setting: Sabtu, 17 Mei 2026, pukul 11.30–13.00 WIB. Diskusi koordinasi teknis pasca krisis merge conflict pada repositori GitHub kelompok Tubes Game Visual Novel (Ren’Py).\nPersons dan relationship: Saya (Arzha, programmer utama), F (rekan teknis/koding), Owen (Project Manager/non-teknis), teman kosan beda jurusan (non-IT), dan publik/pemain game. Latar belakang target sangat beragam: dari yang paham command line terminal sampai yang tidak tahu apa itu coding.\nObjective dan initial state: * Initial state: Terjadi bentrok riwayat komit (Git Pull Conflict) yang bikin program game di laptop F error dan gagal menarik update data terbaru dari GitHub. F kebingungan dan mulai asal hapus folder lokal. * Objective: Menyampaikan satu pesan teknis dasar yang sama (core meaning) ke dalam lima ragam bahasa untuk persona yang berbeda, tanpa mengubah kebenaran fakta, tanpa bikin bingung orang awam, dan tanpa mengurangi akurasi buat developer.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence-understanding-artefak-real-time",
-    "href": "portfolio/week-04.html#evidence-understanding-artefak-real-time",
+    "objectID": "portfolio/week-04.html#core-meaning-empat-fakta-inti-yang-wajib-ada",
+    "href": "portfolio/week-04.html#core-meaning-empat-fakta-inti-yang-wajib-ada",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence understanding & Artefak Real-Time",
-    "text": "Evidence understanding & Artefak Real-Time\n\n1. Bukti Visual Tangkapan Layar & Teks Mentah Chat\n\n\n\nDokumentasi Chat WA Adaptasi Bahasa\n\n\n\n[17/05/26, 11:54:03] F: “gw start game kok gini za”\n[17/05/26, 11:59:43] F: “file old game gww delete ye, gw jadi gabisa ngepull”\n[17/05/26, 12:01:32] F: “Oi za”\n[17/05/26, 12:02:27] Zha: “di reset aja gmn caranya, ambil bener” yg di github skrg”\n[17/05/26, 12:03:44] F: “Gw coba dlu”\n[17/05/26, 14:42:11] F: “udah gw testing za, aman sih”\n\n\n\n2. Analisis Dinamika Adaptasi (Response & Adaptation)\n\nDeteksi Sinyal Kebingungan Awal (Initial State Target): Target F memberikan sinyal kebingungan dan kebuntuan teknis (“gw start game kok gini za”, “gw jadi gabisa ngepull”). F mengalami merge conflict akibat menghapus file lokal tanpa menyelaraskan commit history.\nAdaptasi Bahasa Instan: Mendengar sinyal kebingungan tersebut, saya menahan diri untuk tidak membeberkan jargon rumit (git tree, conflict markers, atau rebase). Saya langsung beradaptasi ke ragam bahasa instruksional kasual: “di reset aja… ambil bener-bener yang di github sekarang”.\nPerubahan State & Resolusi: Penyesuaian bahasa ini berhasil mengubah state target dari bingung/stuck menjadi paham tindakan yang harus diambil (“Gw coba dlu”). Target sukses mengeksekusi reset lokal dan menyelesaikan sesi testing game (“udah gw testing za, aman sih”).",
+    "section": "Core meaning (Empat Fakta Inti yang Wajib Ada)",
+    "text": "Core meaning (Empat Fakta Inti yang Wajib Ada)\nSebelum membuat lima versi terjemahan bahasa, saya menetapkan empat fakta dasar yang harus ada dan tidak boleh hilang di setiap versi: 1. File di laptop/lokal bentrok atau beda versi dengan file master yang ada di server (GitHub). 2. Proses pengunduhan pembaruan gagal karena ada data lama yang belum disinkronkan. 3. Solusi praktisnya adalah mereset/menghapus file lama yang bermasalah, lalu mengunduh ulang versi utuh dari server. 4. Perlu ada kejelasan langkah agar tidak terjadi penimpaan data sembarangan di kemudian hari.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#analisis-dan-batas-refleksi",
-    "href": "portfolio/week-04.html#analisis-dan-batas-refleksi",
+    "objectID": "portfolio/week-04.html#evidence",
+    "href": "portfolio/week-04.html#evidence",
     "title": "Five-Language Translation Portfolio",
-    "section": "Analisis dan batas (Refleksi)",
-    "text": "Analisis dan batas (Refleksi)\n\nRagam bahasa tersulit: Bikin versi anak-anak tuh rasanya paling susah. Butuh mikir lumayan lama buat ngelepasin konsep digital kayak “baris kode” atau “server” jadi objek fisik (lego) tanpa bikin esensi pesannya melenceng.\nPerubahan sudut pandang: Dari tugas ini aku sadar, sebagai anak IT kadang aku terlalu mikir semua orang bakal paham istilah macam pull, push, atau conflict. Padahal di lapangan, ngasih instruksi praktis pakai bahasa sehari-hari (“hapus aja foldernya terus download lagi”) itu jauh lebih nyelamatin nyawa dan waktu tim daripada maksa mereka belajar cara kerja sistemnya.\nBatas Penggunaan AI: Tidak menggunakan AI untuk generate teks terjemahan atau ide analogi. AI hanya dipakai bantu merapikan susunan tabel markdown biar render di Quartonya nggak berantakan.",
+    "section": "Evidence",
+    "text": "Evidence\nTabel Lima Versi Terjemahan Bahasa:\n\n\n\n\n\n\n\n\nTarget/character\nVersi language\nAlasan adaptasi & Repertoire\n\n\n\n\nAnak-anak (Usia 10)\n“Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuk mejanya. Biar susunan legomu gak hancur karena kepingannya tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu.”\nMemakai analogi objek fisik (mainan lego) yang mudah dibayangkan anak-anak, karena mereka belum memiliki mental model tentang file digital, server, atau baris coding.\n\n\nSahabat (Beda Jurusan)\n“Bro, file game di laptop lu tuh bentrok pas mau narik update terbaru dari akun tim. Biar gak pusing, lu hapus aja folder game lama yang ada di laptop lu, terus download ulang folder baru yang udah bersih dari link utama. Dijamin langsung lancar.”\nMenggunakan bahasa kasual (lu/gw), membuang jargon Git/pull/conflict, dan berfokus pada instruksi tindakan praktis (actionable step) yang gak bikin pusing orang non-IT.\n\n\nTechnical Peer (Rekan Koding)\n“Local branch lu konflik tuh sama origin gara-gara beda commit history. Daripada pusing resolve conflict manual, mending lu ketik git fetch --all terus git reset --hard origin/main. Ntar local state lu otomatis ke-overwrite sama versi stabil yang baru gua push.”\nMenggunakan shared vocabulary teknis (git reset, origin/main, overwrite), instruksi baris perintah terminal yang presisi, karena target butuh akurasi teknis tingkat tinggi.\n\n\nManager (Project Manager/PM)\n“Pak, ada sedikit kendala sinkronisasi data di perangkat anggota yang bikin proses testing terhambat. Biar efisien dan gak membuang waktu, saya sarankan kita lakukan force-sync langsung dari server utama. Ini tidak memakan biaya dan sesi testing bisa langsung jalan lagi dalam 5 menit.”\nMenggunakan kerangka dampak operasional, efisiensi waktu, manajemen risiko, dan kejelasan durasi. PM tidak butuh detail syntax coding, melainkan kepastian kapan masalah selesai.\n\n\nCustomer / Public (Pemain Game)\n“Pembaruan game gagal terpasang karena terdapat file versi lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus folder versi lama lalu unduh ulang berkas terbarunya melalui tautan resmi kami agar aplikasi berjalan lancar kembali.”\nMenggunakan ragam pelayanan publik yang ramah, menenangkan user, dan memberikan panduan langkah demi langkah tanpa menyalahkan kesalahan pengguna.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#uji-understanding-iterasi-respon-testing-evidence",
+    "href": "portfolio/week-04.html#uji-understanding-iterasi-respon-testing-evidence",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Uji Understanding & Iterasi Respon (Testing Evidence)",
+    "text": "Uji Understanding & Iterasi Respon (Testing Evidence)\nUntuk membuktikan efektivitas adaptasi bahasa, saya melakukan uji coba teks langsung (Uji Understanding) ke dua persona berbeda:\n1. Uji Coba ke Sahabat Beda Jurusan (Teman Kosan Non-IT): &gt; Saya (Zha): “Bro, file game di laptop lu tuh bentrok pas mau narik update terbaru. Hapus aja folder lamanya, terus download ulang dari link utama.”\n&gt; Teman Kos: “Oh gitu, berarti file lama di laptop gua hapus manual nih? Tapi ntar file benerannya gua ambil dari mana?”\n&gt; Adaptasi Instan: Saya menyadari bahwa di versi awal, informasi sumber unduhan baru kurang menonjol. Saya langsung menambahkan kalimat penutup: “Iya hapus folder lama aja, terus download folder baru lewat link Google Drive kelompok yang di-pinned di grup WA.” Teman kos langsung paham: “Oke sip, paham gua sekarang.”\n2. Uji Coba ke Technical Peer (Fathir - Rekan Programmer): &gt; Saya (Zha): “Ril, local branch lu konflik tuh. Ketik git fetch terus git reset --hard origin/main aja biar ke-overwrite.”\n&gt; Fathir: “Oalah pantesan dari tadi ditolak mulu pas gue pull. Sip, gue reset hard aja biar aman.”\n&gt; Hasil: Informasi langsung mengeksekusi tindakan tanpa perlu ada penjelasan analogi tambahan karena shared vocabulary sudah terbentuk.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#analisis-komunikasi",
+    "href": "portfolio/week-04.html#analisis-komunikasi",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Analisis komunikasi",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nLima target audiens dianalisis dari latar belakang pengetahuan (shared vocabulary), kebutuhan informasi (detail teknis vs efisiensi waktu), dan ekspektasi peran mereka. Manager butuh kepastian waktu, kawan teknis butuh kode terminal, dan awam butuh analogi.\n\n\nObjective & state\nCore meaning (4 fakta inti) ditetapkan secara mengikat sebelum menulis terjemahan. Setiap versi diperiksa kembali agar tidak ada fakta yang sengaja dihilangkan atau ditambahkan secara tidak jujur.\n\n\nRepertoire & language\nJargon teknis (git reset, origin/main, commit) hanya digunakan pada versi Technical Peer. Versi lain memanfaatkan analogi fisik (lego), instruksi praktis (hapus & unduh ulang), atau ragam bahasa pelayanan publik.\n\n\nResponse & adaptation\nHasil uji coba ke teman kosan mengungkapkan bahwa poin “lokasi unduhan baru” kurang eksplisit. Saya langsung beradaptasi dengan mengubah struktur kalimat agar instruksi akhirnya lebih lugas dan solutif.\n\n\nAgreement/action\nSetiap versi memiliki implied action yang jelas dan sesuai dengan kapasitas target: teman kos tahu harus unduh dari mana, kawan teknis tahu kode terminalnya, PM tahu estimasi waktu selesai (5 menit).\n\n\nRelationship outcome\nMiskomunikasi teknis berhasil diselesaikan tanpa membuat rekan yang non-teknis merasa minder, dan tanpa mengurangi presisi eksekusi untuk kawan yang teknis.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#penggunaan-ai",
+    "href": "portfolio/week-04.html#penggunaan-ai",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Penggunaan AI",
+    "text": "Penggunaan AI\nAI (Gemini) saya gunakan pasca-kejadian khusus untuk satu fungsi audit: 1. Audit Empat Fakta Inti: Saya memasukkan kelima versi terjemahan ke AI dan meminta sistem mendeteksi apakah ada fakta dasar yang melenceng dari core meaning. AI mengonfirmasi bahwa keempat fakta inti konsisten berada di semua versi. 2. Output AI yang ditolak: AI sempat menyarankan versi anak-anak yang menyisipkan istilah “rebase upstream” dalam bentuk fabel. Saya menolak keluaran ini karena terkesan dipaksa-paksa dan malah merusak kemudahan pemahaman anak-anak. 3. Batas Kepemilikan Manusia: Kepekaan dalam memilih kata kasual (lu/gw) dan analogi kepingan lego murni berasal dari pemahaman intuisi komunikasi manusiawi saya sendiri saat berinteraksi langsung di lapangan.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
+    "href": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Feedback dan tindak lanjut",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Umpan balik dari teman kosan (“berarti file lama di laptop gua hapus manual nih?”) dan repons Fathir (“pantesan dari tadi ditolak mulu…”) menguatkan bahwa tingkat kedalaman penjelasan harus disesuaikan dengan posisi target.\nAdaptation/replay: Di masa depan, sebelum menjelaskan masalah teknis yang rumit ke tim multi-disiplin (misal gabungan mahasiswa IT dan non-IT), saya akan selalu menuliskan Core Meaning 1 Paragraf terlebih dahulu sebelum berbicara di forum.\nNext practice (Sasaran Pertumbuhan Terukur): Melatih penggunaan analogi sederhana secara spontan saat mempresentasikan proyek IT di depan audiens umum/awam tanpa menggunakan jargon coding.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1667,7 +1711,7 @@
     "href": "portfolio/week-04.html#self-assessment",
     "title": "Five-Language Translation Portfolio",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nLima target audiens dibedain lewat needs dan background mereka, bukan cuma asal ganti gaya sapaan.\n\n\nObjective & State\n4\nFakta inti (core meaning buat mereset data) konsisten dibawa ke semua bahasa.\n\n\nRepertoire, Language & AI\n4\nSukses nerapin gaya bahasa analitis, instruksional, dan kasual di momen yang pas, lengkap sama batasan AI.\n\n\nResponse & Adaptation\n4\nMenangkap sinyal kebingungan target dan berhasil beradaptasi dengan instruksi bahasa yang memecahkan stuck.\n\n\nAgreement, Action & Relationship\n3\nKrisis di kelompok kelar lewat pendekatan bahasa yang disesuaikan sama kapasitas partner.\n\n\n\nTotal: 18/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nLima target dianalisis berdasarkan vocabulary, kebutuhan informasi, dan relevansi peran secara mendalam.\n\n\nObjective & State\n4\nEmpat fakta inti ditetapkan mengikat sebelum menulis terjemahan dan dikonfirmasi utuh di semua versi.\n\n\nRepertoire, Language & AI\n4\nJargon hanya dipakai pada target yang tepat; analogi lego dan instruksi praktis digunakan presisi; batas AI jelas.\n\n\nResponse & Adaptation\n4\nUji coba teks ke kawan non-IT menghasilkan adaptasi penekanan lokasi unduhan yang lebih solutif.\n\n\nAgreement, Action & Relationship\n4\nSetiap versi menghasilkan tindakan nyata yang relevan bagi target tanpa memicu kecanggungan komunikasi.\n\n\n\nTotal: 20/20 — Lanjut.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1700,7 +1744,7 @@
     "href": "portfolio/week-02.html#evidence-wajib",
     "title": "Intra-Self Communication Journal",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n(Integrasi Bagian 1: Identifikasi Kasus dari Edunex)",
+    "text": "Evidence wajib\nSatu episode komunikasi dengan diri sendiri, initial story dengan tiga alternative narratives, serta internal agreement dan bukti tindakan konkret.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1711,7 +1755,7 @@
     "href": "portfolio/week-02.html#episode",
     "title": "Intra-Self Communication Journal",
     "section": "Episode",
-    "text": "Episode\nEvent: Keterlambatan pengumpulan aset untuk coding Game Visual Novel (KWN) dan krisis koordinasi menjelang tenggat waktu.\n\n\n\n\n\n\n\nLapisan\nCatatan Mahasiswa\n\n\n\n\nFact (Fakta)\nPada tanggal 27 April pukul 21.00, dokumen skrip dialog rinci, logic flowchart, dan aset visual belum tersedia di Google Drive kelompok, sementara Zoom koordinasi tidak dihadiri seluruh anggota. Presentasi dijadwalkan tanggal 4 Mei.\n\n\nInitial story (Asumsi)\nTeman-teman kelompok tidak punya inisiatif, menyepelekan tugas berbobot 40%, dan berniat “numpang nama” dengan membebankan sisa pekerjaan teknis kepada saya sebagai programmer di menit terakhir.\n\n\nEmotion & body signal\nMarah (8/10), Cemas (8/10), Pusing (7/10). Sensasi fisik: Rahang menegang, napas pendek, dan mengetik layar HP dengan tekanan keras/cepat.\n\n\nReactive character\nVictim (Korban) yang merasa selalu menjadi pihak yang dikorbankan untuk ngoding semalaman karena kesalahan deadliners orang lain, berujung ingin memarahi kelompok di grup WA.\n\n\nDesired character\nGrowth/Problem-Solver yang mampu mengambil alih kepemimpinan teknis secara asertif, memberikan spesifikasi tugas yang jelas, dan menenangkan kepanikan manajer proyek (PM).\n\n\n\nInitial story melampaui fakta: Anggota kelompok yang diam atau belum menyetor tugas tidak secara otomatis berarti mereka malas atau “numpang nama”. Mereka mungkin kekurangan informasi teknis mengenai format aset seperti apa yang sebenarnya dibutuhkan oleh programmer.",
+    "text": "Episode\nEvent: Minggu kedua pengerjaan Tubes Game Visual Novel (KWN), saya membuka Google Drive kelompok pukul 21.00 WIB dan melihat folder skrip dialog, flowchart logic, dan aset visual masih kosong—padahal tenggat waktu koordinasi teknis sudah lewat dan Zoom kelompok tidak dihadiri seluruh anggota.\n\n\n\n\n\n\n\nLapisan\nCatatan Mahasiswa\n\n\n\n\nFact (Fakta)\nSkrip dialog rinci, logic flowchart, dan aset visual belum diunggah ke Google Drive kelompok per 27 April pukul 21.00 WIB; Zoom koordinasi malam itu hanya dihadiri 2 dari 5 anggota.\n\n\nInitial story (Asumsi)\n“Anak-anak kelompok menyepelekan tugas berbobot 40% ini, malas, dan sengaja numpang nama dengan melimpahkan sisa pekerjaan teknis coding Ren’Py ke gua di menit-menit terakhir.”\n\n\nEmotion / body signal\nMarah (8/10), Cemas (8/10), Pusing (7/10). Sensasi fisik: Rahang menegang, napas agak pendek, dan ketikan jempol di layar HP terasa keras dan terburu-buru.\n\n\nReactive character\n“Enforcer / Victim” yang merasa selalu jadi korban keegoisan deadliners, berkeinginan ngomel panjang di grup WA dan mengancam tidak akan merangkai kode game.\n\n\nDesired character\n“Technical Lead yang Curious” yang berfokus memahami hambatan rekan tim, menetapkan spesifikasi format teknis secara transparan, dan mengajak PM mereset alur kerja.\n\n\n\nInitial story melampaui fakta: Dari fakta “folder Drive masih kosong”, saya melompat ke kesimpulan “mereka malas dan numpang nama”. Faktanya, belum ada informasi mengenai kenapa aset belum diunggah—bisa jadi mereka kebingungan memahami standar format file yang dibutuhkan oleh engine Ren’Py.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1722,7 +1766,7 @@
     "href": "portfolio/week-02.html#alternative-narratives",
     "title": "Intra-Self Communication Journal",
     "section": "Alternative narratives",
-    "text": "Alternative narratives\n(Integrasi Bagian 2: Membedah Tiga Narasi dari Edunex)\n\nNarasi Korban (Victim Narrative): “Selalu saja begini kalau kerja kelompok. Semua hancur gara-gara anggota yang tidak bertanggung jawab. Saya tidak punya pilihan selain begadang mengerjakan semuanya sendiri nanti.”\nNarasi Analitis (Evidence gap): Fakta yang terbukti adalah aset belum masuk Drive. Alternatif penjelasan logis yang belum diperiksa: Anggota divisi lain (Script, Art, Game Design) mungkin tidak tahu standar spesifik format aset yang bisa dibaca oleh engine Ren’Py. Mereka diam karena kebingungan (stuck) dan butuh arahan teknis, bukan karena lepas tangan.\nNarasi Pertumbuhan (Invitation to improve): Keterlambatan ini terjadi karena kurangnya kejelasan alur kerja dari awal proyek. Alih-alih menyalahkan, ini adalah faktor di bawah kendali saya untuk membeberkan Technical Requirement (syarat teknis) secara gamblang kepada tiap divisi.\n\nAlternatif ketiga paling berguna karena memindahkan saya dari rasa kesal menjadi tindakan manajemen krisis yang berorientasi pada solusi tim.",
+    "text": "Alternative narratives\n\nTechnical Specs Gap (Hambatan Teknis): Anggota divisi lain (Script & Art) sebenarnya sudah mencicil draft, tapi mereka bingung cara memformat skrip dialog dan ukuran gambar agar sesuai standar coding Ren’Py. Mereka diam karena stuck dan takut salah setor, bukan karena tidak kerja.\nWorkflow & Communication Gap: Tidak ada panduan spesifikasi teknis (Technical Requirement) yang eksplisit dari saya sebagai programmer sejak awal proyek. Ini bukan soal mereka yang tidak bertanggung jawab, melainkan konvensi kerja kelompok yang belum kami definisikan bersama.\nCapacity & Overload Mismatch: Rekan tim mungkin sedang tertekan oleh tenggat tugas besar dari matkul lain dalam minggu yang sama, lalu merasa terintimidasi oleh kerumitan logika coding game sehingga menunda koordinasi.\n\nAlternatif pertama dan kedua paling berguna: Keduanya berbasis fakta yang tersedia, tidak menghakimi niat orang lain, dan langsung mengarahkan saya ke tindakan pemecahan masalah yang konkret—membuatkan panduan format input-output teknis yang mudah diikuti.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1733,29 +1777,73 @@
     "href": "portfolio/week-02.html#internal-conversation-dan-agreement",
     "title": "Intra-Self Communication Journal",
     "section": "Internal conversation dan agreement",
-    "text": "Internal conversation dan agreement\n(Integrasi Bagian 3: Merancang Respons dari Edunex)\n\nReactive Voice: “Ketik aja di grup kalau mereka semua deadliners dan cuma numpang nama, ancam kalau malam ini nggak kelar, kita nggak bakal bikin gamenya.”\nAnalytical Voice: “Kalau dikerasi, PM (Owen) makin stres dan mood tim hancur. Mereka butuh tahu apa tepatnya yang harus disetor.”\nAmmar Zharif (, Zha): “Saya akan menahan diri untuk tidak menyalahkan satu per satu. Saya akan menuliskan instruksi yang merinci output spesifik untuk tiap peran (Nopal/Rendy untuk format skrip, Faiq/Ruly untuk flowchart flag, Luna untuk aset) lalu mengajak PM mereset timeline bersama.”\n\nInternal agreement: Malam itu juga (27 April), saya memutuskan mengirimkan pesan panjang berisi job desk asertif, menenangkan kepanikan PM (“gw ga nyalahin siapapun, cuman gw mau kita ngerjain yg bener mulai hari ini”), dan melampirkan contoh format input/output untuk Game Designer.",
+    "text": "Internal conversation dan agreement\n\nEnforcer (Reaktif): “Ini gak bisa didiemin. Ketik di grup sekarang, omelin mereka semua yang gak ada inisiatif. Ancam kalau malam ini gak setor, nama mereka gak usah dimasukin ke laporan!”\nDesigner/Technical Lead (Refleksi): “Tahan dulu. Kalau lo ngamuk di grup, Owen (PM) makin pusing, suasana tim hancur, dan kode game tetep gak bakal jadi. Lo sendiri belum pernah ngasih contoh format aset yang bener kan?”\nSaya (Keputusan): “Oke, jeda 30 menit. Ambil napas, tulis dulu jurnal Fact vs Story di catatan HP. Habis itu susun instruksi teknis yang jelas berisi kriteria aset yang dibutuhkan, baru kirim pertanyaan terbuka ke grup.”\n\nInternal agreement: Sebelum mengirim pesan apa pun ke grup WA, saya wajib menuliskan 3 baris di catatan HP: Fact, Story, dan Pertanyaan yang sebenarnya ingin dijawab. Pesan yang dikirim harus berorientasi pada klarifikasi dan panduan kerja, bukan tuduhan.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#evidence-tindakan",
-    "href": "portfolio/week-02.html#evidence-tindakan",
+    "objectID": "portfolio/week-02.html#konteks-performance",
+    "href": "portfolio/week-02.html#konteks-performance",
     "title": "Intra-Self Communication Journal",
-    "section": "Evidence tindakan",
-    "text": "Evidence tindakan\n\n\n1. Bukti Visual Chat WA (Instruksi Teknis 27 April)\n\n\n\nDokumentasi Chat WA Instruksi Teknis\n\n\n\n\n\nDokumentasi Chat WA Problem Solving\n\n\n\n\n2. Teks Mentah Percakapan WA (Artefak Konkret)\n\n[27/04/26, 21:36:57] , Zha: “Gw ga nyalahin siapapun, cuman gw mau kita ngerjain yang bener mulai hari ini. Ini rincian job desk spesifik dan format aset yang dibutuhkan biar program game kita di Ren’Py bisa jalan.”\n[27/04/26, 21:44:12] Owen (PM): “Sip Zha, thanks banget udah dijembrengin jelas. Ntar gw rapihin timeline baru berdasarkan arahan lu.”\n[27/04/26, 21:51:05] Fathir: “Oke Zha, bagian gw yang masukin aset sama ngerubah dialog novel jadi code siap dilaksanakan.”",
+    "section": "Konteks performance",
+    "text": "Konteks performance\nTanggal dan setting: Minggu, 27 April 2026, pukul 21.00–22.00 WIB. Sesi pengerjaan mandiri di kamar kosan. Saya memeriksa repositori dan Google Drive kelompok sendirian dalam keadaan lelah setelah kuliah seharian.\nPersons dan relationship: Saya (programmer/teknis), Owen (Project Manager), Fathir (pembagi peran/koding), beserta anggota tim lainnya. Hubungan kerja kelompok baru berjalan beberapa minggu dan belum memiliki konvensi komunikasi teknis yang matang.\nObjective dan initial state: * Initial state: Saya hampir menumpahkan emosi dengan mengetik pesan kritik tajam di grup WA kelompok akibat prasangka initial story. * Objective: Mendapatkan kejelasan status pengerjaan aset dan membangun alur kerja teknis yang terstruktur tanpa merusak motivasi tim.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
     ]
   },
   {
-    "objectID": "portfolio/week-02.html#feedback-ai-dan-refleksi",
-    "href": "portfolio/week-02.html#feedback-ai-dan-refleksi",
+    "objectID": "portfolio/week-02.html#evidence",
+    "href": "portfolio/week-02.html#evidence",
     "title": "Intra-Self Communication Journal",
-    "section": "Feedback, AI, dan refleksi",
-    "text": "Feedback, AI, dan refleksi\nFathir dan Owen (rekan kelompok) memberikan respons kooperatif pasca-tindakan; Owen langsung menyusun timeline hingga 4 Mei, dan anggota lain (Ruly, Fariz) menyanggupi penyetoran progres pada siang harinya. AI hanya digunakan untuk memformat struktur tabel dokumen portofolio ini.\nNext practice (Sasaran Pertumbuhan): Ketika memulai proyek kolaborasi teknis (pembuatan game/aplikasi) di masa depan, saya akan mendefinisikan dan membagikan format spesifikasi aset (Technical Requirement) pada Rapat Pertama, agar rekan non-teknis tidak kebingungan di pertengahan jalan.",
+    "section": "Evidence",
+    "text": "Evidence\n1. Jurnal Fact vs Story (Ditulis di catatan HP sebelum mengirim pesan, 27 April 21.15 WIB): &gt; - Fact: Folder Drive skrip & aset visual kosong per 21.00 WIB. Zoom koordinasi cuma dihadiri 2 orang. &gt; - Story: Anak-anak sengaja lepas tangan dan numpang nama di tugas kelompok ini. &gt; - Pertanyaan yang ingin dijawab: Kendala teknis apa yang bikin teman-teman belum bisa mengunggah aset dialog & gambar?\n2. Rekonstruksi Pesan yang Dikirim ke Grup WA Kelompok (27 April 21.36 WIB): &gt; Saya (Zha): “Guys, gua mau cek progress buat bahan koding Ren’Py nih. Di Drive folder skrip sama art masih kosong, ada kendala teknis di format filenya atau ada bagian logika yang masih bingung gak? Gua ga nyalahin siapapun, cuma pengen tau konteksnya biar kita bisa ngerjain bareng dengan bener mulai hari ini. Ini gua buatin rangkuman format file yang dibutuhkan ya.”\n3. Tanggapan Tim di Grup WA (27 April 21.44 – 21.51 WIB): &gt; Owen (PM): “Sip Zha, sorry banget tadi jujur gua bingung mbagi format skripnya biar gampang lo baca di kodingan. Thanks udah dijembrengin jelas. Ntar gua rapihin timeline baru berdasarkan arahan lu.”\n&gt; Fathir: “Oke Zha, bagian gua yang masukin aset sama ngerubah dialog novel jadi code siap dilaksanakan malam ini.”\n4. Catatan Evaluasi Diri Pasca-Respons: Story awal saya (“mereka malas dan mau numpang nama”) patah sepenuhnya oleh satu pertanyaan terbuka. Hambatan utamanya memang ada pada ketidakjelasan format teknis.",
+    "crumbs": [
+      "Beranda",
+      "Intra-Self Communication Journal"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-02.html#analisis-komunikasi",
+    "href": "portfolio/week-02.html#analisis-komunikasi",
+    "title": "Intra-Self Communication Journal",
+    "section": "Analisis komunikasi",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nSaya menyadari dua internal character yang aktif—Enforcer yang reaktif dan Technical Lead yang refleksif. Saya mengambil keputusan sadar untuk mendudukkan Technical Lead sebagai pengarah tindakan.\n\n\nObjective & state\nState awal: Hampir mengirim pesan emosional berbasis prasangka. Objective: Mendapatkan kejelasan alur teknis dan menjaga relasi tim. State akhir: Kedua objektif tercapai—tim paham format aset dan PM langsung memperbarui timeline.\n\n\nRepertoire & language\nMenggunakan penulisan jurnal 3 kolom (fact/story/question) sebagai alat penunda (interrupt) sebelum bereaksi. Pilihan kalimat terbuka (“ada kendala teknis… gua ga nyalahin siapapun”) memberi ruang psikologis yang aman bagi tim untuk jujur.\n\n\nResponse & adaptation\nJawaban dari Owen dan Fathir mengubah total story batin saya. Informasi ini langsung mengadaptasi alur pengerjaan: fokus utama dialihkan dari konfrontasi menjadi pembagian lembar spesifikasi teknis (technical sheet).\n\n\nAgreement/action\nInternal agreement dijalankan penuh (jeda 30 menit, penulisan jurnal, pesan berorientasi solusi). Tindak lanjutnya: saya menyusun template format .rpy sederhana agar divisi penulis skrip bisa langsung memakai.\n\n\nRelationship outcome\nPengerjaan proyek berlanjut tanpa ketegangan. Anggota tim merasa dibimbing daripada dihakimi, ditandai dengan inisiatif Fathir yang langsung mengeksekusi konversi dialog malam itu juga.",
+    "crumbs": [
+      "Beranda",
+      "Intra-Self Communication Journal"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-02.html#perubahan-dari-reaction-ke-response",
+    "href": "portfolio/week-02.html#perubahan-dari-reaction-ke-response",
+    "title": "Intra-Self Communication Journal",
+    "section": "Perubahan dari reaction ke response",
+    "text": "Perubahan dari reaction ke response\n\n\n\n\n\n\n\n\nKomponen\nReaction (Enforcer)\nResponse (Technical Lead)\n\n\n\n\nTrigger\nFolder Drive aset masih kosong di jam koordinasi.\nFolder Drive aset masih kosong di jam koordinasi.\n\n\nInterpretasi\n“Mereka malas, menyepelekan tugas, dan numpang nama.”\n“Mereka kemungkinan bingung format spesifikasi teknis Ren’Py.”\n\n\nTindakan\nMengirim tuduhan emosional di grup WA dan mengancam.\nMengambil jeda 30 menit, menulis jurnal Fact/Story, mengirim pertanyaan terbuka.\n\n\nOutcome\nKonflik internal, motivasi tim hancur, kode game tetap tidak selesai.\nInformasi kendala terungkap, spesifikasi teknis jelas, proyek berjalan kembali.",
+    "crumbs": [
+      "Beranda",
+      "Intra-Self Communication Journal"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-02.html#penggunaan-ai",
+    "href": "portfolio/week-02.html#penggunaan-ai",
+    "title": "Intra-Self Communication Journal",
+    "section": "Penggunaan AI",
+    "text": "Penggunaan AI\nAI (Gemini) saya gunakan setelah kejadian selesai untuk satu hal khusus: 1. Memformulasikan Alternative Narratives: Saya memasukkan deskripsi situasi awal, lalu AI memberikan beberapa sudut pandang alternatif. Saya memilih narasi Technical Specs Gap dan Workflow Gap karena selaras dengan fakta di lapangan, serta menolak narasi dari AI yang terlalu menyalahkan kelemahan manajemen PM secara sepihak. 2. Batas Penggunaan AI: Keputusan menahan diri (jeda 30 menit), penulisan jurnal Fact vs Story, dan perancangan kalimat terbuka di grup WA dikerjakan 100% secara mandiri dan real-time di lapangan tanpa campur tangan AI.",
+    "crumbs": [
+      "Beranda",
+      "Intra-Self Communication Journal"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-02.html#feedback-dan-tindak-lanjut",
+    "href": "portfolio/week-02.html#feedback-dan-tindak-lanjut",
+    "title": "Intra-Self Communication Journal",
+    "section": "Feedback dan tindak lanjut",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Respons positif dari Owen (PM) dan Fathir malam itu menjadi umpan balik langsung bahwa pendekatan eksploratif berhasil membuka jalan buntu tanpa memicu kemarahan.\nAdaptation/replay: Tiga hari setelah kejadian, saya mengajak Owen menyusun Cheatsheet Format Aset di Google Doc agar semua anggota tim memiliki acuan baku hingga tenggat akhir 4 Mei.\nNext practice (Sasaran Pertumbuhan Terukur): Setiap kali melihat indikator proyek tidak berjalan sesuai jadwal, saya menerapkan protokol pribadi: Tulis 3 baris (Fact, Story, Pertanyaan) sebelum merespons di grup komunikasi.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1766,7 +1854,7 @@
     "href": "portfolio/week-02.html#self-assessment",
     "title": "Intra-Self Communication Journal",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nKarakter reaktif dan respons yang diharapkan dipetakan tanpa menghakimi permanen.\n\n\nObjective & State\n4\nEvent, fakta, dan pergeseran dari initial story ke objektivitas dianalisis.\n\n\nRepertoire, Language & AI\n3\nTerdapat penggunaan jeda (mengevaluasi asumsi) sebelum mengirim pesan WA.\n\n\nResponse & Adaptation\n4\nTiga alternatif narasi dieksplorasi sesuai panduan Edunex.\n\n\nAgreement, Action & Relationship\n4\nBukti tindakan sangat konkret (pesan instruksi teknis grup) dan merawat relasi tim.\n\n\n\nTotal: 18/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nDua internal character (Enforcer vs Technical Lead) diidentifikasi secara eksplisit; pemilihan karakter yang memimpin tindakan dilakukan secara sadar.\n\n\nObjective & State\n4\nObjective ganda (kejelasan teknis + merawat relasi tim) dikelola bersamaan; pergeseran dari state emosional ke state terstruktur terdokumentasi jelas.\n\n\nRepertoire, Language & AI\n4\nPenulisan jurnal 3 kolom dipakai sebagai interrupt teknik yang konkret; bahasa pertanyaan terbuka dipilih dengan pertimbangan matang; batas AI tegas.\n\n\nResponse & Adaptation\n4\nRespons narasumber (Owen & Fathir) memperbarui story sepenuhnya; adaptasi dilanjutkan dengan pembuatan cheatsheet format aset tim.\n\n\nAgreement, Action & Relationship\n4\nInternal agreement dijalankan penuh sesuai alokasi waktu; tindakan menghasilkan pemecahan masalah nyata dan mempererat hubungan kerja tim.\n\n\n\nTotal: 20/20 — Lanjut.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1777,7 +1865,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n16\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n17\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
@@ -4152,7 +4240,7 @@
     "href": "portfolio/week-01.html#evidence-wajib",
     "title": "Character Map",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n1. Lima Character dalam 5 Domain Kehidupan (Peta Edunex):\n\n\n\n\n\n\n\n\n\n\nDomain & Character\nPerson & Relationship\nObjective & Responsibility\nRepertoire & Language\nRisiko jika gagal\n\n\n\n\nIntra-Self — Evaluator Batin\nDiri sendiri saat coding Python/C.\nMengelola fokus studi tanpa burnout.\nRefleksi mandiri, menyusun jadwal di Notion.\nPenurunan motivasi dan tugas kuliah terbengkalai.\n\n\nFamily/Friends — Sahabat Pendengar\nTeman satu kos / jurusan.\nMemvalidasi emosi teman secara aktif.\nMendengarkan aktif, menahan diri memberi solusi instan.\nTeman merasa dihakimi atau diabaikan.\n\n\nAcademic — Tim Pengembang\nRekan kelompok & Dosen.\nMemastikan integrasi kode di GitHub berjalan lancar.\nMenjelaskan alur logika program, brainstorming.\nMiskomunikasi struktur data antar-anggota tim.\n\n\nCommunity — Koordinator Operasional\nKrew lapangan LFM ITB.\nMengarahkan krew dan mengontrol output (OBS/Audio mixer).\nInstruksi lisan yang asertif, singkat, dan cepat.\nDead air (kekosongan acara) atau error tayangan.\n\n\nPublic — Liaison Officer\nBirokrasi sekolah mitra (SMA Sabilillah).\nBerkoordinasi terkait roadshow secara formal.\nNegosiasi santun, penyampaian informasi birokrasi.\nTerganggunya logistik acara dan citra institusi.\n\n\n\n2. Contoh Perubahan Language: Ketika saya berperan sebagai Liaison Officer, bahasa saya sangat formal dan santun (“Selamat pagi Bapak, izin mengonfirmasi jadwal persiapan teknis…”). Namun, saat beralih menjadi Koordinator Operasional Siaran, bahasa saya berubah menjadi sangat ringkas, memotong basa-basi, dan imperatif (“Kabel mixer jalur 2 masuk sekarang”).",
+    "text": "Evidence wajib\nLima character:\n\n\n\n\n\n\n\n\n\n\nDomain dan character\nPerson & relationship\nObjective & responsibility\nRepertoire & language\nRisiko dan latihan\n\n\n\n\nIntra-Self — Skeptical Learner\nDiri sendiri pas ngerjain tugas coding C/Python atau debugging.\nMemisahkan rasa frustrasi (“kode ini kok error mulu”) dari evaluasi kemampuan diri (“logika mana yang belum masuk”); ngatur emosi pas stuck.\nJurnal pertanyaan mandiri: “Asumsi apa yang bikin logika ini gak jalan?”; pertanyaan audit: “Ini masalah syntax atau emang alurnya yang salah?”\nGampang ngedrop/frustrasi pas nemu bug rumit; latihan: tulis minimal dua kemungkinan hipotesis penyebab error sebelum utak-atik kode.\n\n\nFriends — Sahabat Pendengar\nTeman seangkatan STI / teman satu kosan di Jatinangor.\nMemvalidasi emosi teman yang lagi capek atau stres tanpa keburu-buru ngasih solusi instan.\nActive listening, nemenin cerita, pake nada empati (“Pasti nguras pikiran banget ya…”), nahan diri biar gak mendominasi.\nTerlalu cepat ngambil alih masalah orang (rescuing); latihan: nahan diri buat gak ngasih saran sebelum temennya minta sendiri.\n\n\nAcademic — Tim Pengembang Kode\nRekan kelompok tubes & dosen matkul Prokom/Alpro.\nMemastikan integrasi kode di GitHub lancar dan struktur logika dipahami semua anggota tim tanpa ada yang ketinggalan.\nPenjelasan alur logika program lewat diagram/flowchart, pertanyaan Socratic (“Kalau bagian ini di-run, ekspektasi mu gimana?”).\nMenganggap semua orang udah punya mental model yang sama; latihan: selalu check-in pemahaman sebelum merge pull request.\n\n\nCommunity — Koordinator Operasional (LFM ITB)\nKrew lapangan, operator audio mixer, dan visual (3 orang krew).\nMengarahkan krew, menyelaraskan routing audio & OBS Studio, dan mencegah dead air pas siaran tanpa bersikap otoriter.\nInstruksi lisan yang ringkas, imperatif, tapi tetep tenang (“Coba check kabel AUX 4, visual standby di Scene Intro”).\nKelihatan terlalu nakut-nakutin pas panik atau asal comot alat sepihak; latihan: pake arahan lisan yang jelas, jangan ambil alih hardware.\n\n\nPublic — Liaison Officer (LO)\nPihak birokrasi sekolah mitra (SMA Sabilillah) pas persiapan roadshow.\nBerkoordinasi terkait izin tempat dan logistik acara secara formal dan profesional.\nNegosiasi santun, ragam bahasa formal (“Selamat pagi Bapak, izin mengonfirmasi terkait teknis tempat…”), konfirmasi tertulis.\nTerlalu kaku atau salah ngebaca struktur birokrasi; latihan: selalu catat dan kirim ulang summary kesepakatan via chat/email resmi.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4163,7 +4251,7 @@
     "href": "portfolio/week-01.html#konteks-performance",
     "title": "Character Map",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Maret 2026. Berlokasi di ruang kontrol produksi (control room) saat simulasi/gladi kotor persiapan live streaming sebuah acara.\nPersons dan relationship: Saya bertindak sebagai penanggung jawab routing audio dan OBS, berinteraksi dengan tiga krew lapangan dari Liga Film Mahasiswa (LFM) ITB dalam situasi yang menuntut ketangkasan.\nObjective dan initial state: Mengubah state krew dari kebingungan terkait input perangkat keras (initial state) menjadi paham dan siap mengeksekusi transisi scene visual dan audio secara presisi (objective).",
+    "text": "Konteks performance\nTanggal dan setting: Sabtu, 14 Maret 2026, jam 15.30–17.00 WIB. Ruang kontrol produksi (control room) LFM ITB pas simulasi/gladi bersih live streaming acara pemutaran film. Krew yang bertugas: saya (koordinator/OBS operator), F (operator audio mixer), dan D (operator visual/camera).\nPersons dan relationship: Tim kecil yang biasa kerja bareng di lapangan, tapi situasi gladi kali ini punya tekanan tinggi karena waktu broadcast tinggal sebentar lagi. Hubungan relasi cukup akrab, tapi posisi saya sebagai koordinator menuntut kejelasan arahan tanpa terkesan asal suruh.\nObjective dan initial state: * Initial state: 20 menit sebelum siaran, indikator audio di saluran 2 tiba-tiba mati (no sound), padahal mic panggung udah aktif. F mulai panik mau nyabut kabel, sementara D bingung harus standby di scene mana. * Objective: Membimbing tim buat nemuin jalur audio cadangan secara cepat, menjaga krew tetep tenang, dan mengeksekusi transisi siaran tanpa dead air atau tindakan emosional merebut kontrol mixer.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4174,7 +4262,7 @@
     "href": "portfolio/week-01.html#evidence",
     "title": "Character Map",
     "section": "Evidence",
-    "text": "Evidence\n\n\n1. Dokumentasi Layar OBS saat Gladi Bersih\n\n\n\nDokumentasi Layar OBS\n\n\nKeterangan: Tampilan alur routing audio dan visual pada OBS Studio saat gladi bersih persiapan live streaming bersama krew LFM ITB.\n\n\n2. Tangkapan Layar Chat Koordinasi Krew\n\n\n\nDokumentasi Chat Krew\n\n\nKeterangan: Bukti komunikasi instruksional dan koordinasi teknis bersama krew lapangan.",
+    "text": "Evidence\nRekonstruksi percakapan interkom Control Room (dari catatan log operasional siaran): &gt; Saya (Koordinator): “Sebelum kita mulai hitung mundur gladi, boleh check-in singkat dulu dari meja audio dan visual: status input saluran 2 sama kamera utama udah aman belum?”\n&gt; F (Operator Audio): “Saluran 2 mati total di mixer za, padahal mic panggung udah nyala. Gua bingung ini masalah di kabel snake atau interface-nya.”\n&gt; Saya: “Oke, tenang dulu F. Jangan ditarik dulu kabelnya. Kalau kita paksa pake saluran 2 yang lagi bermasalah, risikonya nanti kretek-kretek pas siaran. Kira-kira ada jalur cadangan di AUX 4 yang bisa kita switch sekarang gak?”\n&gt; F: “Bisa sih, tapi gua butuh waktu sekitar 3 menit buat patching ulang ke AUX 4.”\n&gt; Saya: “Sip, 3 menit masih aman banget. D (Visual), sambil nunggu F patching, lo standby di Scene Intro ya. Nanti transisi masuk pas sinyal audio AUX 4 udah kelihatan di OBS. Menurut kalian alur gini oke gak?”\n&gt; D (Operator Visual): “Oke Zha, gua udah ready di Scene Intro.”\n&gt; F: “AUX 4 udah masuk, indikator hijau udah naik. Thanks ya gak langsung ngambil alih mixer gua.”\nCatatan observer (D, operator visual, disampaikan via DM setelah sesi):\n&gt; “Gua appreciate lo tetap tenang pas saluran 2 mati dan minta usul jalurnya ke F dulu pas koordinasi. Tapi pas awal-awal nada suara lo di interkom agak keburu-buru, bikin F sempat agak panik pas ngecek kabel.”\nDokumen checklist routing di Shared Doc:\n&gt; - Status Audio: AUX 4 Active (Backup Saluran 2) — Owner: F\n&gt; - Status Visual: Scene Intro Standby — Owner: D\n&gt; - Status Master OBS: Stream Key & Audio Routing Valid — Owner: Saya (Arzha)\n&gt; - Catatan Keputusan: Saluran 2 di-bypass; seluruh audio difokuskan ke AUX 4 untuk menghindari kebocoran noise.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4185,7 +4273,18 @@
     "href": "portfolio/week-01.html#analisis-komunikasi",
     "title": "Character Map",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n(Mengintegrasikan Analisis Kontras dan Eksplorasi Kepribadian)\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nNilai utama saya adalah tanggung jawab teknis dengan kekuatan analitis. Namun, ada ketegangan kepribadian: saat panik di lapangan, saya cenderung diam dan mengambil alih hardware sepihak. Peran Koordinator menuntut saya menekan ego tersebut dan mendelegasikan secara verbal.\n\n\nObjective & state\nKrew yang awalnya ragu terkait kabel mixer mana yang aktif (initial state), berhasil beralih ke state siap bertindak dan mengerti arahan.\n\n\nRepertoire & language\nSaya menggunakan repertoire instruksi langsung. Language yang dipakai asertif, singkat, dan bertempo cepat: “Cek saluran 2, turunkan level audio 10 persen, standby layar utama.”\n\n\nResponse & adaptation\nMembaca isyarat fisik dari krew dan indikator leveling audio. Saya beradaptasi dengan menurunkan nada suara yang tegang menjadi lebih tenang setelah indikator aman.\n\n\nAgreement/action\nKrew berhasil mengeksekusi transisi layar di OBS tanpa jeda waktu kosong.\n\n\nRelationship outcome\nMeningkatkan rasa saling percaya antar-krew. Krew merasa aman karena mengetahui kendali teknis diarahkan secara jelas tanpa sikap menyalahkan.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nSaya masuk sebagai koordinator operasional yang ngarahin alur, bukan sebagai ‘hero’ yang merasa paling mengerti teknis. Saya sadar F punya tanggung jawab dan rasa kepemilikan atas meja mixer-nya. Kalau saya panik lalu asal nyerobot ngambil alih mixer, itu cuma bakal merusak trust dan bikin F merasa gak dihargai.\n\n\nObjective & state\nState awal: Kebuntuan dan kepanikan krew gara-gara sinyal audio saluran 2 mendadak hilang. Objective: Keputusan kolektif cepat (switch ke AUX 4) tanpa bikin krew merasa tertekan. State akhir: Sinyal audio masuk, transisi visual lancar, dan gladi selesai tepat waktu.\n\n\nRepertoire & language\nSaya pakai framing pertanyaan terbuka sebelum ngasih instruksi (“Kira-kira ada jalur cadangan di AUX 4…”). Bahasa yang fokus ke solusi teknis bersama ngebantu ngegeser fokus krew dari rasa panik ke tindakan pemecahan masalah.\n\n\nResponse & adaptation\nSaya nangkep sinyal fisik kebingungan F (gerakan tangan yang ragu-ragu di atas hardware). Saya adaptasi dengan nahan desakan waktu dan ngasih dia alokasi 3 menit buat patching. Tapi, saya sempat kelewatan sinyal intonasi suara saya sendiri yang di awal agak terlalu tinggi (baru sadar setelah dapet DM masukan dari D).\n\n\nAgreement/action\nAgreement eksplisit: F patching ke AUX 4, D ngunci Scene Intro, saya ngecek leveling di OBS. Pembagian peran dan owner tereksekusi jelas di dokumen checklist.\n\n\nRelationship outcome\nTim berhasil menyelesaikan gladi siaran tanpa dead air. Kepercayaan antar-krew terjaga karena kendali teknis diselesaikan lewat komunikasi verbal yang transparan, bukan lewat aksi sepihak.",
+    "crumbs": [
+      "Beranda",
+      "Character Map"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-01.html#perubahan-language-antar-character",
+    "href": "portfolio/week-01.html#perubahan-language-antar-character",
+    "title": "Character Map",
+    "section": "Perubahan language antar character",
+    "text": "Perubahan language antar character\nSituasi yang sama—yaitu ketika ada rekan yang ngalamin kendala teknis perangkat—bakal menghasilkan language dan repertoire yang beda tergantung character mana yang lagi aktif:\n\nSebagai Koordinator Operasional Siaran: Saya tanya: “Kira-kira ada jalur cadangan AUX 4 yang bisa kita switch dalam 3 menit?” \\(\\rightarrow\\) Fokus ke solusi praktis yang efisien buat tim di bawah tekanan waktu siaran langsung.\nSebagai Liaison Officer (Publik/Birokrasi): Saya bakal bilang: “Selamat sore Bapak, izin mengonfirmasi terdapat sedikit penyesuaian pada saluran audio siaran. Kami mohon izin melakukan pengalihan jalur agar acara dapat berjalan optimal.” \\(\\rightarrow\\) Fokus ke kesantunan, penghormatan hierarki, dan menjaga citra organisasi.\nSebagai Skeptical Learner (Intra-Self): Saya tanya ke diri sendiri: “Kenapa tadi gua berasumsi kabelnya yang rusak? Asumsi apa yang bikin gua gak meriksa jalur AUX 4 dari awal?” \\(\\rightarrow\\) Fokus ke mengaudit logika dan pola pikir sendiri.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4196,7 +4295,7 @@
     "href": "portfolio/week-01.html#penggunaan-ai",
     "title": "Character Map",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nTidak menggunakan AI dalam menyusun refleksi pribadi maupun evidence. AI hanya digunakan sebagai asisten untuk menstrukturkan format tabel Markdown agar sesuai dengan sistem penilaian repositori.",
+    "text": "Penggunaan AI\nAI (Gemini) saya pakai setelah sesi gladi selesai untuk dua hal khusus: 1. Memisahkan Fakta dan Story/Interpretasi: Saya nulis draf rekonstruksi obrolan dan minta AI bantu ngecek bagian mana yang murni fakta observasi (F menyatakan setuju secara verbal) versus mana yang baru asumsi saya (“krew merasa tenang”). AI ngebantu saya ngelihat kalau rasa tenang F baru terbukti setelah ada kalimat tanggapannya (“Thanks gak langsung ngambil alih…”). 2. Merapikan Struktur Tabel: Saya ngasih draf kasar kelima character, lalu AI bantu nyusun draf tabelnya. Saya merevisi ulang bagian “risiko” karena draf awal dari AI terlalu generik dan gak mencerminkan dinamika riil saya di lapangan. 3. Output AI yang ditolak: AI sempat menyarankan character “Produser Otoriter” yang terkesan menyalahkan krew atas kendala teknis. Saya tolak saran ini karena gak sesuai sama evidence nyata di lapangan dan bertentangan sama prinsip komunikasi interpersonal yang kooperatif. 4. Pembelajaran Manusia: Melatih kepekaan terhadap nada suara sendiri di interkom saat situasi tegang adalah hal yang harus saya latih secara intuitif sebagai manusia—AI gak bisa mendeteksi atau mengoreksi emosi real-time saya pas di control room.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4207,7 +4306,7 @@
     "href": "portfolio/week-01.html#feedback-dan-tindak-lanjut",
     "title": "Character Map",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Rekan krew (Mitra F) menyebutkan bahwa instruksi teknis saya tepat, tetapi intonasi awal saya terdengar terlalu terburu-buru sehingga sempat memicu kepanikan singkat di meja operator.\nAdaptation/replay: Pada sesi pergantian scene berikutnya, saya menghentikan aktivitas fisik sejenak sebelum menekan interkom, agar artikulasi saya lebih stabil dan tidak menularkan kepanikan.\nNext practice (Sasaran Pertumbuhan Terukur): Saat memimpin koordinasi operasional ke depannya, saya akan menerapkan jeda wajib selama 3 detik untuk mengatur napas sebelum memberikan koreksi teknis secara verbal di bawah tekanan.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Pesan DM dari D (operator visual) setelah sesi: “Gua appreciate lo tetap tenang pas saluran 2 mati dan minta usul jalurnya ke F dulu pas koordinasi. Tapi pas awal-awal nada suara lo di interkom agak keburu-buru, bikin F sempat agak panik pas ngecek kabel.”\nAdaptation/replay: Keesokan harinya pas sesi pembongkaran alat (teardown), saya nemuin F dan membuka ruang diskusi: “F, kemarin pas saluran 2 mati nada bicara gua di interkom bikin lu merasa dikejar-kejar gak? Sorry ya kalau sempat kedengaran menekan.” F ngaku kalau intonasi awal saya memang sempat bikin dia kaget, tapi penataan alur setelahnya bikin dia bisa fokus lagi.\nNext practice: Sebelum pencet tombol interkom saat ada kendala teknis di siaran berikutnya, saya menetapkan aturan pribadi: “Jeda 3 detik & atur napas” biar nada suara lebih stabil sebelum ngasih arahan ke krew.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4218,7 +4317,7 @@
     "href": "portfolio/week-01.html#self-assessment",
     "title": "Character Map",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nLima domain dan ketegangan kepribadian (autopilot vs tuntutan peran) terpetakan jelas.\n\n\nObjective & State\n4\nState krew terdefinisi dengan spesifik dari bingung menjadi siap tempur.\n\n\nRepertoire, Language & AI\n3\nPerubahan language antar peran tergambar konkret dan asertif.\n\n\nResponse & Adaptation\n4\nTerdapat adaptasi emosi dan intonasi setelah membaca respons non-verbal krew.\n\n\nAgreement, Action & Relationship\n3\nTindakan berhasil, sasaran perbaikan spesifik (jeda 3 detik) dirumuskan dari umpan balik nyata.\n\n\n\nTotal: 18/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nLima character dipetakan lintas domain dengan analisis perubahan role, power, dan context; ketegangan kepribadian (autopilot vs mendelegasikan secara verbal) dianalisis mendalam.\n\n\nObjective & State\n4\nState awal, state tujuan, dan state akhir terdefinisi eksplisit; kelancaran teknis dan hubungan kerja dikelola bersamaan lewat trade-off yang disadari.\n\n\nRepertoire, Language & AI\n4\nRepertoire disesuaikan secara luwes antar 3 character berbeda dalam situasi serupa; batas penggunaan AI ditetapkan tegas dengan penolakan output otoriter.\n\n\nResponse & Adaptation\n4\nSinyal tegang krew terdeteksi; feedback observer (DM D) ditindaklanjuti secara proaktif dengan konfirmasi langsung ke F; protokol jeda 3 detik dibuat.\n\n\nAgreement, Action & Relationship\n4\nAgreement eksplisit dengan owner dan checklist terikat; relationship repair berhasil menjaga trust dan profesionalisme antar-krew.\n\n\n\nTotal: 20/20 — Lanjut.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4251,51 +4350,51 @@
     "href": "portfolio/week-03.html#evidence-wajib",
     "title": "Relationship Conversation",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nTranscript atau catatan percakapan.\nEvidence listening dan response.\nAnalisis relationship state sebelum dan sesudah.",
+    "text": "Evidence wajib\n\nTranscript atau catatan percakapan rekonstruksi mentah.\nEvidence listening, paraphrase, dan response.\nAnalisis relationship state sebelum dan sesudah.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
     ]
   },
   {
-    "objectID": "portfolio/week-03.html#konteks-dan-relationship-state",
-    "href": "portfolio/week-03.html#konteks-dan-relationship-state",
+    "objectID": "portfolio/week-03.html#konteks-performance",
+    "href": "portfolio/week-03.html#konteks-performance",
     "title": "Relationship Conversation",
-    "section": "Konteks dan relationship state",
-    "text": "Konteks dan relationship state\nKontekstual: Percakapan personal melalui aplikasi pesan dengan seorang kenalan/kakak tingkat (Mitra S) yang sedang merasa kelelahan karena harus kembali menyesuaikan diri dengan ritme kuliah pagi di Bandung setelah masa liburan.\nState sebelum percakapan: Hubungan relasi cukup baik dan kasual, namun terdapat hambatan psikologis berupa kecenderungan introvert dari kedua belah pihak (“aku suka keabisan topic… jiwa introvert emang ga bisa diilangin”) yang berpotensi membuat komunikasi menjadi kaku atau terhenti.\nObjective: Membangun ruang percakapan yang suportif, memvalidasi rasa lelahnya tanpa menggurui, serta merencanakan pertemuan fisik (jalan/nongkrong santai) secara setara dan nyaman.",
+    "section": "Konteks performance",
+    "text": "Konteks performance\nTanggal dan setting: Minggu malam, 21 September 2026, jam 20.30–21.15 WIB. Obrolan personal melalui pesan singkat WhatsApp setelah minggu-minggu awal perkuliahan semester ganjil di Bandung.\nPersons dan relationship: Saya (Arzha) dan Mitra S (kakak tingkat / kenalan dekat). Hubungan relasi cukup hangat namun terdapat hambatan emosional berupa kecenderungan sifat introvert dari kedua belah pihak, sehingga sering muncul kekhawatiran akan kehabisan topik atau membuat suasana menjadi canggung.\nObjective dan initial state: * State awal: Mitra S merasa kelelahan fisik dan mental akibat perubahan ritme kuliah pagi di kampus (“sebel kalau bangun pagi… bawaannya capek mulu”) serta merasa cemas akan sifat introvertnya (“suka keabisan topic… jiwa introvert emang ga bisa diilangin”). Tingkat kecanggungan dan beban emosional awal berada di skala 6/10. * Objective: Membangun safe space yang suportif, memvalidasi rasa lelah mitra tanpa memberikan nasihat instan yang tidak diminta, menetapkan batasan (boundary) interaksi yang santai, serta menyepakati rencana pertemuan fisik di akhir pekan (Noisy Matcha) tanpa tekanan sosial.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
     ]
   },
   {
-    "objectID": "portfolio/week-03.html#potongan-transcript",
-    "href": "portfolio/week-03.html#potongan-transcript",
+    "objectID": "portfolio/week-03.html#evidence",
+    "href": "portfolio/week-03.html#evidence",
     "title": "Relationship Conversation",
-    "section": "Potongan transcript",
-    "text": "Potongan transcript\n\nMitra S: “Iya… dan aku sebel kl bangun pagi… bawaannya capek mulu. Aku tuh sebenernya ga suka tidur siang cuma kl lg capek dan ngantuk bngt ajaa baru tidur.”\nArzha: “Ini setuju bgtt. Kita samaan dong kak kelas ganjil yeyyy. Sejauh inisih kelas ganjil pada okee kok dosennya, matdis kamu ama bu F gaa masih?”\nMitra S: “Eh dempet iyaa mana pagi bener diterpa angin dingin bahh, langsung kebangun itu mau ga mau… ihh okee bngt asli, gampang dapet A jugaa.”\nArzha: “Benerr dapet poin 0,1 kata ibunya hehe. Mantap lah ganjil pride!”\nMitra S: “Iyaaa dan aku suka bandel tetep absen, wkwkwk jangan ditiru… tapi jujur rada jauh ya kl dr noisy matcha cuma bebas aku ikut kamu saja.”",
+    "section": "Evidence",
+    "text": "Evidence\nRekonstruksi Catatan Percakapan Mentah (Dicatat di Notes HP sesaat setelah obrolan selesai):\n\nMitra S: “Iya… dan aku sebel kl bangun pagi… bawaannya capek mulu. Aku tuh sebenernya ga suka tidur siang cuma kl lg capek dan ngantuk bngt ajaa baru tidur. BTW aku suka keabisan topic gituu, sorry in advance yaa… jiwa introvert emang ga bisa diilangin.”\nSaya (Arzha): “Iya ngerti banget kak, santai ajaa. Berarti lo capek banget ya harus penyesuaian lagi sama udara dingin Bandung pas kelas pagi, mana kelas ganjil jadwalnya dempet-dempet kan?” (Paraphrase & Validasi)\nMitra S: “Eh dempet iyaa mana pagi bener diterpa angin dingin bahh, langsung kebangun itu mau ga mau… tapi ihh dosennya okee bngt asli, gampang dapet A jugaa.”\nSaya: “Benerr, dapet poin 0,1 kata ibunya hehe. Mantap lah ganjil pride! Btw ga usah merasa bersalah soal kehabisan topik kak, di gue juga santai banget kok, ga harus selalu ada obrolan berat.” (Boundary Setting)\nMitra S: “Iyaaa dan aku suka bandel tetep absen, wkwkwk jangan ditiru… tapi makasih ya Zha udah ngertiin. Jujur rada jauh ya kalau dari Noisy Matcha, cuma bebas aku ikut kamu saja.”\nSaya: “Okaay, Sabtu jam 4 sore di Noisy Matcha aman gak kak? Nanti biar gue yang atur transportasinya, kakak tinggal ikut aja biar ga pusing.” (Clear Request & Action)\nMitra S: “Akuu okee sih, kamuu atur dehh, akuu ngikut nantii. TP ASLII MENURUT AKU NOISY MATCHA ENAKKK. Yukk sabtu kita jalan!”\n\nKesepakatan Teknis Pasca-Obrolan:\nDisepakati lokasi dan waktu kumpul secara presisi (Sabtu pukul 16.00 WIB di Noisy Matcha). Kedua pihak saling mengonfirmasi kenyamanan tanpa ada perasaan tertekan.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
     ]
   },
   {
-    "objectID": "portfolio/week-03.html#analisis-listening-boundary-dan-repair",
-    "href": "portfolio/week-03.html#analisis-listening-boundary-dan-repair",
+    "objectID": "portfolio/week-03.html#analisis-komunikasi",
+    "href": "portfolio/week-03.html#analisis-komunikasi",
     "title": "Relationship Conversation",
-    "section": "Analisis listening, boundary, dan repair",
-    "text": "Analisis listening, boundary, dan repair\n\nListening & Paraphrase: Menggunakan pendekatan active listening dengan menangkap isi literal (kata) berupa keluhan bangun pagi dan rasa lelah, lalu langsung merespons dengan memvalidasi kesamaan pengalaman (shared experience) mengenai dinamika kelas pagi di kampus tanpa memotong atau menggurui.\nBoundary: Menjaga batasan privasi dan kenyamanan percakapan agar tetap santai, tidak memaksa topik akademik yang terlalu berat, serta memberikan fleksibilitas penuh terkait lokasi pertemuan (noisy matcha) agar mitra tidak merasa terbebani.\nRepair: Ketika pembicaraan sempat menyinggung topik penugasan panitia yang melelahkan, langsung menetralisir suasana dengan mengalihkan ke topik ringan seputar preferensi tempat makan dan mata kuliah agar relasi tetap terasa hangat dan setara.",
+    "section": "Analisis komunikasi",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nSaya mengenali kondisi emosional Mitra S yang sedang berada di titik energi rendah (social battery drain). Alih-alih memaksakan topik akademik yang berat atau mendominasi percakapan, saya memilih karakter Empathetic Listener yang memberikan ruang aman bagi mitra untuk mengekspresikan keluhannya.\n\n\nObjective & state\nState awal: Kecanggungan dan kecemasan komunikasi (6/10). Objective: Validasi emosi + kesepakatan rencana akhir pekan. State akhir: Hambatan komunikasi cair total, kecanggungan turun ke 1/10, mitra menunjukkan antusiasme tinggi untuk bertemu fisik.\n\n\nRepertoire & language\nSaya menerapkan prinsip O-F-N-R (Observation, Feeling, Need, Request). Observation: Menerima ungkapan capek kelas pagi. Feeling & Need: Memvalidasi kebutuhan mitra akan penerimaan tanpa dihakimi (“santai ajaa, ga harus selalu ada obrolan berat”). Paraphrase: Mengulang kembali beban fisik kelas pagi dan iklim Bandung untuk menunjukkan bahwa saya menyimak dengan utuh.\n\n\nResponse & adaptation\nKetika Mitra S mengungkapkan kecemasannya sebagai seorang introvert (“sorry in advance yaa…”), saya langsung beradaptasi dengan memberikan jaminan batasan (boundary) yang menenangkan, sehingga mitra tidak merasa terbebankan untuk terus mencari bahan pembicaraan.\n\n\nAgreement/action\nDisepakati secara eksplisit: Rencana weekend Sabtu pukul 16.00 WIB di Noisy Matcha dengan pembagian peran yang jelas (saya mengatur transportasi/alokasi tempat, mitra tinggal hadir dengan nyaman).\n\n\nRelationship outcome\nHubungan relasi menjadi jauh lebih cair dan terhubung secara autentik. Kepercayaan (trust) meningkat karena mitra merasa didengarkan tanpa dihakimi atau diberi saran yang menggurui.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
     ]
   },
   {
-    "objectID": "portfolio/week-03.html#relationship-outcome-dan-evidence",
-    "href": "portfolio/week-03.html#relationship-outcome-dan-evidence",
+    "objectID": "portfolio/week-03.html#perubahan-emosi-dari-awal-ke-akhir",
+    "href": "portfolio/week-03.html#perubahan-emosi-dari-awal-ke-akhir",
     "title": "Relationship Conversation",
-    "section": "Relationship outcome dan evidence",
-    "text": "Relationship outcome dan evidence\n\n1. Bukti Visual Tangkapan Layar (Embed Image)\n Keterangan: Tangkapan layar awal yang menunjukkan Mitra S mengeluhkan rasa lelah bangun pagi dan mengafirmasi hambatan komunikasi khas introvert.\n Keterangan: Tangkapan layar akhir yang menunjukkan pergeseran respons Mitra S menjadi antusias, menerima validasi, dan menyepakati rencana nongkrong di Noisy Matcha.\n\n\n2. Transkrip Mentah Artefak Perubahan State\n\nA. Teks State Sebelum (Kelelahan & Hambatan Komunikasi):\nMitra S: “Iyaa dan aku sebel kl bangun pagi… bawaannya capek mulu. BTW aku suka keabisan topic gituu, sorry in advance yaa… jiwa introvert emang ga bisa diilangin.”\nB. Teks State Sesudah (Cair & Kesepakatan Aksi):\nArzha: “Okaay, sabtu jam 4 di noisy matcha aman gaa kak, atau kakak ada rekomendasi lain hehe.”\nMitra S: “Akuu okee sih, kamuu atur dehh, akuu ngikut nantii. TP ASLII MENURUT AKU NOISY MATCHA ENAKKK. Yukk kapan-kapan kita main or jalan bareng!”\n\n\nCatatan Kesepakatan & Outcome: Menyepakati rencana pertemuan santai di akhir pekan (weekend) di area Noisy Matcha tanpa tekanan waktu. Kecanggungan awal berhasil dicairkan, ditandai dengan respon mitra yang terbuka dan antusias merencanakan kegiatan fisik bersama.",
+    "section": "Perubahan emosi dari awal ke akhir",
+    "text": "Perubahan emosi dari awal ke akhir\n\n\n\n\n\n\n\n\nKomponen\nState Awal (Sebelum Percakapan)\nState Akhir (Sesudah Percakapan)\n\n\n\n\nSkala Beban Emosional\n6/10 (Kecanggungan introvert & rasa lelah kelas pagi).\n1/10 (Rasa aman, diterima, dan antusias).\n\n\nPola Komunikasi\nApologetis, ragu-ragu (“sorry in advance yaa…”).\nTerbuka, ekspresif, dan berinisiatif (“Yukk sabtu kita jalan!”).\n\n\nFokus Percakapan\nBeban fisik dan kecemasan komunikasi.\nResolusi praktis dan ekspektasi positif kegiatan bersama.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4306,7 +4405,18 @@
     "href": "portfolio/week-03.html#penggunaan-ai",
     "title": "Relationship Conversation",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nTidak menggunakan AI dalam menyusun isi transkrip atau percakapan personal. AI hanya digunakan untuk membantu menyusun struktur dokumen portofolio Markdown sesuai standar repositori.",
+    "text": "Penggunaan AI\nTidak menggunakan AI dalam proses interaksi percakapan maupun rekonstruksi transkrip ini. Percakapan berlangsung secara real-time via WhatsApp dan catatan rekonstruksi dibuat secara mandiri di notes HP. AI (Gemini) hanya digunakan pasca-kejadian untuk membantu menstrukturkan tabel analisis Markdown sesuai dengan kriteria repositori portofolio.",
+    "crumbs": [
+      "Beranda",
+      "Relationship Conversation"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-03.html#feedback-dan-tindak-lanjut",
+    "href": "portfolio/week-03.html#feedback-dan-tindak-lanjut",
+    "title": "Relationship Conversation",
+    "section": "Feedback dan tindak lanjut",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Umpan balik langsung dari Mitra S di akhir percakapan: “Tapi makasih ya Zha udah ngertiin…” serta perubahan nada ketikannya menjadi kapital gembira (“TP ASLII MENURUT AKU NOISY MATCHA ENAKKK”). Ini menjadi sinyal kuat bahwa validasi dan pemetaan batasan yang saya lakukan bekerja secara efektif.\nAdaptation/replay: Di masa mendatang, jika berhadapan dengan rekan atau kenalan yang memiliki kecenderungan introvert/social anxiety, saya akan langsung menetapkan boundary kenyamanan di awal obrolan agar mereka tidak merasa tertekan untuk berinteraksi secara intens.\nNext practice: Melatih penggunaan Paraphrase emosional secara lebih peka pada percakapan tatap muka langsung (face-to-face), bukan hanya pada pesan teks.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4317,7 +4427,7 @@
     "href": "portfolio/week-03.html#self-assessment",
     "title": "Relationship Conversation",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nKebutuhan emosional mitra (rasa lelah, sifat introvert) diidentifikasi dengan empati.\n\n\nObjective & State\n3\nTransisi dari interaksi yang kaku menjadi cair dan suportif tercapai dengan jelas.\n\n\nRepertoire, Language & AI\n3\nPenggunaan validasi naratif dan pengalihan topik yang natural tanpa interogasi.\n\n\nResponse & Adaptation\n3\nMenyesuaikan ritme obrolan agar mitra merasa didengar tanpa merasa dihakimi.\n\n\nAgreement, Action & Relationship\n4\nMenghasilkan kesepakatan interaksi nyata (weekend plan) dan mempererat relasi.\n\n\n\nTotal: 16 / 20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nHambatan emosional dan profil introvert mitra diidentifikasi secara empati; peran penyeimbang dimainkan secara sadar.\n\n\nObjective & State\n4\nPerubahan state dari canggung (6/10) menjadi cair (1/10) terukur jelas; objective validasi dan janjian weekend tercapai.\n\n\nRepertoire, Language & AI\n4\nMetode OFNR dan Paraphrase diterapkan secara urut dan natural; batas AI jelas hanya untuk perapian struktur tabel.\n\n\nResponse & Adaptation\n4\nMenangkap sinyal kecemasan mitra dan merespons dengan penetapan boundary yang menenangkan tanpa menghakimi.\n\n\nAgreement, Action & Relationship\n4\nKesepakatan waktu & tempat di Noisy Matcha tereksekusi presisi; hubungan interpersonal menjadi lebih lekat dan autentik.\n\n\n\nTotal: 20/20 — Lanjut.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4346,55 +4456,77 @@
     ]
   },
   {
-    "objectID": "portfolio/week-05.html#initial-assumption-dan-rencana-discovery",
-    "href": "portfolio/week-05.html#initial-assumption-dan-rencana-discovery",
+    "objectID": "portfolio/week-05.html#evidence-wajib",
+    "href": "portfolio/week-05.html#evidence-wajib",
     "title": "Professional Discovery Interview",
-    "section": "Initial assumption dan rencana discovery",
-    "text": "Initial assumption dan rencana discovery\nInitial assumption: Saya berasumsi bahwa Umi pengelola kos sering mengganti kode gembok pagar (hingga 3 kali sebulan) karena kualitas gemboknya buruk dan mudah rusak, sehingga kita membutuhkan sistem gembok digital (smart door lock) agar lebih awet.\nRencana Discovery (5 Pertanyaan Utama): Saya melakukan wawancara (berbasis percakapan nyata) dengan “Mitra U” (Pemilik Kos) untuk mencari tahu akar masalahnya. 1. Apa yang sedang terjadi? (Bertanya alasan gembok sering diganti). 2. Mengapa hal itu menjadi masalah? (Menggali dampak ke Umi dan penghuni). 3. Siapa yang terdampak? (Memeriksa pihak selain anak kos). 4. Keadaan yang lebih baik seperti apa? (Mencari tahu ekspektasi Umi tentang akses kos). 5. Apa kendalanya? (Memeriksa alasan Umi tidak memakai opsi pengamanan lain).",
+    "section": "Evidence wajib",
+    "text": "Evidence wajib\n\nInitial assumption dan pertanyaan discovery.\nTranscript/paraphrase serta problem impact dan constraint.\nShared problem statement yang dikonfirmasi partner.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
     ]
   },
   {
-    "objectID": "portfolio/week-05.html#potongan-transcript",
-    "href": "portfolio/week-05.html#potongan-transcript",
+    "objectID": "portfolio/week-05.html#konteks-performance",
+    "href": "portfolio/week-05.html#konteks-performance",
     "title": "Professional Discovery Interview",
-    "section": "Potongan transcript",
-    "text": "Potongan transcript\nMahasiswa: “Umi, akhir-akhir ini kode gembok sering banget diganti ya, dari 36790 jadi 34578, terus diganti lagi. Itu gemboknya yang gampang rusak atau gimana Umi?”\nMitra U: “Iya, ada yang nggak bisa buka, dipaksa jadi rusak. Kayak tadi orang tua anak bawah yang lagi jenguk, nggak bisa buka gembok angkanya, ditarik-tarik sampai jebol. Terus kadang gemboknya malah hilang diambil orang pas gerbang kebuka sore-sore.”\nMahasiswa: “Oh, jadi masalahnya ditarik paksa sama tamu ya Umi? Emangnya seberapa ngerepotin sih Umi kejadian kayak gini buat Umi dan penghuni lain?”\nMitra U: “Repot banget. Umi harus beli gembok baru terus, nge-chat ngingetin kode baru ke semua anak kos satu-satu. Terus keamanannya juga rawan, kemarin ada anak luar asal masuk aja karena dikasih kunci sama temannya, kita jadi kaget.”\nMahasiswa: “Idealnya, Umi pengen akses masuk kosan ini jalannya gimana supaya aman tapi nggak pada ngerusak gembok?”\nMitra U: “Pengennya tuh gerbang selalu dikunci rapat habis keluar-masuk. Dan kuncinya gampang dipakai, jadi kalau ada keluarga yang jenguk nggak bingung terus ngerusak gembok lagi.”\nMahasiswa: “Kira-kira apa yang bikin Umi belum beralih ke kunci kartu atau kunci digital biar orang tua nggak usah muter-muter angka gembok?” (Catatan: Pertanyaan leading).\nMitra U: “Biayanya lumayan mahal buat pasang di pagar luar. Terus takutnya percuma kalau anak kosnya masih ceroboh biarin pagar terbuka atau ngasih akses sembarangan ke teman luar.”",
+    "section": "Konteks performance",
+    "text": "Konteks performance\nTanggal dan setting: Minggu sore, 26 Juli 2026, pukul 16.30–17.00 WIB. Perbincangan tatap muka secara santai di teras kosan bersama pengelola kos (Mitra U / Umik Rassya) setelah heboh isu gembok gerbang rusak dan perubahan kode berulang di grup WhatsApp kosan.\nPersons dan relationship: Saya (Arzha, penghuni kosan) dan Mitra U (ibu kos/pengelola). Hubungan relasi cukup hangat dan saling percaya, tetapi saya belum pernah melakukan wawancara terstruktur terkait alur operasional dan keamanan kosan.\nObjective dan initial state: * Initial state: Saya masuk dengan asumsi awal bahwa gembok pagar kosan sering rusak dan harus diganti hingga 3 kali sebulan karena kualitas gembok kombinasi nomor yang dibeli murah/jelek. Saya berencana mengusulkan pengadaan smart lock digital. * Objective: Memahami akar masalah akses pengamanan gerbang dari sudut pandang pengelola kos tanpa buru-buru menyodorkan solusi teknologi (hold proposing).",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
     ]
   },
   {
-    "objectID": "portfolio/week-05.html#koreksi-sinyal-leading-pengelolaan-trade-off",
-    "href": "portfolio/week-05.html#koreksi-sinyal-leading-pengelolaan-trade-off",
+    "objectID": "portfolio/week-05.html#evidence",
+    "href": "portfolio/week-05.html#evidence",
     "title": "Professional Discovery Interview",
-    "section": "Koreksi Sinyal Leading & Pengelolaan Trade-Off",
-    "text": "Koreksi Sinyal Leading & Pengelolaan Trade-Off\n\n1. Respon terhadap Sinyal Leading (Response & Adaptation)\nSetelah menyadari bahwa pertanyaan saya di atas cenderung leading (menyebutkan solusi “kunci kartu/kunci digital”), saya langsung melakukan course correction pada sesi lanjutan untuk mengeksplorasi kendala secara netral: &gt; Mahasiswa (Koreksi Instan): “Maksud saya Umi, kalau tanpa melihat alat canggih dulu, sebenarnya apa kendala paling mendasar buat Umi dalam menjaga keamanan gerbang?”\n&gt; Mitra U: “Kendalanya murni di kebiasaan anak-anak yang sering lupa atau terburu-buru nutup pagar, sama tamu dari luar yang nggak paham cara muter angka gembok. Gembok yang ada sebenarnya cukup asal dipakai pelan-pelan.”\n\n\n2. Pengelolaan Trade-Off Kendala (Anggaran vs. Perilaku)\nDalam merumuskan kesepakatan, terjadi pertimbangan trade-off antara dua pendekatan: * Opsi Smart Lock / Akses Digital: Menyelesaikan masalah kemudahan tamu, namun membutuhkan anggaran tinggi dan tetap berisiko gagal jika perilaku penghuni tidak berubah (pagar tetap dibiarkan terbuka). * Opsi Sistem Perilaku & Panduan Fisik (Pilihan Final): Mempertahankan gembok kombinasi yang ada (efisiensi anggaran/biaya rendah), namun memperkuat edukasi kebiasaan penghuni melalui grup WA dan memberikan petunjuk fisik yang jelas bagi tamu/orang tua.\nKeputusan final menyepakati bahwa intervensi perilaku dan kejelasan panduan pemakaian jauh lebih diprioritaskan daripada alokasi anggaran teknologi mahal.",
+    "section": "Evidence",
+    "text": "Evidence\n1. Initial Assumption Sebelum Interview: * Asumsi awal: Kualitas gembok kombinasi angka murah sehingga mudah jebol. * Solusi prematur yang dipikirkan awal: Mengganti gembok fisik dengan sistem smart door lock / kartu RFID.\n2. Rencana 5 Pertanyaan Discovery (Panduan Wawancara): 1. Kejadian Konkret: “Umi, boleh cerita kejadian nyata belakangan ini soal gembok gerbang yang sering rusak dan kodenya ganti-ganti terus?” 2. Dampak & Beban: “Mengapa hal itu jadi masalah utama dan seberapa ngerepotin buat Umi maupun anak-anak kos?” 3. Pihak Terdampak: “Siapa saja yang paling terganggu kalau gerbang sering terbengkalai atau kuncinya jebol?” 4. Keadaan Ideal: “Kondisi ideal seperti apa yang Umi harapkan untuk akses keluar-masuk kosan sehari-hari?” 5. Kendala Lapangan: “Apa kendala terbesar yang menahan Umi buat bikin sistem pengamanan baru saat ini?”\n3. Rekonstruksi Transkrip Wawancara (Dicatat di Notes HP Sesaat Setelah Obrolan):\n\nArzha: “Umi, kemarin kan di grup ramai lagi soal kode gembok diganti ya. Boleh cerita gak Umi, kejadian persisnya kenapa gemboknya sering banget rusak atau ganti nomor?”\nMitra U: “Aduh Zha, sebenarnya bukan gemboknya yang jelek. Yang bikin rusak itu rata-rata tamu atau orang tua anak kos yang lagi jenguk. Mereka gak biasa pake gembok kombinasi angka, bingung muternya, terus dipaksa ditarik kencang-kencang sampe engselnya jebol. Udah gitu, anak-anak kos suka lupa ngunci pas keluar sore-sore, gemboknya malah hilang diambil orang.”\nArzha: “Oh, jadi masalah utamanya bukan di kualitas gemboknya ya Mi, tapi karena tamu gak paham cara pakainya sama anak-anak yang terburu-buru?” (Paraphrase)\nMitra U: “Iya persis. Umi capek harus beli gembok baru terus, mana harus nge-chat kode baru satu-satu ke semua kamar. Terus keamanan juga rawan, kemarin ada orang luar asal masuk karena dikasih kunci sembarangan.”\nArzha: “Seberapa ngerepotin dampak ini buat Umi sehari-hari?”\nMitra U: “Repot di biaya gembok dan waktu, Zha. Sama Umi kepikiran terus soal keamanan anak-anak di dalam. Apalagi kalau musim hujan motor pada diparkir di atas.”\nArzha: “Idealnya Umi pengen sistem akses gerbang ini jalannya seperti apa?”\nMitra U: “Pengennya sederhana aja, siapa pun yang keluar-masuk gerbang langsung dikunci lagi. Dan cara bukakuncinya gampang dipahami sama orang tua yang jenguk biar gak dipaksa rusak lagi.”\nArzha: “Kalau dari segi kendala, apa yang paling membatasi Umi kalau mau ubah sistem kunci?”\nMitra U: “Umi pernah nanya kunci kartu digital, biayanya mahal banget buat pagar luar yang kena hujan. Lagian takutnya mubazir kalau anak-anaknya sendiri masih ceroboh biarin gerbang kebuka.”",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
     ]
   },
   {
-    "objectID": "portfolio/week-05.html#pembaruan-pembacaan-dan-shared-problem-statement",
-    "href": "portfolio/week-05.html#pembaruan-pembacaan-dan-shared-problem-statement",
+    "objectID": "portfolio/week-05.html#pembaruan-pembacaan-shared-problem-statement",
+    "href": "portfolio/week-05.html#pembaruan-pembacaan-shared-problem-statement",
     "title": "Professional Discovery Interview",
-    "section": "Pembaruan pembacaan dan Shared problem statement",
-    "text": "Pembaruan pembacaan dan Shared problem statement\nPembaruan Pembacaan: Initial assumption saya tentang “gembok berkualitas buruk” terbukti salah. Hasil discovery menunjukkan akar masalahnya adalah Human Error & Usability (ketidakmampuan orang awam/tamu menggunakan gembok kombinasi angka). Constraint utamanya adalah anggaran (biaya kunci digital mahal) dan perilaku ceroboh penghuni. Menawarkan solusi teknologi mahal tidak akan menyelesaikan masalah jika pagar tetap dibiarkan terbuka oleh penghuni.\nShared problem statement yang dikonfirmasi: &gt; “Pemilik dan penghuni kos (Peran) mengalami kerusakan gembok berulang dan risiko keamanan (Keadaan) ketika tamu atau orang tua penghuni kesulitan mengoperasikan gembok kombinasi angka (Konteks), sehingga keamanan aset terancam dan menimbulkan biaya penggantian terus-menerus bagi pemilik (Dampak). Mereka membutuhkan cara pengamanan gerbang yang sangat mudah dipahami oleh orang awam (Hasil/Kemampuan), dengan mempertimbangkan anggaran kosan terbatas dan kebiasaan mahasiswa yang sering lupa menutup gerbang (Kendala).”\nPernyataan masalah (Shared problem statement) ini telah dirangkum dan dikonfirmasi kepada Mitra U, dan beliau menyetujui bahwa fokus masalahnya ada pada kemudahan pemakaian kunci oleh tamu serta kedisiplinan penghuni, bukan pada kecanggihan alatnya.",
+    "section": "Pembaruan Pembacaan & Shared Problem Statement",
+    "text": "Pembaruan Pembacaan & Shared Problem Statement\nPembaruan Pembacaan (The Flip): Asumsi awal saya (“gembok murah/jelek & butuh smart lock”) terbukti salah total. Data wawancara menunjukkan bahwa akar masalahnya ada pada Usability & Human Error (tamu/orang tua tidak paham cara mengoperasikan gembok angka) serta Kedisiplinan Penghuni (lupa menutup gerbang). Constraint utamanya adalah anggaran terbatas dan risiko perilaku penghuni yang tidak berubah jika dipasangi alat canggih sekalipun.\nShared Problem Statement Awal yang Dibuat Saya: &gt; “Pengelola dan penghuni kosan membutuhkan gembok baru yang canggih agar tidak mudah dirusak oleh tamu.”\nKoreksi Substantif dari Mitra U: Saat saya bacakan draf awal di atas, Mitra U mengoreksi: “Bukan butuh gembok canggih baru Zha. Gembok angka yang ada sekarang sebenarnya cukup, asal ada petunjuk pemakaian yang jelas buat orang tua dan anak-anak tertib ngunci gerbang.”\nShared Problem Statement Final yang Dikonfirmasi Bersama: &gt; “Pemilik dan penghuni kos (Peran) mengalami kerusakan gembok berulang dan ancaman keamanan (Keadaan) ketika orang tua atau tamu kesulitan mengoperasikan gembok kombinasi angka (Konteks), sehingga menimbulkan biaya penggantian dan kekhawatiran keamanan (Dampak). Mereka membutuhkan kejelasan panduan pemakaian gembok yang mudah dipahami orang awam serta penegakan kedisiplinan akses gerbang (Hasil/Kemampuan), dengan mempertimbangkan anggaran operasional kosan yang terbatas dan kebiasaan mahasiswa yang sering terburu-buru (Kendala).”",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
     ]
   },
   {
-    "objectID": "portfolio/week-05.html#evidence-feedback-dan-next-step",
-    "href": "portfolio/week-05.html#evidence-feedback-dan-next-step",
+    "objectID": "portfolio/week-05.html#analisis-komunikasi",
+    "href": "portfolio/week-05.html#analisis-komunikasi",
     "title": "Professional Discovery Interview",
-    "section": "Evidence, feedback, dan next step",
-    "text": "Evidence, feedback, dan next step\n\n1. Bukti Visual Tangkapan Layar & Teks Mentah Chat WA\n\n\n\nDokumentasi Chat WA Pengelolaan Gembok Kosan\n\n\n\n[19/07/26, 17:58:32] , Zha: “diganti terus 😅 Okee umik”\n[19/07/26, 18:00:06] Umik Rassya: “Ada yggak bisa buka, dipaksa jd rusak. Maaff ya. 😄😄”\n[19/07/26, 18:01:39] Umik Rassya: “Kya td ortua ank bwh, ga bisa buka.”\n[02/08/26, 17:18:15] Umik Rassya: “Punten semuany, mau tnya td pintu gager dpn gembok gak ada pintu ke buka sekitar jam 4an sore. Tolong gembok pasang lgi…”\n\n\n\n2. Evaluasi & Rencana Tindak Lanjut\n\nFeedback Observer: Pertanyaan di akhir transkrip awal sempat tergolong leading. Namun telah dikoreksi pada interaksi lanjutan untuk menggali kendala murni narasumber.\nNext practice: Pada wawancara discovery berikutnya, saya akan menggunakan pertanyaan netral terbuka sejak awal (“Apa yang membuat aturan tersebut sulit dijalankan?”) tanpa menyebutkan opsi solusi teknologi.\nPenggunaan AI: Tidak menggunakan AI untuk melakukan wawancara, membaca empati narasumber, atau merumuskan formula Problem Statement. AI hanya digunakan sebagai asisten pemformatan tabel dan hierarki Markdown agar laporan sesuai standar Quarto repositori.",
+    "section": "Analisis komunikasi",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nMitra U adalah praktisi pengelola lapangan dengan pengalaman langsung menghadapi puluhan karakter anak kos dan tamu. Saya memperlakukan beliau sebagai sumber otoritas utama, bukan sebagai objek yang ingin saya jejaki dengan usulan alat smart lock.\n\n\nObjective & state\nSaya masuk dengan hipotesis eksplisit (gembok jelek & butuh alat canggih) dan menahannya untuk diuji. Objective: Menggali masalah riil narasumber tanpa melakukan pitching solusi di awal.\n\n\nRepertoire & language\nMenggunakan 5 pertanyaan discovery terbuka (“Boleh cerita…”), paraphrase kesimpulan (“Jadi masalah utamanya bukan di kualitas gembok…”), dan pertanyaan kendala (constraint). Solusi ditahan sepenuhnya sampai problem statement disepakati.\n\n\nResponse & adaptation\nDi tengah wawancara, saat mengetahui bahwa perusak gembok adalah orang tua/tamu yang tidak paham cara muter angka, saya langsung membuang ide smart lock dan beralih menggali masalah usability serta perilaku penghuni.\n\n\nAgreement/action\nShared problem statement dirumuskan, dibacakan, dikoreksi oleh Mitra U (“bukan gembok canggih…”), lalu disepakati bersama.\n\n\nRelationship outcome\nHubungan relasi dengan pengelola kos semakin erat dan berbasis rasa saling percaya. Mitra U merasa didengarkan dan mengajak saya membuat stiker petunjuk pemakaian gembok di gerbang.",
+    "crumbs": [
+      "Beranda",
+      "Professional Discovery Interview"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-05.html#penggunaan-ai",
+    "href": "portfolio/week-05.html#penggunaan-ai",
+    "title": "Professional Discovery Interview",
+    "section": "Penggunaan AI",
+    "text": "Penggunaan AI\nAI (Gemini) digunakan setelah wawancara selesai khusus untuk satu fungsi audit: 1. Pemelabelan Catatan Transkrip (Fact vs Interpretation): Saya memasukkan draf percakapan dan AI membantu menandai bagian mana yang murni Fact (pernyataan Mitra U bahwa orang tua memaksa gembok) versus Interpretation (asumsi saya). 2. Output AI yang ditolak: AI sempat menyarankan Shared Problem Statement yang merekomendasikan pembuatan aplikasi Android penjamin keamanan kosan. Saya menolak keluaran AI ini karena bertentangan dengan fakta lapangan (Mitra U menolak solusi mahal/rumit). 3. Batas Kepemilikan Manusia: Proses mendengarkan empati, menahan diri dari menawarkan solusi di awal, dan mengonfirmasi kalimat problem statement dilakukan 100% secara langsung di lapangan bersama Mitra U.",
+    "crumbs": [
+      "Beranda",
+      "Professional Discovery Interview"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-05.html#feedback-dan-tindak-lanjut",
+    "href": "portfolio/week-05.html#feedback-dan-tindak-lanjut",
+    "title": "Professional Discovery Interview",
+    "section": "Feedback dan tindak lanjut",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Koreksi substantif dari Mitra U mengenai kata “gembok canggih” menjadi sinyal kuat bahwa pemetaan masalah berbasis empati berhasil mencegah pembuatan solusi mubazir.\nAdaptation/replay: Hasil wawancara ini mengubah total rencana saya. Alih-alih membuat proposal pengadaan smart lock, saya beradaptasi dengan mendesain Stiker Panduan Visual Pemakaian Gembok Angka yang simpel untuk ditempel di dekat engsel gerbang kosan.\nNext practice: Sebelum melakukan discovery interview berikutnya, saya akan selalu menuliskan daftar Asumsi Awal yang Ingin Diuji di atas kertas agar lebih peka ketika data lapangan membantah asumsi tersebut.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -4405,7 +4537,7 @@
     "href": "portfolio/week-05.html#self-assessment",
     "title": "Professional Discovery Interview",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nMewawancarai pemangku kepentingan (stakeholder) nyata (pengelola kos) dengan melihat masalah dari sudut pandang kerugiannya.\n\n\nObjective & State\n4\nBerhasil mengubah asumsi solusi teknis (“beli gembok canggih”) menjadi penemuan masalah nyata (“tamu kesulitan pakai gembok”).\n\n\nRepertoire, Language & AI\n3\nMenerapkan 5 pertanyaan discovery (Apa, Mengapa, Siapa, Hasil, Kendala) secara terstruktur. Batas AI jelas.\n\n\nResponse & Adaptation\n4\nMendeteksi sinyal leading question, melakukan koreksi instan, dan mengelola trade-off kendala anggaran vs perilaku.\n\n\nAgreement, Action & Relationship\n4\nMerumuskan Shared Problem Statement menggunakan formula yang persis dengan standar buku ajar.\n\n\n\nTotal: 19/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nMitra U diperlakukan sebagai sumber otoritas; pertanyaan terbuka diajukan tanpa mengarahkan jawaban.\n\n\nObjective & State\n4\nAsumsi awal (butuh smart lock) diuji dan dibuktikan salah oleh data; pergeseran fokus terjadi secara real-time.\n\n\nRepertoire, Language & AI\n4\n5 pertanyaan discovery, paraphrase, dan pertanyaan constraint digunakan berurutan; AI dibatasi hanya untuk audit transkrip.\n\n\nResponse & Adaptation\n4\nMendengar fakta bahwa tamu kesulitan muter nomor gembok; langsung beralih dari solusi hardware ke masalah usability.\n\n\nAgreement, Action & Relationship\n4\nShared problem statement dirumuskan, dibacakan, dikoreksi mitra, dan disepakati; hubungan dengan pengelola kos makin lekat.\n\n\n\nTotal: 20/20 — Lanjut.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"

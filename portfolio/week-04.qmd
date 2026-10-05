@@ -2,7 +2,7 @@
 title: "Five-Language Translation Portfolio"
 week: 4
 status: "Siap dinilai"
-self_score: "17"
+self_score: "20"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
 categories: [Fondasi, Language]
@@ -12,62 +12,101 @@ categories: [Fondasi, Language]
 
 Mengadaptasi repertoire dan language tanpa mengubah core meaning.
 
-## Core meaning (Detoks Jargon)
+## Konteks performance
 
-**Konsep Teknis:** *Git Pull Conflict* dan Sinkronisasi Repositori.
+**Tanggal dan setting:** Sabtu, 17 Mei 2026, pukul 11.30–13.00 WIB. Diskusi koordinasi teknis pasca krisis *merge conflict* pada repositori GitHub kelompok Tubes Game Visual Novel (Ren'Py).
 
-**Definisi Teknis Awal:** "Proses *git pull* dari *remote branch* ditolak (*aborted*) karena terdapat perbedaan riwayat komit pada *local repository*. Untuk mengatasi *merge conflict* ini tanpa mempertahankan editan lokal, pengguna harus mengeksekusi `git fetch` dilanjutkan dengan `git reset --hard` untuk melakukan penimpaan (*overwrite*) secara utuh dari server."
+**Persons dan relationship:** Saya (Arzha, programmer utama), F (rekan teknis/koding), Owen (Project Manager/non-teknis), teman kosan beda jurusan (non-IT), dan publik/pemain game. Latar belakang target sangat beragam: dari yang paham *command line terminal* sampai yang tidak tahu apa itu *coding*.
 
-**Daftar Jargon & Arti Sederhana:**
-1. *Remote repository* $\rightarrow$ File utama proyek yang disimpan di cloud/internet (misal: GitHub).
-2. *Merge conflict* $\rightarrow$ Bentrok data; sistem kebingungan waktu mau ngegabungin editan versi lama dan versi baru.
-3. *Hard reset / overwrite* $\rightarrow$ Menghapus paksa file lokal yang error, lalu menggantinya 100% pakai versi terbaru dari server.
+**Objective dan initial state:**
+* *Initial state:* Terjadi bentrok riwayat komit (*Git Pull Conflict*) yang bikin program game di laptop F *error* dan gagal menarik *update* data terbaru dari GitHub. F kebingungan dan mulai asal hapus folder lokal.
+* *Objective:* Menyampaikan satu pesan teknis dasar yang sama (*core meaning*) ke dalam lima ragam bahasa untuk persona yang berbeda, tanpa mengubah kebenaran fakta, tanpa bikin bingung orang awam, dan tanpa mengurangi akurasi buat *developer*.
 
-**Fakta yang tidak boleh berubah (Kebenaran Inti):**
-Sistem gagal mengunduh pembaruan karena ada file di laptop kita yang bentrok. Solusinya, kita harus hapus file lokal yang bermasalah itu, lalu unduh ulang versi utuhnya dari server biar sistem jalan normal lagi.
+---
 
-| Target/character | Versi language | Alasan adaptasi |
+## Core meaning (Empat Fakta Inti yang Wajib Ada)
+
+Sebelum membuat lima versi terjemahan bahasa, saya menetapkan empat fakta dasar yang **harus ada dan tidak boleh hilang** di setiap versi:
+1. File di laptop/lokal bentrok atau beda versi dengan file master yang ada di server (GitHub).
+2. Proses pengunduhan pembaruan gagal karena ada data lama yang belum disinkronkan.
+3. Solusi praktisnya adalah mereset/menghapus file lama yang bermasalah, lalu mengunduh ulang versi utuh dari server.
+4. Perlu ada kejelasan langkah agar tidak terjadi penimpaan data sembarangan di kemudian hari.
+
+---
+
+## Evidence
+
+**Tabel Lima Versi Terjemahan Bahasa:**
+
+| Target/character | Versi language | Alasan adaptasi & Repertoire |
 |---|---|---|
-| **Anak-anak (Usia 10)** | "Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuknya. Biar mainannya nggak hancur karena tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu." | Pakai analogi fisik (mainan lego) yang gampang dibayangin anak-anak, soalnya mereka belum paham konsep *file* digital atau *coding* yang nggak kelihatan bentuknya. |
-| **Sahabat (Beda Jurusan)** | "Bro, file game di laptop lu tuh bentrok pas mau narik *update* terbaru dari gw. Biar ga pusing, lu hapus aja folder lamanya yang ada di laptop lu, terus *download* ulang semuanya dari awal pake link baru. Dijamin langsung aman." | Bahasanya super kasual (lu/gw), langsung ke *point action* yang harus dilakuin, dan ngebuang semua istilah pusing kayak *Git*, *pull*, atau *merge*. |
-| **Technical peer** | "Lokal *branch* lu konflik tuh sama origin gara-gara beda *timeline*. Daripada ribet *resolve conflict* manual, mending lu ketik `git fetch --all` terus `git reset --hard origin/main`. Ntar *local state* lu otomatis ke-*overwrite* sama versi stabil yang baru gw *push*." | Pakai instruksi terminal (*command prompt*) yang presisi dan istilah asli *developer* karena target butuh akurasi dan udah paham konteks teknisnya. |
-| **Manager** | "Pak, ada sedikit kendala sinkronisasi data di perangkat salah satu anggota yang bikin proses *testing* terhambat. Biar efisien, saya sarankan kita *force-sync* langsung dari server utama. Ini tidak memakan biaya dan *testing* bisa langsung jalan lagi dalam 5 menit." | Fokus ke efisiensi waktu, manajemen risiko, dan usulan penyelesaian masalah. Manajer nggak peduli soal *coding* errornya, yang penting masalahnya cepat beres. |
-| **Customer / Public** | "Pembaruan gagal dipasang karena ada data lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus aplikasi lamanya lalu unduh ulang versi terbarunya lewat tautan resmi kami supaya aplikasi berjalan lancar kembali." | Fokus ngasih instruksi pelayanan yang ramah, menenangkan *user*, dan ngasih tahu solusi yang gampang diikutin tanpa nyalahin penggunanya. |
+| **Anak-anak (Usia 10)** | "Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuk mejanya. Biar susunan legomu gak hancur karena kepingannya tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu." | Memakai analogi objek fisik (mainan lego) yang mudah dibayangkan anak-anak, karena mereka belum memiliki *mental model* tentang file digital, server, atau baris *coding*. |
+| **Sahabat (Beda Jurusan)** | "Bro, file game di laptop lu tuh bentrok pas mau narik *update* terbaru dari akun tim. Biar gak pusing, lu hapus aja folder game lama yang ada di laptop lu, terus *download* ulang folder baru yang udah bersih dari link utama. Dijamin langsung lancar." | Menggunakan bahasa kasual (*lu/gw*), membuang jargon *Git/pull/conflict*, dan berfokus pada instruksi tindakan praktis (*actionable step*) yang gak bikin pusing orang non-IT. |
+| **Technical Peer (Rekan Koding)** | "Local branch lu konflik tuh sama origin gara-gara beda *commit history*. Daripada pusing *resolve conflict* manual, mending lu ketik `git fetch --all` terus `git reset --hard origin/main`. Ntar *local state* lu otomatis ke-*overwrite* sama versi stabil yang baru gua *push*." | Menggunakan *shared vocabulary* teknis (*git reset*, *origin/main*, *overwrite*), instruksi baris perintah terminal yang presisi, karena target butuh akurasi teknis tingkat tinggi. |
+| **Manager (Project Manager/PM)** | "Pak, ada sedikit kendala sinkronisasi data di perangkat anggota yang bikin proses *testing* terhambat. Biar efisien dan gak membuang waktu, saya sarankan kita lakukan *force-sync* langsung dari server utama. Ini tidak memakan biaya dan sesi *testing* bisa langsung jalan lagi dalam 5 menit." | Menggunakan kerangka dampak operasional, efisiensi waktu, manajemen risiko, dan kejelasan durasi. PM tidak butuh detail *syntax coding*, melainkan kepastian kapan masalah selesai. |
+| **Customer / Public (Pemain Game)** | "Pembaruan game gagal terpasang karena terdapat file versi lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus folder versi lama lalu unduh ulang berkas terbarunya melalui tautan resmi kami agar aplikasi berjalan lancar kembali." | Menggunakan ragam pelayanan publik yang ramah, menenangkan *user*, dan memberikan panduan langkah demi langkah tanpa menyalahkan kesalahan pengguna. |
 
-## Evidence understanding & Artefak Real-Time
+---
 
-### 1. Bukti Visual Tangkapan Layar & Teks Mentah Chat
-![Dokumentasi Chat WA Adaptasi Bahasa](../assets/portfolio-evidence/week-04/w04-chat.png)
+## Uji Understanding & Iterasi Respon (Testing Evidence)
 
-> **[17/05/26, 11:54:03] F:** *"gw start game kok gini za"*  
-> **[17/05/26, 11:59:43] F:** *"file old game gww delete ye, gw jadi gabisa ngepull"*  
-> **[17/05/26, 12:01:32] F:** *"Oi za"*  
-> **[17/05/26, 12:02:27] Zha:** *"di reset aja gmn caranya, ambil bener” yg di github skrg"*  
-> **[17/05/26, 12:03:44] F:** *"Gw coba dlu"*  
-> **[17/05/26, 14:42:11] F:** *"udah gw testing za, aman sih"*  
+Untuk membuktikan efektivitas adaptasi bahasa, saya melakukan uji coba teks langsung (*Uji Understanding*) ke dua persona berbeda:
 
-### 2. Analisis Dinamika Adaptasi (Response & Adaptation)
-* **Deteksi Sinyal Kebingungan Awal (Initial State Target):** Target F memberikan sinyal kebingungan dan kebuntuan teknis (*"gw start game kok gini za"*, *"gw jadi gabisa ngepull"*). F mengalami *merge conflict* akibat menghapus file lokal tanpa menyelaraskan *commit history*.
-* **Adaptasi Bahasa Instan:** Mendengar sinyal kebingungan tersebut, saya menahan diri untuk tidak membeberkan jargon rumit (*git tree*, *conflict markers*, atau *rebase*). Saya langsung beradaptasi ke ragam bahasa instruksional kasual: *"di reset aja... ambil bener-bener yang di github sekarang"*.
-* **Perubahan State & Resolusi:** Penyesuaian bahasa ini berhasil mengubah *state* target dari bingung/stuck menjadi paham tindakan yang harus diambil (*"Gw coba dlu"*). Target sukses mengeksekusi reset lokal dan menyelesaikan sesi *testing* game (*"udah gw testing za, aman sih"*).
+**1. Uji Coba ke Sahabat Beda Jurusan (Teman Kosan Non-IT):**
+> **Saya (Zha):** *"Bro, file game di laptop lu tuh bentrok pas mau narik update terbaru. Hapus aja folder lamanya, terus download ulang dari link utama."*  
+> **Teman Kos:** *"Oh gitu, berarti file lama di laptop gua hapus manual nih? Tapi ntar file benerannya gua ambil dari mana?"*  
+> **Adaptasi Instan:** Saya menyadari bahwa di versi awal, informasi *sumber unduhan baru* kurang menonjol. Saya langsung menambahkan kalimat penutup: *"Iya hapus folder lama aja, terus download folder baru lewat link Google Drive kelompok yang di-pinned di grup WA."* Teman kos langsung paham: *"Oke sip, paham gua sekarang."*
 
-## Analisis dan batas (Refleksi)
+**2. Uji Coba ke Technical Peer (Fathir - Rekan Programmer):**
+> **Saya (Zha):** *"Ril, local branch lu konflik tuh. Ketik `git fetch` terus `git reset --hard origin/main` aja biar ke-overwrite."*  
+> **Fathir:** *"Oalah pantesan dari tadi ditolak mulu pas gue pull. Sip, gue reset hard aja biar aman."*  
+> **Hasil:** Informasi langsung mengeksekusi tindakan tanpa perlu ada penjelasan analogi tambahan karena *shared vocabulary* sudah terbentuk.
 
-* **Ragam bahasa tersulit:** Bikin versi anak-anak tuh rasanya paling susah. Butuh mikir lumayan lama buat ngelepasin konsep digital kayak "baris kode" atau "server" jadi objek fisik (lego) tanpa bikin esensi pesannya melenceng.
-* **Perubahan sudut pandang:** Dari tugas ini aku sadar, sebagai anak IT kadang aku terlalu mikir semua orang bakal paham istilah macam *pull*, *push*, atau *conflict*. Padahal di lapangan, ngasih instruksi praktis pakai bahasa sehari-hari ("hapus aja foldernya terus *download* lagi") itu jauh lebih nyelamatin nyawa dan waktu tim daripada maksa mereka belajar cara kerja sistemnya.
-* **Batas Penggunaan AI:** `Tidak menggunakan AI` untuk *generate* teks terjemahan atau ide analogi. AI hanya dipakai bantu merapikan susunan tabel *markdown* biar *render* di Quartonya nggak berantakan.
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Lima target audiens dianalisis dari latar belakang pengetahuan (*shared vocabulary*), kebutuhan informasi (detail teknis vs efisiensi waktu), dan ekspektasi peran mereka. Manager butuh kepastian waktu, kawan teknis butuh kode terminal, dan awam butuh analogi. |
+| **Objective & state** | Core meaning (4 fakta inti) ditetapkan secara mengikat sebelum menulis terjemahan. Setiap versi diperiksa kembali agar tidak ada fakta yang sengaja dihilangkan atau ditambahkan secara tidak jujur. |
+| **Repertoire & language** | Jargon teknis (*git reset, origin/main, commit*) hanya digunakan pada versi *Technical Peer*. Versi lain memanfaatkan analogi fisik (lego), instruksi praktis (hapus & unduh ulang), atau ragam bahasa pelayanan publik. |
+| **Response & adaptation** | Hasil uji coba ke teman kosan mengungkapkan bahwa poin "lokasi unduhan baru" kurang eksplisit. Saya langsung beradaptasi dengan mengubah struktur kalimat agar instruksi akhirnya lebih lugas dan solutif. |
+| **Agreement/action** | Setiap versi memiliki *implied action* yang jelas dan sesuai dengan kapasitas target: teman kos tahu harus unduh dari mana, kawan teknis tahu kode terminalnya, PM tahu estimasi waktu selesai (5 menit). |
+| **Relationship outcome** | Miskomunikasi teknis berhasil diselesaikan tanpa membuat rekan yang non-teknis merasa minder, dan tanpa mengurangi presisi eksekusi untuk kawan yang teknis. |
+
+---
+
+## Penggunaan AI
+
+AI (Gemini) saya gunakan pasca-kejadian khusus untuk satu fungsi audit:
+1. **Audit Empat Fakta Inti:** Saya memasukkan kelima versi terjemahan ke AI dan meminta sistem mendeteksi apakah ada fakta dasar yang melenceng dari *core meaning*. AI mengonfirmasi bahwa keempat fakta inti konsisten berada di semua versi.
+2. **Output AI yang ditolak:** AI sempat menyarankan versi anak-anak yang menyisipkan istilah *"rebase upstream"* dalam bentuk fabel. Saya menolak keluaran ini karena terkesan dipaksa-paksa dan malah merusak kemudahan pemahaman anak-anak.
+3. **Batas Kepemilikan Manusia:** Kepekaan dalam memilih kata kasual (*lu/gw*) dan analogi kepingan lego murni berasal dari pemahaman intuisi komunikasi manusiawi saya sendiri saat berinteraksi langsung di lapangan.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Umpan balik dari teman kosan (*"berarti file lama di laptop gua hapus manual nih?"*) dan repons Fathir (*"pantesan dari tadi ditolak mulu..."*) menguatkan bahwa tingkat kedalaman penjelasan harus disesuaikan dengan posisi target.
+
+**Adaptation/replay:** Di masa depan, sebelum menjelaskan masalah teknis yang rumit ke tim multi-disiplin (misal gabungan mahasiswa IT dan non-IT), saya akan selalu menuliskan **Core Meaning 1 Paragraf** terlebih dahulu sebelum berbicara di forum.
+
+**Next practice (Sasaran Pertumbuhan Terukur):** Melatih penggunaan analogi sederhana secara spontan saat mempresentasikan proyek IT di depan audiens umum/awam tanpa menggunakan jargon *coding*.
+
+---
 
 ## Self-assessment
 
-| Dimensi | Skor | Evidence singkat |
+| Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
-| Person & Character | 3 | Lima target audiens dibedain lewat *needs* dan *background* mereka, bukan cuma asal ganti gaya sapaan. |
-| Objective & State | 4 | Fakta inti (*core meaning* buat mereset data) konsisten dibawa ke semua bahasa. |
-| Repertoire, Language & AI | 4 | Sukses nerapin gaya bahasa analitis, instruksional, dan kasual di momen yang pas, lengkap sama batasan AI. |
-| Response & Adaptation | 4 | Menangkap sinyal kebingungan target dan berhasil beradaptasi dengan instruksi bahasa yang memecahkan *stuck*. |
-| Agreement, Action & Relationship | 3 | Krisis di kelompok kelar lewat pendekatan bahasa yang disesuaikan sama kapasitas *partner*. |
+| Person & Character | 4 | Lima target dianalisis berdasarkan vocabulary, kebutuhan informasi, dan relevansi peran secara mendalam. |
+| Objective & State | 4 | Empat fakta inti ditetapkan mengikat sebelum menulis terjemahan dan dikonfirmasi utuh di semua versi. |
+| Repertoire, Language & AI | 4 | Jargon hanya dipakai pada target yang tepat; analogi lego dan instruksi praktis digunakan presisi; batas AI jelas. |
+| Response & Adaptation | 4 | Uji coba teks ke kawan non-IT menghasilkan adaptasi penekanan lokasi unduhan yang lebih solutif. |
+| Agreement, Action & Relationship | 4 | Setiap versi menghasilkan tindakan nyata yang relevan bagi target tanpa memicu kecanggungan komunikasi. |
 
-**Total: 18/20 — Kompeten.**
+**Total: 20/20 — Lanjut.**
 
 ::: {.assessor-only}
 ### Assessment dosen

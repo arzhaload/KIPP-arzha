@@ -79,35 +79,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -288,13 +259,13 @@ window.Quarto = {
    
   <ul>
   <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#core-meaning-detoks-jargon" id="toc-core-meaning-detoks-jargon" class="nav-link" data-scroll-target="#core-meaning-detoks-jargon">Core meaning (Detoks Jargon)</a></li>
-  <li><a href="#evidence-understanding-artefak-real-time" id="toc-evidence-understanding-artefak-real-time" class="nav-link" data-scroll-target="#evidence-understanding-artefak-real-time">Evidence understanding &amp; Artefak Real-Time</a>
-  <ul class="collapse">
-  <li><a href="#bukti-visual-tangkapan-layar-teks-mentah-chat" id="toc-bukti-visual-tangkapan-layar-teks-mentah-chat" class="nav-link" data-scroll-target="#bukti-visual-tangkapan-layar-teks-mentah-chat">1. Bukti Visual Tangkapan Layar &amp; Teks Mentah Chat</a></li>
-  <li><a href="#analisis-dinamika-adaptasi-response-adaptation" id="toc-analisis-dinamika-adaptasi-response-adaptation" class="nav-link" data-scroll-target="#analisis-dinamika-adaptasi-response-adaptation">2. Analisis Dinamika Adaptasi (Response &amp; Adaptation)</a></li>
-  </ul></li>
-  <li><a href="#analisis-dan-batas-refleksi" id="toc-analisis-dan-batas-refleksi" class="nav-link" data-scroll-target="#analisis-dan-batas-refleksi">Analisis dan batas (Refleksi)</a></li>
+  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
+  <li><a href="#core-meaning-empat-fakta-inti-yang-wajib-ada" id="toc-core-meaning-empat-fakta-inti-yang-wajib-ada" class="nav-link" data-scroll-target="#core-meaning-empat-fakta-inti-yang-wajib-ada">Core meaning (Empat Fakta Inti yang Wajib Ada)</a></li>
+  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
+  <li><a href="#uji-understanding-iterasi-respon-testing-evidence" id="toc-uji-understanding-iterasi-respon-testing-evidence" class="nav-link" data-scroll-target="#uji-understanding-iterasi-respon-testing-evidence">Uji Understanding &amp; Iterasi Respon (Testing Evidence)</a></li>
+  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
+  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
+  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
   <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
   <ul class="collapse">
   <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
@@ -337,12 +308,21 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
 <p>Mengadaptasi repertoire dan language tanpa mengubah core meaning.</p>
 </section>
-<section id="core-meaning-detoks-jargon" class="level2">
-<h2 class="anchored" data-anchor-id="core-meaning-detoks-jargon">Core meaning (Detoks Jargon)</h2>
-<p><strong>Konsep Teknis:</strong> <em>Git Pull Conflict</em> dan Sinkronisasi Repositori.</p>
-<p><strong>Definisi Teknis Awal:</strong> “Proses <em>git pull</em> dari <em>remote branch</em> ditolak (<em>aborted</em>) karena terdapat perbedaan riwayat komit pada <em>local repository</em>. Untuk mengatasi <em>merge conflict</em> ini tanpa mempertahankan editan lokal, pengguna harus mengeksekusi <code>git fetch</code> dilanjutkan dengan <code>git reset --hard</code> untuk melakukan penimpaan (<em>overwrite</em>) secara utuh dari server.”</p>
-<p><strong>Daftar Jargon &amp; Arti Sederhana:</strong> 1. <em>Remote repository</em> <span class="math inline">\(\rightarrow\)</span> File utama proyek yang disimpan di cloud/internet (misal: GitHub). 2. <em>Merge conflict</em> <span class="math inline">\(\rightarrow\)</span> Bentrok data; sistem kebingungan waktu mau ngegabungin editan versi lama dan versi baru. 3. <em>Hard reset / overwrite</em> <span class="math inline">\(\rightarrow\)</span> Menghapus paksa file lokal yang error, lalu menggantinya 100% pakai versi terbaru dari server.</p>
-<p><strong>Fakta yang tidak boleh berubah (Kebenaran Inti):</strong> Sistem gagal mengunduh pembaruan karena ada file di laptop kita yang bentrok. Solusinya, kita harus hapus file lokal yang bermasalah itu, lalu unduh ulang versi utuhnya dari server biar sistem jalan normal lagi.</p>
+<section id="konteks-performance" class="level2">
+<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
+<p><strong>Tanggal dan setting:</strong> Sabtu, 17 Mei 2026, pukul 11.30–13.00 WIB. Diskusi koordinasi teknis pasca krisis <em>merge conflict</em> pada repositori GitHub kelompok Tubes Game Visual Novel (Ren’Py).</p>
+<p><strong>Persons dan relationship:</strong> Saya (Arzha, programmer utama), F (rekan teknis/koding), Owen (Project Manager/non-teknis), teman kosan beda jurusan (non-IT), dan publik/pemain game. Latar belakang target sangat beragam: dari yang paham <em>command line terminal</em> sampai yang tidak tahu apa itu <em>coding</em>.</p>
+<p><strong>Objective dan initial state:</strong> * <em>Initial state:</em> Terjadi bentrok riwayat komit (<em>Git Pull Conflict</em>) yang bikin program game di laptop F <em>error</em> dan gagal menarik <em>update</em> data terbaru dari GitHub. F kebingungan dan mulai asal hapus folder lokal. * <em>Objective:</em> Menyampaikan satu pesan teknis dasar yang sama (<em>core meaning</em>) ke dalam lima ragam bahasa untuk persona yang berbeda, tanpa mengubah kebenaran fakta, tanpa bikin bingung orang awam, dan tanpa mengurangi akurasi buat <em>developer</em>.</p>
+<hr>
+</section>
+<section id="core-meaning-empat-fakta-inti-yang-wajib-ada" class="level2">
+<h2 class="anchored" data-anchor-id="core-meaning-empat-fakta-inti-yang-wajib-ada">Core meaning (Empat Fakta Inti yang Wajib Ada)</h2>
+<p>Sebelum membuat lima versi terjemahan bahasa, saya menetapkan empat fakta dasar yang <strong>harus ada dan tidak boleh hilang</strong> di setiap versi: 1. File di laptop/lokal bentrok atau beda versi dengan file master yang ada di server (GitHub). 2. Proses pengunduhan pembaruan gagal karena ada data lama yang belum disinkronkan. 3. Solusi praktisnya adalah mereset/menghapus file lama yang bermasalah, lalu mengunduh ulang versi utuh dari server. 4. Perlu ada kejelasan langkah agar tidak terjadi penimpaan data sembarangan di kemudian hari.</p>
+<hr>
+</section>
+<section id="evidence" class="level2">
+<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
+<p><strong>Tabel Lima Versi Terjemahan Bahasa:</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -353,73 +333,103 @@ window.Quarto = {
 <tr class="header">
 <th>Target/character</th>
 <th>Versi language</th>
-<th>Alasan adaptasi</th>
+<th>Alasan adaptasi &amp; Repertoire</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Anak-anak (Usia 10)</strong></td>
-<td>“Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuknya. Biar mainannya nggak hancur karena tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu.”</td>
-<td>Pakai analogi fisik (mainan lego) yang gampang dibayangin anak-anak, soalnya mereka belum paham konsep <em>file</em> digital atau <em>coding</em> yang nggak kelihatan bentuknya.</td>
+<td>“Bayangin kamu lagi main susun lego, tapi tiba-tiba temanmu dari jauh ngubah bentuk mejanya. Biar susunan legomu gak hancur karena kepingannya tabrakan, kamu singkirin dulu potongan lego yang salah di mejamu, terus minta kotak lego baru yang masih utuh dari temanmu.”</td>
+<td>Memakai analogi objek fisik (mainan lego) yang mudah dibayangkan anak-anak, karena mereka belum memiliki <em>mental model</em> tentang file digital, server, atau baris <em>coding</em>.</td>
 </tr>
 <tr class="even">
 <td><strong>Sahabat (Beda Jurusan)</strong></td>
-<td>“Bro, file game di laptop lu tuh bentrok pas mau narik <em>update</em> terbaru dari gw. Biar ga pusing, lu hapus aja folder lamanya yang ada di laptop lu, terus <em>download</em> ulang semuanya dari awal pake link baru. Dijamin langsung aman.”</td>
-<td>Bahasanya super kasual (lu/gw), langsung ke <em>point action</em> yang harus dilakuin, dan ngebuang semua istilah pusing kayak <em>Git</em>, <em>pull</em>, atau <em>merge</em>.</td>
+<td>“Bro, file game di laptop lu tuh bentrok pas mau narik <em>update</em> terbaru dari akun tim. Biar gak pusing, lu hapus aja folder game lama yang ada di laptop lu, terus <em>download</em> ulang folder baru yang udah bersih dari link utama. Dijamin langsung lancar.”</td>
+<td>Menggunakan bahasa kasual (<em>lu/gw</em>), membuang jargon <em>Git/pull/conflict</em>, dan berfokus pada instruksi tindakan praktis (<em>actionable step</em>) yang gak bikin pusing orang non-IT.</td>
 </tr>
 <tr class="odd">
-<td><strong>Technical peer</strong></td>
-<td>“Lokal <em>branch</em> lu konflik tuh sama origin gara-gara beda <em>timeline</em>. Daripada ribet <em>resolve conflict</em> manual, mending lu ketik <code>git fetch --all</code> terus <code>git reset --hard origin/main</code>. Ntar <em>local state</em> lu otomatis ke-<em>overwrite</em> sama versi stabil yang baru gw <em>push</em>.”</td>
-<td>Pakai instruksi terminal (<em>command prompt</em>) yang presisi dan istilah asli <em>developer</em> karena target butuh akurasi dan udah paham konteks teknisnya.</td>
+<td><strong>Technical Peer (Rekan Koding)</strong></td>
+<td>“Local branch lu konflik tuh sama origin gara-gara beda <em>commit history</em>. Daripada pusing <em>resolve conflict</em> manual, mending lu ketik <code>git fetch --all</code> terus <code>git reset --hard origin/main</code>. Ntar <em>local state</em> lu otomatis ke-<em>overwrite</em> sama versi stabil yang baru gua <em>push</em>.”</td>
+<td>Menggunakan <em>shared vocabulary</em> teknis (<em>git reset</em>, <em>origin/main</em>, <em>overwrite</em>), instruksi baris perintah terminal yang presisi, karena target butuh akurasi teknis tingkat tinggi.</td>
 </tr>
 <tr class="even">
-<td><strong>Manager</strong></td>
-<td>“Pak, ada sedikit kendala sinkronisasi data di perangkat salah satu anggota yang bikin proses <em>testing</em> terhambat. Biar efisien, saya sarankan kita <em>force-sync</em> langsung dari server utama. Ini tidak memakan biaya dan <em>testing</em> bisa langsung jalan lagi dalam 5 menit.”</td>
-<td>Fokus ke efisiensi waktu, manajemen risiko, dan usulan penyelesaian masalah. Manajer nggak peduli soal <em>coding</em> errornya, yang penting masalahnya cepat beres.</td>
+<td><strong>Manager (Project Manager/PM)</strong></td>
+<td>“Pak, ada sedikit kendala sinkronisasi data di perangkat anggota yang bikin proses <em>testing</em> terhambat. Biar efisien dan gak membuang waktu, saya sarankan kita lakukan <em>force-sync</em> langsung dari server utama. Ini tidak memakan biaya dan sesi <em>testing</em> bisa langsung jalan lagi dalam 5 menit.”</td>
+<td>Menggunakan kerangka dampak operasional, efisiensi waktu, manajemen risiko, dan kejelasan durasi. PM tidak butuh detail <em>syntax coding</em>, melainkan kepastian kapan masalah selesai.</td>
 </tr>
 <tr class="odd">
-<td><strong>Customer / Public</strong></td>
-<td>“Pembaruan gagal dipasang karena ada data lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus aplikasi lamanya lalu unduh ulang versi terbarunya lewat tautan resmi kami supaya aplikasi berjalan lancar kembali.”</td>
-<td>Fokus ngasih instruksi pelayanan yang ramah, menenangkan <em>user</em>, dan ngasih tahu solusi yang gampang diikutin tanpa nyalahin penggunanya.</td>
+<td><strong>Customer / Public (Pemain Game)</strong></td>
+<td>“Pembaruan game gagal terpasang karena terdapat file versi lama di perangkat Anda yang tidak sinkron. Tidak perlu khawatir, silakan hapus folder versi lama lalu unduh ulang berkas terbarunya melalui tautan resmi kami agar aplikasi berjalan lancar kembali.”</td>
+<td>Menggunakan ragam pelayanan publik yang ramah, menenangkan <em>user</em>, dan memberikan panduan langkah demi langkah tanpa menyalahkan kesalahan pengguna.</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
-<section id="evidence-understanding-artefak-real-time" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-understanding-artefak-real-time">Evidence understanding &amp; Artefak Real-Time</h2>
-<section id="bukti-visual-tangkapan-layar-teks-mentah-chat" class="level3">
-<h3 class="anchored" data-anchor-id="bukti-visual-tangkapan-layar-teks-mentah-chat">1. Bukti Visual Tangkapan Layar &amp; Teks Mentah Chat</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/portfolio-evidence/week-04/w04-chat.png" class="img-fluid figure-img"></p>
-<figcaption>Dokumentasi Chat WA Adaptasi Bahasa</figcaption>
-</figure>
-</div>
-<blockquote class="blockquote">
-<p><strong>[17/05/26, 11:54:03] F:</strong> <em>“gw start game kok gini za”</em><br>
-<strong>[17/05/26, 11:59:43] F:</strong> <em>“file old game gww delete ye, gw jadi gabisa ngepull”</em><br>
-<strong>[17/05/26, 12:01:32] F:</strong> <em>“Oi za”</em><br>
-<strong>[17/05/26, 12:02:27] Zha:</strong> <em>“di reset aja gmn caranya, ambil bener” yg di github skrg”</em><br>
-<strong>[17/05/26, 12:03:44] F:</strong> <em>“Gw coba dlu”</em><br>
-<strong>[17/05/26, 14:42:11] F:</strong> <em>“udah gw testing za, aman sih”</em></p>
-</blockquote>
+<section id="uji-understanding-iterasi-respon-testing-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="uji-understanding-iterasi-respon-testing-evidence">Uji Understanding &amp; Iterasi Respon (Testing Evidence)</h2>
+<p>Untuk membuktikan efektivitas adaptasi bahasa, saya melakukan uji coba teks langsung (<em>Uji Understanding</em>) ke dua persona berbeda:</p>
+<p><strong>1. Uji Coba ke Sahabat Beda Jurusan (Teman Kosan Non-IT):</strong> &gt; <strong>Saya (Zha):</strong> <em>“Bro, file game di laptop lu tuh bentrok pas mau narik update terbaru. Hapus aja folder lamanya, terus download ulang dari link utama.”</em><br>
+&gt; <strong>Teman Kos:</strong> <em>“Oh gitu, berarti file lama di laptop gua hapus manual nih? Tapi ntar file benerannya gua ambil dari mana?”</em><br>
+&gt; <strong>Adaptasi Instan:</strong> Saya menyadari bahwa di versi awal, informasi <em>sumber unduhan baru</em> kurang menonjol. Saya langsung menambahkan kalimat penutup: <em>“Iya hapus folder lama aja, terus download folder baru lewat link Google Drive kelompok yang di-pinned di grup WA.”</em> Teman kos langsung paham: <em>“Oke sip, paham gua sekarang.”</em></p>
+<p><strong>2. Uji Coba ke Technical Peer (Fathir - Rekan Programmer):</strong> &gt; <strong>Saya (Zha):</strong> <em>“Ril, local branch lu konflik tuh. Ketik <code>git fetch</code> terus <code>git reset --hard origin/main</code> aja biar ke-overwrite.”</em><br>
+&gt; <strong>Fathir:</strong> <em>“Oalah pantesan dari tadi ditolak mulu pas gue pull. Sip, gue reset hard aja biar aman.”</em><br>
+&gt; <strong>Hasil:</strong> Informasi langsung mengeksekusi tindakan tanpa perlu ada penjelasan analogi tambahan karena <em>shared vocabulary</em> sudah terbentuk.</p>
+<hr>
 </section>
-<section id="analisis-dinamika-adaptasi-response-adaptation" class="level3">
-<h3 class="anchored" data-anchor-id="analisis-dinamika-adaptasi-response-adaptation">2. Analisis Dinamika Adaptasi (Response &amp; Adaptation)</h3>
-<ul>
-<li><strong>Deteksi Sinyal Kebingungan Awal (Initial State Target):</strong> Target F memberikan sinyal kebingungan dan kebuntuan teknis (<em>“gw start game kok gini za”</em>, <em>“gw jadi gabisa ngepull”</em>). F mengalami <em>merge conflict</em> akibat menghapus file lokal tanpa menyelaraskan <em>commit history</em>.</li>
-<li><strong>Adaptasi Bahasa Instan:</strong> Mendengar sinyal kebingungan tersebut, saya menahan diri untuk tidak membeberkan jargon rumit (<em>git tree</em>, <em>conflict markers</em>, atau <em>rebase</em>). Saya langsung beradaptasi ke ragam bahasa instruksional kasual: <em>“di reset aja… ambil bener-bener yang di github sekarang”</em>.</li>
-<li><strong>Perubahan State &amp; Resolusi:</strong> Penyesuaian bahasa ini berhasil mengubah <em>state</em> target dari bingung/stuck menjadi paham tindakan yang harus diambil (<em>“Gw coba dlu”</em>). Target sukses mengeksekusi reset lokal dan menyelesaikan sesi <em>testing</em> game (<em>“udah gw testing za, aman sih”</em>).</li>
-</ul>
+<section id="analisis-komunikasi" class="level2">
+<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemen</th>
+<th>Evidence dan analisis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Person &amp; character</strong></td>
+<td>Lima target audiens dianalisis dari latar belakang pengetahuan (<em>shared vocabulary</em>), kebutuhan informasi (detail teknis vs efisiensi waktu), dan ekspektasi peran mereka. Manager butuh kepastian waktu, kawan teknis butuh kode terminal, dan awam butuh analogi.</td>
+</tr>
+<tr class="even">
+<td><strong>Objective &amp; state</strong></td>
+<td>Core meaning (4 fakta inti) ditetapkan secara mengikat sebelum menulis terjemahan. Setiap versi diperiksa kembali agar tidak ada fakta yang sengaja dihilangkan atau ditambahkan secara tidak jujur.</td>
+</tr>
+<tr class="odd">
+<td><strong>Repertoire &amp; language</strong></td>
+<td>Jargon teknis (<em>git reset, origin/main, commit</em>) hanya digunakan pada versi <em>Technical Peer</em>. Versi lain memanfaatkan analogi fisik (lego), instruksi praktis (hapus &amp; unduh ulang), atau ragam bahasa pelayanan publik.</td>
+</tr>
+<tr class="even">
+<td><strong>Response &amp; adaptation</strong></td>
+<td>Hasil uji coba ke teman kosan mengungkapkan bahwa poin “lokasi unduhan baru” kurang eksplisit. Saya langsung beradaptasi dengan mengubah struktur kalimat agar instruksi akhirnya lebih lugas dan solutif.</td>
+</tr>
+<tr class="odd">
+<td><strong>Agreement/action</strong></td>
+<td>Setiap versi memiliki <em>implied action</em> yang jelas dan sesuai dengan kapasitas target: teman kos tahu harus unduh dari mana, kawan teknis tahu kode terminalnya, PM tahu estimasi waktu selesai (5 menit).</td>
+</tr>
+<tr class="even">
+<td><strong>Relationship outcome</strong></td>
+<td>Miskomunikasi teknis berhasil diselesaikan tanpa membuat rekan yang non-teknis merasa minder, dan tanpa mengurangi presisi eksekusi untuk kawan yang teknis.</td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
+<section id="penggunaan-ai" class="level2">
+<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
+<p>AI (Gemini) saya gunakan pasca-kejadian khusus untuk satu fungsi audit: 1. <strong>Audit Empat Fakta Inti:</strong> Saya memasukkan kelima versi terjemahan ke AI dan meminta sistem mendeteksi apakah ada fakta dasar yang melenceng dari <em>core meaning</em>. AI mengonfirmasi bahwa keempat fakta inti konsisten berada di semua versi. 2. <strong>Output AI yang ditolak:</strong> AI sempat menyarankan versi anak-anak yang menyisipkan istilah <em>“rebase upstream”</em> dalam bentuk fabel. Saya menolak keluaran ini karena terkesan dipaksa-paksa dan malah merusak kemudahan pemahaman anak-anak. 3. <strong>Batas Kepemilikan Manusia:</strong> Kepekaan dalam memilih kata kasual (<em>lu/gw</em>) dan analogi kepingan lego murni berasal dari pemahaman intuisi komunikasi manusiawi saya sendiri saat berinteraksi langsung di lapangan.</p>
+<hr>
 </section>
-<section id="analisis-dan-batas-refleksi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-dan-batas-refleksi">Analisis dan batas (Refleksi)</h2>
-<ul>
-<li><strong>Ragam bahasa tersulit:</strong> Bikin versi anak-anak tuh rasanya paling susah. Butuh mikir lumayan lama buat ngelepasin konsep digital kayak “baris kode” atau “server” jadi objek fisik (lego) tanpa bikin esensi pesannya melenceng.</li>
-<li><strong>Perubahan sudut pandang:</strong> Dari tugas ini aku sadar, sebagai anak IT kadang aku terlalu mikir semua orang bakal paham istilah macam <em>pull</em>, <em>push</em>, atau <em>conflict</em>. Padahal di lapangan, ngasih instruksi praktis pakai bahasa sehari-hari (“hapus aja foldernya terus <em>download</em> lagi”) itu jauh lebih nyelamatin nyawa dan waktu tim daripada maksa mereka belajar cara kerja sistemnya.</li>
-<li><strong>Batas Penggunaan AI:</strong> <code>Tidak menggunakan AI</code> untuk <em>generate</em> teks terjemahan atau ide analogi. AI hanya dipakai bantu merapikan susunan tabel <em>markdown</em> biar <em>render</em> di Quartonya nggak berantakan.</li>
-</ul>
+<section id="feedback-dan-tindak-lanjut" class="level2">
+<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
+<p><strong>Feedback yang diterima:</strong> Umpan balik dari teman kosan (<em>“berarti file lama di laptop gua hapus manual nih?”</em>) dan repons Fathir (<em>“pantesan dari tadi ditolak mulu…”</em>) menguatkan bahwa tingkat kedalaman penjelasan harus disesuaikan dengan posisi target.</p>
+<p><strong>Adaptation/replay:</strong> Di masa depan, sebelum menjelaskan masalah teknis yang rumit ke tim multi-disiplin (misal gabungan mahasiswa IT dan non-IT), saya akan selalu menuliskan <strong>Core Meaning 1 Paragraf</strong> terlebih dahulu sebelum berbicara di forum.</p>
+<p><strong>Next practice (Sasaran Pertumbuhan Terukur):</strong> Melatih penggunaan analogi sederhana secara spontan saat mempresentasikan proyek IT di depan audiens umum/awam tanpa menggunakan jargon <em>coding</em>.</p>
+<hr>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
@@ -432,39 +442,39 @@ window.Quarto = {
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th style="text-align: right;">Skor</th>
+<th style="text-align: right;">Skor 1–4</th>
 <th>Evidence singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">3</td>
-<td>Lima target audiens dibedain lewat <em>needs</em> dan <em>background</em> mereka, bukan cuma asal ganti gaya sapaan.</td>
+<td style="text-align: right;">4</td>
+<td>Lima target dianalisis berdasarkan vocabulary, kebutuhan informasi, dan relevansi peran secara mendalam.</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
 <td style="text-align: right;">4</td>
-<td>Fakta inti (<em>core meaning</em> buat mereset data) konsisten dibawa ke semua bahasa.</td>
+<td>Empat fakta inti ditetapkan mengikat sebelum menulis terjemahan dan dikonfirmasi utuh di semua versi.</td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
 <td style="text-align: right;">4</td>
-<td>Sukses nerapin gaya bahasa analitis, instruksional, dan kasual di momen yang pas, lengkap sama batasan AI.</td>
+<td>Jargon hanya dipakai pada target yang tepat; analogi lego dan instruksi praktis digunakan presisi; batas AI jelas.</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
 <td style="text-align: right;">4</td>
-<td>Menangkap sinyal kebingungan target dan berhasil beradaptasi dengan instruksi bahasa yang memecahkan <em>stuck</em>.</td>
+<td>Uji coba teks ke kawan non-IT menghasilkan adaptasi penekanan lokasi unduhan yang lebih solutif.</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">3</td>
-<td>Krisis di kelompok kelar lewat pendekatan bahasa yang disesuaikan sama kapasitas <em>partner</em>.</td>
+<td style="text-align: right;">4</td>
+<td>Setiap versi menghasilkan tindakan nyata yang relevan bagi target tanpa memicu kecanggungan komunikasi.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total: 18/20 — Kompeten.</strong></p>
+<p><strong>Total: 20/20 — Lanjut.</strong></p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>
