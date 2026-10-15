@@ -1,0 +1,222 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 2b — Kasus 2"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Ammar Zharif Fakhrudin |
+| NIM | 18225007 |
+| Kelas dan tanggal | II2100 Komunikasi Interpersonal dan Publik K-01; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 2b; Kasus 2 (Persahabatan dan Profesionalitas) |
+| Nama dan ID target | Cyntia (K2-03) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Fiktif (Simulasi penanganan konflik tugas kelompok, rekognisi ide, dan persahabatan) |
+| Kelengkapan transkrip | Lengkap |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+- **Konteks Kasus:** Tenggat tugas kelompok tinggal 48 jam lagi. Bagian tugas Cyntia belum dikirim karena ia merasa pembagian kerja tidak adil, ide-idenya dilewati oleh tim, dan ia menghadapi jadwal panitia yang padat minggu ini.
+- **Tujuan Tindakan:** Membuka ruang komunikasi yang aman dan bebas tekanan untuk memahami persepsi Cyntia, memberikan rekognisi atas gagasan strategisnya, serta menyepakati penyesuaian porsi kerja (fokus pada alur konsep dan visualisasi laporan) yang realistis tanpa mengorbankan kualitas tugas maupun persahabatan.
+- **Indikator Keberhasilan:**
+  1. Cyntia merasa didengarkan dan bersedia mengungkapkan akar masalahnya tanpa rasa takut disalahkan.
+  2. Terbentuknya kesepakatan penyesuaian porsi kerja yang disetujui bersama untuk diselesaikan dalam kurun sisa waktu 48 jam.
+  3. Komunikasi kelompok kembali aktif dan hubungan persahabatan tetap hangat serta saling mendukung.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Kekuatan: Hubungan empati & persahabatan dasar.<br>Kelemahan: Risiko memicu *burnout* jika menagih kaku.<br>Peluang: Cyntia punya keahlian konsep & visualisasi.<br>Ancaman: *Withdrawal* (penarikan diri) jika merasa diabaikan. | U002 | Laporan Diri |
+| Attitude | Proaktif, empatis, terbuka menerima evaluasi dan memberikan pengakuan yang tulus (*acknowledgment*). | U002 | Laporan Diri |
+| Knowledge | Memahami tenggat waktu kelompok dan kebutuhan integrasi materi. | U002 | Laporan Diri |
+| Skill | Mampu mereorganisasi pembagian kerja (*role-fit scoping*) & memfasilitasi *check-in* berkala. | U002 | Laporan Diri |
+| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa anggota kelompok yang menjunjung tinggi empati, kolaborasi, dan apresiasi kontribusi tim. | U002 | Laporan Diri |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Menyelesaikan tugas konsep/visual & menjaga ikatan tim. | A: Rekognisi ide & empati kesibukan. | Sapaan pribadi non-konfrontatif. | Keterbukaan alasan keterlambatan. |
+| Attention | Luap kesibukan & rasa terabaikan. | A: Validasi emosional. | "Gue paham banget, Cyn... bukan buat nambah beban..." | Penurunan kelelahan emosional. |
+| Interest | Kecewa idenya dilewati & dikasi detail teknis kaku. | K: Penyelarasan peran sesuai minat/keahlian. | Permintaan maaf & penawaran restrukturisasi tugas. | Pengungkapan keinginan fokus ke konsep/visual. |
+| Desire | Ingin berkontribusi strategis & dihargai. | S: *Scoping* ulang (Konsep, *Exec Summary*, Visual). | Pengalihan bagian teknis kaku ke anggota tim lain. | Antusiasme & komitmen draf 24 jam. |
+| Action | Siap mengeksekusi draf 24 jam. | S: *Check-in* singkat 5 menit & ringkasan teknis. | Penawaran *call* 5 menit utk ringkasan 3 poin teknis. | Eksekusi draf tanpa hambatan. |
+
+# C) Skrip Percakapan
+
+**[Tahap A: Identifikasi]**
+
+**U001 (Mahasiswa):**
+Ammar Zharif Fakhrudin
+18225007
+II2100 Komunikasi Interpersonal dan Publik K-01
+14 Oktober 2026
+teks
+
+**AI001 (Simulator):**
+Data identitas Anda untuk Sesi 2b terkonfirmasi.
+--- Tahap B: Kasus dan Tujuan ---
+Brief Kasus 2b (Kasus 2: Persahabatan dan Profesionalitas — Target: Cyntia)...
+Silakan lengkapi perencanaan Anda dengan menjawab tiga pertanyaan...
+
+**[Tahap B: Rencana dan Diagnosis]**
+
+**U002 (Mahasiswa):**
+Tahap B: Kasus dan Tujuan (Kasus 2b)
+1. Tujuan & Indikator Keberhasilan...
+2. Dugaan Profil Target — Cyntia (Status Awal)...
+3. Rencana Awal (TAIDA)...
+
+**[Tahap C: Simulasi Awal]**
+
+**AI002 (Simulator):**
+Rencana awal dan dugaan profil Cyntia (SWOT dan ASK) telah dicatat.
+--- Tahap C: Simulasi Awal ---
+Tenggat tugas kelompok tinggal 48 jam lagi. Bagian tugas Cyntia belum dikirim dan ia merasa pembagian kerja tidak adil serta memiliki banyak komitmen minggu ini. Anda menghubungi Cyntia secara pribadi...
+Cyntia: "Menarik! Tapi minggu ini banyak hal yang harus saya kerjakan."
+
+**U003 (Mahasiswa):**
+Gue paham banget, Cyn. Minggu ini jadwal lu pasti lagi padat dan bikin kepikiran banget. Thank you ya udah mau jujur sama gue.
+Gue nge-chat pribadi ini bukan buat makin nambah beban atau menekan lu kok. Gue cuma mau memastikan lu baik-baik saja, sekalian kita cari jalan keluar bareng biar bagian tugas kelompok ini gak makin mbebanin lu di tengah kesibukan minggu ini.
+Coba cerita ke gue, bagian mana dari porsi tugas kemarin yang dirasa terlalu berat atau menyita waktu lu? Biar kita lihat bagian mana yang bisa kita pangkas atau kita bagi ulang bareng teman-teman yang lain. Gimana menurut lu, Cyn?
+
+**AI003 (Simulator):**
+Cyntia: "Makasih ya, Ammar, udah mau ngertiin. Jujur, selain kepanitiaan minggu ini lagi padat-padatnya, gue juga agak kurang sreg sama pembagian tugas kemarin. Ide-ide konsep dan alur penyampaian yang sempat gue usul di awal rasanya kurang diakui dan dilewati gitu aja, tapi gue malah dikasih porsi penulisan detail teknis yang panjang dan kaku. Gue jadi bingung prioritas utamanya di mana dan ngerasa ide gue gak terpakai. Kalau menurut lu, bisa gak bagian gue difokuskan ke penyusunan struktur konsep utama dan visualisasi laporan yang lebih sesuai sama ide awal gue kemarin, biar pengerjaannya lebih fokus dan realistis buat selesai dalam 48 jam ini?"
+
+**U004 (Mahasiswa):**
+"Wah, Cyn, makasih banyak ya udah mau terbuka. Gue minta maaf banget kalau usulan ide dan konsep lu kemarin terkesan dilewati—jujur itu bukan karena idenya gak bagus, tapi mungkin karena kemarin kita terlalu keburu-buru ngejar tenggat awal sampai kurang peka.
+Penawaran lu justru solusi yang bagus banget! Fokus ke penyusunan struktur konsep utama dan visualisasi laporan itu krusial banget buat bikin tugas kita kelihatan rapi dan berbobot, dan lu memang punya keahlian di situ.
+Biar adil dan realistis buat 48 jam ini, kita sepakati alurnya gini ya:
+1. Fokus Utama Lu: Lu pegang penyusunan alur konsep utama, executive summary, dan visualisasi/desain laporannya sesuai ide awal lu.
+2. Detail Teknis Diambil Alih Tim: Porsi penulisan detail teknis yang panjang dan kaku bakal gue sebar dan alihkan ke anggota tim lain (termasuk gue) buat rapiin.
+3. Timeline Ringkas: Draf konsep utama dan kerangka visual dari lu bisa dikirim dalam 24 jam ke depan, jadi sisa 24 jam terakhir tinggal kita pakai buat final review dan gabungin semua bagian.
+Gimana, Cyn? Apakah pembagian fokus ini bikin lu lebih lega dan masuk sama kesibukan lu minggu ini?"
+
+**[Tahap D & E: Evaluasi Sementara dan Uji Ulang]**
+
+**AI004 (Simulator):**
+Cyntia: "Wah, makasih banget ya, Ammar! Sumpah, lega banget denger ide dan konsep gue dihargai dan diakui. Kalau fokusnya ke penyusunan alur konsep utama, executive summary, dan visualisasi laporan, ini pas banget sama minat dan ketersediaan waktu gue minggu ini. Gue jadi jauh lebih semangat buat eksekusi! Sepakat, draf konsep utama dan kerangka visualnya bakal gue kirim dalam 24 jam ke depan ya."
+--- Tahap D & E: Evaluasi Sementara & Uji Ulang ---
+1. Evaluasi Status & Adaptasi...
+2. Skenario Uji Ulang: Bayangkan 18 jam kemudian (sebelum tenggat draf 24 jam), Cyntia kembali menghubungi Anda terkait check-in dan batasan tugas (Skill/Knowledge)...
+
+**U005 (Mahasiswa):**
+Evaluasi Status & Skenario Uji Ulang (Kasus 2b)
+1. Evaluasi Status & Adaptasi Cyntia
+- Perubahan Status: Cyntia bertransformasi dari merasa terbeban (burnout) dan terasingkan (withdrawn) menjadi sangat antusias (engaged) dan proaktif. Hal ini terjadi karena keluhan utamanya bukan sekadar masalah durasi/waktu, melainkan kebutuhan akan rekognisi (acknowledgment) atas ide dan peran strategisnya di dalam tim.
+- Efektivitas Pendekatan pada ASK & SWOT:
+  - Attitude: Rasa frustrasi dan tidak dihargai mereda total setelah usulan konsepnya diakui dan divalidasi dengan tulus.
+  - Knowledge & Skill: Penyesuaian tugas ke ranah konsep dan visualisasi (scoping) memanfaatkan Skill terbaiknya, sehingga pengerjaan tugas menjadi efisien dan berbobot.
+  - SWOT: Ancaman penarikan diri (Threat) berhasil diubah menjadi Peluang (Opportunity) untuk menghasilkan executive summary dan visualisasi laporan berstandar tinggi.
+2. Respons Konkret pada Skenario Uji Ulang
+"Luar biasa, Cyn! Keren banget progresnya cepat dan lancar. Thank you ya udah update!
+Biar lu gak bingung dan drafnya tetep ringkas, lu gak perlu pusing milih dari seluruh bagian teknis yang panjang itu.
+Lu ada waktu sekarang? Ayo kita call singkat 5 menit! Gue bakal langsung ringkasin 3 poin inti dari bagian teknis tim yang paling krusial buat lu copy-paste atau olah ke executive summary.
+Sambil nunggu gue call, lu bisa rehat sejenak dulu. Gue telfon sekarang ya, Cyn?"
+
+**[Tahap F & G: Evaluasi Akhir dan Konfirmasi]**
+
+**AI005 (Simulator):**
+Cyntia: "Sip, Ammar! Pas banget, gue tunggu call-nya sekarang ya. Makasih banyak udah langsung siap ngebantu ringkasin 3 poin utamanya, jadi makin jelas dan gak bikin pusing. Langsung call aja, Ammar!"
+--- Tahap F & G: Hasil/Refleksi dan Konfirmasi ---
+Pertanyaan Refleksi Akhir:
+1. Perubahan SWOT & ASK...
+2. Pencapaian & Lesson Learned...
+3. Tindak Lanjut Konkret...
+
+**U006 (Mahasiswa):**
+Tahap F & G: Hasil/Refleksi dan Konfirmasi Data (Kasus 2b)
+1. Perubahan Status SWOT & ASK (Penilaian Akhir Cyntia)
+- Relasional & SWOT: Rasa Aman & Kepercayaan meningkat pesat... Risiko burnout diubah jadi sinergi tim.
+- Elemen ASK: Attitude antusias & proaktif; Knowledge paham penyelarasan ide dgn deadline; Skill optimal di rancangan visual & kerangka konsep.
+2. Pencapaian & Lesson Learned: Penurunan motivasi sering kali karena merasa idenya dilewati, bukan malas... Mendengarkan & mengakui kapasitas unik sangat efektif.
+3. Tindak Lanjut Konkret & Cara Evaluasi: Menerapkan role-fit assignment di awal proyek & check-in berkala 5 menit.
+Konfirmasi Data Laporan Sesi 2b: Data sudah benar dan terkonfirmasi...
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+*Tujuan asesmen tercapai dengan luar biasa. Cyntia kembali terlibat aktif, gagasannya terakomodasi, dan komitmen penyelesaian tugas disepakati dengan antusiasme tinggi.*
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Merasa terasingkan & terbebani (*Threat*), merasa idenya sia-sia. | Merasa dihargai (*Strength*), menjadi motor penggerak visual & konsep (*Opportunity*). | U004, U006 | Laporan simulasi & refleksi. |
+| Attitude | Pasif, lelah emosional, merasa idenya diabaikan. | Antusias, proaktif, dan merasa aman di dalam tim. | U003 → U004 | Bukti perubahan tuturan Cyntia. |
+| Knowledge | Kebingungan prioritas tugas kaku & tenggat panitia. | Memahami cara menyelaraskan ide strategis dengan kerangka *executive summary*. | U004, U005 | Kesepakatan alur & *call* 5 menit. |
+| Skill | Terhambat saat mengerjakan penulisan teknis kaku. | Mengoptimalkan keahlian perancangan visual & struktur alur konsep. | U004 | Eksekusi draf konsep 24 jam. |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| Pembuka (U003) | Cyntia menyatakan jadwalnya padat minggu ini. | Validasi kesibukan & tanyakan bagian mana yang menyita waktu tanpa menagih kaku. | Cyntia jujur mengungkapkan kekecewaannya krn idenya dilewati tim. | A: Keterbukaan meningkat krn merasa aman. | Menitikberatkan perhatian pada kebutuhan rekognisi ide. |
+| Negosiasi (U004) | Cyntia minta difokuskan ke konsep utama & visualisasi. | Minta maaf atas kekurangpekaan tim, memberikan validasi tulus, & merestrukturisasi porsi kerja. | Cyntia sangat antusias dan berkomitmen kirim draf dlm 24 jam. | K/S: Peran menjadi jelas & sesuai dengan keahlian utama Cyntia. | Menyiapkan pengalihan porsi teknis kaku ke anggota tim lain. |
+| Uji Ulang (U005) | Cyntia bingung milih poin teknis utk *exec summary*. | Menawarkan *call* 5 menit utk meringkaskan 3 poin teknis utama secara instan. | Cyntia menyetujui *call* dengan sangat lega. | S: Pendampingan *check-in* efektif tanpa beban tambahan. | Menjaga ritme kerja Cyntia tetap lancar. |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 | "Gue paham banget, Cyn... bukan buat makin nambah beban atau menekan lu kok... cuma mau memastikan lu baik-baik saja..." | Cyntia: *"Makasih ya, Ammar, udah mau ngertiin... Jujur gue agak kurang sreg..."* | Rendah → Tinggi (Merasa dilindungi dan dipahami). | Menurunkan defensivitas & memicu keterbukaan emosional. |
+| U004 | "Gue minta maaf banget kalau usulan ide dan konsep lu kemarin terkesan dilewati... lu memang punya keahlian di situ." | Cyntia: *"Sumpah, lega banget denger ide dan konsep gue dihargai dan diakui."* | Sedang → Sangat Tinggi (Rasa percaya & penghargaan penuh). | Mendorong motivasi internal dan komitmen *Action*. |
+
+## Uji ulang dan pembelajaran
+
+Pada skenario uji ulang (U005), Cyntia membutuhkan kejelasan poin teknis untuk penyusunan *executive summary*. Mahasiswa menunjukkan adaptasi *Skill* dan *Attitude* yang tepat sesuai profil Cyntia yang dinamis dan menyukai interaksi: alih-alih memberinya instruksi teks yang panjang atau membiarkannya kebingungan, mahasiswa menawarkan *call* singkat 5 menit untuk secara langsung membagikan 3 poin teknis utama. Hal ini membuktikan efektivitas bantuan terarah (*supportive check-in*) dalam menjaga retensi kinerja.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U002: "Membuka ruang komunikasi... memberikan rekognisi... menyepakati penyesuaian porsi kerja..." | Indikator sangat spesifik, menyasar akar masalah emosional & teknis. |
+| Persepsi dan validasi profil/status | 4 | U003 & U004: "Gue minta maaf banget kalau usulan ide dan konsep lu kemarin terkesan dilewati..." | Sangat tepat mengidentifikasi bahwa Cyntia butuh pengakuan atas kontribusi idenya. |
+| Pemilihan dan urutan repertoar | 4 | U004: "1. Fokus Utama Lu... 2. Detail Teknis Diambil Alih Tim... 3. Timeline Ringkas..." | Menata ulang alur kerja secara adil dan memberi porsi yang memberdayakan Cyntia. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U003 & U004: "Gue paham banget, Cyn... bukan buat makin nambah beban... lu memang punya keahlian di situ." | Sangat empatis, hangat, tulus, dan solutif menjaga hubungan persahabatan. |
+| Evaluasi dan adaptasi | 4 | U005: "Ayo kita call singkat 5 menit! Gue bakal langsung ringkasin 3 poin inti..." | Sangat tanggap merespons kebutuhan *check-in* Cyntia tanpa menambah kebingungan. |
+| Refleksi dan lesson learned | 4 | U006: "Penurunan motivasi... sering kali bukan disebabkan oleh rasa malas, melainkan rasa tidak dihargai..." | *Lesson learned* sangat mendalam mengenai aspek psikologis dinamika tim. |
+
+*(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pelajaran terbesar mahasiswa adalah bahwa **penurunan motivasi atau keterlambatan seseorang dalam tim sering kali bukan disebabkan oleh rasa malas semata, melainkan karena rasa tidak dihargai atau idenya yang dilewati**. Mendengarkan secara aktif dan memberikan pengakuan yang tulus (*acknowledgment*) atas kapasitas unik seseorang jauh lebih efektif untuk membangkitkan motivasi kerja daripada sekadar menagih tenggat waktu secara kaku.
+
+## Tindak lanjut dan batas bukti
+
+- **Langkah Konkret:** Menerapkan sesi penyelarasan peran (*role-fit assignment*) di awal setiap pembentukan proyek kelompok untuk memastikan setiap anggota memiliki ruang mengekspresikan ide dan mendapatkan porsi kerja yang sesuai minat serta keahlian spesifiknya.
+- **Cara Evaluasi:** Melakukan *check-in* berkala secara informal (seperti diskusi singkat 5 menit) untuk mengidentifikasi potensi hambatan teknis maupun ganjalan emosional sebelum menumpuk menjadi konflik.
+- **Batas Bukti:** Simulasi berbasis teks ini memperlihatkan kemampuan kepemimpinan empatis dan rekognisi tim yang sangat prima, tetapi keberlanjutannya membutuhkan konsistensi empati dalam interaksi tatap muka yang sejati.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.

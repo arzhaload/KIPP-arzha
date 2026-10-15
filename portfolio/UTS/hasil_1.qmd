@@ -1,0 +1,236 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 1 — Kasus 1"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Ammar Zharif Fakhrudin |
+| NIM | 18225007 |
+| Kelas dan tanggal | II2100 Komunikasi Interpersonal dan Publik K-01; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 1; Kasus 1 (Memimpin Diri dan Terus Belajar) |
+| Nama dan ID target | Diri mahasiswa; pembanding Budi (K1-02) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Nyata (Terkait kemampuan pembelajaran akademik mahasiswa) |
+| Kelengkapan transkrip | Lengkap |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+- **Kasus:** Menghadapi hambatan kejenuhan (*information overload*) dan distraksi gawai saat melakukan *self-directed learning* atas materi jurnal/laporan teknis yang rumit.
+- **Tujuan Tindakan:** Mengembangkan kemampuan *Self-Directed Learning* & Sintesis Informasi Cepat.
+- **Indikator Keberhasilan:** Mampu memahami dan menyusun ringkasan tuntas dari 1 jurnal/makalah/laporan teknis rumit dalam waktu < 45 menit, serta menjelaskan ulang poin intinya secara lugas tanpa melihat catatan.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Kekuatan: Rasa ingin tahu tinggi, cepat tangkap pola.<br>Kelemahan: Rentan jenuh, kurang disiplin eksekusi rutin.<br>Peluang: Akses AI/repositori ilmu.<br>Ancaman: Distraksi digital (notifikasi/medsos) & pemahaman dangkal. | U002 | Laporan Diri (Sementara) |
+| Attitude | Antusias terhadap hal baru, namun perlu lebih sabar/konsisten saat bosan. | U002 | Laporan Diri |
+| Knowledge | Punya kerangka analitis dasar, tahu sumber informasi terpercaya. | U002 | Laporan Diri |
+| Skill | Terampil merangkum, namun perlu asah manajemen waktu (Pomodoro). | U002 | Laporan Diri |
+| Preferensi/MBTI | (Tidak ada diagnosis khusus MBTI yang dilaporkan) | - | - |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa yang rentan paparan *dopamine hit* instan akibat medsos. | U003 | Laporan Diri |
+
+## Dugaan awal profil target dan rencana (Diri Sendiri)
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | *Self-Directed Learning* cepat. | K & S: Pemanfaatan waktu terukur. | Teknik memecah bacaan & *time-boxing*. | Ringkasan tuntas < 45 menit. |
+| Thought | Menganggap jenuh sbg wajar, bkn gagal. | A: Validasi perasaan. | Penyadaran internal. | Penurunan kepanikan mental. |
+| Attention | Godaan layar digital tinggi. | S: Menyingkirkan distraksi fisik. | Mode *Do Not Disturb*. | Fokus pada 1 prioritas topik. |
+| Interpretation | Menganggap materi sulit. | K: Memecah kepingan kecil. | Analisis hambatan sbg teka-teki. | Membaca per paragraf/poin. |
+| Decision & Action | Perlu taktik durasi. | S: Eksekusi Pomodoro. | Sesi 25 menit tanpa henti. | Bertahan belajar s/d waktu habis. |
+
+# C) Skrip Percakapan
+
+**[Tahap A: Identifikasi]**
+
+**U001 (Mahasiswa):**
+Ammar Zharif Fakhrudin
+18225007
+II2100 Komunikasi Interpersonal dan Publik K-01
+14 Oktober 2026
+teks
+
+**AI001 (Simulator):**
+Data identitas terkonfirmasi. --- Tahap B: Kasus dan Tujuan ---
+Brief Kasus 1: Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja atau kehidupan...
+1. Tujuan: Apa satu kemampuan spesifik yang ingin Anda kembangkan...
+2. Dugaan Profil Diri (Status Awal): Bagaimana penilaian Anda terhadap diri sendiri...
+3. Rencana Awal (TAIDA): Bagaimana rencana Anda untuk memotivasi atau mengarahkan diri...
+
+**[Tahap B: Rencana dan Diagnosis]**
+
+**U002 (Mahasiswa):**
+1. Tujuan
+- Kemampuan Spesifik: Self-Directed Learning & Sintesis Informasi Cepat...
+- Indikator Keberhasilan Realistis: Mampu memahami dan menyusun ringkasan tuntas dari 1 jurnal/makalah/laporan teknis yang rumit dalam waktu kurang dari 45 menit...
+2. Dugaan Profil Diri (Status Awal)
+- SWOT Subjektif: Kekuatan... Kelemahan... Peluang... Ancaman...
+- Elemen ASK (Attitude, Knowledge, Skill): Attitude... Knowledge... Skill...
+3. Rencana Awal (TAIDA)
+- Thought (Pemikiran): Menyadari bahwa ketertinggalan pemahaman atau kejenuhan belajar adalah hal wajar...
+- Attention... Interpretation... Decision... Action...
+
+**[Tahap C: Simulasi Awal (Dialog Diri)]**
+
+**AI002 (Simulator):**
+Rencana awal beserta dugaan profil diri (SWOT dan ASK) Anda telah tercatat dengan baik...
+--- Tahap C: Simulasi Awal (Dialog Diri) ---
+Mari kita mulai simulasi untuk memimpin diri sendiri. Bayangkan Anda sedang membaca sebuah jurnal atau laporan teknis yang cukup rumit. Baru 15 menit berjalan, Anda mulai merasakan information overload...
+1. Tuliskan pesan (self-talk) spesifik yang Anda ucapkan kepada diri Anda sendiri...
+2. Setelah menyampaikan pesan tersebut, jelaskan bagaimana respons jujur dari batin/diri Anda...
+
+**U003 (Mahasiswa):**
+Simulasi Dialog Diri
+1. Pesan (Self-Talk) Spesifik pada Detik Distraksi Datang
+"Stop dulu. Wajar kalau kepala rasanya berat dan mau jenuh, ini tanda otak lagi kerja keras memproses materi rumit. Tapi raih HP sekarang cuma pelarian sesaat yang bikin fokus pecah total dan makin males lanjutin. Kasih waktu 10 menit lagi buat bertahan di paragraf ini. Pecah materinya jadi poin paling kecil. Kalau 10 menit ini beres, baru boleh istirahat sejenak."
+2. Respons Jujur dari Batin / Diri Sendiri
+Di detik-detik awal, pasti muncul penolakan dan tawar-menawar dari batin...
+Namun, karena self-talk di atas memberi batasan yang konkrit... otak mau menerima kompromi kecil itu karena menganggap target 10 menit masih realistis dan ada bayangan "hadiah" istirahat setelahnya.
+
+**[Tahap C: Simulasi Pembanding - Budi]**
+
+**AI003 (Simulator):**
+Langkah diagnosis dan eksekusi pesan pada diri sendiri yang sangat baik...
+--- Segmen Tokoh Pembanding ---
+Sekarang, kita akan menggunakan tokoh pembanding fiktif... Budi adalah tipe orang yang sangat menghargai prosedur dan keteraturan.
+Budi berkata kepada Anda: "Cara sekarang sudah jelas. Mengapa harus berubah?"
+Silakan tuliskan balasan Anda...
+
+**U004 (Mahasiswa):**
+"Gua ngerti banget alasan lu, Bud. Kalau cara yang sekarang udah terbukti aman, teratur, dan hasil yang lu dapat selalu konsisten sesuai standar lu, wajar banget kalau lu merasa gak ada urgensi buat ubah apa-apa.
+Gua sama sekali gak minta lu buang atau ganti cara belajar lu yang udah rapi itu. Cara baru ini sifatnya bukan buat menggantikan, tapi cuma sebagai alat tambahan yang bisa lu pakai saat kondisi kepepet...
+Biar lu gak merasa berisiko atau merusak standar lu, gimana kalau lu tes dulu cara ini di satu materi kecil yang skalanya ringan?..."
+
+**[Tahap D & E: Evaluasi Sementara dan Uji Ulang]**
+
+**AI004 (Simulator):**
+[Budi merespons]: "Kalau fungsinya hanya sebagai alat tambahan saat terdesak dan saya bebas kembali ke prosedur awal kapan saja, itu masuk akal..."
+--- Tahap D & E: Evaluasi Sementara & Uji Ulang Diri ---
+Budi merespons dengan keterbukaan... Namun, ia masih menunjukkan kebutuhan akan kejelasan prosedur (Knowledge/Skill).
+Sekarang, mari kita kembali fokus pada target utama asesmen ini: Diri Anda sendiri.
+1. Refleksi Gaya Komunikasi: Apa perbedaan utama antara cara Anda memberikan instruksi pada diri sendiri dengan cara Anda meyakinkan Budi?
+2. Uji Ulang Diri: Bayangkan pada kesempatan belajar berikutnya... hambatan serupa berupa information overload... muncul lagi. Tuliskan pesan self-talk atau respons konkret yang akan Anda jalankan sekarang...
+
+**U005 (Mahasiswa):**
+Tahap D & E: Evaluasi Sementara & Uji Ulang Diri
+1. Refleksi Gaya Komunikasi
+- Perbedaan Utama: Saat bicara pada Budi, gaya komunikasiku sangat empatis, diplomatis, dan meminimalkan risiko... Namun saat bicara pada diri sendiri, komunikasiku cenderung transaksional dan berbasis negosiasi ketat...
+- Hal yang Perlu Disesuaikan pada Diri Sendiri: Aku perlu membawa sedikit gaya komunikasi "empati Budi" ke dalam self-talk... menegaskan bahwa pemahaman bertahap (potongan kecil) tidak akan menurunkan kualitas/standar belajar...
+2. Uji Ulang Diri (Respon Konkret Sesi Berikutnya)
+Tepat saat rasa jenuh dan godaan meraih ponsel itu muncul kembali minggu depan, aku akan langsung menjalankan 2 langkah konkret berikut:
+- Tindakan Fisik Instan: Layar HP diposisikan telungkup (face down) dan dijauhkan minimal 2 meter...
+- Pesan Self-Talk Spesifik: "Stop. Tangan balik ke meja. Gue sadar otak mulai jenuh karena materi ini berat, tapi buka HP bukan solusinya... Sekarang, breakdown 1 halaman ini jadi 3 poin utama aja. Tulis poin itu di kertas. Setelah 3 poin itu kelar, tutup bukunya, berdiri dari kursi, dan boleh jalan/ambil minum selama 5 menit tanpa pegang HP..."
+
+**[Tahap F & G: Evaluasi Akhir dan Konfirmasi]**
+
+**AI005 (Simulator):**
+Refleksi yang sangat tajam dan mendalam!...
+--- Tahap F & G: Hasil/Refleksi dan Konfirmasi ---
+Pertanyaan Refleksi Akhir:
+1. Perubahan SWOT & ASK...
+2. Pencapaian & Tindak Lanjut...
+Konfirmasi Data Laporan:
+Nama: Ammar Zharif Fakhrudin...
+
+**U006 (Mahasiswa):**
+Tahap F & G: Hasil/Refleksi dan Konfirmasi
+1. Perubahan Status SWOT & ASK
+- SWOT (Pembaruan):
+  - Threat (Ancaman): Berubah dari ancaman pasif menjadi variabel yang dapat dikontrol secara terukur melalui manajemen lingkungan fisik...
+  - Weakness (Kelemahan): Berkurang karena fokus ditransformasi dari menyelesaikan seluruh durasi/materi menjadi pemecahan target mikroskopis...
+- ASK (Attitude, Knowledge, Skill):
+  - Attitude: Lebih berempati pada kondisi mental diri sendiri; memvalidasi rasa jenuh sebagai proses wajar...
+  - Knowledge: Memahami pentingnya memadukan kompromi durasi dengan perlindungan standar kualitas.
+  - Skill: Bertambahnya taktik konkret gabungan antara physical barrier dan cognitive breaking.
+2. Pencapaian & Tindak Lanjut
+- Lesson Learned Utama: Cara kita berbicara kepada orang lain (Budi) yang penuh empati... sering kali jauh lebih bijak daripada cara kita menuntut diri sendiri secara transaksional...
+- Tindak Lanjut Konkret: Menerapkan metode ini pada 3 sesi belajar mandiri berikutnya selama 1 minggu ke depan. Evaluasi dilakukan dengan mencatat berapa kali impulse meraih HP muncul...
+Konfirmasi Data Laporan
+Data sudah benar... Silakan generate kode lengkap untuk file hasil_1_18225007.qmd.
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+*Tujuan asesmen tercapai dengan kuat. Mahasiswa berhasil memperbaiki taktik kepemimpinan dirinya melalui perbandingan dengan tokoh Budi.*
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Ancaman distraksi tinggi, kelemahan pada eksekusi konsisten panjang. | Ancaman menjadi variabel terukur & terkontrol; kelemahan diatasi dgn *micro-stepping*. | U006 | Laporan/Refleksi diri mahasiswa. |
+| Attitude | Menuntut disiplin secara transaksional (barter waktu vs istirahat). | Lebih berempati pada mental sendiri, memvalidasi jenuh sebagai hal wajar bkn gagal. | U006 | Laporan/Refleksi diri mahasiswa. |
+| Knowledge | Mengetahui konsep *time-boxing* (Pomodoro) dasar. | Pemahaman baru mengkombinasikan kompromi durasi dengan pelestarian mutu/standar. | U006 | Laporan/Refleksi diri mahasiswa. |
+| Skill | Hanya fokus pada negosiasi batas waktu. | Taktik hybrid: *physical barrier* (menjauhkan HP 2m) + *cognitive breaking* (3 poin/hal). | U005 | Demonstrasi ucapan pd uji ulang (Klaim niat untuk dunia nyata). |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| Dialog Diri 1 (U003) | Jenuh materi, godaan HP sangat tinggi (A rendah, ancaman distraksi). | "Stop dulu. Wajar kepala rasanya berat... Kasih waktu 10 menit lagi..." | Batin menolak sesaat, lalu menerima krn kompromi 10 mnt msk akal. | A mulai stabil akibat *time-limit* pendek. | Perlu evaluasi krn terlalu transaksional (disadari setelah dialog Budi). |
+| Dialog Budi (U004) | Budi defensif menolak cara baru krn standar sudah mapan (A rendah, S butuh prosedur). | "Gua ngerti bgt... gak minta buang cara lu... tes di materi kecil..." | Defensivitas Budi turun, minta kejelasan prosedur (S/K). | Attitude Budi lbh terbuka/aman melihat peluang eksperimen. | Mahasiswa belajar validasi empati standar. |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| K1 (Budi) | "Gua ngerti banget alasan lu, Bud. Kalau cara yang sekarang udah terbukti aman... wajar banget..." (U004) | Budi merespons positif: "Kalau fungsinya hanya sebagai alat tambahan... itu masuk akal." | Sedang → Tinggi (Budi merasa standarnya tdk dirusak/diancam). | Mendorong *Action* percobaan uji materi, meski butuh panduan prosedural. |
+| Diri Sendiri | Validasi empati internal: "Wajar kalau kepala rasanya berat..." & "Gue sadar otak mulai jenuh..." (U005) | Perlawanan kognitif mereda tanpa menurunkan tuntutan mutu. | Sedang → Tinggi (Diri mhs lbh mau kompromi/koperasi). | Memunculkan kesadaran utk memadukan bahasa empati di dlm *self-talk*. |
+
+## Uji ulang dan pembelajaran
+
+Uji ulang direspons dengan penguatan eksekusi yang nyata (U005): Tidak sekadar negosiasi batin lagi, melainkan mahasiswa menciptakan prosedur konkret ganda. Pertama, adaptasi *Skill* melalui *physical barrier* (menelungkupkan HP 2 meter dari jarak pandang). Kedua, *cognitive breaking* dengan limitasi ringkasan spesifik ("3 poin per halaman") yang memodifikasi *knowledge* tentang standar pencapaian belajar tanpa menurunkan mutunya, persis seperti penawaran kepada Budi.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U002: "Mampu memahami... < 45 menit, serta mampu menjelaskan ulang... lugas tanpa melihat catatan." | Indikator ditetapkan sangat spesifik, terukur, dan batas waktu konkrit (SMART). |
+| Persepsi dan validasi profil/status | 4 | U005: "Aku perlu membawa sedikit gaya komunikasi 'empati Budi' ke dalam self-talk." | Mampu membaca bahwa batinnya sama seperti karakter profil Budi: perlu keamanan atas standar. |
+| Pemilihan dan urutan repertoar | 4 | U005: "Layar HP diposisikan telungkup... Stop. Tangan balik ke meja... breakdown 1 halaman ini jadi 3 poin..." | Mengurutkan pemutusan stimulus instan (HP jauh) kmd intervensi pemikiran (poin), urutan tepat. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U004: "Gua sama sekali gak minta lu buang atau ganti cara belajar lu... sifatnya bukan buat menggantikan..." | Pesan asertif namun dipenuhi penghormatan atas pilihan & preferensi target (baik diri maupun Budi). |
+| Evaluasi dan adaptasi | 4 | U005: "Daripada hanya memaksakan durasi bertahan, aku perlu menegaskan bahwa pemahaman bertahap (potongan kecil) tidak akan menurunkan kualitas..." | Mampu menyeberangkan pelajaran *handling* karakter lain (Budi) ke taktik manajemen dirinya sendiri secara sadar. |
+| Refleksi dan lesson learned | 4 | U006: "Cara kita berbicara kepada orang lain... sering kali jauh lebih bijak daripada cara kita menuntut diri sendiri secara transaksional." | *Lesson learned* sangat mendalam, memutarbalikkan asumsi bahwa disiplin diri hrs kejam. |
+
+*(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi dialog (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi dan kalibrasi Dosen Pengampu).*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pelajaran utama mahasiswa (U006) adalah bahwa *"Cara kita berbicara kepada orang lain yang penuh empati, validasi, dan penawaran risiko rendah sering kali jauh lebih bijak daripada cara kita menuntut diri sendiri secara transaksional."* Mahasiswa menyadari bahwa mengintegrasikan bahasa empati ke dalam *self-talk* justru membuat diri sendiri jauh lebih mau diajak berkooperasi (kompromi belajar) tanpa harus merendahkan atau mengorbankan standar mutu dari materi yang dikerjakan.
+
+## Tindak lanjut dan batas bukti
+
+- **Langkah & Waktu:** Menerapkan metode hibrida (menjauhkan HP 2 meter & teknik 3 poin ringkasan) pada 3 sesi belajar mandiri berikutnya selama 1 minggu ke depan (U006).
+- **Indikator & Evaluasi:** Mencatat jumlah godaan/impuls untuk kembali meraih HP serta mengecek apakah target ringkasan 3 poin per halaman tereksekusi utuh dengan standar baik (U006).
+- **Batas Bukti:** Asesmen teks di lingkungan simulasi ini mendemonstrasikan perubahan pola pikir kognitif (*Knowledge/Attitude*) dan penyusunan skenario *Skill*, namun ketahanan implementasinya yang sejati baru dapat dibuktikan dalam kehidupan nyata satu minggu ke depan.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.

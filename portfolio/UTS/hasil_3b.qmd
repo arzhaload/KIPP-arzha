@@ -1,0 +1,210 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3b — Kasus 3"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Ammar Zharif Fakhrudin |
+| NIM | 18225007 |
+| Kelas dan tanggal | II2100 Komunikasi Interpersonal dan Publik K-01; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3b; Kasus 3 (Menawarkan Solusi TI dan AI) |
+| Nama dan ID target | Fajar (K3-06) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Fiktif (Simulasi penawaran solusi TI/AI secara cepat, pragmatis, dan impact-first) |
+| Kelengkapan transkrip | Lengkap |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+- **Konteks Kasus:** Fajar adalah seorang pengelola usaha yang sangat pragmatis dan berorientasi pada hasil cepat. Ia menghadapi penumpukan pesan dan pesanan tercecer, namun sangat menghargai waktu dan enggan mendengarkan penjelasan teoritis yang panjang atau prosedur baru yang rumit.
+- **Tujuan Tindakan:** Menyampaikan nilai efisiensi solusi TI/AI secara ringkas (*impact-first communication*) tanpa jargon teknis, serta mengamankan kesepakatan uji coba langsung (*live pilot* 3 hari) yang minim prosedur dan bebas komitmen rumit.
+- **Indikator Keberhasilan:**
+  1. Fajar menyetujui demonstrasi singkat (*live demo*) berdurasi di bawah 3 menit tanpa memotong pembicaraan.
+  2. Fajar menyetujui uji coba gratis 3 hari tanpa perlu menginstal aplikasi baru atau mengisi formulir administrasi yang panjang.
+  3. Terbukti adanya potensi pemangkasan waktu rekapitulasi pesanan harian secara instan (dari 2 jam menjadi 0 detik).
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Kekuatan: Komunikasi lugas, pragmatis, & *impact-oriented*.<br>Kelemahan: Risiko penolakan instan jika terlalu bertele-tele.<br>Peluang: Pemangkasan 2 jam waktu operasional harian Fajar.<br>Ancaman: Penolakan jika solusi dianggap menambah beban baru (*overhead*). | U002 | Laporan Diri |
+| Attitude | Pragmatis, tangkas, menghargai waktu klien, dan berfokus pada hasil kuantitatif (*result-driven*). | U002 | Laporan Diri |
+| Knowledge | Paham arsitektur otomatisasi *chat*, *auto-flagging*, dan mekanisme *1-click manual override*. | U002 | Laporan Diri |
+| Skill | Mampu melakukan *impact-first pitch*, *2-minute live demo*, dan perancangan *fallback system* di lapangan. | U002 | Laporan Diri |
+| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa penyedia solusi TI yang adaptif, komunikatif, dan responsif terhadap dinamika lapangan. | U002 | Laporan Diri |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Mengadopsi rekap otomatis & efisiensi waktu operasional. | A: Menghargai waktu & hilangkan basa-basi. | Pertanyaan *impact-first* (2 jam jd 0 detik). | Persetujuan peragaan 1 menit. |
+| Attention | Tidak sabar & menuntut manfaat langsung (*Threat*). | K: Penjelasan 3 poin instan tanpa jargon. | Paparan 3 manfaat: Rekap otomatis, 0 tercecer, & *plug-and-play*. | Antusiasme mendengarkan demo. |
+| Interest | Setuju peragaan 1 menit. | K/S: Peragaan *black-box approach* (langsung ke hasil). | Tampilan rekapan otomatis dari *chat* contoh. | Minat lanjut ke pembahasan keandalan. |
+| Desire | Khawatir *typo* parah & pesanan berubah di jalan. | S: *Sistem Kontrol 3 Lapis* (*Verifikasi*, *Lampu Kuning*, *Override 1-Klik*). | Penjelasan *auto-flagging* & tombol *edit/batal* 1-klik. | Rasa aman & persetujuan uji coba 3 hari. |
+| Action | Siap eksekusi uji coba gratis 3 hari mulai besok. | S: Pengaktifan sistem *plug-and-play*. | Penjadwalan *pilot run* 3 hari tanpa administrasi. | Kesepakatan eksekusi *pilot run*. |
+
+# C) Skrip Percakapan
+
+**[Tahap A: Identifikasi]**
+
+**U001 (Mahasiswa):**
+Ammar Zharif Fakhrudin
+18225007
+II2100 Komunikasi Interpersonal dan Publik K-01
+14 Oktober 2026
+teks
+
+**AI001 (Simulator):**
+Data identitas Anda untuk Sesi 3b terkonfirmasi.
+--- Tahap B: Kasus dan Tujuan ---
+Brief Kasus 3b (Kasus 3: Menawarkan Solusi TI dan AI — Target: Fajar)...
+Silakan lengkapi perencanaan Anda dengan menjawab tiga pertanyaan...
+
+**[Tahap B: Rencana dan Diagnosis]**
+
+**U002 (Mahasiswa):**
+Tahap B: Kasus dan Tujuan (Kasus 3b)
+1. Tujuan & Indikator Keberhasilan...
+2. Dugaan Profil Target — Fajar (Status Awal)...
+3. Rencana Awal (TAIDA)...
+
+**[Tahap C: Simulasi Awal]**
+
+**AI002 (Simulator):**
+Rencana awal dan dugaan profil Fajar (SWOT dan ASK) telah dicatat dengan baik.
+--- Tahap C: Simulasi Awal ---
+Fajar adalah seorang pengelola usaha yang sangat pragmatis, berfokus pada hasil cepat, dan menghargai efisiensi waktu di atas segalanya...
+Fajar: "Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu."
+
+**U003 (Mahasiswa):**
+"Bisa banget, Mas Fajar. Singkatnya: 2 jam waktu Mas Fajar dan tim yang terbuang tiap hari cuma buat ketik ulang pesanan dan balesin chat berulang, langsung dipotong jadi 0 detik.
+Manfaat nyatanya ada 3 poin instan:
+1. Rekap Pesanan Otomatis: Setiap pesanan yang masuk lewat chat langsung terekap rapi ke lembar laporan tanpa perlu diketik ulang manual.
+2. Nol Pesanan Tercecer: Riwayat pesanan dan status pembayaran terkunci otomatis di satu layar, jadi gak ada lagi salah rekap saat ramai.
+3. Langsung Pakai: Mas Fajar dan tim tidak perlu download aplikasi baru atau belajar sistem rumit—staf tinggal terima rekapannya.
+Saya cuma butuh 1 menit buat peragakan rekapan otomatis ini berjalan langsung dari contoh chat pesanan toko Mas Fajar. Boleh saya tunjukkan sekarang?"
+
+**AI003 (Simulator):**
+Fajar: "Nah, ini baru gaya bicara yang saya suka: langsung ke dampak! Boleh, tunjukkan 1 menit peragaannya sekarang. Kalau beneran otomatis terekap tanpa staf saya harus ketik ulang, ini jelas memotong waktu operasional banget."
+--- Tahap D & E: Evaluasi Sementara & Uji Ulang ---
+1. Evaluasi Status & Adaptasi...
+2. Skenario Uji Ulang: Bayangkan setelah peragaan 1 menit selesai dan data terekap rapi, Fajar terkesan namun langsung mengajukan kendala realistis khas pelaksana lapangan...
+
+**U004 (Mahasiswa):**
+Evaluasi & Skenario Uji Ulang (Kasus 3b)
+1. Evaluasi Status & Adaptasi Fajar
+- Perubahan Status: Fajar bertransformasi dari tidak sabar dan skeptis terhadap obrolan bertele-tele menjadi tertarik dan berfokus pada uji fungsi operasional...
+- Efektivitas Pendekatan pada ASK & SWOT: Attitude terburu-buru jd kooperatif; Knowledge paham black-box approach; Skill paham alur instan; SWOT ancaman terbuang waktu jd peluang rekap cepat.
+2. Respons Konkret pada Skenario Uji Ulang
+"Pertanyaan tajam dan sangat realistis, Mas Fajar! Ini memang masalah lapangan yang wajib dikunci supaya tidak bikin rusuh di bagian penyiapan/dapur.
+Untuk mengatasi typo, bahasa gaul, atau perubahan pesanan mendadak, kita pakai Sistem Kontrol 3 Lapis (Nol Waktu Buang):
+1. Verifikasi Otomatis 1-Pesan: Sebelum rekap dikunci, sistem otomatis mengirimkan 1 pesan ringkasan ke pelanggan ('Sip, total 2 Porsi Bakmi & 1 Es Teh, betul ya?'). Kalau pelanggan mengubah rincian di chat, AI langsung memperbarui draf rekapnya secara otomatis.
+2. Fitur 'Lampu Kuning' (Auto-Flagging): Jika ada typo ekstrem atau kalimat yang kepastiannya ragu, sistem memberi tanda warna kuning di layar rekap. Staf Mas Fajar cuma butuh 2 detik melirik dan tekan tombol 'Setuju'.
+3. Jalur Darurat (Manual Override 1-Klik): Kalau pelanggan mendadak batal atau ubah pesanan di tengah jalan, staf Mas Fajar tinggal tekan tombol 'Edit/Batal' di layar rekap. Datanya langsung terbarui seketika tanpa bikin sistem hang.
+Dengan 3 benteng ini, data yang masuk ke penyiapan dijamin aman dan staf Mas Fajar tetap tidak buang waktu buat mengetik dari awal. Gimana, Mas Fajar, alur kontrol cepat ini sudah sesuai dengan standar keamanan di lapangan?"
+
+**[Tahap F & G: Evaluasi Akhir dan Konfirmasi]**
+
+**AI004 (Simulator):**
+Fajar: "Sistem lampu kuning dan override 1-klik itu solusi yang sangat praktis di lapangan!... Kalau penanganannya setangkas ini dan ada benteng pengamannya, saya siap eksekusi uji coba gratis 3 hari mulai besok."
+--- Tahap F & G: Hasil/Refleksi dan Konfirmasi ---
+Pertanyaan Refleksi Akhir:
+1. Perubahan SWOT & ASK...
+2. Pencapaian & Lesson Learned...
+3. Tindak Lanjut Konkret...
+
+**U005 (Mahasiswa):**
+Tahap F & G: Hasil/Refleksi dan Konfirmasi Data (Kasus 3b)
+1. Perubahan Status SWOT & ASK (Penilaian Akhir Fajar)
+- Relasional & SWOT: Rasa Aman & Kepercayaan meningkat sangat cepat... Eksekusi uji coba gratis 3 hari yang efisien.
+- Elemen ASK: Attitude optimis & siap uji coba; Knowledge paham pemangkasan waktu & mekanisme kontrol; Skill paham alur verifikasi & override.
+2. Pencapaian & Lesson Learned: Mengabaikan jargon teknis dan langsung memaparkan dampak kuantitatif (impact-first communication)...
+3. Tindak Lanjut Konkret & Cara Evaluasi: Impact & Demo in 2 Minutes & evaluasi 3 hari dgn 3 metrik efisiensi.
+Konfirmasi Data Laporan Sesi 3b: Data sudah benar dan terkonfirmasi...
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+*Tujuan asesmen tercapai sepenuhnya secara efisien. Klien tipe pragmatis berhasil dikonversi menjadi pengguna uji coba gratis 3 hari hanya dalam interaksi singkat yang to-the-point.*
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Merasa terancam buang waktu (*Threat*), alergi teori rumit. | Merasa puas (*Strength*), melihat efisiensi pemangkasan 2 jam (*Opportunity*). | U003, U005 | Laporan simulasi & refleksi. |
+| Attitude | Tidak sabar, terburu-buru, skeptis pada penjelasan panjang. | Optimis, sangat kooperatif, dan antusias mengeksekusi *pilot run*. | U003 → U004 | Bukti perubahan tuturan Fajar. |
+| Knowledge | Belum paham cara kerja rekap otomatis & penanganan *typo* lapangan. | Memahami konsep *impact-first* & mekanisme *Sistem Kontrol 3 Lapis*. | U003, U004 | Kesepakatan alur efisiensi. |
+| Skill | Menuntut sistem yang *plug-and-play* tanpa *learning curve*. | Mampu mengarahkan staf menggunakan *1-click override* saat *typo*. | U004 | Solusi kontrol lapangan yang disetujui. |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| Pembuka (U003) | Fajar menuntut manfaat langsung secara tegas & cepat. | *Impact-first pitch*: "2 jam dipangkas jadi 0 detik" & tawaran demo 1 menit. | Fajar sangat mengapresiasi gaya bicara langsung & menyetujui demo. | A: Defensivitas luluh krn waktunya dihargai. | Menyajikan demo ringkas tanpa slide. |
+| Solution Pitch (U003) | Fajar meminta pembuktian rekapan otomatis. | 3 manfaat instan: Rekap otomatis, 0 tercecer, & *plug-and-play*. | Fajar memberikan lampu hijau peragaan 1 menit. | K: Memahami nilai guna tanpa perlu paham algoritma. | Mengunci ketertarikan pada efisiensi. |
+| Uji Ulang (U004) | Fajar khawatir timbul kekacauan akibat *typo* & perubahan pesanan. | *Sistem Kontrol 3 Lapis*: Verifikasi 1-Pesan, *Auto-Flagging*, & *1-Click Override*. | Fajar sangat puas & menyetujui uji coba 3 hari mulai besok. | S: Rasa aman tinggi terhadap keandalan sistem di lapangan. | Mengamankan eksekusi *pilot run*. |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 | "Bisa banget, Mas Fajar. Singkatnya: 2 jam waktu Mas Fajar dan tim yang terbuang... langsung dipotong jadi 0 detik." | Fajar: *"Nah, ini baru gaya bicara yang saya suka: langsung ke dampak!"* | Rendah → Tinggi (Penghargaan atas efisiensi waktunya). | Menjalin kepercayaan seketika melalui kesamaan ritme. |
+| U004 | "Pertanyaan tajam dan sangat realistis, Mas Fajar! Ini memang masalah lapangan yang wajib dikunci..." | Fajar: *"Sistem lampu kuning dan override 1-klik itu solusi yang sangat praktis... Mantap, Ammar!"* | Sedang → Sangat Tinggi (*Trust* pada kepraktisan solusi). | Menghilangkan keraguan lapangan & memicu *Action*. |
+
+## Uji ulang dan pembelajaran
+
+Pada skenario uji ulang (U004), Fajar menantang keandalan sistem terhadap dinamika *typo* dan perubahan pesanan pelanggan di lapangan. Mahasiswa merespons dengan adaptasi yang sangat klop terhadap profil Fajar (ESTP/pelaksana lapangan): memberikan solusi bertingkat yang tidak memperlambat alur kerja, yaitu *Auto-Flagging* ("Lampu Kuning") dan *Manual Override 1-Klik*. Respon Fajar yang langsung menyetujui *pilot run* membuktikan bahwa pendekatan komunikatif yang tangkas dan berfokus pada kendali praktis sangat efektif bagi tipe komunikator pragmatis.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U002: "Menyampaikan nilai efisiensi... mengamankan kesepakatan uji coba langsung..." | Target sangat terukur, selaras dengan kebutuhan efisiensi Fajar. |
+| Persepsi dan validasi profil/status | 4 | U003: "2 jam waktu Mas Fajar... langsung dipotong jadi 0 detik." | Sangat jeli membaca profil Fajar yang butuh dampak cepat tanpa basa-basi. |
+| Pemilihan dan urutan repertoar | 4 | U003 & U004: "3 poin instan... Sistem Kontrol 3 Lapis (Nol Waktu Buang)..." | Urutan poin sangat padat, lugas, dan berfokus pada eksekusi lapangan. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U003 & U004: "Bisa banget, Mas Fajar... Pertanyaan tajam dan sangat realistis..." | Menghargai waktu Fajar, komunikatif, dan menyajikan solusi yang tangkas. |
+| Evaluasi dan adaptasi | 4 | U004: "1. Verifikasi Otomatis... 2. Auto-Flagging... 3. Manual Override 1-Klik..." | Sangat cepat dan solutif merancang mitigasi risiko *typo* di lapangan. |
+| Refleksi dan lesson learned | 4 | U005: "Kunci utamanya adalah mengabaikan jargon teknis dan langsung memaparkan dampak kuantitatif..." | Refleksi teoretis dan praktis yang sangat tajam mengenai tipe klien pragmatis. |
+
+*(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pelajaran terbesar mahasiswa adalah **saat berkomunikasi dengan tipe klien pelaksana lapangan yang sangat pragmatis, hal yang paling efisien adalah mengabaikan jargon teknis dan langsung memaparkan dampak kuantitatif (*impact-first communication*)**. Klien tipe ini tidak peduli seberapa canggih algoritma di balik layar; mereka hanya peduli pada tiga hal: berapa banyak waktu/biaya yang dihemat, seberapa mudah staf menggunakannya, dan bagaimana cara mengatasi kendala jika terjadi kesalahan di lapangan.
+
+## Tindak lanjut dan batas bukti
+
+- **Langkah Konkret:** Menyusun draf presentasi berformat *Impact & Demo in 2 Minutes* yang selalu dilengkapi skema *3-Tier Emergency Control* (*Verifikasi Otomatis*, *Lampu Kuning*, dan *Override 1-Klik*) untuk penawaran solusi TI/AI ke klien tipe praktisi lapangan.
+- **Cara Evaluasi:** Mengukur metrik efisiensi selama uji coba 3 hari berdasarkan: (1) Durasi waktu rekapitulasi harian yang dipangkas, (2) Akurasi rekapitulasi otomatis >90%, dan (3) Tingkat kepuasan staf terhadap tombol *override 1-klik*.
+- **Batas Bukti:** Simulasi berbasis teks ini menunjukkan efisiensi negosiasi bisnis yang sangat tinggi, namun keberhasilannya di dunia nyata diukur dari tingkat adopsi harian dan retensi sistem oleh staf lapangan.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.

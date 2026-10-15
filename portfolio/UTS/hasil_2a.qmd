@@ -1,0 +1,220 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 2a — Kasus 2"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Ammar Zharif Fakhrudin |
+| NIM | 18225007 |
+| Kelas dan tanggal | II2100 Komunikasi Interpersonal dan Publik K-01; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 2a; Kasus 2 (Persahabatan dan Profesionalitas) |
+| Nama dan ID target | Dimas (K2-04) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Fiktif (Simulasi penanganan konflik tugas kelompok dan persahabatan) |
+| Kelengkapan transkrip | Lengkap |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+- **Konteks Kasus:** Tenggat tugas kelompok tinggal 48 jam lagi. Bagian analisis Dimas belum dikirim karena ia merasa pembagian kerja tidak adil dan dipersulit oleh dependensi *input* data mentah yang berantakan dari rekan sekelompok.
+- **Tujuan Tindakan:** Mengajak Dimas berdiskusi secara terbuka tanpa konfrontasi defensif, memahami kendala teknis dan persepsinya, serta menyepakati pembagian ulang tugas dan *scope boundaries* yang realistis dalam sisa waktu 48 jam tanpa merusak persahabatan.
+- **Indikator Keberhasilan:**
+  1. Dimas bersedia membagikan kendala utamanya secara jujur tanpa merasa disudutkan.
+  2. Terciptanya komitmen baru berupa draf/poin kontribusi Dimas yang disepakati bersama dan selesai dalam 24–36 jam.
+  3. Hubungan persahabatan tetap terjaga hangat tanpa canggung pascadiskusi.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Kekuatan: Hubungan persahabatan dasar (*trust*).<br>Kelemahan: Potensi memicu emosi jika dianggap menuntut.<br>Peluang: Sisa 48 jam cukup jika disederhanakan.<br>Ancaman: *Defensiveness* atau *silent treatment*. | U002 | Laporan Diri |
+| Attitude | Proaktif, berempati pada hubungan persahabatan, objektif dalam memecahkan konflik. | U002 | Laporan Diri |
+| Knowledge | Paham tenggat waktu kelompok dan struktur tugas umum. | U002 | Laporan Diri |
+| Skill | Mampu melakukan resolusi konflik dan penyusunan *action plan* terstruktur. | U002 | Laporan Diri |
+| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa anggota kelompok yang menghargai akuntabilitas dan empati persahabatan. | U002 | Laporan Diri |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Menyelesaikan tugas analisis & menjaga persahabatan. | A & S: Rasa aman dan kejelasan batasan. | Pendekatan pribadi non-konfrontatif. | Keterbukaan alasan keterlambatan. |
+| Attention | Bertanya kritis & skeptis. | A: Validasi emosi & otonomi. | "Ini bukan soal siapa yang paling benar..." | Penurunan defensivitas. |
+| Interest | Merasa rugi krn *input* data berantakan. | K: Memperjelas *interface/pipeline*. | Mengakui kesalahan *input* & menawarkan *data freeze*. | Respons positif & diskusi teknis. |
+| Desire | Ingin beban kerja realistis & mandiri. | S: Menyederhanakan indikator analisis. | Menyepakati 2-3 indikator utama & penguncian data. | Persetujuan draf analisis 24 jam. |
+| Action | Siap eksekusi analisis mandiri. | S: Dukungan teknis *troubleshooting*. | Penanganan berkas *unformatted* dlm 15 menit. | Pengiriman hasil analisis tepat waktu. |
+
+# C) Skrip Percakapan
+
+**[Tahap A: Identifikasi]**
+
+**U001 (Mahasiswa):**
+Ammar Zharif Fakhrudin
+18225007
+II2100 Komunikasi Interpersonal dan Publik K-01
+14 Oktober 2026
+teks
+
+**AI001 (Simulator):**
+Data identitas Anda untuk Sesi 2a terkonfirmasi.
+--- Tahap B: Kasus dan Tujuan ---
+Brief Kasus 2a (Kasus 2: Persahabatan dan Profesionalitas)...
+Silakan lengkapi perencanaan Anda dengan menjawab tiga pertanyaan...
+
+**[Tahap B: Rencana dan Diagnosis]**
+
+**U002 (Mahasiswa):**
+Tahap B: Kasus dan Tujuan (Kasus 2a)
+1. Tujuan & Indikator Keberhasilan...
+2. Dugaan Profil Target — Dimas (Status Awal)...
+3. Rencana Awal (TAIDA)...
+
+**[Tahap C: Simulasi Awal]**
+
+**AI002 (Simulator):**
+Rencana awal dan dugaan profil Dimas (SWOT dan ASK) telah dicatat.
+--- Tahap C: Simulasi Awal ---
+Tenggat tugas kelompok tinggal 48 jam lagi. Bagian analisis Dimas belum masuk dan ia merasa pembagian kerja tidak adil. Anda menghubungi Dimas secara pribadi...
+Dimas: "Apa bukti pendekatan ini lebih baik?"
+
+**U003 (Mahasiswa):**
+"Dim, sebentar, ini bukan soal membuktikan pendekatan siapa yang lebih baik atau siapa yang paling benar kok. Gue nge-chat pribadi ke lu bukan buat ngatur-ngatur atau ngejar-ngejar tenggat kayak bos.
+Gue jangkau lu karena lu kawan gue, dan gue sadar lu merasa pembagian kerja di tugas ini kurang adil buat lu. Gue beneran mau denger perspektif lu. Coba cerita ke gue, bagian mana dari pembagian kemarin yang bikin lu merasa gak adil atau kewalahan?
+Sisa waktu kita tinggal 48 jam. Gue mau kita cari jalan keluar bareng yang bikin lu nyaman dan beban kita semua masuk akal, tanpa merusak persahabatan kita. Gimana menurut lu?"
+
+**AI003 (Simulator):**
+Dimas: "Gue hargai lu mau ngobrol dingin kayak gini, Ammar. Gue bukannya mau lepas tanggung jawab, tapi mari lihat faktanya secara objektif. Bagian analisis yang ditugasin ke gue itu punya dependensi tinggi sama data mentah dari kalian. Format data dari bagian sebelum gue masih berubah-ubah dan gak punya batasan (interface) yang jelas. Akhirnya porsi pengerjaan gue jadi berlipat ganda karena harus benerin input dulu sebelum bisa mulai analisis. Kalau dependensi dan batasan antartugas ini gak ditegasin dulu, dikasih waktu berapa jam pun bakal tetep hambat. Menurut lu, gimana cara kita bikin batasan kerja yang jelas buat sisa 48 jam ini?"
+
+**U004 (Mahasiswa):**
+"Dim, thank you banget udah blak-blakan. Penjelasan lu rasanya logis dan masuk akal banget. Gue minta maaf ya kalau dari bagian kami kemarin input datanya masih berantakan dan berubah-ubah—gue paham banget itu bikin porsi kerjaan lu jadi berlipat ganda dan bikin frustrasi.
+Berarti masalah utamanya jelas ya: bottleneck ada di batasan (interface) data yang belum terkunci.
+Buat sisa 48 jam ini, gue usul 3 langkah konkret buat langsung mengunci batasannya:
+1. Kunci Data Mentah (Freeze Input): Dalam 2 jam ke depan, gue dan tim bakal finalisasi dan kuncikan format data mentah yang fix. Setelah ini, gak bakal ada perubahan data lagi yang masuk ke bagian lu.
+2. Perjelas Batasan (Scope Boundaries): Lu gak perlu benerin input yang berantakan lagi. Tugas lu fokus murni di analisis data yang udah kita kuncikan. Bagian data yang kurang rapi biarlah jadi tanggung jawab gue buat rapiin sekarang.
+3. Pangkas Beban Analisis: Kita pangkas ruang lingkup analisisnya jadi 2-3 poin indikator utama aja yang paling krusial buat ngejar deadline, biar pengerjaannya realistis beres dalam 24 jam ke depan.
+Gimana menurut lu, Dim? Kalau poin-poin batasan ini udah pas buat lu, gue langsung eksekusi rapiin datanya sekarang biar lu bisa mulai analisis dengan tenang."
+
+**[Tahap D & E: Evaluasi Sementara dan Uji Ulang]**
+
+**AI004 (Simulator):**
+Dimas: "Usul lu sangat konkret dan logis, Ammar. Kalau data mentahnya beneran dikunci dalam 2 jam dan lu yang handle kerapian input-nya, rantai dependensinya jadi bersih. Dengan batasan 2–3 indikator utama, ruang lingkup analisisnya sangat realistis buat selesai dalam 24 jam ke depan. Gue siap kerjain bagian ini secara mandiri. Kita sepakati draf analisis masuk 24 jam setelah data fix lu kirim ya."
+--- Tahap D & E: Evaluasi Sementara & Uji Ulang ---
+1. Evaluasi Status & Adaptasi...
+2. Skenario Uji Ulang: Bayangkan 12 jam setelah data fix dikirim, Dimas kembali menghubungi Anda dengan kendala teknis baru...
+
+**U005 (Mahasiswa):**
+Evaluasi & Skenario Uji Ulang (Kasus 2a)
+1. Evaluasi Status & Adaptasi Dimas
+- Perubahan Status: Dimas bertransformasi dari defensif dan skeptis menjadi sangat kooperatif karena pendekatannya berfokus pada pemecahan masalah objektif, bukan penudingan personal...
+- Efektivitas Pendekatan pada ASK & SWOT: Attitude reda... Knowledge & Skill jelas... SWOT risiko berubah jd Opportunity.
+2. Respons Konkret pada Skenario Uji Ulang
+"Mantap, Dim! Thank you udah langsung konfirmasi pas nemu hambatan ini, jadi gak nahan progres lu.
+Biar tetep sesuai batasan kerja kita kemarin dan gak nambah beban lu, usul gue gini:
+1. Gue yang Beresin (Pilihan Cepat): Kirim nama berkasnya ke gue sekarang. Dalam 15 menit bakal gue samain formatnya sesuai interface utama, lalu gue kirim balik.
+2. Pakai Acuan Ini (Kalau Lu Mau Jalan Sendiri): Kalau mau langsung lu sesuaikan sendiri, lu cukup samakan nama kolomnya dengan berkas utama di template Acuan_Format.xlsx yang ada di folder bersama.
+Rekomendasi gue, biar lu tetep fokus murni di skrip analisis tanpa terdistraksi hal teknis begini, mending berkasnya kirim ke gue sekarang biar gue rapiin secepatnya. Gimana, Dim?"
+
+**[Tahap F & G: Evaluasi Akhir dan Konfirmasi]**
+
+**AI005 (Simulator):**
+Dimas: "Sip, Ammar! Gue kirim nama berkasnya ke lu sekarang ya biar lu yang rapiin 15 menit..."
+--- Tahap F & G: Hasil/Refleksi dan Konfirmasi ---
+Pertanyaan Refleksi Akhir:
+1. Perubahan SWOT & ASK...
+2. Pencapaian & Lesson Learned...
+3. Tindak Lanjut Konkret...
+
+**U006 (Mahasiswa):**
+Tahap F & G: Hasil/Refleksi dan Konfirmasi Data (Kasus 2a)
+1. Perubahan SWOT & ASK (Penilaian Akhir Dimas)
+- Relasional & SWOT: Rasa Aman & Kepercayaan mengalami peningkatan signifikan...
+- Elemen ASK: Attitude kooperatif; Knowledge paham interface; Skill eksekusi mandiri.
+2. Pencapaian & Lesson Learned: Kunci utama adalah memisahkan masalah dari orangnya (separate the people from the problem)...
+3. Tindak Lanjut Konkret & Evaluasi: Membuat dokumen Interface & Contract Rules sederhana di awal proyek...
+Konfirmasi Data Laporan Sesi 2a: Data sudah benar dan terkonfirmasi...
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+*Tujuan asesmen tercapai sepenuhnya. Komunikasi berjalan tanpa hambatan emosional, batasan teknis disepakati, dan komitmen pekerjaan selesai tepat waktu.*
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Merasa terancam beban berlipat (*Threat*), ragu akan keadilan tim. | Merasa berdaya (*Strength*), melihat kejelasan *pipeline* sebagai *Opportunity*. | U004, U006 | Laporan simulasi & refleksi. |
+| Attitude | Skeptis, defensif, takut dieksploitasi beban tugas. | Kooperatif, proaktif, dan berkomitmen tinggi. | U003 → U004 | Bukti perubahan tuturan Dimas. |
+| Knowledge | Kurang memahami alasan data berantakan, bingung *pipeline*. | Memahami *scope boundaries* dan kontrak *interface* data. | U004 | Kesepakatan teknis. |
+| Skill | Terhambat memformat data mentah sebelum analisis. | Mampu fokus eksekusi skrip analisis secara mandiri. | U005 | Demonstrasi penanganan uji ulang. |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| Pembuka (U003) | Dimas bertanya skeptis: *"Apa bukti pendekatan ini lebih baik?"* | Validasi empati persahabatan & minta perspektif Dimas tanpa menghakimi. | Dimas terbuka menjelaskan *bottleneck* data mentah (A/K membaik). | A: Skeptisisme berkurang krn merasa didengar. | Fokus diubah dari perdebatan ke analisis *pipeline*. |
+| Negosiasi (U004) | Dimas menuntut kejelasan batasan kerja (*interface*). | Menawarkan 3 solusi: *Input freeze* 2 jam, *taking over* perapian data, & pemangkasan *scope*. | Dimas menyetujui komitmen draf 24 jam. | K/S: Batasan kerja menjadi jelas dan realistis. | Menyepakati *Action plan* konkret. |
+| Uji Ulang (U005) | Dimas nemu berkas *unformatted* di pertengahan jalan. | Memberikan 2 opsi cepat: perapian 15 menit oleh mahasiswa atau acuan *template*. | Dimas memilih opsi perapian cepat 15 menit. | S: *Troubleshooting* tanpa mengganggu jadwal analisis. | Mengamankan *pipeline* hingga tuntas. |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 | "Gue nge-chat pribadi ke lu bukan buat ngatur-ngatur... Gue jangkau lu karena lu kawan gue..." | Dimas: *"Gue hargai lu mau ngobrol dingin kayak gini, Ammar."* | Rendah → Tinggi (Defensivitas runtuh seketika). | Membuka *Attitude* untuk negosiasi rasional. |
+| U004 | "Gue minta maaf ya kalau dari bagian kami kemarin input datanya masih berantakan..." | Dimas: *"Usul lu sangat konkret dan logis... Gue siap kerjain..."* | Sedang → Sangat Tinggi (*Trust* pada profesionalitas tim). | Mengubah status dari penolakan menjadi *Action*. |
+
+## Uji ulang dan pembelajaran
+
+Pada skenario uji ulang (U005), Dimas menghadapi hambatan teknis berupa satu berkas pendukung dengan format berbeda. Mahasiswa memperlihatkan adaptasi *Skill* dan *Attitude* yang sangat konsisten: alih-alih menyalahkan Dimas atau menyerahkan seluruh kerumitan padanya, mahasiswa menawarkan tanggung jawab konkret (*taking over* perapian format dalam 15 menit) sambil memberikan opsi acuan mandiri. Respons Dimas sangat kooperatif, membuktikan retensi kepercayaan dan kelancaran eksekusi *pipeline*.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U002: "Mengajak Dimas berdiskusi... memahami kendala... mencapai kesepakatan... dalam sisa waktu 48 jam." | Indikator sangat terukur, memperhatikan persahabatan & profesionalitas. |
+| Persepsi dan validasi profil/status | 4 | U003: "Gue sadar lu merasa pembagian kerja di tugas ini kurang adil... coba cerita ke gue..." | Tepat mengenali bahwa Dimas butuh validasi atas kerugian beban kerja (*interface*). |
+| Pemilihan dan urutan repertoar | 4 | U004: "1. Kunci Data Mentah... 2. Perjelas Batasan... 3. Pangkas Beban Analisis..." | Struktur penyelesaian masalah sangat sistematis dan rasional (sesuai profil Dimas). |
+| Eksekusi jelas, peduli dan konsisten | 4 | U003 & U004: "Gue minta maaf ya kalau dari bagian kami kemarin input datanya masih berantakan..." | Memisahkan persoalan teknis dari orangnya, penuh empati namun sangat tegas & jernih. |
+| Evaluasi dan adaptasi | 4 | U005: "Gue yang Beresin (Pilihan Cepat)... Pakai Acuan Ini (Kalau Lu Mau Jalan Sendiri)..." | Adaptasi cepat saat uji ulang, memberikan opsi solusi tanpa memindahkan beban berlebih. |
+| Refleksi dan lesson learned | 4 | U006: "Kunci utama mengelola konflik... adalah memisahkan masalah dari orangnya (separate the people from the problem)." | Refleksi teoretis dan praktis yang sangat matang mengenai hubungan kerja vs persahabatan. |
+
+*(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pelajaran terbesar mahasiswa adalah pentingnya **"memisahkan masalah dari orangnya" (*separate the people from the problem*)**. Validasi emosi dan empati dibutuhkan untuk menjaga persahabatan, namun kejelasan batasan (*scope & interface*) dibutuhkan untuk menjaga profesionalitas. Pendekatan objektif dan bertanggung jawab justru memperkuat hubungan emosional karena ada rasa saling menghormati atas kapasitas masing-masing.
+
+## Tindak lanjut dan batas bukti
+
+- **Langkah Konkret:** Selalu membuat dokumen *Interface & Contract Rules* sederhana di awal proyek kelompok untuk mengunci format data dan batasan tanggung jawab sebelum pekerjaan teknis dimulai.
+- **Cara Evaluasi:** Mengevaluasi alur kerja via *checkpoint* berkala singkat (5 menit obrolan santai) guna mendeteksi *bottleneck* sebelum berkembang menjadi konflik emosional.
+- **Batas Bukti:** Simulasi interaksi berbasis teks ini berhasil mendemonstrasikan kemampuan resolusi konflik dan negosiasi teknis secara prima, namun implementasi riil memerlukan konsistensi disiplin kerja dalam dinamika kelompok yang sesungguhnya.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.

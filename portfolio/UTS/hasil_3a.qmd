@@ -1,0 +1,225 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3a — Kasus 3"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Ammar Zharif Fakhrudin |
+| NIM | 18225007 |
+| Kelas dan tanggal | II2100 Komunikasi Interpersonal dan Publik K-01; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3a; Kasus 3 (Menawarkan Solusi TI dan AI) |
+| Nama dan ID target | Elsa (K3-05) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Fiktif (Simulasi penawaran solusi TI/AI dan mitigasi kekhawatiran operasional customer) |
+| Kelengkapan transkrip | Lengkap |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+- **Konteks Kasus:** Elsa adalah pengelola usaha yang menghadapi penumpukan pertanyaan pelanggan berulang (menu, harga, alamat) di jam sibuk (11.00–13.00 & 16.00–19.00) dan pesanan tercecer. Elsa sangat menjaga kualitas layanan dan khawatir penerapan AI/TI justru menyulitkan pelanggan atau staf senior yang kurang terampil menggunakan teknologi.
+- **Tujuan Tindakan:** Melakukan *discovery call* yang berfokus pada *pain points* operasional Elsa, meredakan keraguan terhadap teknologi AI dengan memaparkan nilai praktis yang proporsional (*human handoff*), serta mengarahkan percakapan menuju kesepakatan uji coba (*pilot project*/demo) tanpa risiko finansial.
+- **Indikator Keberhasilan:**
+  1. Elsa bersedia menceritakan alur penanganan pesanan dan titik kemacetan operasionalnya secara rinci tanpa merasa tertekan oleh istilah teknis.
+  2. Elsa memahami nilai konkret dari otomatisasi (penghematan jam kerja dan eliminasi risiko pesanan tercecer di jam sibuk).
+  3. Elsa menyepakati langkah konkret berupa peragaan produk (*demo session* 5 menit) dan uji coba skala kecil (*pilot run*) dalam kurun 3–5 hari ke depan.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Kekuatan: Empati pada kenyamanan customer & kepedulian staf.<br>Kelemahan: Risiko penolakan jika menyajikan istilah teknis rumit.<br>Peluang: Efisiensi tinggi di jam sibuk usahanya.<br>Ancaman: *Skeptisisme* akan hilangnya sentuhan personal. | U002 | Laporan Diri |
+| Attitude | Empatis, berfokus pada solusi bisnis yang praktis, suportif, dan transparan. | U002 | Laporan Diri |
+| Knowledge | Memahami arsitektur otomatisasi TI/AI, alur *human handoff*, dan manajemen operasional UMKM. | U002 | Laporan Diri |
+| Skill | Mampu melakukan *discovery call*, merancang *low-risk demo*, dan menyusun mitigasi kendala operasional staf. | U002 | Laporan Diri |
+| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa pemberi solusi teknologi yang mengutamakan kepedulian manusia (*human-centric technology*). | U002 | Laporan Diri |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Mengadopsi solusi otomatisasi & menjaga mutu layanan. | A: Validasi empati layanan manusia. | Sapaan ramah & apresiasi mutu usaha. | Keterbukaan menceritakan jam sibuk. |
+| Attention | Khawatir pelanggan/staf kesulitan (*Threat*). | A: Penyelarasan prinsip "teknologi tak terlihat". | "Teknologi itu seharusnya mempermudah..." | Penurunan kecemasan awal. |
+| Interest | Kewalahan di jam sibuk (11-13 & 16-19). | K: Penjelasan *Human Handoff* & pesan ramah. | Penguraian 2 solusi: Gaya ramah & deteksi otomatis. | Persetujuan peragaan 5 menit. |
+| Desire | Khawatir staf senior bingung sistem baru. | S: Skema mitigasi beban staf (Sistem 1-klik). | Opsi *Dashboard 1-klik*, *Cheatsheet*, & simulasi 10 mnt. | Rasa tenang & persetujuan *pilot project*. |
+| Action | Siap uji coba skala kecil minggu ini. | S: Pendampingan *live* hari pertama. | Penjadwalan *pilot run* bersama tim. | Kesepakatan jadwal uji coba. |
+
+# C) Skrip Percakapan
+
+**[Tahap A: Identifikasi]**
+
+**U001 (Mahasiswa):**
+Ammar Zharif Fakhrudin
+18225007
+II2100 Komunikasi Interpersonal dan Publik K-01
+14 Oktober 2026
+teks
+
+**AI001 (Simulator):**
+Data identitas Anda untuk Sesi 3a terkonfirmasi.
+--- Tahap B: Kasus dan Tujuan ---
+Brief Kasus 3a (Kasus 3: Menawarkan Solusi TI dan AI — Target: Elsa)...
+Silakan lengkapi perencanaan Anda dengan menjawab tiga pertanyaan...
+
+**[Tahap B: Rencana dan Diagnosis]**
+
+**U002 (Mahasiswa):**
+Tahap B: Kasus dan Tujuan (Kasus 3a)
+1. Tujuan & Indikator Keberhasilan...
+2. Dugaan Profil Target — Elsa (Status Awal)...
+3. Rencana Awal (TAIDA)...
+
+**[Tahap C: Simulasi Awal]**
+
+**AI002 (Simulator):**
+Rencana awal dan dugaan profil Elsa (SWOT dan ASK) telah dicatat dengan baik.
+--- Tahap C: Simulasi Awal ---
+Elsa adalah pengelola usaha yang menghadapi penumpukan pertanyaan pelanggan berulang serta pesanan yang rentan tercecer...
+Elsa: "Saya khawatir orang lain justru kesulitan kalau kita mengubah ini."
+
+**U003 (Mahasiswa):**
+"Kekhawatiran Ibu Elsa sangat bisa saya pahami dan justru menunjukkan betapa Ibu sangat peduli dengan kenyamanan pelanggan serta kestabilan kerja tim operasional. Saya sangat setuju: teknologi itu seharusnya mempermudah, bukan malah membebankan atau mengubah kebiasaan yang sudah nyaman.
+Prinsip utama yang kami pegang adalah teknologi yang baik itu idealnya 'tidak terlihat' oleh pelanggan. Dari sisi pelanggan, cara mereka memesan atau bertanya tetap sama persis seperti biasa—misalnya tinggal kirim chat WhatsApp tanpa perlu mengunduh aplikasi baru atau mempelajari alur yang rumit. Sementara untuk tim Ibu, sistem ini hanya bekerja di balik layar untuk membereskan pekerjaan administratif yang berulang.
+Supaya kita bisa melihat gambaran yang lebih rinci dan pas, boleh saya tahu sedikit alur operasional Ibu saat ini? Biasanya pada jam-jam berapa penumpukan chat pesanan itu paling sering terjadi, dan proses apa yang paling banyak menyita waktu serta energi staf Ibu setiap harinya?"
+
+**AI003 (Simulator):**
+Elsa: "Terima kasih ya sudah memahami kekhawatiran saya, Mas Ammar. Kalau soal penumpukan, biasanya terjadi pas jam makan siang (11.00–13.00) dan sore hari menjelang tutup (16.00–19.00). Pertanyaan yang masuk itu sebenarnya hampir sama semua: menanyakan daftar menu, harga, ketersediaan stok, dan alamat. Staf saya harus mengetik balasan yang sama berulang kali sambil mencatat pesanan satu per satu secara manual. Kalau lagi ramai banget, respons jadi lambat dan kadang ada pesanan yang ketumpuk atau terlewat. Nah, kalau dari penjelasan Mas Ammar tadi kan sistemnya bekerja di balik layar. Tapi yang masih bikin saya penasaran, bagaimana caranya supaya pesan otomatis itu tetap terasa ramah dan tidak kaku seperti robot? Lalu kalau pelanggan menanyakan hal khusus yang butuh penanganan manusia, bagaimana alur pengalihannya ke staf saya?"
+
+**U004 (Mahasiswa):**
+"Pertanyaan yang sangat krusial, Bu Elsa! Ini memang kunci utama agar otomatisasi tidak merusak hubungan baik dengan pelanggan yang sudah Ibu bangun.
+Untuk dua pertanyaan Ibu tadi, begini alur praktis yang dirancang khusus untuk usaha Ibu:
+1. Menjaga Pesan Tetap Ramah dan Personal
+- Gaya Bahasa Disesuaikan: Sistem tidak menggunakan kalimat kaku seperti call center. Gaya sapaan, penggunaan panggilan, dan nada bicara akan disesuaikan penuh dengan karakter toko Ibu yang ramah dan hangat.
+- Pemahaman Konteks: Sistem berbasis AI dapat memahami variasi bahasa sehari-hari pelanggan (bukan sekadar menu pilih angka). Pesan juga secara otomatis menyebut nama pelanggan agar terasa personal.
+2. Alur Pengalihan ke Staf (Human Handoff)
+- Deteksi Otomatis: Ketika ada pertanyaan khusus—seperti permintaan pesanan kustom, katering, alergi, atau keluhan—sistem secara otomatis mengenali bahwa ini membutuhkan keputusan manusia.
+- Notifikasi Instan: Sistem langsung mengirimkan pemberitahuan ke dashboard atau HP staf Ibu, lengkap dengan ringkasan singkat kendala pelanggan.
+- Peralihan Mulus: Staf Ibu bisa langsung mengambil alih obrolan di percakapan yang sama. Pelanggan tidak perlu mengulang ceritanya dari awal karena staf sudah membaca ringkasannya.
+Dengan kombinasi ini, sekitar 80% pertanyaan rutin dan pencatatan pesanan teratasi otomatis di jam sibuk (11.00–13.00 & 16.00–19.00). Staf Ibu bisa lebih tenang, tidak kelelahan mengetik hal yang sama, dan bisa fokus menjaga kualitas makanan serta melayani pelanggan di lokasi.
+Bagaimana kalau kita buatkan contoh peragaan singkat selama 5 menit menggunakan beberapa contoh menu dan pertanyaan pelanggan Ibu yang paling sering masuk, supaya Ibu dan staf bisa mencobanya langsung dari ponsel?"
+
+**[Tahap D & E: Evaluasi Sementara dan Uji Ulang]**
+
+**AI004 (Simulator):**
+Elsa: "Penjelasan alur pengalihannya jelas sekali, Mas Ammar. Kalau ada notifikasi instan dan staf bisa langsung mengambil alih tanpa pelanggan harus mengulang cerita dari awal, itu sangat menenangkan buat saya. Saya setuju untuk mencoba peragaan singkat 5 menit itu. Kalau tampilannya memang ramah dan tidak kaku, kita bisa lanjut bahas uji coba skala kecil minggu ini."
+--- Tahap D & E: Evaluasi Sementara & Uji Ulang ---
+1. Evaluasi Status & Adaptasi...
+2. Skenario Uji Ulang: Bayangkan saat peragaan 5 menit berlangsung... Elsa mengajukan kendala operasional baru terkait staf senior...
+
+**U005 (Mahasiswa):**
+Evaluasi & Skenario Uji Ulang (Kasus 3a)
+1. Evaluasi Status & Adaptasi Elsa
+- Perubahan Status: Elsa bertransformasi dari ragu-ragu dan khawatir akan hilangnya personal touch menjadi bersedia mencoba peragaan/uji coba...
+- Efektivitas Pendekatan pada ASK & SWOT: Attitude skeptis jd kooperatif; Knowledge paham back-office support; Skill paham human handoff; SWOT ancaman jd peluang.
+2. Respons Konkret pada Skenario Uji Ulang
+"Ibu Elsa tenang saja, kekhawatiran Ibu sangat wajar dan memang sering menjadi pertanyaan utama pengelola usaha. Kami sudah merancang sistem ini khusus agar staf senior maupun yang tidak terbiasa dengan teknologi bisa langsung paham dalam hitungan menit tanpa perlu membaca buku panduan tebal.
+Berikut 3 bentuk pendampingan dan panduan praktis yang kami sediakan untuk staf Ibu:
+- Tampilan Dashboard Ultra-Simpel (Sistem 1-Klik): Tampilan di ponsel atau tablet staf dibuat sangat bersih. Saat ada notifikasi pengalihan, layar hanya menampilkan nama pelanggan, ringkasan pesan, dan satu tombol hijau besar bertuliskan 'Ambil Alih'. Cukup tekan tombol itu, staf langsung tersambung.
+- Kartu Panduan Visual 1 Halaman (Cheatsheet): Kami sediakan lembar petunjuk bergambar seukuran kartu menu yang bisa ditempel di dekat kasir/area kerja. Isinya hanya 3 langkah bergambar yang sangat mudah diingat.
+- Sesi Latihan Simulasi 10 Menit & Pendampingan Live: Sebelum sistem diaktifkan di jam sibuk, kami akan memandu staf Ibu melakukan simulasi tes kirim pesan selama 10 menit. Selain itu, tim teknis kami siap mendampingi secara standby di hari pertama agar staf merasa tenang dan memiliki tempat bertanya jika ragu.
+Dengan pendekatan ini, staf senior Ibu tidak perlu menghafal hal rumit—cukup menekan satu tombol saat notifikasi muncul. Bagaimana Bu Elsa, apakah bentuk pendampingan ini cukup membuat Ibu tenang untuk memulai uji coba bersama staf minggu ini?"
+
+**[Tahap F & G: Evaluasi Akhir dan Konfirmasi]**
+
+**AI005 (Simulator):**
+Elsa: "Pendampingan dengan tombol 1-klik dan kartu panduan visual di dekat kasir itu ide yang luar biasa, Mas Ammar!... Baik, mari kita jadwalkan uji coba skala kecil ini bersama tim minggu ini!"
+--- Tahap F & G: Hasil/Refleksi dan Konfirmasi ---
+Pertanyaan Refleksi Akhir:
+1. Perubahan SWOT & ASK...
+2. Pencapaian & Lesson Learned...
+3. Tindak Lanjut Konkret...
+
+**U006 (Mahasiswa):**
+Tahap F & G: Hasil/Refleksi dan Konfirmasi Data (Kasus 3a)
+1. Perubahan Status SWOT & ASK (Penilaian Akhir Elsa)
+- Relasional & SWOT: Rasa Aman & Kepercayaan meningkat drastis... Sinergi otomatisasi AI dgn operasional usaha.
+- Elemen ASK: Attitude optimis & siap pilot run; Knowledge paham AI sbg asisten back-office; Skill percaya diri memandu staf senior.
+2. Pencapaian & Lesson Learned: Kunci penawaran AI ke UMKM adalah Validasi Kekhawatiran (Empathy First) & Jaminan Kemudahan Eksekusi Lapangan (Simplicity & Support)...
+3. Tindak Lanjut Konkret & Cara Evaluasi: Low-Risk Demo Package & evaluasi 7 hari dgn 3 metrik utama.
+Konfirmasi Data Laporan Sesi 3a: Data sudah benar dan terkonfirmasi...
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+*Tujuan asesmen tercapai sepenuhnya. Klien yang awalnya ragu dan defensif berhasil diubah menjadi mitra yang antusias menyetujui uji coba skala kecil (pilot run) minggu ini.*
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Merasa terancam perubahan sistem (*Threat*), ragu staf mampu. | Merasa tenang (*Strength*), melihat efisiensi jam sibuk (*Opportunity*). | U004, U006 | Laporan simulasi & refleksi. |
+| Attitude | Skeptis, cemas akan hilangnya *personal touch* & kebingungan staf. | Optimis, kooperatif, dan siap berkomitmen menjalankan *pilot run*. | U003 → U005 | Bukti perubahan tuturan Elsa. |
+| Knowledge | Menganggap AI rumit, kaku seperti robot, dan memutus alur manusia. | Memahami fungsi AI sebagai *back-office support* & mekanisme *human handoff*. | U004 | Penjelasan arsitektur sistem. |
+| Skill | Bingung mengarahkan staf senior mengoperasikan sistem baru. | Mampu memandu staf menggunakan *Dashboard 1-Klik* & *Cheatsheet*. | U005 | Solusi uji ulang yang disetujui. |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| Pembuka (U003) | Elsa khawatir orang lain justru kesulitan kalau sistem diubah. | Validasi kepedulian Elsa & paparkan prinsip "teknologi tak terlihat". | Elsa terbuka menceritakan jam sibuk (11-13 & 16-19) & kendala staf. | A: Defensivitas luluh krn kecemasan divalidasi. | Menggali detail penumpukan *chat* di jam sibuk. |
+| Solution Pitch (U004) | Elsa penasaran cara menjaga pesan tetap ramah & alur pengalihan. | Paparkan 2 alur: Gaya ramah personal & *Human Handoff* otomatis + Demo 5 mnt. | Elsa setuju peragaan 5 menit & bahas *pilot project*. | K: Memahami cara kerja AI yang aman dan ramah. | Menawarkan *low-risk demo* 5 menit. |
+| Uji Ulang (U005) | Elsa khawatir staf senior bingung mengoperasikan sistem baru. | Solusi 3 tingkat: *Dashboard 1-klik*, *Cheatsheet* visual, & pendampingan *live*. | Elsa sangat tenang & sepakat jadwalkan *pilot run* minggu ini. | S: Keyakinan eksekusi lapangan meningkat drastis. | Mengamankan kesepakatan *Action*. |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 | "Kekhawatiran Ibu Elsa sangat bisa saya pahami dan justru menunjukkan betapa Ibu sangat peduli..." | Elsa: *"Terima kasih ya sudah memahami kekhawatiran saya, Mas Ammar."* | Rendah → Tinggi (Rasa terancam berubah jadi keterbukaan). | Mendorong Elsa menceritakan *bottleneck* jam sibuk. |
+| U005 | "Ibu Elsa tenang saja, kekhawatiran Ibu sangat wajar... Kami sediakan pendampingan live di hari pertama..." | Elsa: *"Pendampingan dengan tombol 1-klik... itu ide luar biasa... saya merasa sangat tenang."* | Sedang → Sangat Tinggi (*Trust* penuh pada jaminan layanan). | Mengubah kekhawatiran operasional menjadi komitmen uji coba. |
+
+## Uji ulang dan pembelajaran
+
+Pada skenario uji ulang (U005), Elsa memunculkan hambatan realitas lapangan mengenai keterbatasan kapasitas teknis staf seniornya. Mahasiswa merespons dengan adaptasi *Skill* dan *Knowledge* yang sangat taktis: alih-alih memberikan janji muluk atau panduan tebal, mahasiswa menyajikan solusi mitigasi bertingkat yang berfokus pada kemudahan pengguna (*user-friendly design*), yaitu *Dashboard 1-Klik*, *Cheatsheet* visual 1 halaman, serta pendampingan *live* di hari pertama. Hal ini secara efektif membongkar barikade kecemasan Elsa.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U002: "Melakukan discovery call... meredakan keraguan... mengarahkan menuju kesepakatan uji coba..." | Indikator bisnis & komunikasi terdefinisi dengan sangat matang. |
+| Persepsi dan validasi profil/status | 4 | U003: "Kekhawatiran Ibu... justru menunjukkan betapa Ibu sangat peduli..." | Mengakui nilai kepedulian Elsa terhadap pelanggan & staf secara akurat. |
+| Pemilihan dan urutan repertoar | 4 | U004 & U005: "1. Gaya Bahasa Disesuaikan... 2. Alur Pengalihan... Dashboard 1-Klik..." | Urutan penjelasan bergerak dari konsep nilai, mekanisme, hingga mitigasi teknis. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U003, U004, U005: "Ibu Elsa tenang saja... teknologi itu seharusnya mempermudah..." | Bahasa sangat santun, empati tinggi, profesional, dan menenangkan klien. |
+| Evaluasi dan adaptasi | 4 | U005: "Berikut 3 bentuk pendampingan dan panduan praktis... Tampilan 1-klik..." | Sangat responsif menyusun solusi mitigasi operasional staf senior di lapangan. |
+| Refleksi dan lesson learned | 4 | U006: "Kunci utamanya bukan pada kecanggihan jargon teknis, melainkan pada Validasi Kekhawatiran..." | *Lesson learned* sangat aplikatif dalam dunia penjualan & konsultasi teknologi. |
+
+*(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pelajaran terbesar mahasiswa adalah bahwa **saat menawarkan solusi teknologi AI/TI kepada pengelola usaha tradisional, kunci utamanya bukan terletak pada kecanggihan jargon teknis, melainkan pada Validasi Kekhawatiran (*Empathy First*) dan Jaminan Kemudahan Eksekusi Lapangan (*Simplicity & Support*)**. Pemilik usaha sangat menjaga reputasi dan kenyamanan stafnya. Dengan memberikan skema uji coba bebas risiko (*no-risk pilot*), peragaan visual, dan mitigasi beban staf (sistem 1-klik), defensivitas klien akan luluh secara alami.
+
+## Tindak lanjut dan batas bukti
+
+- **Langkah Konkret:** Menyusun skema penawaran berbasis *Low-Risk Demo Package* yang mencakup peragaan 5 menit, kartu panduan visual 1 halaman (*cheatsheet*), dan pendampingan *live* hari pertama untuk setiap penawaran solusi TI/AI ke klien non-teknis.
+- **Cara Evaluasi:** Mengukur keberhasilan *pilot project* selama 7 hari dengan 3 metrik utama: (1) Otomatisasi pertanyaan rutin >75%, (2) *Handoff response time* < 2 menit, dan (3) Tingkat kenyamanan staf senior melalui survei singkat pasca-simulasi.
+- **Batas Bukti:** Simulasi interaksi ini mendemonstrasikan keahlian konsultasi dan negosiasi solusi bisnis yang prima, namun efektivitas teknologinya tetap bergantung pada performa sistem AI dan adopsi riil staf di lapangan.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.
