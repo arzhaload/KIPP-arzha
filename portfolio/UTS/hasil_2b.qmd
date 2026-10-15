@@ -20,7 +20,7 @@ execute:
 | Nama dan ID target | Cyntia (K2-03) |
 | Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
 | Modalitas | Teks |
-| Kasus nyata/fiktif | Fiktif (Simulasi penanganan konflik tugas kelompok, rekognisi ide, dan persahabatan) |
+| Kasus nyata/fiktif | Fiktif |
 | Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
@@ -42,7 +42,7 @@ execute:
 | Attitude | Proaktif, empatis, terbuka menerima evaluasi dan memberikan pengakuan yang tulus (*acknowledgment*). | U002 | Laporan Diri |
 | Knowledge | Memahami tenggat waktu kelompok dan kebutuhan integrasi materi. | U002 | Laporan Diri |
 | Skill | Mampu mereorganisasi pembagian kerja (*role-fit scoping*) & memfasilitasi *check-in* berkala. | U002 | Laporan Diri |
-| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Preferensi/MBTI | INTJ-T (Laporan diri mahasiswa: analitis, terstruktur, berorientasi penuntasan tugas/closure) | U002 | Laporan Diri |
 | Karakter, peran, kultur/ko-kultur | Mahasiswa anggota kelompok yang menjunjung tinggi empati, kolaborasi, dan apresiasi kontribusi tim. | U002 | Laporan Diri |
 
 ## Dugaan awal profil target dan rencana
@@ -192,6 +192,9 @@ Pada skenario uji ulang (U005), Cyntia membutuhkan kejelasan poin teknis untuk p
 *(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
 
 ## Refleksi dan lesson learned mahasiswa
+
+Berhadapan dengan Cyntia (ENFP fiktif) memberikan UTS adaptasi komplementer yang sangat berharga bagi saya sebagai INTJ-T. Gaya alami saya yang to-the-point dan terstruktur harus dilenturkan (*flexing*) untuk merangkul kebutuhan afektif Cyntia yang haus akan rekognisi gagasan dan ruang eksplorasi, membuktikan bahwa efisiensi tugas kelompok hanya bisa dicapai setelah rasa aman relasional terpenuhi.
+
 
 Pelajaran terbesar mahasiswa adalah bahwa **penurunan motivasi atau keterlambatan seseorang dalam tim sering kali bukan disebabkan oleh rasa malas semata, melainkan karena rasa tidak dihargai atau idenya yang dilewati**. Mendengarkan secara aktif dan memberikan pengakuan yang tulus (*acknowledgment*) atas kapasitas unik seseorang jauh lebih efektif untuk membangkitkan motivasi kerja daripada sekadar menagih tenggat waktu secara kaku.
 

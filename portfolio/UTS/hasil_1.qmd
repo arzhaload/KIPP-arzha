@@ -20,7 +20,7 @@ execute:
 | Nama dan ID target | Diri mahasiswa; pembanding Budi (K1-02) |
 | Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
 | Modalitas | Teks |
-| Kasus nyata/fiktif | Nyata (Terkait kemampuan pembelajaran akademik mahasiswa) |
+| Kasus nyata/fiktif | Fiktif |
 | Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
@@ -39,7 +39,7 @@ execute:
 | Attitude | Antusias terhadap hal baru, namun perlu lebih sabar/konsisten saat bosan. | U002 | Laporan Diri |
 | Knowledge | Punya kerangka analitis dasar, tahu sumber informasi terpercaya. | U002 | Laporan Diri |
 | Skill | Terampil merangkum, namun perlu asah manajemen waktu (Pomodoro). | U002 | Laporan Diri |
-| Preferensi/MBTI | (Tidak ada diagnosis khusus MBTI yang dilaporkan) | - | - |
+| Preferensi/MBTI | INTJ-T (Laporan diri mahasiswa: analitis, berpikir sistemik, terstruktur, standar tinggi/perfeksionis, rentan self-criticism transaksional saat fokus terdistraksi) | U002 | Laporan Diri |
 | Karakter, peran, kultur/ko-kultur | Mahasiswa yang rentan paparan *dopamine hit* instan akibat medsos. | U003 | Laporan Diri |
 
 ## Dugaan awal profil target dan rencana (Diri Sendiri)
@@ -78,6 +78,7 @@ Brief Kasus 1: Pilih satu kemampuan yang ingin Anda kembangkan agar lebih bergun
 - Indikator Keberhasilan Realistis: Mampu memahami dan menyusun ringkasan tuntas dari 1 jurnal/makalah/laporan teknis yang rumit dalam waktu kurang dari 45 menit...
 2. Dugaan Profil Diri (Status Awal)
 - SWOT Subjektif: Kekuatan... Kelemahan... Peluang... Ancaman...
+- Preferensi/MBTI (Laporan Diri): INTJ-T (analitis, berpikir sistemik, terstruktur, standar tinggi/perfeksionis pada performa diri).
 - Elemen ASK (Attitude, Knowledge, Skill): Attitude... Knowledge... Skill...
 3. Rencana Awal (TAIDA)
 - Thought (Pemikiran): Menyadari bahwa ketertinggalan pemahaman atau kejenuhan belajar adalah hal wajar...
@@ -206,6 +207,9 @@ Uji ulang direspons dengan penguatan eksekusi yang nyata (U005): Tidak sekadar n
 *(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi dialog (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi dan kalibrasi Dosen Pengampu).*
 
 ## Refleksi dan lesson learned mahasiswa
+
+Sebagai mahasiswa dengan profil INTJ-T, kecenderungan alami saya adalah menuntut performa sistemik yang tinggi pada diri sendiri, sehingga ketika terjadi kegagalan fokus (information overload), respons batin refleks saya cenderung menghakimi secara keras dan transaksional. Dialog dengan tokoh pembanding Budi (ISTJ) menyadarkan saya bahwa kedisiplinan yang berkelanjutan justru membutuhkan validasi empati dan pelestarian standar lewat langkah-langkah mikro yang terstruktur.
+
 
 Pelajaran utama mahasiswa (U006) adalah bahwa *"Cara kita berbicara kepada orang lain yang penuh empati, validasi, dan penawaran risiko rendah sering kali jauh lebih bijak daripada cara kita menuntut diri sendiri secara transaksional."* Mahasiswa menyadari bahwa mengintegrasikan bahasa empati ke dalam *self-talk* justru membuat diri sendiri jauh lebih mau diajak berkooperasi (kompromi belajar) tanpa harus merendahkan atau mengorbankan standar mutu dari materi yang dikerjakan.
 

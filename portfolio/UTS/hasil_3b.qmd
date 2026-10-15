@@ -20,7 +20,7 @@ execute:
 | Nama dan ID target | Fajar (K3-06) |
 | Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
 | Modalitas | Teks |
-| Kasus nyata/fiktif | Fiktif (Simulasi penawaran solusi TI/AI secara cepat, pragmatis, dan impact-first) |
+| Kasus nyata/fiktif | Fiktif |
 | Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
@@ -42,7 +42,7 @@ execute:
 | Attitude | Pragmatis, tangkas, menghargai waktu klien, dan berfokus pada hasil kuantitatif (*result-driven*). | U002 | Laporan Diri |
 | Knowledge | Paham arsitektur otomatisasi *chat*, *auto-flagging*, dan mekanisme *1-click manual override*. | U002 | Laporan Diri |
 | Skill | Mampu melakukan *impact-first pitch*, *2-minute live demo*, dan perancangan *fallback system* di lapangan. | U002 | Laporan Diri |
-| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Preferensi/MBTI | INTJ-T (Laporan diri mahasiswa: analitis dan terbiasa dengan perencanaan menyeluruh) | U002 | Laporan Diri |
 | Karakter, peran, kultur/ko-kultur | Mahasiswa penyedia solusi TI yang adaptif, komunikatif, dan responsif terhadap dinamika lapangan. | U002 | Laporan Diri |
 
 ## Dugaan awal profil target dan rencana
@@ -180,6 +180,9 @@ Pada skenario uji ulang (U004), Fajar menantang keandalan sistem terhadap dinami
 *(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
 
 ## Refleksi dan lesson learned mahasiswa
+
+Bagi saya yang berprofil INTJ-T, menghadapi Fajar (ESTP fiktif) adalah ujian kelincahan komunikasi: saya harus memangkas seluruh latar belakang teoritis dan langsung menyajikan nilai guna praktis lewat live demo di bawah 3 menit dengan opsi uji coba tanpa friksi birokrasi.
+
 
 Pelajaran terbesar mahasiswa adalah **saat berkomunikasi dengan tipe klien pelaksana lapangan yang sangat pragmatis, hal yang paling efisien adalah mengabaikan jargon teknis dan langsung memaparkan dampak kuantitatif (*impact-first communication*)**. Klien tipe ini tidak peduli seberapa canggih algoritma di balik layar; mereka hanya peduli pada tiga hal: berapa banyak waktu/biaya yang dihemat, seberapa mudah staf menggunakannya, dan bagaimana cara mengatasi kendala jika terjadi kesalahan di lapangan.
 

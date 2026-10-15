@@ -20,7 +20,7 @@ execute:
 | Nama dan ID target | Dimas (K2-04) |
 | Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
 | Modalitas | Teks |
-| Kasus nyata/fiktif | Fiktif (Simulasi penanganan konflik tugas kelompok dan persahabatan) |
+| Kasus nyata/fiktif | Fiktif |
 | Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
@@ -42,7 +42,7 @@ execute:
 | Attitude | Proaktif, berempati pada hubungan persahabatan, objektif dalam memecahkan konflik. | U002 | Laporan Diri |
 | Knowledge | Paham tenggat waktu kelompok dan struktur tugas umum. | U002 | Laporan Diri |
 | Skill | Mampu melakukan resolusi konflik dan penyusunan *action plan* terstruktur. | U002 | Laporan Diri |
-| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Preferensi/MBTI | INTJ-T (Laporan diri mahasiswa: analitis, berpikir sistemik, menghargai logika objektif dan efisiensi) | U002 | Laporan Diri |
 | Karakter, peran, kultur/ko-kultur | Mahasiswa anggota kelompok yang menghargai akuntabilitas dan empati persahabatan. | U002 | Laporan Diri |
 
 ## Dugaan awal profil target dan rencana
@@ -190,6 +190,9 @@ Pada skenario uji ulang (U005), Dimas menghadapi hambatan teknis berupa satu ber
 *(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
 
 ## Refleksi dan lesson learned mahasiswa
+
+Sebagai komunikator berprofil INTJ-T, saya menemukan keselarasan alami (*shared wavelength*) saat berdialog dengan Dimas (INTJ fiktif). Kesamaan orientasi logis dan struktural ini mempercepat identifikasi akar masalah (interface data mentah yang berantakan). Pembelajaran kuncinya adalah memfokuskan solusi pada batasan sistemik (data freeze dan pangkas indikator) tanpa konfrontasi ego.
+
 
 Pelajaran terbesar mahasiswa adalah pentingnya **"memisahkan masalah dari orangnya" (*separate the people from the problem*)**. Validasi emosi dan empati dibutuhkan untuk menjaga persahabatan, namun kejelasan batasan (*scope & interface*) dibutuhkan untuk menjaga profesionalitas. Pendekatan objektif dan bertanggung jawab justru memperkuat hubungan emosional karena ada rasa saling menghormati atas kapasitas masing-masing.
 

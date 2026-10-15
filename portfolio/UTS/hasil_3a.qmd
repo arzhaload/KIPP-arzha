@@ -20,7 +20,7 @@ execute:
 | Nama dan ID target | Elsa (K3-05) |
 | Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
 | Modalitas | Teks |
-| Kasus nyata/fiktif | Fiktif (Simulasi penawaran solusi TI/AI dan mitigasi kekhawatiran operasional customer) |
+| Kasus nyata/fiktif | Fiktif |
 | Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
@@ -42,7 +42,7 @@ execute:
 | Attitude | Empatis, berfokus pada solusi bisnis yang praktis, suportif, dan transparan. | U002 | Laporan Diri |
 | Knowledge | Memahami arsitektur otomatisasi TI/AI, alur *human handoff*, dan manajemen operasional UMKM. | U002 | Laporan Diri |
 | Skill | Mampu melakukan *discovery call*, merancang *low-risk demo*, dan menyusun mitigasi kendala operasional staf. | U002 | Laporan Diri |
-| Preferensi/MBTI | (Tidak dilaporkan secara spesifik) | - | - |
+| Preferensi/MBTI | INTJ-T (Laporan diri mahasiswa: berorientasi solusi sistemik/arsitektur teknologi) | U002 | Laporan Diri |
 | Karakter, peran, kultur/ko-kultur | Mahasiswa pemberi solusi teknologi yang mengutamakan kepedulian manusia (*human-centric technology*). | U002 | Laporan Diri |
 
 ## Dugaan awal profil target dan rencana
@@ -127,7 +127,7 @@ Evaluasi & Skenario Uji Ulang (Kasus 3a)
 Berikut 3 bentuk pendampingan dan panduan praktis yang kami sediakan untuk staf Ibu:
 - Tampilan Dashboard Ultra-Simpel (Sistem 1-Klik): Tampilan di ponsel atau tablet staf dibuat sangat bersih. Saat ada notifikasi pengalihan, layar hanya menampilkan nama pelanggan, ringkasan pesan, dan satu tombol hijau besar bertuliskan 'Ambil Alih'. Cukup tekan tombol itu, staf langsung tersambung.
 - Kartu Panduan Visual 1 Halaman (Cheatsheet): Kami sediakan lembar petunjuk bergambar seukuran kartu menu yang bisa ditempel di dekat kasir/area kerja. Isinya hanya 3 langkah bergambar yang sangat mudah diingat.
-- Sesi Latihan Simulasi 10 Menit & Pendampingan Live: Sebelum sistem diaktifkan di jam sibuk, kami akan memandu staf Ibu melakukan simulasi tes kirim pesan selama 10 menit. Selain itu, tim teknis kami siap mendampingi secara standby di hari pertama agar staf merasa tenang dan memiliki tempat bertanya jika ragu.
+- Sesi UTS Simulasi 10 Menit & Pendampingan Live: Sebelum sistem diaktifkan di jam sibuk, kami akan memandu staf Ibu melakukan simulasi tes kirim pesan selama 10 menit. Selain itu, tim teknis kami siap mendampingi secara standby di hari pertama agar staf merasa tenang dan memiliki tempat bertanya jika ragu.
 Dengan pendekatan ini, staf senior Ibu tidak perlu menghafal hal rumit—cukup menekan satu tombol saat notifikasi muncul. Bagaimana Bu Elsa, apakah bentuk pendampingan ini cukup membuat Ibu tenang untuk memulai uji coba bersama staf minggu ini?"
 
 **[Tahap F & G: Evaluasi Akhir dan Konfirmasi]**
@@ -195,6 +195,9 @@ Pada skenario uji ulang (U005), Elsa memunculkan hambatan realitas lapangan meng
 *(Catatan: Penilaian di atas adalah usulan sistem (AI) berdasarkan observasi simulasi (skor 24/24). Nilai usulan: 100. Nilai akhir tetap mengacu pada moderasi Dosen Pengampu).*
 
 ## Refleksi dan lesson learned mahasiswa
+
+Menghadapi Elsa (ISFJ fiktif) menuntut saya sebagai INTJ-T untuk menekan dorongan memaparkan kecanggihan fitur AI, dan beralih mengutamakan nilai kepedulian manusiawi: menjaga stabilitas staf senior dan kesinambungan sentuhan layanan personal lewat mekanisme human handoff.
+
 
 Pelajaran terbesar mahasiswa adalah bahwa **saat menawarkan solusi teknologi AI/TI kepada pengelola usaha tradisional, kunci utamanya bukan terletak pada kecanggihan jargon teknis, melainkan pada Validasi Kekhawatiran (*Empathy First*) dan Jaminan Kemudahan Eksekusi Lapangan (*Simplicity & Support*)**. Pemilik usaha sangat menjaga reputasi dan kenyamanan stafnya. Dengan memberikan skema uji coba bebas risiko (*no-risk pilot*), peragaan visual, dan mitigasi beban staf (sistem 1-klik), defensivitas klien akan luluh secara alami.
 

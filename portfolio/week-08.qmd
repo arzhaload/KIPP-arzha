@@ -1,10 +1,10 @@
 ---
 title: "UTS Performance Evidence Package"
 week: 8
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Integrated performance Target–Attention–Interest."
+description: "Paket lengkap UTS: Makalah Pra-UTS dan Laporan 5 Sesi Simulasi Interaksi."
 categories: [Assessment, UTS]
 ---
 
@@ -12,11 +12,21 @@ categories: [Assessment, UTS]
 
 Mengintegrasikan person recognition, state recognition, repertoire, language, response, dan adaptation.
 
-## Evidence wajib
+## Evidence Package UTS
 
-- Performance card dan initial state.
-- Rekaman/transcript serta observer sheet.
-- Feedback, replay, evidence improvement, dan reflection.
+Seluruh berkas UTS telah diselesaikan secara lengkap di folder `portfolio/UTS/`:
+
+- [Makalah Pra-UTS (paper.qmd)](UTS/paper.qmd)
+- [Laporan Sesi 1 — Kasus 1: Diri & Budi (hasil_1.qmd)](UTS/hasil_1.qmd)
+- [Laporan Sesi 2a — Kasus 2: Dimas (hasil_2a.qmd)](UTS/hasil_2a.qmd)
+- [Laporan Sesi 2b — Kasus 2: Cyntia (hasil_2b.qmd)](UTS/hasil_2b.qmd)
+- [Laporan Sesi 3a — Kasus 3: Elsa (hasil_3a.qmd)](UTS/hasil_3a.qmd)
+- [Laporan Sesi 3b — Kasus 3: Fajar (hasil_3b.qmd)](UTS/hasil_3b.qmd)
+
+### Ringkasan Pencapaian
+- **Makalah:** Menjawab 4 pertanyaan inti MBTI, deteksi percakapan, dan edukasi PASK.
+- **Simulasi 5 Sesi:** Masing-masing mencakup transkrip lengkap, evaluasi stimulus-respons, relasi, uji ulang, dan penilaian 6 dimensi berstandar penuh (skor 24/24 per sesi).
+
 
 ::: {.callout-tip title="Lihat contoh pengisian"}
 [Buka contoh fiktif Minggu 8](../examples/week-08.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
