@@ -1,25 +1,169 @@
 ---
 title: "Problem–Solution Interest Pitch"
 week: 7
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Problem–solution fit dan signal Interest."
+description: "Detoks fitur, problem–solution fit, demonstrasi prototipe alur fisik kantin, hidden concern, dan sinyal Interest."
 categories: [TAIDA, Interest]
 ---
 
 ## Kompetensi target
 
-Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.
+Menghubungkan *solution mechanism* dengan *problem*, *benefit*, dan *value* yang relevan secara jujur tanpa terjebak perangkap pembuangan fitur (*feature dumping*) [Bab 7.1, 7.7, 7.14].
 
 ## Evidence wajib
 
-- Attention evidence dan problem–solution link.
-- Interest pitch dengan evidence atau demonstration.
-- Response, state assessment, hidden concern, dan adaptation.
+- **Konteks masalah terkonfirmasi (Customer Problem Statement)** dan bukti atensi lanjutan dari Bab 6 [Bab 7.6].
+- **Matriks Analisis Detoks Fitur** (pemangkasan fitur ego teknis vs. fitur yang dipertahankan berdasarkan nilai relasional) [Bab 7.7.1, 7.14].
+- **Draf Interest Pitch 60 Detik** (5 langkah terstruktur, $\le$ 120 kata) dan skenario demonstrasi prototipe [Bab 7.7.2, 7.9].
+- **Catatan respons, state assessment (Attention $\rightarrow$ Interest), penyingkapan *hidden concern*, dan adaptasi mekanisme** [Bab 7.13, 7.15].
+- **Refleksi etika kejujuran batas dan risiko solusi** [Bab 7.8, 7.18, 9.8].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Kamis siang, 30 Juli 2026, pukul 11.30–13.00 WIB. Pertemuan lanjutan berbasis kesepakatan observasi Bab 6 di area pujasera Kantin GKU Kampus ITB Jatinangor. Sesi penyampaian *Interest Pitch* dan peragaan prototipe sederhana dilakukan langsung di depan meja Kios Soto & Ayam Penyet sebelum lonjakan jam makan siang (pukul 11.45 WIB), dilanjutkan dengan simulasi bersama rekan (Owen sebagai operator kios, F sebagai mahasiswa, dan D sebagai pencatat observer).
+
+**Persons dan relationship:**
+1. *Sasaran Utama (Pelaksana / Operator Kios):* Ibu Titin (disimulasikan oleh Owen), staf kasir dan peracik makanan yang tempo hari memberikan izin observasi titik antrean menu.
+2. *Sasaran Sekunder (Pengguna / Mahasiswa):* Farhan (disimulasikan oleh F), mahasiswa tingkat 2 yang mewakili kebutuhan kepastian waktu makan.
+3. *Observer & Timer:* D, rekan mahasiswa yang mengamati respons verbal/nonverbal serta durasi pitch 60 detik.
+Hubungan relasi adalah kemitraan kolaboratif tindak lanjut dari *Target–Attention Challenge* Minggu 6.
+
+**Objective dan initial state:**
+* *Initial state:* Operator berada pada *state* **Attention dengan reservasi**—mengakui bahwa masalah utama adalah kerumunan orang memilih menu di depan etalase, namun memiliki kekhawatiran (*skeptisisme*) terhadap usulan baru yang dikira akan menggunakan aplikasi gawai atau menambah beban biaya operasional.
+* *Objective:* Menumbuhkan minat (*Interest*) operator melalui *pitch* solusi berbasis detoks fitur (tanpa jargon digital), mendemonstrasikan prototipe fisik sederhana dalam 60 detik, membongkar *hidden concern*, dan menyepakati jadwal uji coba rintisan (*pilot run*) selama 20 menit pada jam sibuk.
+
+---
+
+## Evidence: Lembar Kerja Praktis Panduan Detoks Fitur
+
+### Fase 1: Konteks Masalah Terkonfirmasi (*Customer Problem Statement*)
+
+Berdasarkan hasil wawancara Bab 5 dan validasi observasi Bab 6, masalah inti dirumuskan secara presisi:
+
+> **Customer Problem Statement (CPS):**  
+> "Staf kasir dan penyaji kios kantin (*Pribadi/Peran*) mengalami kelelahan mental dan penumpukan antrean hingga 40 orang (*Keadaan yang teramati*) ketika jam pergantian kuliah pukul 12.00–12.35 WIB (*Konteks*), sehingga proses peracikan makanan terhambat akibat interupsi pertanyaan berulang dari mahasiswa yang berdesakan di depan etalase sempit (*Dampak*). Ia membutuhkan mekanisme pemisahan alur sirkulasi pemesanan dan pengambilan makanan yang mandiri (*Hasil/Kemampuan*), dengan mempertimbangkan ruang gerak meja yang sangat terbatas (2x2 meter), keengganan menggunakan aplikasi digital yang rumit, serta sensitivitas terhadap biaya operasional tambahan (*Kendala*)." [Bab 7.6]
+
+---
+
+### Fase 2: Matriks Analisis Detoks Fitur
+
+Melakukan *detoksifikasi* terhadap ide solusi awal saya sebagai mahasiswa STI yang awalnya tergoda membuat aplikasi canggih (*feature dumping*), lalu memangkas fitur-fitur yang tidak menempel pada masalah nyata [Bab 7.7.1, 7.14].
+
+| No | Fitur Teknis Solusi | Manfaat Langsung | Nilai Relasional (Bagi Peran Tertentu) | Bukti yang Diperlukan | Keputusan (Pertahankan / Pangkas) |
+|:--:|---|---|---|---|:---:|
+| 1 | **Aplikasi Mobile Pemesanan Kantin Cloud & E-Wallet** | Mahasiswa dapat memesan makanan dari kamar kos/ruang kelas. | *Bagi Mahasiswa:* Fleksibel.<br>*Bagi Kasir:* **Nol / Negatif.** Menambah beban verifikasi layar HP saat tangan berlumur bumbu, terkena potongan komisi *gateway*, dan macet saat sinyal seluler kampus padat. | Data observasi: 70% transaksi kios masih tunai mikro; operator menolak memegang HP saat jam sibuk. | **PANGKAS**<br>*(Ego teknis pembuat program; beban bahasa yang merusak adopsi lapangan).* |
+| 2 | **Mesin Cetak Tiket Nomor Antrean Kertas Thermal Otomatis** | Mengeluarkan secarik kertas nomor urut ketika tombol ditekan. | *Bagi Mahasiswa:* Memiliki nomor pegangan.<br>*Bagi Kasir:* **Negatif.** Memakan tempat di meja saji sempit (2x2 m), biaya roll kertas thermal mahal, dan struk kertas berceceran menjadi sampah di selasar. | Pengukuran meja kios: hanya tersisa ruang 30 cm di samping kompor dan wadah piring. | **PANGKAS**<br>*(Menambah biaya habis pakai dan limbah fisik fasilitas).* |
+| 3 | **Kamera Pemantau Kepadatan Antrean Berbasis AI Vision** | Menghitung jumlah kerumunan di selasar secara *real-time*. | *Bagi Sarpras:* Data analitik makro.<br>*Bagi Kasir:* **Nol.** Tidak membantu mempercepat penyajian piring atau mengurangi pertanyaan menu. Menimbulkan resistensi privasi mahasiswa. | Tidak ada korelasi antara deteksi kamera dengan kelancaran meja saji kios. | **PANGKAS**<br>*(Fitur pamer teknologi; tidak melayani penderitaan peran garis depan).* |
+| 4 | **Papan Tulis Gantung Mini Status Menu ("Tersedia / Habis")** | Menginformasikan ketersediaan 5 menu utama tepat di jalur awal antrean. | *Bagi Kasir:* Menghentikan 70% interupsi pertanyaan berulang (*"Ayam bakar masih ada Bu?"*).<br>*Bagi Mahasiswa:* Menghilangkan kekecewaan antre panjang ternyata menu favorit sudah habis. | Catatan observasi Bab 6: 8 dari 12 interupsi ke kasir adalah pertanyaan ketersediaan lauk. | **PERTAHANKAN**<br>*(Sangat menempel pada akar masalah interupsi kasir).* |
+| 5 | **Sistem Kartu Nomor Meja Dua Sisi (Piring Saji & Tangan Pembeli)** | Menghubungkan nomor pesanan piring dengan pembeli yang dapat menunggu sambil duduk. | *Bagi Kasir:* Area depan etalase bersih dari kerumunan; kasir tinggal memanggil nomor piring siap.<br>*Bagi Mahasiswa:* Kepastian urutan saji tanpa perlu berdiri berdesakan di selasar sempit. | Simulasi alur menunjukkan antrean berdiri berkurang 60% jika pembeli bisa duduk menunggu nomornya. | **PERTAHANKAN**<br>*(Mekanisme fisik murah, nol listrik, langsung mengurai sirkulasi).* |
+
+> [!IMPORTANT]
+> **Catatan Etis Kejujuran Batas Kemampuan Solusi [Bab 7.8, 9.8]:**  
+> Solusi papan gantung dan kartu nomor fisik ini memiliki batas nyata: ia tidak menambah kecepatan kompor menggoreng ayam (kecepatan dapur tetap sama). Solusi ini murni menata **ekspektasi sirkulasi dan kepastian mental**, bukan mempercepat hukum fisika memasak. Batasan ini disampaikan secara terbuka kepada operator agar tidak terjadi janji berlebih (*overpromising*).
+
+---
+
+### Fase 3: Draf Pitch Minat 60 Detik (5 Langkah Bab 7.7.2)
+
+Disusun menggunakan teknik **Komunikasi Berlapis** (dimulai dari pengait masalah, kemungkinan solusi, mekanisme ringkas tanpa jargon, nilai riil, dan pertanyaan cek minat) [Bab 7.9].
+
+* **Draf Lisan:**
+  > "Kemarin Ibu Titin menceritakan bahwa kerepotan jam 12.00 muncul karena pembeli berkerumun di depan kasir menanyakan menu dan menunggu piring. Untuk mengurai sumbatan itu tanpa sistem digital rumit, kita bisa mencoba pemisahan alur fisik dua titik. Mekanismenya, papan gantung mini mengumumkan menu habis di awal antrean, lalu pembeli menerima kartu nomor meja untuk menunggu dengan duduk di bangku selasar. Manfaatnya, Ibu bebas dari desakan pertanyaan berulang di etalase, dan mahasiswa mendapat kepastian giliran makan tanpa saling senggol. Apakah simulasi alur sederhana ini menarik untuk kita uji coba 20 menit besok siang, Bu?"
+
+* **Penghitungan Kata:** **92 kata** (Wajib $\le$ 120 kata) — *Tuntas disampaikan dalam tempo santai selama 48 detik*.
+* **Bedah 5 Langkah Pitch Minat:**
+  1. *Hubungkan kembali dengan masalah:* "Kemarin Ibu Titin menceritakan bahwa kerepotan jam 12.00 muncul karena pembeli berkerumun di depan kasir menanyakan menu dan menunggu piring."
+  2. *Perkenalkan kemungkinan solusi:* "Untuk mengurai sumbatan itu tanpa sistem digital rumit, kita bisa mencoba pemisahan alur fisik dua titik."
+  3. *Jelaskan mekanisme sederhana:* "Mekanismenya, papan gantung mini mengumumkan menu habis di awal antrean, lalu pembeli menerima kartu nomor meja untuk menunggu dengan duduk di bangku selasar."
+  4. *Nyatakan manfaat & nilai riil:* "Manfaatnya, Ibu bebas dari desakan pertanyaan berulang di etalase, dan mahasiswa mendapat kepastian giliran makan tanpa saling senggol."
+  5. *Undang tanggapan (Cek Minat):* "Apakah simulasi alur sederhana ini menarik untuk kita uji coba 20 menit besok siang, Bu?"
+
+---
+
+### Demonstrasi Prototipe, Respons, Hidden Concern, dan Adaptasi
+
+#### 1. Demonstrasi Prototipe Fisik (Durasi 90 Detik)
+Saya mengeluarkan dua alat peraga nyata dari tas:
+- Satu papan tulis mini berukuran 20x30 cm bertuliskan *Status Menu* yang bisa digantung di tiang etalase menggunakan tali karet.
+- Satu set kartu nomor akrilik bundar (nomor 1–20) berpenjepit ganda (satu menjepit bibir mangkok/nampan, satu dipegang pembeli).
+Saya memperagakan alurnya dalam 3 langkah gerakan tangan: menulis menu habis $\rightarrow$ menjepit nomor $\rightarrow$ memanggil nomor saat makanan siap di meja samping.
+
+#### 2. Respons Lawan Bicara & Penyingkapan *Hidden Concern*
+* **Respons Awal (Verbal & Nonverbal):**  
+  Operator (Ibu Titin / Owen) mengangguk-angguk saat melihat kartu nomor, raut mukanya lega karena tidak melihat kabel atau aplikasi HP. Namun, setelah memegang kartu akrilik tersebut, ia mengerutkan kening dan berujar:  
+  > *"Idenya praktis Mas, saya senang gak usah pencet-pencet layar HP. Tapi kalau kartu nomor ini dibawa mahasiswa ke bangku selasar, saya khawatir kartunya pada hilang, kelupaan dibalikin, atau ketumpahan kuah soto jadi kotor. Siapa yang mau nombokin kalau nomornya hilang terus tiap hari?"*
+
+* **Identifikasi *Hidden Concern* [Bab 7.13]:**  
+  Semula saya mengira keraguan operator adalah soal kepatuhan mahasiswa berbaris. Ternyata kekhawatiran tersembunyi yang sesungguhnya adalah **Akuntabilitas Kehilangan Aset (*Asset Loss & Replacement Cost*)** dan **Beban Kebersihan (*Maintenance Workload*)**. Bagi pedagang kios kecil, kehilangan alat operasional adalah biaya tunai yang mengurangi keuntungan harian mereka.
+
+#### 3. Adaptasi Mekanisme & Penyesuaian Janji (*Real-Time Adaptation*)
+Alih-alih membela diri atau meremehkan kekhawatiran tersebut (*"Ah kan cuma kartu murah Bu"*), saya langsung memvalidasi kekhawatirannya dan mengadaptasi rancangan mekanisme:
+- **Perubahan Mekanisme:** Mengganti kartu akrilik dengan **kartu karton tebal terlaminasi anti-air yang dilengkapi tali gantungan kalung** (agar tidak ditaruh sembarangan di atas meja kuah). Selain itu, nomor ditukar langsung saat piring diambil di meja serah (*closed-loop exchange*): mahasiswa wajib menyerahkan kartu nomor untuk dapat mengambil mangkok sotonya.
+- **Penurunan Janji (*De-risking*):** Saya menyatakan bahwa 20 kartu perdana ini adalah prototipe modal dari saya pribadi sebagai bagian dari tugas studi. Jika selama 3 hari uji coba ada kartu yang hilang atau rusak, Ibu Titin tidak perlu mengganti sepeser pun.
+- **Sinyal Minat (*Signal of Interest*):**  
+  Mendengar mitigasi risiko tersebut, ekspresi wajah Ibu Titin kembali cerah, ia tersenyum dan mengambil kartu laminasi tersebut sambil berkata:  
+  > *"Nah, kalau ada jaminan gak nombokin dan kartunya dilaminasi anti basah, saya mau coba Mas. Besok siang pas jam 11.45 sebelum anak-anak bubar kelas kita pasang ya."*
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Memperlakukan operator sebagai mitra praktisi yang rasional dan sangat berhitung terhadap risiko aset harian [Bab 7.1]. Saya menanggalkan karakter *arrogant programmer* yang membanggakan aplikasi digital, beralih menjadi *practical problem solver* yang berempati pada kesederhanaan operasional [Bab 7.7.1]. |
+| **Objective & state** | *State awal:* Attention dengan reservasi (waspada terhadap usulan rumit). *Objective:* Menggeser ke *state* **Interest** terkonfirmasi. *State akhir:* Target menunjukkan sinyal minat kuat dengan menyepakati waktu uji coba rintisan besok jam 11.45 WIB [Bab 7.13]. |
+| **Repertoire & language** | Menerapkan detoks fitur secara radikal (membuang kata *cloud*, *API*, *QRIS*, *AI vision*). Menggunakan bahasa visual konkret (*"papan gantung mini"*, *"kartu nomor meja"*) dan formula pitch 5 langkah yang terstruktur rapi di bawah 120 kata [Bab 7.7.2, 7.14]. |
+| **Response & adaptation** | Mendengar keberatan soal hilangnya nomor meja; tidak mendebat, melainkan membongkar *hidden concern* biaya penggantian kartu dan langsung mengadaptasi mekanisme menjadi kartu laminasi berkalung dengan jaminan bebas biaya penggantian [Bab 7.13, 7.15]. |
+| **Agreement/action** | Terjadinya kesepakatan (*agreement*) untuk melakukan uji coba rintisan (*pilot trial*) pemisahan alur selama 20 menit pada jam sibuk hari Jumat pukul 11.45–12.05 WIB di kios Soto Ibu Titin [Bab 7.15]. |
+| **Relationship outcome** | Tingkat kepercayaan (*trust*) meningkat signifikan. Mitra merasa didengarkan secara utuh karena kekhawatiran finansial mikro-nya dihargai dan dilindungi oleh perancang solusi [Bab 7.18]. |
+
+---
+
+## Penggunaan AI
+
+AI digunakan secara terarah pasca-rancangan awal untuk tiga pengujian kritis:
+
+1. **Audit Detoks Fitur & Penghapusan Jargon:** AI digunakan untuk memindai draf pitch awal saya. Hasilnya, AI menandai dua istilah teknis yang masih tersisa (*"sistem sirkulasi terintegrasi"* dan *"batch order"*) yang kemudian saya ubah menjadi bahasa membumi (*"pemisahan alur dua titik"* dan *"pesanan per meja"*).
+2. **Eksplorasi Skenario *Hidden Concern*:** Saya meminta AI menyimulasikan daftar kekhawatiran operasional pedagang kaki lima/kios kampus jika diberikan sistem nomor meja. AI memunculkan potensi risiko kartu hilang dan basah terkena kuah, yang membantu saya menyiapkan bahan laminasi sebelum demonstrasi dilakukan.
+3. **Output AI yang Ditolak:** AI sempat mengusulkan agar nomor meja dilengkapi kode QR statis yang mengarah ke formulir Google Sheet untuk melacak waktu saji. Saya menolak rekomendasi ini karena melanggar prinsip detoks fitur—menambah beban bagi mahasiswa yang hanya ingin makan siang cepat tanpa membuka kamera ponsel.
+4. **Batas Kepemilikan Manusia:** Kemampuan membaca perubahan kerutan dahi narasumber saat memegang prototipe, kepekaan menangkap rasa cemas ganti rugi kartu, dan kerelaan menanggung risiko prototipe adalah tindakan empati manusiawi yang tidak bisa digantikan oleh kecerdasan buatan.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Observer (D) mencatat bahwa demonstrasi fisik 90 detik sangat efektif mencairkan suasana karena membuat pembicaraan menjadi konkret. Namun, D mencatat bahwa saat operator melontarkan kekhawatiran kartu hilang, saya sempat terdiam sekitar 4 detik sebelum merespons.
+
+**Adaptation/replay:**
+Jeda 4 detik tersebut sebenarnya adalah momen internal saya menahan ego untuk tidak berkata *"kan kartu plastik doang Bu"*. Saya belajar bahwa jeda batin tersebut sangat bernilai karena memberi ruang untuk merumuskan mitigasi penggantian kartu laminasi berkalung secara elegan.
+
+**Next practice:**
+Pada percakapan penumbuhan minat berikutnya (Minggu 8: *Desire & Action Challenge*), saya akan menyiapkan pertanyaan proaktif di akhir demo: *"Bagian mana dari alat ini yang menurut Ibu paling berisiko merepotkan pekerjaan harian?"* sebelum menunggu lawan bicara menyatakannya secara ragu-ragu.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Nilai riil dan beban kerja fisik operator dikenali mendalam; solusi ego-teknis dibuang demi melayani realitas peran sasaran [Bab 7.1, 7.15]. |
+| **Objective & State** | 4 | *Attention* berhasil dibedakan dari *Interest*; sinyal minat nyata diuji melalui kesepakatan waktu uji coba spesifik besok jam 11.45 WIB [Bab 7.13, 7.15]. |
+| **Repertoire, Language & AI** | 4 | Detoks fitur sukses memangkas 3 fitur ego; pitch 5 langkah ringkas (92 kata); AI digunakan secara terbatas untuk audit jargon [Bab 7.7.2, 7.14]. |
+| **Response & Adaptation** | 4 | *Hidden concern* seputar kehilangan kartu dan biaya penggantian dibongkar secara empati; mekanisme kartu laminasi tertutup diadaptasi seketika [Bab 7.13, 7.15]. |
+| **Agreement, Action & Relationship** | 4 | Sasaran setuju menjalankan pilot 20 menit dengan pembagian tanggung jawab bebas risiko bagi pedagang; relasi kemitraan makin kokoh [Bab 7.15, 7.18]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}

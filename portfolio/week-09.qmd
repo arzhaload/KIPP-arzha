@@ -1,25 +1,254 @@
 ---
 title: "Desire-State Communication"
 week: 9
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Current state, desired state, value, evidence, dan risk."
+description: "Current state, desired state, feature–benefit–value–outcome chain, tangga bukti, pengakuan risiko, dan transformasi minat menuju keinginan."
 categories: [TAIDA, Desire]
 ---
 
 ## Kompetensi target
 
-Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.
+Membangun *desired state* bersama target dan menghubungkannya dengan solusi secara kredibel melalui pembuktian bertingkat, pengakuan risiko terbuka, serta manajemen keberatan yang etis tanpa manipulasi emosi [9.6, 9.8, 9.15].
 
 ## Evidence wajib
 
-- Current dan desired state milik person.
-- Feature–benefit–value–outcome chain.
-- Risk, evidence threshold, response, dan adaptation.
+- **Current dan desired state milik person** (rumusan target, bukan asumsi komunikator) [9.7, 9.15].
+- **Feature–benefit–value–outcome chain** yang disajikan sebagai hipotesis teruji [9.7.1, 9.10].
+- **Tangga Bukti (Ladder of Evidence)** minimal 2 tingkat bukti beserta pengakuan batasan secara jujur [9.8, 9.10].
+- **Antisipasi dan manajemen 3 ranah keberatan** (usaha, biaya, risiko) [9.9].
+- **Catatan simulasi demonstrasi 5 menit & Peer Feedback Sheet** berbasis bukti perilaku teramati [8.9, 9.15].
+- **Refleksi mandiri dan AI Statement** transparan [9.16, 14.15].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 9](../examples/week-09.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Kamis siang, 6 Agustus 2026, pukul 13.30–15.00 WIB. Pertemuan lanjutan pasca-uji coba rintisan (*pilot run*) 20 menit di Kios Soto & Ayam Penyet Kantin GKU Kampus ITB Jatinangor. Simulasi percakapan penumbuhan keinginan (*Desire Demonstration*) berdurasi 5 menit dilakukan di ruang diskusi bersama rekan kelas (Owen berperan sebagai Ibu Titin / operator kios yang skeptis-realistis, F berperan sebagai perwakilan mahasiswa, dan D sebagai *timekeeper* dan *observer*).
+
+**Persons dan relationship:**
+1. *Komunikator:* Ammar Zharif Fakhrudin (NIM 18225007), mahasiswa STI ITB yang memposisikan diri sebagai mitra pemecah masalah lapangan (*practical problem solver*).
+2. *Pribadi Sasaran Utama:* Ibu Titin (disimulasikan oleh Owen), staf pengelola kios kantin yang menyukai kepraktisan tetapi sangat berhati-hati terhadap beban kerja tambahan dan risiko operasional.
+3. *Observer & Observer Feedback:* D dan F, rekan kelompok yang memantau kepatuhan alur waktu 5 menit dan mencatat bukti perilaku nonverbal.
+Hubungan relasi adalah kemitraan profesional setara berbasis kepercayaan lanjutan dari interaksi Minggu 6 dan Minggu 7.
+
+**Objective dan initial state:**
+* *Initial state:* Sasaran berada pada *state* **Interest**—Ibu Titin telah melihat bahwa alat peraga tidak memerlukan listrik atau aplikasi ponsel, namun masih ragu untuk berkomitmen menerapkan alur ini secara permanen tiap hari (*"Idenya bagus Mas, tapi apa saya sanggup jalanin tiap hari pas lagi riweuh?"*).
+* *Objective:* Mentransformasikan minat (*Interest*) menjadi keinginan (*Desire*) yang kokoh: menyelaraskan solusi dengan *desired state* sejati sasaran (ketenangan kerja tanpa was-was salah saji), menyajikan tangga bukti konkret, mengakui risiko sistem secara ksatria, serta mengelola keberatan hingga sasaran bersedia mengadopsi alur ini untuk uji coba penuh 1 minggu tanpa merasa dipaksa [9.6, 9.12].
+
+---
+
+## Evidence: Lembar Kerja Praktis Demonstrasi Pembangun Keinginan
+
+### Fase I: Pemetaan Jembatan Batin (*Internal Bridge Mapping*) [9.7]
+
+* **Nama Mahasiswa / NIM:** Ammar Zharif Fakhrudin / 18225007
+* **Peran Komunikator:** Mitra Perancang Solusi Alur Fasilitas Kampus
+* **Pribadi Sasaran & Perannya:** Ibu Titin (Staf Kasir & Peracik Kios Soto Kantin GKU ITB Jatinangor)
+* **Gagasan / Solusi:** Sistem Pemisahan Alur Fisik Meja Kantin melalui *Papan Status Menu Mini* dan *Kartu Nomor Meja Closed-Loop Anti-Air*
+
+#### Tabel 1: Matriks Jembatan Batin [9.7]
+
+| Unsur Jembatan Batin | Pertanyaan Pemandu | Analisis & Draf Berbasis Fakta Sasaran |
+|---|---|---|
+| **Keadaan Sekarang (*Beban*)** | Apa beban kerja, kerugian, ketidakpastian, atau frustrasi konkret yang sedang dialami sasaran saat ini? | Ibu Titin harus melayani 35–45 transaksi dalam rentang 35 menit sambil meracik mangkok panas di bawah desakan fisik mahasiswa yang mengerubungi etalase. Beban mental terbesar adalah rasa was-was diteriaki pembeli yang merasa pesanannya diserobot dan interupsi pertanyaan berulang ketersediaan lauk [9.7]. |
+| **Keadaan Masa Depan (*Hasil*)** | Perbaikan atau keadaan lebih baik apa yang akan terjadi di hidupnya secara konkret jika solusi ini berjalan? | **Bukan sekadar antrean lebih rapi, melainkan:** Ibu Titin dapat bekerja dengan ritme tangan yang stabil dan tenang, tidak diinterupsi pertanyaan berulang, tidak mengalami ketegangan adu urat leher dengan pembeli, serta pulang shift siang tanpa kelelahan mental ekstrem [9.7]. |
+| **Mekanisme Solusi** | Bagaimana cara kerja solusi Anda dalam menghasilkan perubahan tersebut secara logis dan masuk akal? | Papan mini di ujung antrean menyaring ekspektasi menu sebelum pembeli sampai di kasir; pembeli mengambil kartu nomor urut laminasi di samping nota, lalu duduk di bangku selasar. Kasir hanya memanggil nomor ketika mangkok siap; kartu nomor wajib ditukar kembali saat mangkok diambil (*closed-loop exchange*) [9.7]. |
+| **Pengorbanan (*Cost/Effort*)** | Biaya, waktu, tenaga, atau perubahan perilaku apa yang harus dikeluarkan sasaran untuk menebus solusi ini? | Perubahan kebiasaan tangan: kasir harus meluangkan waktu 2 detik untuk menulis nomor urut di ujung nota kertas, serta disiplin menaruh piring jadi di meja serah samping (bukan menyerahkan langsung dari depan kompor) [9.7]. |
+| **Risiko Kegagalan** | Apa hal yang bisa gagal atau tidak berjalan sesuai rencana? Bagaimana Anda memitigasinya secara jujur? | Risiko nomor kartu tertukar atau hilang jika dibawa mahasiswa; risiko pembeli tidak melihat papan menu saat selasar sangat padat. Mitigasi: format kartu berkalung tali leher agar tidak tertinggal di mangkok kuah, serta cadangan 10 kartu ekstra yang digaransi gratis oleh perancang solusi [9.7, 9.8]. |
+
+---
+
+### Perbandingan Current State vs. Desired State Milik Person
+
+| Elemen | Rumusan Target (Ibu Titin), Bukan Asumsi Komunikator |
+|---|---|
+| **Current state** | Melayani pesanan di tengah kepungan kerumunan pembeli; sering terjadi perdebatan *"siapa pesan duluan"*; kasir kewalahan menghafal urutan mangkok soto secara manual di kepala. |
+| **Desired state** | *"Saya bisa ngeracik kuah soto dengan tenang tanpa diteriaki anak-anak yang nanya kapan makanannya jadi, dan pesanan keluar adil sesuai siapa yang datang duluan tanpa bikin saya tekor nombok."* |
+| **Value bagi sasaran** | **Ketenangan batin (*peace of mind*)**, keselamatan fisik dari tumpahan kuah panas saat selasar ricuh, serta kepastian reputasi kios yang tertib dan adil. |
+| **Acceptable risk** | Uji coba penuh selama 5 hari kerja (Senin–Jumat jam 11.45–12.45 WIB); sistem dapat dihentikan kapan saja secara sepihak jika dirasa malah memperlambat kerja dapur. |
+| **Evidence threshold** | Nol insiden salah serah mangkok; frekuensi pertanyaan menu turun minimal 50%; waktu layan nota kasir rata-rata tetap di bawah 25 detik per orang. |
+
+---
+
+### Feature–Benefit–Value–Outcome Chain
+
+Disajikan secara transparan sebagai rantai hipotesis sebab-akibat yang terbuka untuk diuji bersama [9.7.1, 9.10]:
+
+$$\text{Papan Menu Mini} + \text{Kartu Laminasi Berkalung} \xrightarrow{\text{Hipotesis 1}} \text{Pembeli tahu menu & menunggu di bangku}$$
+$$\xrightarrow{\text{Hipotesis 2}} \text{Etalase kasir bersih dari desakan kerumunan}$$
+$$\xrightarrow{\text{Hipotesis 3}} \text{Kasir meracik soto dengan ritme tenang tanpa interupsi}$$
+$$\xrightarrow{\text{Hipotesis 4}} \text{Kelelahan mental kasir berkurang & pesanan keluar tertib tepat waktu}$$
+$$\xrightarrow{\text{Nilai Akhir}} \text{Ketenangan operasional kios dan kepuasan mahasiswa tanpa biaya modal}.$$
+
+> [!NOTE]
+> Setiap tanda panah ($\rightarrow$) di atas ditegaskan kepada Ibu Titin sebagai **hipotesis kerja**, bukan janji mutlak tanpa syarat. Keberhasilan rantai ini bergantung pada kepatuhan penukaran kartu di meja serah.
+
+---
+
+### Fase II: Menyusun Tangga Bukti (*Ladder of Evidence*) [9.10]
+
+Untuk membangun keinginan yang tepercaya tanpa *overpromising*, saya menampilkan dua tingkat bukti nyata yang proporsional [9.8, 9.10]:
+
+```
+[Tingkat 4] Data Uji Coba Rintisan 20 Menit (15 Transaksi Lapangan)  <-- DIPILIH (Bukti B)
+    ▲
+[Tingkat 3] Testimoni / Pengalaman Nyata Pembeli Kantin
+    ▲
+[Tingkat 2] Demonstrasi Prototipe Fisik & Simulasi Gerak Meja        <-- DIPILIH (Bukti A)
+    ▲
+[Tingkat 1] Klaim Logis Sebab-Akibat
+```
+
+#### 1. Bukti A (Tingkat 2: Demonstrasi Prototipe Fisik & Gerak Tangan)
+* **Deskripsi Bukti:**  
+  Menghadirkan prototipe final 20 kartu laminasi bernomor tebal dengan tali gantungan kalung warna cerah, wadah akrilik kartu mandiri (*self-service stand*), dan papan tulis mini akrilik 20x30 cm dengan spidol *whiteboard eraser*. Memperagakan alur gerak tangan kasir yang hanya butuh 2 detik: menulis nomor di kertas nota $\rightarrow$ menunjuk wadah kartu ke pembeli [9.10].
+* **Batasan & Keterbatasan Bukti (Dinyatakan Terbuka):**  
+  *Batasan:* Prototipe meja ini disimulasikan dalam kondisi meja bersih. Pada kondisi nyata, meja kios sering terkena cipratan kuah atau minyak goreng; meskipun bahan laminasi tahan air, tali kalung kain bisa menjadi kusam jika tidak dicuci berkala [9.8].
+
+#### 2. Bukti B (Tingkat 4: Data Hasil Uji Coba Skala Kecil 20 Menit)
+* **Deskripsi Bukti:**  
+  Menyajikan catatan data konkret dari uji coba rintisan Kamis kemarin (pukul 11.45–12.05 WIB) pada 15 transaksi pesanan soto:
+  - Waktu transaksi pencatatan nota stabil pada rata-rata **22 detik per orang** (turun dari sebelumnya 50 detik).
+  - Pertanyaan berulang terkait ketersediaan menu turun dari 8 kali menjadi **hanya 1 kali**.
+  - Kerumunan berdiri di depan etalase berkurang dari 12 orang menjadi **maksimal 3 orang** karena 12 pembeli lainnya duduk di bangku selasar sambil memegang kartu [9.10].
+* **Batasan & Keterbatasan Bukti (Dinyatakan Terbuka):**  
+  *Batasan:* Data ini baru diperoleh dari 15 transaksi di awal jam makan siang (fase *ramp-up*), belum teruji pada kondisi *peak rush* ekstrem ketika 40 mahasiswa datang serentak pukul 12.15 WIB, atau saat terjadi hujan deras yang membuat bangku selasar luar tidak bisa diduduki [9.8, 9.10].
+
+---
+
+### Fase III: Antisipasi dan Manajemen Tiga Ranah Keberatan [9.9]
+
+| Ranah Keberatan | Kemungkinan Ungkapan Skeptis Sasaran | Respons Komunikatif Berpusat Solusi & Empati [9.9] |
+|---|---|---|
+| **1. Keberatan Usaha (*Effort / Behavior*)** | *"Nanti kalau pas jam 12.00 lagi ramai banget, apa saya gak malah makin repot harus ngalungin kartu dan ngingat-ingat nomor kartu?"* | *"Saya paham kekhawatiran Ibu. Tangan Ibu harus fokus ke centong kuah dan uang. Karena itu, Ibu sama sekali tidak perlu mengalungkan kartu ke pembeli. Kartu ditaruh di wadah terbuka depan etalase, pembeli yang ambil sendiri nomornya sesuai angka yang Ibu tulis di nota. Ibu hanya perlu menulis satu angka di kertas nota seperti biasa (2 detik). Kalau cara ini terasa bikin tangan Ibu kagok, kita langsung batalkan."* |
+| **2. Keberatan Biaya (*Cost / Penalty*)** | *"Kalau talinya kotor kena kuah, atau ada kartu yang kebawa mahasiswa pulang ke kosan, siapa yang ganti? Modal jualan soto mepet Mas, gak ada pos buat ganti kartu."* | *"Ibu tidak perlu keluar uang sepeser pun. Seluruh paket 20 kartu laminasi bertali ini, termasuk 10 kartu cadangan dan spidolnya, saya sediakan gratis sebagai bagian dari proyek studi kampus saya. Kalau ada kartu yang hilang atau rusak selama masa uji coba 1 minggu ini, sepenuhnya menjadi tanggung jawab saya untuk mengganti."* |
+| **3. Keberatan Risiko (*Failure Risk*)** | *"Bagaimana kalau mahasiswa ngeyel tetap ngotot manggil-manggil minta diduluin walau nomornya belum dipanggil? Nanti saya yang disalahin."* | *"Itu kekhawatiran yang sangat masuk akal, Bu. Supaya Ibu tidak berhadapan langsung dengan mahasiswa ngeyel, kita pasang stiker petunjuk di meja serah: 'Pesanan disajikan urut nomor kartu demi keadilan bersama'. Jadi aturan mainnya ada di tulisan fasilitas, bukan Ibu yang menolak secara pribadi. Dan jika ada situasi darurat pesanan tertunda, hak penentuan tetap 100% di tangan Ibu."* |
+
+---
+
+### Fase IV: Pelaksanaan Simulasi Demonstrasi 5 Menit [9.15]
+
+Simulasi tatap muka 5 menit dilaksanakan mengikuti pembagian alur waktu yang ketat:
+
+* **Menit 00–01 (Fase Jembatan Batin):**  
+  Menghubungkan kembali hasil uji coba Kamis lalu dengan beban mental Ibu Titin. Menegaskan *desired state*: bekerja dengan tenang, adil, dan tanpa teriakan interupsi.
+* **Menit 01–03 (Fase Demonstrasi Mekanisme):**  
+  Memperagakan mekanisme *self-service stand* dan *closed-loop exchange* menggunakan prototipe fisik. Menunjukkan bahwa kasir tidak memegang kartu, hanya menulis angka di nota.
+* **Menit 03–04 (Fase Tangga Bukti & Pengakuan Risiko):**  
+  Menyajikan data 15 transaksi uji coba rintisan (Bukti B) dan langsung mengakui batasan sistem saat hujan lebat atau puncak ekstrem secara terbuka (Bukti A & B).
+* **Menit 04–05 (Fase Mengelola Keberatan & Periksa Kebebasan):**  
+  Mendengarkan 3 keberatan sasaran tanpa memotong pembicaraan, memparafrasa secara tenang, menawarkan mitigasi tanggung jawab biaya, dan menutup dengan memeriksa kesiapan batin tanpa paksaan:  
+  > *"Ibu Titin punya hak penuh untuk menolak jika merasa alat ini merepotkan. Apakah menurut Ibu uji coba 5 hari kerja minggu depan layak kita jalankan bersama?"*
+
+---
+
+## Lembar Evaluasi & Umpan Balik Rekan Sejawat (*Peer Feedback Sheet*) [8.9, 9.15]
+
+Ditinjau oleh observer (D) dan mitra simulasi (Owen) setelah simulasi 5 menit selesai:
+
+### 1. Membangun Jembatan Batin
+> **Catatan Observer (D):**  
+> "Ketika Anda menyampaikan kalimat *'Saya ingin Ibu bisa meracik kuah soto dengan tenang tanpa was-was diteriaki mahasiswa'*, saya mengamati respons nonverbal lawan bicara berupa tersenyum lega, mengangguk tiga kali, dan bahunya tampak mengendur rileks. Hal itu menunjukkan keadaan batin sasaran **merasa sangat dipahami beban emosionalnya** (masuk ke radar *Desire*), bukan sekadar disodori alat. Saya menyarankan Anda untuk terus mempertahankan kalimat empati berbasis peran harian seperti ini." [8.9]
+
+### 2. Penyajian Bukti & Pengakuan Risiko
+> **Catatan Observer (F):**  
+> "Ketika Anda memaparkan data 15 transaksi lalu langsung menyambungnya dengan kalimat *'Tapi data ini baru dari 15 orang pas jam santai Bu, belum teruji kalau hujan lebat'*, saya mengamati respons verbal sasaran berujar *'Nah betul Mas, kalau hujan kan anak-anak gak bisa duduk di selasar luar'*. Hal itu menunjukkan bahwa pengakuan risiko terbuka Anda **membangun kredibilitas instan** karena sasaran merasa Anda tidak sedang membual atau menipu demi kelulusan tugas. Saya menyarankan Anda menyiapkan alternatif bangku cadangan saat hari hujan." [8.9]
+
+### 3. Mengelola Keberatan
+> **Catatan Mitra Simulasi (Owen sebagai Ibu Titin):**  
+> "Ketika saya mendebat soal kartu hilang dan biaya ganti nombok, Anda tidak memotong kalimat saya dan tidak langsung membela diri. Anda berhenti bicara selama 2 detik, mengangguk, lalu menjawab bahwa seluruh biaya kartu ditanggung tim Anda. Respons ini membuat rasa defensif saya hilang seketika dan membuat saya merasa aman untuk mencoba." [8.9]
+
+### 4. Etika Kebebasan Memilih
+> **Catatan Observer (D):**  
+> "Ketika di akhir menit ke-5 Anda berkata *'Ibu berhak penuh untuk bilang tidak jika ini dirasa menambah beban'*, saya mengamati sasaran tidak merasa terpojok. Sasaran justru secara spontan menjawab, *'Gak apa-apa Mas, kalau ada garansi kartu dan gak bikin pusing, kita coba seminggu mulai Senin depan'*. Ini adalah penutupan yang etis dan elegan." [8.9, 9.12]
+
+---
+
+## Lembar Refleksi Mandiri Mahasiswa [9.16]
+
+### 1. Hasil Nyata yang Paling Diinginkan Lawan Bicara
+Sepanjang simulasi 5 menit dan sesi tanya jawab, hasil nyata yang paling diinginkan oleh Ibu Titin bukanlah sekadar *"selasar kantin yang rapi"* (karena selasar adalah urusan sarpras kampus). Hasil yang sungguh ia dambakan secara personal adalah **Keadilan Layanan Tanpa Konflik (*Conflict-Free Fairness*)**—ia ingin pembeli terlayani secara adil sesuai urutan tanpa ia harus menjadi sasaran kemarahan mahasiswa yang merasa diserobot, sembari menjaga agar tangannya tidak bertambah repot [9.16].
+
+### 2. Bukti yang Paling Menumbuhkan Kepercayaan
+Bukti yang paling menumbuhkan rasa percaya bukanlah angka persentase penurunan waktu transaksi, melainkan **Demonstrasi Fisik Wadah Kartu Mandiri (*Tingkat 2*)**. Ketika melihat bahwa kartu ditaruh di wadah terbuka dan pembeli mengambil sendiri kartu tersebut, keraguan Ibu Titin bahwa tangannya akan repot langsung sirna. Bukti visual fisik yang menjawab kekhawatiran gestur kerja terbukti jauh lebih kuat dibanding tabel data statistik [9.10, 9.16].
+
+### 3. Pengamatan Respons Saat Mengakui Keterbatasan
+Ketika saya secara jujur mengakui bahwa sistem nomor ini memiliki kelemahan fatal saat hari hujan lebat (karena pembeli tidak bisa duduk di bangku selasar luar), nada bicara lawan bicara berubah dari skeptis-menantang menjadi nada diskusi kolaboratif. Lawan bicara berkata: *"Iya juga ya Mas, untung diingetin. Kalau hujan biasanya pada ngumpul di dekat tangga, berarti nanti wadah kartunya kita geser ke dekat pilar dalam."* Kejujuran terhadap batas solusi terbukti **mengubah lawan bicara dari penilai yang kritis menjadi rekan yang ikut memecahkan masalah** [9.8, 9.16].
+
+### 4. Koreksi Desain Berdasarkan Keberatan Sasaran
+Keberatan rekan simulasi mengenai risiko tali kalung kotor terkena kuah soto menyadarkan saya akan cacat desain material. Pada draf awal, saya menggunakan tali kain standar. Menindaklanjuti keberatan ini, saya merevisi bahan tali kalung menjadi **tali karet silikon anti-minyak (*oil-resistant silicone strap*)** yang dapat dilap basah setiap sore saat kios tutup [9.16].
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Memperlakukan operator sebagai mitra setara dengan batas toleransi risiko yang rasional [9.6]. Saya menanggalkan ego akademisi yang memaksakan teori sistem antrean, bertindak sebagai komunikator yang mengutamakan rasa aman dan martabat pekerjaan mitra [9.7]. |
+| **Objective & state** | *State awal:* Interest (tertarik tapi ragu komitmen beban). *Objective:* Menggeser ke *state* **Desire** (keinginan kuat merasakan ketenangan operasional). *State akhir:* Sasaran menyatakan komitmen uji coba 1 minggu penuh (Senin–Jumat) [9.6, 9.15]. |
+| **Repertoire & language** | Menggunakan rantai nilai *Feature–Benefit–Value–Outcome*, tangga bukti bertingkat, dan pengakuan risiko terbuka [9.10]. Menghindari manipulasi kelangkaan palsu atau desakan waktu artifisial [9.12]. |
+| **Response & adaptation** | Membaca isyarat kecemasan soal kartu kotor dan biaya nombok; langsung mengadaptasi mekanisme menjadi *self-service stand* dan memberikan komitmen jaminan modal mandiri tanpa beban mitra [9.9, 9.15]. |
+| **Agreement/action** | Kesepakatan eksplisit: Menjalankan uji coba adopsi penuh selama 5 hari kerja (10–14 Agustus 2026) pada jam 11.45–12.45 WIB dengan 20 kartu laminasi bertali silikon [9.15]. |
+| **Relationship outcome** | Hubungan kemitraan naik ke tingkat kepercayaan strategis (*high-trust partnership*). Mitra merasa terlindungi hak dan keuangannya, sehingga bersedia menjadi pihak yang aktif mengarahkan pembeli di lapangan [9.18]. |
+
+---
+
+## Penggunaan AI (AI Statement) [14.15, E.7]
+
+AI (Gemini) digunakan secara terarah sebelum simulasi lapangan untuk mendukung persiapan teknis komunikasi:
+
+1. **Pengujian Logika Rantai Nilai (*Chain Audit*):** Saya memasukkan rancangan rantai *feature-to-outcome* ke AI untuk menguji apakah terdapat lompatan logika sebab-akibat yang tidak realistis. AI membantu mengidentifikasi celah bahwa pembeli tidak otomatis mau duduk jika tidak ada instruksi visual yang jelas.
+2. **Simulasi Bank Keberatan Operasional:** AI digunakan untuk menghasilkan simulasi daftar keberatan kritis dari perspektif pemilik usaha mikro kuliner Indonesia. Hal ini membantu saya memetakan ranah keberatan usaha, biaya, dan risiko sebelum tampil di kelas.
+3. **Output AI yang Ditolak:** AI sempat mengusulkan klausul denda bagi mahasiswa yang menghilangkan kartu (misal: denda Rp5.000). Saya **menolak keras saran ini** karena kontraproduktif, memicu permusuhan antara mahasiswa dan pedagang kantin, serta melanggar etika komunikasi humanis Bab 9.
+4. **Batas Integritas Manusia:** Data 15 transaksi lapangan adalah hasil pencatatan manual saya bersama tim di kantin GKU, demonstrasi fisik 5 menit dilakukan secara langsung antarpribadi, dan komitmen penjaminan risiko biaya adalah keputusan etis manusia yang tidak dapat diwakili oleh model generatif.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Dosen pembimbing dan rekan observer mengapresiasi keberanian menyatakan batasan hujan lebat secara terbuka di depan sasaran sebagai instrumen pembangun integritas. Evaluasi perbaikan: penataan letak wadah kartu di meja kios perlu dikoordinasikan dengan tata letak toples kerupuk agar tidak menyenggol barang dagangan lain.
+
+**Adaptation/replay:**
+Pada gladi bersih simulasi kedua, wadah akrilik kartu diposisikan menggunakan *suction cup* (karet penempel kaca) di sisi luar etalase kaca kios, sehingga sama sekali tidak memakan ruang meja saji kasir.
+
+**Next practice:**
+Pada tahap *Action Challenge* (Minggu 10 / Bab 10), saya akan merancang lembar pemantauan harian sederhana 1 lembar (*one-page tracking sheet*) yang hanya butuh waktu centang 10 detik bagi operator untuk merekam kendala harian.
+
+---
+
+## Rubrik Penilaian Mandiri (Self-Assessment) [9.15]
+
+### Evaluasi Berdasarkan 6 Kriteria Lembar Kerja Bab 9.15
+
+1. **Hasil yang Diinginkan (Skor 4 — Unggul):** Menyelaraskan hasil masa depan secara halus dengan nilai batin terdalam sasaran (ketenangan kerja tanpa was-was perdebatan antrean) [9.15].
+2. **Kejelasan Mekanisme (Skor 4 — Unggul):** Menggunakan analogi membumi dan prototipe fisik *self-service stand* yang langsung dipahami tanpa setitik pun istilah teknis komputer [9.15].
+3. **Tangga Bukti (Skor 4 — Unggul):** Menyajikan Bukti Tingkat 2 (demo prototipe) dan Bukti Tingkat 4 (data 15 transaksi) secara proporsional disertai batasan konteks nyata [9.10, 9.15].
+4. **Pengakuan Risiko (Skor 4 — Unggul):** Mengakui risiko hujan lebat dan risiko tali kotor secara ksatria, menjadikannya instrumen utama pembangun rasa percaya [9.8, 9.15].
+5. **Manajemen Keberatan (Skor 4 — Unggul):** Menampung 3 ranah keberatan (usaha, biaya, risiko) secara empati, tidak defensif, dan mengubah desain solusi secara substantif [9.9, 9.15].
+6. **Etika Kebebasan Memilih (Skor 4 — Unggul):** Memberikan kebebasan penuh bagi sasaran untuk berkata "tidak" tanpa tekanan psikologis atau manipulasi urgensi palsu [9.12, 9.15].
+
+---
+
+### Tabel Penilaian Portofolio 5 Dimensi TAIDA
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | *Desired state* dirumuskan murni memakai bahasa, nilai batin, dan kenyamanan kerja sasaran; relasi kemitraan terjaga tanpa paksaan [9.6, 9.15]. |
+| **Objective & State** | 4 | Perbedaan *Interest* dan *Desire* dipetakan tegas; ambang bukti (*evidence threshold*) dan risiko yang dapat diterima (*acceptable risk*) terdefinisi eksplisit [9.7, 9.15]. |
+| **Repertoire, Language & AI** | 4 | Rantai nilai disajikan sebagai hipotesis terbuka; tangga bukti 2 tingkat dipadukan presisi; AI dibatasi untuk audit logika dan penolakan denda uang [9.10, 14.15]. |
+| **Response & Adaptation** | 4 | Tiga ranah keberatan (usaha, biaya, risiko) direspons dengan perubahan mekanisme nyata (wadah mandiri, tali karet silikon, dan garansi biaya mandiri) [9.9, 9.15]. |
+| **Agreement, Action & Relationship** | 4 | Kesepakatan uji coba penuh 5 hari kerja tercapai secara sukarela; hak otonomi sasaran dihormati penuh; relasi saling percaya menguat signifikan [9.15, 9.18]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}

@@ -1,25 +1,252 @@
 ---
 title: "Action & Agreement Challenge"
 week: 10
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Barrier, authority, negotiation, agreement, dan action evidence."
+description: "Barrier & authority map, negosiasi posisi vs kepentingan, formula kesepakatan presisi, lingkar komitmen, dan evaluasi jalur ganda."
 categories: [TAIDA, Action]
 ---
 
 ## Kompetensi target
 
-Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.
+Menemukan kesenjangan antara keinginan dan tindakan (*desire–action gap*), membedakan posisi dari kepentingan, memetakan otoritas, serta menghasilkan kesepakatan (*agreement*) yang eksplisit, terukur, dan *feasible* melalui komunikasi lingkar tertutup (*closed-loop communication*) [Bab 10.1, 10.6, 10.12].
 
 ## Evidence wajib
 
-- Barrier dan authority map.
-- Options dan trade-off yang dibahas.
-- Agreement dengan owner/deadline serta bukti action atau review.
+- **Pemetaan Kesenjangan Tindakan (*Desire–Action Gap*), Hambatan, dan Peta Otoritas (*Barrier & Authority Map*)** [Bab 10.4, 10.7].
+- **Negosiasi Berbasis Kepentingan (*Interest-Based Negotiation*) & Pembahasan Opsi serta *Trade-Off*** [Bab 10.5, 10.8].
+- **Dokumen Kesepakatan Presisi (*The Agreement Formula*)** dengan rincian *Scope, Owner, Deadline, Definition of Done,* dan *Stop Rule* [Bab 10.9, 10.14].
+- **Kontrol Lingkar Komitmen (*Commitment Loop Checklist*)** mencakup fase Janji, *Checkpoint*, Bukti Tindakan, dan Penerimaan Resmi [Bab 10.10, 10.15].
+- **Evaluasi Jalur Ganda (*Dual-Track Evaluation*):** Jalur Tugas (*Task*) & Jalur Relasi (*Relationship*) [Bab 10.11, 10.16].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 10](../examples/week-10.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Jumat pagi, 7 Agustus 2026, pukul 09.30–11.00 WIB. Diskusi penutupan kesepakatan operasional (*Agreement Meeting*) bertempat di area selasar Kios Soto Kantin GKU Kampus ITB Jatinangor, dilanjutkan dengan sesi formalisasi dokumen komitmen bersama rekan simulasi (Owen sebagai Ibu Titin / operator kios, D sebagai Pak Bambang / perwakilan Sarpras K3L kampus, dan F sebagai perwakilan pembeli mahasiswa).
+
+**Persons dan relationship:**
+1. *Pihak A (Inisiator Proyek):* Ammar Zharif Fakhrudin (NIM 18225007), mahasiswa STI ITB, penanggung jawab teknis dan fasilitator alur.
+2. *Pihak B (Pelaksana Garis Depan):* Ibu Titin (disimulasikan oleh Owen), staf kasir & peracik utama Kios Soto & Ayam Penyet Kantin GKU.
+3. *Pihak Otoritas Fasilitas:* Pak Bambang (disimulasikan oleh D), Koordinator Pengelola Sarana & Prasarana Kantin Jatinangor (penentu izin ketertiban selasar).
+4. *Pihak Pengguna:* Farhan (disimulasikan oleh F), perwakilan himpunan mahasiswa konsumen kantin.
+Hubungan relasi berkembang dari kemitraan eksploratif (Minggu 6–9) menjadi **kemitraan kerja operasional yang saling mengikat tanggung jawab hukum dan etika kerja lapangan**.
+
+**Objective dan initial state:**
+* *Initial state:* Ibu Titin telah memiliki *Desire* yang kuat untuk merasakan ketenangan kerja bebas konflik antrean (hasil Bab 9). Namun, terdapat *Desire–Action Gap* nyata: ia ragu melangkah ke tindakan karena takut berhadapan dengan mahasiswa yang belum paham aturan baru dan khawatir melanggar aturan tata tertib selasar yang diawasi Sarpras.
+* *Objective:* Menjembatani *desire–action gap* tersebut dengan merumuskan dokumen kesepakatan operasional presisi, mengunci pembagian peran yang adil, menetapkan batas aman kegagalan (*stop rule*), serta mengaktifkan lingkar komitmen tertutup (*closed-loop commitment*) untuk uji coba penuh 5 hari kerja (10–14 Agustus 2026).
+
+---
+
+## Evidence: Lembar Kerja Praktis Dokumen Kesepakatan & Lingkar Komitmen
+
+### 1. Identifikasi Proyek & Pihak yang Terlibat
+
+* **Nama Proyek / Gagasan:** Implementasi Rintisan Pemisahan Alur Antrean Meja Kantin melalui *Papan Status Menu Mini* dan *Kartu Nomor Meja Closed-Loop Anti-Air*.
+* **Tanggal Diskusi Kesepakatan:** Jumat, 7 Agustus 2026.
+* **Pihak-Pihak yang Menyusun Kesepakatan:**
+  - *Pihak A:* Ammar Zharif Fakhrudin (Fasilitator Solusi & Logistik Teknis).
+  - *Pihak B:* Ibu Titin & Pak Slamet (Staf Kasir & Pengelola Operasional Kios Soto).
+  - *Pihak Otoritas Pendukung:* Pak Bambang (Pengelola Sarpras & Jalur Evakuasi GKU).
+
+---
+
+### 2. Analisis Kesenjangan Tindakan (*Desire–Action Gap*) & Peta Otoritas
+
+Meskipun sasaran sangat menginginkan kondisi kerja yang tertib (*Desire*), tindakan nyata sering kali tersumbat oleh kendala wewenang dan ketakutan sosial [Bab 10.4, 10.7].
+
+#### Tabel 1: Peta Hambatan & Otoritas (*Barrier & Authority Map*) [Bab 10.7]
+
+| Hambatan Nyata (*Barrier*) | Person dengan Otoritas (*Authority*) | Bentuk Wewenang & Tanggung Jawab | Solusi Jembatan Tindakan |
+|---|---|---|---|
+| **Izin Penempatan Wadah & Stiker Selasar** | Pak Bambang (Koordinator Sarpras GKU) | Memiliki wewenang mutlak atas keselamatan jalur evakuasi selasar dan estetika fasilitas gedung kampus. | Menunjukkan bahwa wadah kartu ditempel di kaca etalase menggunakan *suction cup* (nol bekas, nol makan jalan selasar) dan stiker alur mudah dilepas. |
+| **Beban Edukasi Awal Pembeli Mahasiswa** | Farhan & Tim Mahasiswa (Ammar Zharif) | Mahasiswa memiliki pengaruh sebaya (*peer influence*) untuk menertibkan sesama pembeli tanpa konfrontasi. | Tim mahasiswa bertindak sebagai *Crowd Marshall* di samping antrean pada 2 hari pertama untuk mengarahkan pembeli. |
+| **SOP Penulisan Nota & Peracikan Dapur** | Ibu Titin & Pak Slamet (Tim Kios) | Memegang otoritas penuh atas pembagian alur gerak di dalam dapur dan penentuan urutan penyajian makanan. | Menyepakati pembagian tugas internal: Ibu Titin menulis nomor nota & meracik soto, Pak Slamet memeriksa penukaran kartu di meja serah. |
+| **Penyediaan & Penggantian Logistik** | Ammar Zharif Fakhrudin | Memegang kendali atas dana proyek studi dan pembuatan kartu laminasi. | Menyediakan 20 kartu utama + 10 kartu cadangan bertali silikon secara gratis tanpa membebani kas kios. |
+
+---
+
+### Bagian 1: Pemetaan Negosiasi Berbasis Kepentingan (*Interest-Based Negotiation*) [Bab 10.5, 10.8]
+
+Mencegah jebakan perdebatan posisi kaku (*positional bargaining*) dengan membedah motif kebutuhan mendasar masing-masing pihak [Bab 10.5]:
+
+| Pihak | Posisi (Tuntutan Permukaan yang Kaku) | Kepentingan (Kebutuhan Dasar, Rasa Aman, & Alasan Batin) |
+|---|---|---|
+| **Pihak A (Tim Mahasiswa / Ammar)** | *"Kami hanya bisa mendampingi dan menjaga antrean langsung di kios selama dua hari pertama (Senin & Selasa)."* | Menjaga agar sistem alur mampu berjalan mandiri (*self-sustaining*) oleh pihak kios, serta keterikatan jadwal perkuliahan tim di hari berikutnya. |
+| **Pihak B (Operator Kios / Ibu Titin)** | *"Mahasiswa harus selalu ada yang jagain di depan etalase setiap hari jam 12.00, atau saya tidak mau pakai nomor ini."* | Mencegah konflik fisik dan emosional dengan pembeli yang belum terbiasa, serta rasa takut dicap judes jika menegur mahasiswa yang menyerobot. |
+| **Pihak Otoritas (Sarpras / Pak Bambang)** | *"Tidak boleh ada paku, lem permanen, atau tiang antrean besi yang menghalangi selasar evakuasi jalan mahasiswa."* | Mematuhi regulasi K3L keselamatan kebakaran kampus dan menghindari teguran dari pimpinan direktorat sarana prasarana. |
+
+> **Titik Temu Kepentingan Utama (*The Common Ground*) [Bab 10.8]:**  
+> *"Seluruh pihak bersepakat mewujudkan antrean yang tertib, cepat, dan mandiri tanpa kerumunan selasar. Untuk melindungi kenyamanan emosional kasir tanpa menciptakan ketergantungan personel, disepakati masa transisi berbantuan selama 2 hari (Senin–Selasa) yang diperkuat oleh sistem penanda visual resmi di etalase kaca, sehingga pada hari ketiga (Rabu) sistem dapat berjalan mandiri secara aman dan tertib."*
+
+---
+
+### Opsi dan *Trade-Off* yang Dibahas
+
+Sebelum menandatangani kesepakatan, tiga skenario opsi diuji kelayakannya secara terbuka [Bab 10.8]:
+
+1. **Opsi 1 (Uji Coba 1 Hari — Senin saja):**  
+   *Trade-off:* Risiko operasional sangat rendah, namun data tidak valid karena pembeli hari Senin masih dalam fase kaget (*transitional shock*).  
+   *Keputusan:* Ditolak.
+2. **Opsi 2 (Uji Coba Penuh 5 Hari Kerja di 1 Kios Soto — Senin s.d. Jumat):**  
+   *Trade-off:* Memberikan waktu yang cukup untuk pembentukan kebiasaan baru (*habit formation*) pembeli, beban logistik terukur (hanya 1 kios), dan risiko terkendali dengan pendampingan 2 hari pertama.  
+   *Keputusan:* **DIPILIH & DISEPAKATI.**
+3. **Opsi 3 (Uji Coba Serentak 3 Kios Kantin selama 2 Minggu):**  
+   *Trade-off:* Bukti dampak makro sangat luas, tetapi membutuhkan izin birokrasi formal tingkat rektorat dan berisiko tinggi menimbulkan kekacauan jika terjadi kesalahan alur di banyak titik.  
+   *Keputusan:* Ditolak untuk tahap rintisan saat ini.
+
+---
+
+### Bagian 2: Dokumen Kesepakatan Presisi (*The Agreement Formula*) [Bab 10.9, 10.14]
+
+Menerapkan formula operasional bebas bias:  
+$$\text{SIAPA} \rightarrow \text{Melakukan APA} \rightarrow \text{KAPAN} \rightarrow \text{Prasyarat/Sumber Daya} \rightarrow \text{DEFINISI SELESAI} \rightarrow \text{Metode Tindak Lanjut}$$
+
+| No | SIAPA (Peran & Nama) | Melakukan APA (Tindakan Spesifik & Operasional) | KAPAN (Tenggat Waktu Eksak) | Sumber Daya / Prasyarat | DEFINISI SELESAI (Kriteria Objektif Tuntas) | Metode Tindak Lanjut (Pelaporan & Media) |
+|:--:|---|---|---|---|---|---|
+| **1** | **Ammar Zharif** *(Fasilitator Solusi)* | Memasang wadah kartu akrilik mandiri di kaca etalase kios, memasang stiker panduan alur, serta menyerahkan 20 kartu laminasi bertali silikon + 10 kartu cadangan + 1 papan mini + 2 spidol. | **Jumat, 7 Agustus 2026, Pukul 10.00 WIB** | Izin penempelan kaca lisan dari Pak Bambang (Sarpras). | Wadah akrilik terpasang kokoh di kaca luar etalase setinggi 110 cm; seluruh 30 kartu terhitung lengkap dan bersih; stiker alur terbaca jelas dari jarak 2 meter. | Menyerahkan lembar tanda terima fisik dan mengirim foto dokumentasi pemasangan ke grup WA koordinasi. |
+| **2** | **Ibu Titin & Pak Slamet** *(Operator Kios)* | Menjalankan gladi simulasi internal di meja kios tanpa pembeli untuk melatih refleks menulis nomor di nota kertas dan menaruh piring di meja serah samping (sebanyak 5 kali uji putaran). | **Jumat, 7 Agustus 2026, Pukul 14.00–14.30 WIB** *(Pasca-tutup shift siang)* | Paket kartu dan papan tulis mini sudah tersedia di meja kios. | Ibu Titin lancar menulis nomor nota dalam $\le$ 3 detik; Pak Slamet memanggil dan mencocokkan nomor kartu penukaran piring dalam $\le$ 5 detik tanpa salah ambil mangkok. | Mengirimkan pesan suara konfirmasi ke WhatsApp Ammar: *"Mas Zha, simulasi berdua lancar, alur tangan sudah hafal dan siap jalan Senin."* |
+| **3** | **Ammar Zharif & Farhan** *(Pendamping Transisi)* | Berjaga aktif di sisi jalur masuk antrean untuk menyapa pembeli, mengarahkan membaca papan menu, dan membimbing pengambilan nomor kartu mandiri (*on-site crowd marshalling*). | **Senin, 10 Agustus & Selasa, 11 Agustus 2026, Pukul 11.45–12.45 WIB** | Kios mulai melayani pesanan dan papan ketersediaan menu sudah terisi lauk hari itu. | 100% pembeli mengambil kartu nomor urut sebelum berdesakan di etalase; nol penumpukan berdiri di depan meja kompor; kasir bekerja tanpa interupsi pertanyaan menu. | Pertemuan evaluasi kilat 5 menit langsung di meja kios bersama Ibu Titin pada pukul 12.50 WIB setiap usai jam sibuk. |
+| **4** | **Ibu Titin** *(Operator Utama)* | Mengoperasikan alur kartu nomor dan papan menu secara mandiri penuh tanpa pendampingan mahasiswa di lokasi. | **Rabu, 12 Agustus s.d. Jumat, 14 Agustus 2026, Pukul 11.45–12.45 WIB** | Poster alur mandiri terpasang dan pembeli telah teredukasi dari 2 hari sebelumnya. | Kios melayani seluruh transaksi jam sibuk secara tertib menggunakan nomor meja; mencatat jumlah kartu yang hilang/rusak (jika ada) di lembar kendali. | Mengisi centang lembar kendali 1 halaman pada pukul 13.00 WIB dan melaporkan status kartu via WA. |
+
+---
+
+### Parameter Kesepakatan Eksplisit (*The Explicit Agreement Terms*) [Bab 10.9]
+
+> * **Scope:** Uji coba penerapan alur pada 1 kios (Kios Soto & Ayam Penyet Ibu Titin), Kantin GKU Jatinangor, periode 10–14 Agustus 2026 (5 hari kerja), khusus jam sibuk 11.45–12.45 WIB.
+> * **Owner:** Ammar Zharif (penyedia sarana & *marshalling* H1–H2), Ibu Titin (pelaksana penulisan nota), Pak Slamet (penyerahan piring di meja serah), Pak Bambang (pengawas jalur fasilitas).
+> * **Deadline Kritis:**
+>   - Serah terima logistik & instalasi kaca: Jumat, 7 Agustus 2026, pukul 10.00 WIB.
+>   - Keputusan akhir *Go / No-Go*: Sabtu, 8 Agustus 2026, pukul 12.00 WIB.
+>   - Pelaksanaan pilot: Senin, 10 Agustus 2026, pukul 11.45 WIB.
+>   - Evaluasi penutupan pilot: Jumat, 14 Agustus 2026, pukul 13.15 WIB.
+> * **Evidence yang Dikumpulkan:** Waktu rata-rata transaksi kasir, jumlah interupsi ketersediaan menu per jam, jumlah kartu yang hilang/rusak, dan catatan kepuasan harian operator.
+> * **Batas Berhenti (*Stop Rule*) [Bab 10.9]:**  
+>   Uji coba rintisan **wajib dihentikan seketika** jika terjadi salah satu dari 3 kondisi berikut:
+>   1. Terjadi perselisihan fisik atau adu mulut terbuka antara pembeli dan kasir akibat penolakan antrean;
+>   2. Terdapat komplain resmi tertulis dari kios tetangga terkait gangguan sirkulasi;
+>   3. Jumlah kartu hilang melebihi 3 buah dalam dua hari pertama (menandakan kegagalan kepatuhan *closed-loop exchange*).
+> * **Review Resmi:** Pertemuan evaluasi akhir bersama Ibu Titin dan Pak Bambang pada Jumat, 14 Agustus 2026, pukul 13.15–13.45 WIB di selasar Kantin GKU.
+
+---
+
+### Bagian 3: Kontrol Lingkar Komitmen (*Commitment Loop Checklist*) [Bab 10.10, 10.15]
+
+Pelacakan komunikasi lingkar tertutup (*closed-loop communication*) untuk memastikan janji tidak menguap di tengah jalan [Bab 10.10]:
+
+```
+  [ Fase 1: JANJI ] ───────────► [ Fase 2: CHECKPOINT ]
+          │                                  │
+          ▼                                  ▼
+  [ Fase 4: PENERIMAAN ] ◄──────── [ Fase 3: BUKTI & PEMERIKSAAN ]
+```
+
+#### Pelacakan Butir Tindakan No 1 (Pengadaan & Pemasangan Sarana Logistik)
+* **Fase 1: Janji Terbentuk:** Jumat, 7 Agustus 2026, pukul 09.45 WIB.
+* **Fase 2: Checkpoint Awal (H-1 sebelum instalasi selesai):**
+  - *Waktu Checkpoint:* Jumat, 7 Agustus 2026, pukul 08.00 WIB.
+  - *Kemajuan & Kendala:* Paket 30 kartu laminasi bertali silikon dan papan menu mini telah tuntas dipotong dan dilaminasi; karet *suction cup* teruji menempel kuat di kaca uji lab STI. Tidak ada kendala teknis.
+* **Fase 3: Bukti & Pemeriksaan Mandiri:**
+  - *Bukti Nyata:* Fisik wadah akrilik terpasang rapi di kaca kios Ibu Titin, foto stiker alur, dan tanda tangan tanda terima barang.
+  - *Kesesuaian Definisi Selesai:* [x] **Ya** [ ] Belum.
+* **Fase 4: Penerimaan Resmi:**
+  - *Penerima Manfaat:* Ibu Titin (didampingi Pak Bambang dari Sarpras).
+  - *Catatan Penerimaan:* *"Pemasangan rapi di kaca, tidak makan tempat meja dan tidak goyang. Kartu nomornya bersih dan talinya lentur."*
+
+#### Pelacakan Butir Tindakan No 2 (Gladi Resik Simulasi Internal Kios)
+* **Fase 1: Janji Terbentuk:** Jumat, 7 Agustus 2026, pukul 10.15 WIB.
+* **Fase 2: Checkpoint Awal:**
+  - *Waktu Checkpoint:* Jumat, 7 Agustus 2026, pukul 13.30 WIB (via WhatsApp).
+  - *Kemajuan & Kendala:* Ibu Titin mengonfirmasi bahwa warung sudah sepi dan siap melakukan uji alur 5 putaran bersama Pak Slamet tepat pukul 14.00 WIB.
+* **Fase 3: Bukti & Pemeriksaan Mandiri:**
+  - *Bukti Nyata:* Rekaman pesan suara (*voice note*) dan foto nota kertas bertuliskan nomor urut uji coba 1 s.d. 5 di meja kasir.
+  - *Kesesuaian Definisi Selesai:* [x] **Ya** [ ] Belum.
+* **Fase 4: Penerimaan Resmi:**
+  - *Penerima Manfaat:* Ammar Zharif Fakhrudin (Fasilitator Teknis).
+  - *Catatan Penerimaan:* SOP peracikan terkonfirmasi aman; ritme penulisan nota disepakati tidak melebihi 3 detik per pembeli. Keputusan *Go-Live* Senin disahkan.
+
+---
+
+### Bagian 4: Evaluasi Jalur Ganda (*Dual-Track Evaluation*) [Bab 10.11, 10.16]
+
+#### 1. Jalur Tugas (*Task Outcome*)
+* **Ketercapaian Target:** Seluruh parameter teknis persiapan pilot terpenuhi 100% sebelum batas tenggat Sabtu siang. Wadah kartu terpasang kokoh, 30 kartu silikon siap pakai, stiker alur terpasang tanpa merusak cat/kaca, dan gladi internal sukses dieksekusi.
+* **Kendala Lapangan & Mitigasi Cepat:** Saat penempelan wadah akrilik, kaca luar etalase kios agak berminyak sehingga karet *suction cup* sempat tergelincir. Mitigasi: Kaca dibersihkan menggunakan cairan pembersih alkohol oleh tim mahasiswa hingga steril sebelum ditempel ulang, menghasilkan daya lekat yang sangat kokoh.
+
+#### 2. Jalur Relasi (*Relationship Outcome*)
+* **Kualitas Kepercayaan & Martabat Relasi:** Komunikasi berlangsung setara tanpa arogansi mahasiswa terhadap pedagang informal. Ketakutan awal Ibu Titin terhadap beban ganti rugi kartu dan rasa cemas ditegur Sarpras berhasil dinetralisasi secara tuntas melalui kepastian tertulis bahwa tim mahasiswa menjamin logistik dan Pak Bambang telah memberi izin resmi.
+* **Pengelolaan Ketegangan Peran:** Ketika muncul perdebatan mengenai lamanya pendampingan mahasiswa (Ibu Titin meminta ditemani 5 hari penuh), Ammar tidak menolak secara ketus, melainkan menyajikan data jadwal kuliah secara transparan dan menawarkan komitmen kompromi: pendampingan intensif 2 hari pertama ditambah *on-call monitoring* saat jam istirahat di hari-hari berikutnya. Ibu Titin merasa sangat dihargai dan merasa memiliki (*co-ownership*) atas sistem baru ini.
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Membedakan secara presisi wewenang (*authority*) tiap pihak: Pak Bambang (izin fasilitas selasar), Ibu Titin (operasional dapur), Ammar (logistik & fasilitasi) [Bab 10.7]. Menempatkan diri sebagai rekan kerja yang akuntabel, bukan sekadar mahasiswa pencari nilai tugas [Bab 10.1]. |
+| **Objective & state** | *State awal:* Desire tinggi namun tertahan oleh hambatan eksekusi (*Desire–Action Gap*). *Objective:* Mengikat komitmen ke dalam *Action* nyata melalui kesepakatan operasional presisi. *State akhir:* Tercapainya kesepakatan tertulis uji coba 5 hari kerja dengan parameter sukses dan *stop rule* yang jelas [Bab 10.6, 10.9]. |
+| **Repertoire & language** | Membuang seluruh bahasa kabur (*"nanti dibantu"*, *"segera dipasang"*); menggantinya dengan formula presisi: *Who, What, When, Definition of Done,* dan *Follow-up Method* [Bab 10.9, 10.14]. Menggunakan teknik negosiasi berbasis kepentingan (*interest-based*) untuk menghindari kebuntuan posisi [Bab 10.5]. |
+| **Response & adaptation** | Merespons kekhawatiran Sarpras soal jalur evakuasi dengan mengadaptasi sistem tempel kaca *suction cup* tanpa paku/tiang; merespons kecemasan kasir dengan menyediakan pendampingan lapangan 2 hari pertama [Bab 10.8, 10.15]. |
+| **Agreement/action** | Penandatanganan nota kesepakatan operasional pilot 10–14 Agustus 2026, serah terima 30 kartu nomor silikon, dan pemasangan stiker alur di etalase kios [Bab 10.9, 10.15]. |
+| **Relationship outcome** | Terbentuknya kolaborasi lintas peran yang harmonis dan solid antara mahasiswa, pelaku usaha mikro kampus, dan birokrasi sarpras. Tingkat saling percaya (*mutual trust*) berada pada titik tertinggi [Bab 10.11, 10.16]. |
+
+---
+
+## Penggunaan AI (AI Statement) [14.15, E.7]
+
+AI (Gemini) digunakan secara terarah pada tahap pra-negosiasi untuk menguji ketahanan rancangan kesepakatan:
+
+1. **Audit Ketajaman Klausul (*Ambiguity Audit*):** Saya memasukkan draf awal formula kesepakatan ke AI dan meminta AI mengidentifikasi frasa-frasa yang berpotensi menimbulkan salah tafsir (*loophole*). Hasilnya, AI menandai frasa *"seusai jam makan siang"* yang multitafsir, sehingga saya revisi menjadi jam eksak *"pukul 12.50 WIB"*.
+2. **Perancangan Batas Berhenti (*Stop Rule Generator*):** AI membantu menyimulasikan skenario terburuk kegagalan sistem antrean di tempat umum, yang mendasari perumusan klausul penghentian darurat jika kartu hilang > 3 buah dalam 2 hari.
+3. **Output AI yang Ditolak:** AI sempat menyarankan pembuatan dokumen hukum formal bermeterai lengkap dengan ancaman denda perdata wanprestasi. Saya **menolak mentah-mentah rekomendasi ini** karena sangat tidak etis, merusak relasi personal kemitraan dengan pedagang kantin, dan melanggar prinsip kebebasan bernalar yang humanis Bab 10.
+4. **Batas Kepemilikan Manusia:** Penyelarasan batin kepentingan di meja warung, proses pembersihan kaca etalase, dan rasa saling percaya antarpribadi dieksekusi 100% oleh manusia secara autentik di lapangan.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Pak Bambang (Sarpras) mengapresiasi penggunaan karet hisap kaca (*suction cup*) karena tidak merusak fasilitas kampus dan selasar tetap steril dari tiang antrean. Rekan observer (D & F) memuji keberanian menetapkan *Stop Rule* eksplisit sebagai bukti kedewasaan profesional perancang sistem.
+
+**Adaptation/replay:**
+Berdasarkan masukan Ibu Titin saat gladi simulasi, nomor urut 1 sampai 10 diberi tanda warna hijau (menu soto biasa) dan nomor 11 sampai 20 diberi tanda warna oranye (menu ayam penyet), agar Pak Slamet di meja serah dapat langsung mengenali jenis masakan tanpa harus membaca tulisan nota secara mendalam.
+
+**Next practice:**
+Menghadapi evaluasi pasca-pilot di Minggu 11, saya akan merancang lembar pelaporan reflektif berbasis metrik gabungan: efisiensi waktu, keterpeliharaan aset kartu, dan indeks kepuasan senyum kasir.
+
+---
+
+## Rubrik Penilaian Mandiri & Umpan Balik Sejawat [Bab 10.16]
+
+### Evaluasi 4 Aspek Lembar Kerja Bab 10
+
+| No | Aspek Penilaian Kinerja | Skor (1–3) | Bukti Perilaku / Catatan Kinerja Mandiri |
+|:--:|---|:---:|---|
+| **1** | **Kejelasan Kepentingan (Bukan Posisi)** | **3 (Sangat Baik)** | Mampu melampaui tuntutan permukaan Ibu Titin dan tim mahasiswa; merumuskan titik temu transisi 2 hari pendampingan + panduan visual permanen [Bab 10.5, 10.8]. |
+| **2** | **Presisi Formula Kesepakatan** | **3 (Sangat Baik)** | Bebas dari istilah kabur; seluruh tindakan memiliki penanggung jawab tunggal (*Who*), tenggat waktu eksak (*When*), dan definisi selesai yang dapat diverifikasi fisik (*Done*) [Bab 10.9, 10.14]. |
+| **3** | **Tanggung Jawab Pemeliharaan Komitmen** | **3 (Sangat Baik)** | Memiliki alur lingkar tertutup lengkap (*Fase Janji, Checkpoint, Bukti Nyata, dan Penerimaan Resmi*) dengan bukti fisik foto dan tanda terima [Bab 10.10, 10.15]. |
+| **4** | **Keseimbangan Jalur Ganda** | **3 (Sangat Baik)** | Menjaga harmoni tugas dan relasi secara seimbang; memuat *Stop Rule* yang melindungi kenyamanan mental dan finansial pedagang kecil tanpa intimidasi [Bab 10.11, 10.16]. |
+
+---
+
+### Tabel Penilaian Portofolio 5 Dimensi TAIDA
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Wewenang dan batas tanggung jawab tiap person (*Ibu Titin, Pak Bambang, Ammar*) dipetakan akurat; relasi kerja dilandasi rasa saling menghargai martabat [Bab 10.7]. |
+| **Objective & State** | 4 | *Desire–Action gap* diidentifikasi konkret; kondisi mental ragu bertransformasi menjadi komitmen tindakan operasional terikat [Bab 10.4, 10.6]. |
+| **Repertoire, Language & AI** | 4 | Formula kesepakatan presisi diterapkan penuh tanpa bias; negosiasi berbasis kepentingan berhasil; AI dibatasi hanya untuk audit ketajaman bahasa [Bab 10.9, 14.15]. |
+| **Response & Adaptation** | 4 | Keberatan sarpras dan kasir direspons adaptif melalui teknologi tempel kaca *suction cup* dan pendampingan 2 hari pertama [Bab 10.8, 10.15]. |
+| **Agreement, Action & Relationship** | 4 | Kesepakatan eksplisit (*Scope, Owner, Deadline, Evidence, Stop Rule, Review*) terkunci rapi; lingkar komitmen tertutup tuntas; relasi makin erat [Bab 10.9, 10.15]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Problem–solution fit dan signal Interest.">
+<meta name="description" content="Detoks fitur, problem–solution fit, demonstrasi prototipe alur fisik kantin, hidden concern, dan sinyal Interest.">
 
 <title>Problem–Solution Interest Pitch – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -261,7 +290,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
+  <li><a href="#evidence-lembar-kerja-praktis-panduan-detoks-fitur" id="toc-evidence-lembar-kerja-praktis-panduan-detoks-fitur" class="nav-link" data-scroll-target="#evidence-lembar-kerja-praktis-panduan-detoks-fitur">Evidence: Lembar Kerja Praktis Panduan Detoks Fitur</a>
+  <ul class="collapse">
+  <li><a href="#fase-1-konteks-masalah-terkonfirmasi-customer-problem-statement" id="toc-fase-1-konteks-masalah-terkonfirmasi-customer-problem-statement" class="nav-link" data-scroll-target="#fase-1-konteks-masalah-terkonfirmasi-customer-problem-statement">Fase 1: Konteks Masalah Terkonfirmasi (<em>Customer Problem Statement</em>)</a></li>
+  <li><a href="#fase-2-matriks-analisis-detoks-fitur" id="toc-fase-2-matriks-analisis-detoks-fitur" class="nav-link" data-scroll-target="#fase-2-matriks-analisis-detoks-fitur">Fase 2: Matriks Analisis Detoks Fitur</a></li>
+  <li><a href="#fase-3-draf-pitch-minat-60-detik-5-langkah-bab-7.7.2" id="toc-fase-3-draf-pitch-minat-60-detik-5-langkah-bab-7.7.2" class="nav-link" data-scroll-target="#fase-3-draf-pitch-minat-60-detik-5-langkah-bab-7.7.2">Fase 3: Draf Pitch Minat 60 Detik (5 Langkah Bab 7.7.2)</a></li>
+  <li><a href="#demonstrasi-prototipe-respons-hidden-concern-dan-adaptasi" id="toc-demonstrasi-prototipe-respons-hidden-concern-dan-adaptasi" class="nav-link" data-scroll-target="#demonstrasi-prototipe-respons-hidden-concern-dan-adaptasi">Demonstrasi Prototipe, Respons, Hidden Concern, dan Adaptasi</a></li>
+  </ul></li>
   <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
   <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
   <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
@@ -286,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Problem–solution fit dan signal Interest.
+    Detoks fitur, problem–solution fit, demonstrasi prototipe alur fisik kantin, hidden concern, dan sinyal Interest.
   </div>
 </div>
 
@@ -305,44 +340,157 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="kompetensi-target" class="level2">
 <h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.</p>
+<p>Menghubungkan <em>solution mechanism</em> dengan <em>problem</em>, <em>benefit</em>, dan <em>value</em> yang relevan secara jujur tanpa terjebak perangkap pembuangan fitur (<em>feature dumping</em>) [Bab 7.1, 7.7, 7.14].</p>
 </section>
 <section id="evidence-wajib" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
 <ul>
-<li>Attention evidence dan problem–solution link.</li>
-<li>Interest pitch dengan evidence atau demonstration.</li>
-<li>Response, state assessment, hidden concern, dan adaptation.</li>
+<li><strong>Konteks masalah terkonfirmasi (Customer Problem Statement)</strong> dan bukti atensi lanjutan dari Bab 6 [Bab 7.6].</li>
+<li><strong>Matriks Analisis Detoks Fitur</strong> (pemangkasan fitur ego teknis vs.&nbsp;fitur yang dipertahankan berdasarkan nilai relasional) [Bab 7.7.1, 7.14].</li>
+<li><strong>Draf Interest Pitch 60 Detik</strong> (5 langkah terstruktur, <span class="math inline">\(\le\)</span> 120 kata) dan skenario demonstrasi prototipe [Bab 7.7.2, 7.9].</li>
+<li><strong>Catatan respons, state assessment (Attention <span class="math inline">\(\rightarrow\)</span> Interest), penyingkapan <em>hidden concern</em>, dan adaptasi mekanisme</strong> [Bab 7.13, 7.15].</li>
+<li><strong>Refleksi etika kejujuran batas dan risiko solusi</strong> [Bab 7.8, 7.18, 9.8].</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-07.html">Buka contoh fiktif Minggu 7</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<hr>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Kamis siang, 30 Juli 2026, pukul 11.30–13.00 WIB. Pertemuan lanjutan berbasis kesepakatan observasi Bab 6 di area pujasera Kantin GKU Kampus ITB Jatinangor. Sesi penyampaian <em>Interest Pitch</em> dan peragaan prototipe sederhana dilakukan langsung di depan meja Kios Soto &amp; Ayam Penyet sebelum lonjakan jam makan siang (pukul 11.45 WIB), dilanjutkan dengan simulasi bersama rekan (Owen sebagai operator kios, F sebagai mahasiswa, dan D sebagai pencatat observer).</p>
+<p><strong>Persons dan relationship:</strong> 1. <em>Sasaran Utama (Pelaksana / Operator Kios):</em> Ibu Titin (disimulasikan oleh Owen), staf kasir dan peracik makanan yang tempo hari memberikan izin observasi titik antrean menu. 2. <em>Sasaran Sekunder (Pengguna / Mahasiswa):</em> Farhan (disimulasikan oleh F), mahasiswa tingkat 2 yang mewakili kebutuhan kepastian waktu makan. 3. <em>Observer &amp; Timer:</em> D, rekan mahasiswa yang mengamati respons verbal/nonverbal serta durasi pitch 60 detik. Hubungan relasi adalah kemitraan kolaboratif tindak lanjut dari <em>Target–Attention Challenge</em> Minggu 6.</p>
+<p><strong>Objective dan initial state:</strong> * <em>Initial state:</em> Operator berada pada <em>state</em> <strong>Attention dengan reservasi</strong>—mengakui bahwa masalah utama adalah kerumunan orang memilih menu di depan etalase, namun memiliki kekhawatiran (<em>skeptisisme</em>) terhadap usulan baru yang dikira akan menggunakan aplikasi gawai atau menambah beban biaya operasional. * <em>Objective:</em> Menumbuhkan minat (<em>Interest</em>) operator melalui <em>pitch</em> solusi berbasis detoks fitur (tanpa jargon digital), mendemonstrasikan prototipe fisik sederhana dalam 60 detik, membongkar <em>hidden concern</em>, dan menyepakati jadwal uji coba rintisan (<em>pilot run</em>) selama 20 menit pada jam sibuk.</p>
+<hr>
 </section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
+<section id="evidence-lembar-kerja-praktis-panduan-detoks-fitur" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-lembar-kerja-praktis-panduan-detoks-fitur">Evidence: Lembar Kerja Praktis Panduan Detoks Fitur</h2>
+<section id="fase-1-konteks-masalah-terkonfirmasi-customer-problem-statement" class="level3">
+<h3 class="anchored" data-anchor-id="fase-1-konteks-masalah-terkonfirmasi-customer-problem-statement">Fase 1: Konteks Masalah Terkonfirmasi (<em>Customer Problem Statement</em>)</h3>
+<p>Berdasarkan hasil wawancara Bab 5 dan validasi observasi Bab 6, masalah inti dirumuskan secara presisi:</p>
+<blockquote class="blockquote">
+<p><strong>Customer Problem Statement (CPS):</strong><br>
+“Staf kasir dan penyaji kios kantin (<em>Pribadi/Peran</em>) mengalami kelelahan mental dan penumpukan antrean hingga 40 orang (<em>Keadaan yang teramati</em>) ketika jam pergantian kuliah pukul 12.00–12.35 WIB (<em>Konteks</em>), sehingga proses peracikan makanan terhambat akibat interupsi pertanyaan berulang dari mahasiswa yang berdesakan di depan etalase sempit (<em>Dampak</em>). Ia membutuhkan mekanisme pemisahan alur sirkulasi pemesanan dan pengambilan makanan yang mandiri (<em>Hasil/Kemampuan</em>), dengan mempertimbangkan ruang gerak meja yang sangat terbatas (2x2 meter), keengganan menggunakan aplikasi digital yang rumit, serta sensitivitas terhadap biaya operasional tambahan (<em>Kendala</em>).” [Bab 7.6]</p>
+</blockquote>
+<hr>
+</section>
+<section id="fase-2-matriks-analisis-detoks-fitur" class="level3">
+<h3 class="anchored" data-anchor-id="fase-2-matriks-analisis-detoks-fitur">Fase 2: Matriks Analisis Detoks Fitur</h3>
+<p>Melakukan <em>detoksifikasi</em> terhadap ide solusi awal saya sebagai mahasiswa STI yang awalnya tergoda membuat aplikasi canggih (<em>feature dumping</em>), lalu memangkas fitur-fitur yang tidak menempel pada masalah nyata [Bab 7.7.1, 7.14].</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">No</th>
+<th>Fitur Teknis Solusi</th>
+<th>Manfaat Langsung</th>
+<th>Nilai Relasional (Bagi Peran Tertentu)</th>
+<th>Bukti yang Diperlukan</th>
+<th style="text-align: center;">Keputusan (Pertahankan / Pangkas)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td><strong>Aplikasi Mobile Pemesanan Kantin Cloud &amp; E-Wallet</strong></td>
+<td>Mahasiswa dapat memesan makanan dari kamar kos/ruang kelas.</td>
+<td><em>Bagi Mahasiswa:</em> Fleksibel.<br><em>Bagi Kasir:</em> <strong>Nol / Negatif.</strong> Menambah beban verifikasi layar HP saat tangan berlumur bumbu, terkena potongan komisi <em>gateway</em>, dan macet saat sinyal seluler kampus padat.</td>
+<td>Data observasi: 70% transaksi kios masih tunai mikro; operator menolak memegang HP saat jam sibuk.</td>
+<td style="text-align: center;"><strong>PANGKAS</strong><br><em>(Ego teknis pembuat program; beban bahasa yang merusak adopsi lapangan).</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td><strong>Mesin Cetak Tiket Nomor Antrean Kertas Thermal Otomatis</strong></td>
+<td>Mengeluarkan secarik kertas nomor urut ketika tombol ditekan.</td>
+<td><em>Bagi Mahasiswa:</em> Memiliki nomor pegangan.<br><em>Bagi Kasir:</em> <strong>Negatif.</strong> Memakan tempat di meja saji sempit (2x2 m), biaya roll kertas thermal mahal, dan struk kertas berceceran menjadi sampah di selasar.</td>
+<td>Pengukuran meja kios: hanya tersisa ruang 30 cm di samping kompor dan wadah piring.</td>
+<td style="text-align: center;"><strong>PANGKAS</strong><br><em>(Menambah biaya habis pakai dan limbah fisik fasilitas).</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td><strong>Kamera Pemantau Kepadatan Antrean Berbasis AI Vision</strong></td>
+<td>Menghitung jumlah kerumunan di selasar secara <em>real-time</em>.</td>
+<td><em>Bagi Sarpras:</em> Data analitik makro.<br><em>Bagi Kasir:</em> <strong>Nol.</strong> Tidak membantu mempercepat penyajian piring atau mengurangi pertanyaan menu. Menimbulkan resistensi privasi mahasiswa.</td>
+<td>Tidak ada korelasi antara deteksi kamera dengan kelancaran meja saji kios.</td>
+<td style="text-align: center;"><strong>PANGKAS</strong><br><em>(Fitur pamer teknologi; tidak melayani penderitaan peran garis depan).</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td><strong>Papan Tulis Gantung Mini Status Menu (“Tersedia / Habis”)</strong></td>
+<td>Menginformasikan ketersediaan 5 menu utama tepat di jalur awal antrean.</td>
+<td><em>Bagi Kasir:</em> Menghentikan 70% interupsi pertanyaan berulang (<em>“Ayam bakar masih ada Bu?”</em>).<br><em>Bagi Mahasiswa:</em> Menghilangkan kekecewaan antre panjang ternyata menu favorit sudah habis.</td>
+<td>Catatan observasi Bab 6: 8 dari 12 interupsi ke kasir adalah pertanyaan ketersediaan lauk.</td>
+<td style="text-align: center;"><strong>PERTAHANKAN</strong><br><em>(Sangat menempel pada akar masalah interupsi kasir).</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td><strong>Sistem Kartu Nomor Meja Dua Sisi (Piring Saji &amp; Tangan Pembeli)</strong></td>
+<td>Menghubungkan nomor pesanan piring dengan pembeli yang dapat menunggu sambil duduk.</td>
+<td><em>Bagi Kasir:</em> Area depan etalase bersih dari kerumunan; kasir tinggal memanggil nomor piring siap.<br><em>Bagi Mahasiswa:</em> Kepastian urutan saji tanpa perlu berdiri berdesakan di selasar sempit.</td>
+<td>Simulasi alur menunjukkan antrean berdiri berkurang 60% jika pembeli bisa duduk menunggu nomornya.</td>
+<td style="text-align: center;"><strong>PERTAHANKAN</strong><br><em>(Mekanisme fisik murah, nol listrik, langsung mengurai sirkulasi).</em></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>[!IMPORTANT] <strong>Catatan Etis Kejujuran Batas Kemampuan Solusi [Bab 7.8, 9.8]:</strong><br>
+Solusi papan gantung dan kartu nomor fisik ini memiliki batas nyata: ia tidak menambah kecepatan kompor menggoreng ayam (kecepatan dapur tetap sama). Solusi ini murni menata <strong>ekspektasi sirkulasi dan kepastian mental</strong>, bukan mempercepat hukum fisika memasak. Batasan ini disampaikan secara terbuka kepada operator agar tidak terjadi janji berlebih (<em>overpromising</em>).</p>
+</blockquote>
+<hr>
+</section>
+<section id="fase-3-draf-pitch-minat-60-detik-5-langkah-bab-7.7.2" class="level3">
+<h3 class="anchored" data-anchor-id="fase-3-draf-pitch-minat-60-detik-5-langkah-bab-7.7.2">Fase 3: Draf Pitch Minat 60 Detik (5 Langkah Bab 7.7.2)</h3>
+<p>Disusun menggunakan teknik <strong>Komunikasi Berlapis</strong> (dimulai dari pengait masalah, kemungkinan solusi, mekanisme ringkas tanpa jargon, nilai riil, dan pertanyaan cek minat) [Bab 7.9].</p>
+<ul>
+<li><p><strong>Draf Lisan:</strong> &gt; “Kemarin Ibu Titin menceritakan bahwa kerepotan jam 12.00 muncul karena pembeli berkerumun di depan kasir menanyakan menu dan menunggu piring. Untuk mengurai sumbatan itu tanpa sistem digital rumit, kita bisa mencoba pemisahan alur fisik dua titik. Mekanismenya, papan gantung mini mengumumkan menu habis di awal antrean, lalu pembeli menerima kartu nomor meja untuk menunggu dengan duduk di bangku selasar. Manfaatnya, Ibu bebas dari desakan pertanyaan berulang di etalase, dan mahasiswa mendapat kepastian giliran makan tanpa saling senggol. Apakah simulasi alur sederhana ini menarik untuk kita uji coba 20 menit besok siang, Bu?”</p></li>
+<li><p><strong>Penghitungan Kata:</strong> <strong>92 kata</strong> (Wajib <span class="math inline">\(\le\)</span> 120 kata) — <em>Tuntas disampaikan dalam tempo santai selama 48 detik</em>.</p></li>
+<li><p><strong>Bedah 5 Langkah Pitch Minat:</strong></p>
+<ol type="1">
+<li><em>Hubungkan kembali dengan masalah:</em> “Kemarin Ibu Titin menceritakan bahwa kerepotan jam 12.00 muncul karena pembeli berkerumun di depan kasir menanyakan menu dan menunggu piring.”</li>
+<li><em>Perkenalkan kemungkinan solusi:</em> “Untuk mengurai sumbatan itu tanpa sistem digital rumit, kita bisa mencoba pemisahan alur fisik dua titik.”</li>
+<li><em>Jelaskan mekanisme sederhana:</em> “Mekanismenya, papan gantung mini mengumumkan menu habis di awal antrean, lalu pembeli menerima kartu nomor meja untuk menunggu dengan duduk di bangku selasar.”</li>
+<li><em>Nyatakan manfaat &amp; nilai riil:</em> “Manfaatnya, Ibu bebas dari desakan pertanyaan berulang di etalase, dan mahasiswa mendapat kepastian giliran makan tanpa saling senggol.”</li>
+<li><em>Undang tanggapan (Cek Minat):</em> “Apakah simulasi alur sederhana ini menarik untuk kita uji coba 20 menit besok siang, Bu?”</li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="demonstrasi-prototipe-respons-hidden-concern-dan-adaptasi" class="level3">
+<h3 class="anchored" data-anchor-id="demonstrasi-prototipe-respons-hidden-concern-dan-adaptasi">Demonstrasi Prototipe, Respons, Hidden Concern, dan Adaptasi</h3>
+<section id="demonstrasi-prototipe-fisik-durasi-90-detik" class="level4">
+<h4 class="anchored" data-anchor-id="demonstrasi-prototipe-fisik-durasi-90-detik">1. Demonstrasi Prototipe Fisik (Durasi 90 Detik)</h4>
+<p>Saya mengeluarkan dua alat peraga nyata dari tas: - Satu papan tulis mini berukuran 20x30 cm bertuliskan <em>Status Menu</em> yang bisa digantung di tiang etalase menggunakan tali karet. - Satu set kartu nomor akrilik bundar (nomor 1–20) berpenjepit ganda (satu menjepit bibir mangkok/nampan, satu dipegang pembeli). Saya memperagakan alurnya dalam 3 langkah gerakan tangan: menulis menu habis <span class="math inline">\(\rightarrow\)</span> menjepit nomor <span class="math inline">\(\rightarrow\)</span> memanggil nomor saat makanan siap di meja samping.</p>
+</section>
+<section id="respons-lawan-bicara-penyingkapan-hidden-concern" class="level4">
+<h4 class="anchored" data-anchor-id="respons-lawan-bicara-penyingkapan-hidden-concern">2. Respons Lawan Bicara &amp; Penyingkapan <em>Hidden Concern</em></h4>
+<ul>
+<li><p><strong>Respons Awal (Verbal &amp; Nonverbal):</strong><br>
+Operator (Ibu Titin / Owen) mengangguk-angguk saat melihat kartu nomor, raut mukanya lega karena tidak melihat kabel atau aplikasi HP. Namun, setelah memegang kartu akrilik tersebut, ia mengerutkan kening dan berujar:<br>
+&gt; <em>“Idenya praktis Mas, saya senang gak usah pencet-pencet layar HP. Tapi kalau kartu nomor ini dibawa mahasiswa ke bangku selasar, saya khawatir kartunya pada hilang, kelupaan dibalikin, atau ketumpahan kuah soto jadi kotor. Siapa yang mau nombokin kalau nomornya hilang terus tiap hari?”</em></p></li>
+<li><p><strong>Identifikasi <em>Hidden Concern</em> [Bab 7.13]:</strong><br>
+Semula saya mengira keraguan operator adalah soal kepatuhan mahasiswa berbaris. Ternyata kekhawatiran tersembunyi yang sesungguhnya adalah <strong>Akuntabilitas Kehilangan Aset (<em>Asset Loss &amp; Replacement Cost</em>)</strong> dan <strong>Beban Kebersihan (<em>Maintenance Workload</em>)</strong>. Bagi pedagang kios kecil, kehilangan alat operasional adalah biaya tunai yang mengurangi keuntungan harian mereka.</p></li>
+</ul>
+</section>
+<section id="adaptasi-mekanisme-penyesuaian-janji-real-time-adaptation" class="level4">
+<h4 class="anchored" data-anchor-id="adaptasi-mekanisme-penyesuaian-janji-real-time-adaptation">3. Adaptasi Mekanisme &amp; Penyesuaian Janji (<em>Real-Time Adaptation</em>)</h4>
+<p>Alih-alih membela diri atau meremehkan kekhawatiran tersebut (<em>“Ah kan cuma kartu murah Bu”</em>), saya langsung memvalidasi kekhawatirannya dan mengadaptasi rancangan mekanisme: - <strong>Perubahan Mekanisme:</strong> Mengganti kartu akrilik dengan <strong>kartu karton tebal terlaminasi anti-air yang dilengkapi tali gantungan kalung</strong> (agar tidak ditaruh sembarangan di atas meja kuah). Selain itu, nomor ditukar langsung saat piring diambil di meja serah (<em>closed-loop exchange</em>): mahasiswa wajib menyerahkan kartu nomor untuk dapat mengambil mangkok sotonya. - <strong>Penurunan Janji (<em>De-risking</em>):</strong> Saya menyatakan bahwa 20 kartu perdana ini adalah prototipe modal dari saya pribadi sebagai bagian dari tugas studi. Jika selama 3 hari uji coba ada kartu yang hilang atau rusak, Ibu Titin tidak perlu mengganti sepeser pun. - <strong>Sinyal Minat (<em>Signal of Interest</em>):</strong><br>
+Mendengar mitigasi risiko tersebut, ekspresi wajah Ibu Titin kembali cerah, ia tersenyum dan mengambil kartu laminasi tersebut sambil berkata:<br>
+&gt; <em>“Nah, kalau ada jaminan gak nombokin dan kartunya dilaminasi anti basah, saya mau coba Mas. Besok siang pas jam 11.45 sebelum anak-anak bubar kelas kita pasang ya.”</em></p>
+<hr>
+</section>
+</section>
 </section>
 <section id="analisis-komunikasi" class="level2">
 <h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Elemen</th>
@@ -351,52 +499,59 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Person &amp; character</strong></td>
+<td>Memperlakukan operator sebagai mitra praktisi yang rasional dan sangat berhitung terhadap risiko aset harian [Bab 7.1]. Saya menanggalkan karakter <em>arrogant programmer</em> yang membanggakan aplikasi digital, beralih menjadi <em>practical problem solver</em> yang berempati pada kesederhanaan operasional [Bab 7.7.1].</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Objective &amp; state</strong></td>
+<td><em>State awal:</em> Attention dengan reservasi (waspada terhadap usulan rumit). <em>Objective:</em> Menggeser ke <em>state</em> <strong>Interest</strong> terkonfirmasi. <em>State akhir:</em> Target menunjukkan sinyal minat kuat dengan menyepakati waktu uji coba rintisan besok jam 11.45 WIB [Bab 7.13].</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Repertoire &amp; language</strong></td>
+<td>Menerapkan detoks fitur secara radikal (membuang kata <em>cloud</em>, <em>API</em>, <em>QRIS</em>, <em>AI vision</em>). Menggunakan bahasa visual konkret (<em>“papan gantung mini”</em>, <em>“kartu nomor meja”</em>) dan formula pitch 5 langkah yang terstruktur rapi di bawah 120 kata [Bab 7.7.2, 7.14].</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Response &amp; adaptation</strong></td>
+<td>Mendengar keberatan soal hilangnya nomor meja; tidak mendebat, melainkan membongkar <em>hidden concern</em> biaya penggantian kartu dan langsung mengadaptasi mekanisme menjadi kartu laminasi berkalung dengan jaminan bebas biaya penggantian [Bab 7.13, 7.15].</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Agreement/action</strong></td>
+<td>Terjadinya kesepakatan (<em>agreement</em>) untuk melakukan uji coba rintisan (<em>pilot trial</em>) pemisahan alur selama 20 menit pada jam sibuk hari Jumat pukul 11.45–12.05 WIB di kios Soto Ibu Titin [Bab 7.15].</td>
 </tr>
 <tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Relationship outcome</strong></td>
+<td>Tingkat kepercayaan (<em>trust</em>) meningkat signifikan. Mitra merasa didengarkan secara utuh karena kekhawatiran finansial mikro-nya dihargai dan dilindungi oleh perancang solusi [Bab 7.18].</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
 <section id="penggunaan-ai" class="level2">
 <h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<p>AI digunakan secara terarah pasca-rancangan awal untuk tiga pengujian kritis:</p>
+<ol type="1">
+<li><strong>Audit Detoks Fitur &amp; Penghapusan Jargon:</strong> AI digunakan untuk memindai draf pitch awal saya. Hasilnya, AI menandai dua istilah teknis yang masih tersisa (<em>“sistem sirkulasi terintegrasi”</em> dan <em>“batch order”</em>) yang kemudian saya ubah menjadi bahasa membumi (<em>“pemisahan alur dua titik”</em> dan <em>“pesanan per meja”</em>).</li>
+<li><strong>Eksplorasi Skenario <em>Hidden Concern</em>:</strong> Saya meminta AI menyimulasikan daftar kekhawatiran operasional pedagang kaki lima/kios kampus jika diberikan sistem nomor meja. AI memunculkan potensi risiko kartu hilang dan basah terkena kuah, yang membantu saya menyiapkan bahan laminasi sebelum demonstrasi dilakukan.</li>
+<li><strong>Output AI yang Ditolak:</strong> AI sempat mengusulkan agar nomor meja dilengkapi kode QR statis yang mengarah ke formulir Google Sheet untuk melacak waktu saji. Saya menolak rekomendasi ini karena melanggar prinsip detoks fitur—menambah beban bagi mahasiswa yang hanya ingin makan siang cepat tanpa membuka kamera ponsel.</li>
+<li><strong>Batas Kepemilikan Manusia:</strong> Kemampuan membaca perubahan kerutan dahi narasumber saat memegang prototipe, kepekaan menangkap rasa cemas ganti rugi kartu, dan kerelaan menanggung risiko prototipe adalah tindakan empati manusiawi yang tidak bisa digantikan oleh kecerdasan buatan.</li>
+</ol>
+<hr>
 </section>
 <section id="feedback-dan-tindak-lanjut" class="level2">
 <h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<p><strong>Feedback yang diterima:</strong> Observer (D) mencatat bahwa demonstrasi fisik 90 detik sangat efektif mencairkan suasana karena membuat pembicaraan menjadi konkret. Namun, D mencatat bahwa saat operator melontarkan kekhawatiran kartu hilang, saya sempat terdiam sekitar 4 detik sebelum merespons.</p>
+<p><strong>Adaptation/replay:</strong> Jeda 4 detik tersebut sebenarnya adalah momen internal saya menahan ego untuk tidak berkata <em>“kan kartu plastik doang Bu”</em>. Saya belajar bahwa jeda batin tersebut sangat bernilai karena memberi ruang untuk merumuskan mitigasi penggantian kartu laminasi berkalung secara elegan.</p>
+<p><strong>Next practice:</strong> Pada percakapan penumbuhan minat berikutnya (Minggu 8: <em>Desire &amp; Action Challenge</em>), saya akan menyiapkan pertanyaan proaktif di akhir demo: <em>“Bagian mana dari alat ini yang menurut Ibu paling berisiko merepotkan pekerjaan harian?”</em> sebelum menunggu lawan bicara menyatakannya secara ragu-ragu.</p>
+<hr>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
@@ -406,33 +561,33 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Person &amp; Character</strong></td>
+<td style="text-align: right;">4</td>
+<td>Nilai riil dan beban kerja fisik operator dikenali mendalam; solusi ego-teknis dibuang demi melayani realitas peran sasaran [Bab 7.1, 7.15].</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Objective &amp; State</strong></td>
+<td style="text-align: right;">4</td>
+<td><em>Attention</em> berhasil dibedakan dari <em>Interest</em>; sinyal minat nyata diuji melalui kesepakatan waktu uji coba spesifik besok jam 11.45 WIB [Bab 7.13, 7.15].</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Repertoire, Language &amp; AI</strong></td>
+<td style="text-align: right;">4</td>
+<td>Detoks fitur sukses memangkas 3 fitur ego; pitch 5 langkah ringkas (92 kata); AI digunakan secara terbatas untuk audit jargon [Bab 7.7.2, 7.14].</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Response &amp; Adaptation</strong></td>
+<td style="text-align: right;">4</td>
+<td><em>Hidden concern</em> seputar kehilangan kartu dan biaya penggantian dibongkar secara empati; mekanisme kartu laminasi tertutup diadaptasi seketika [Bab 7.13, 7.15].</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Agreement, Action &amp; Relationship</strong></td>
+<td style="text-align: right;">4</td>
+<td>Sasaran setuju menjalankan pilot 20 menit dengan pembagian tanggung jawab bebas risiko bagi pedagang; relasi kemitraan makin kokoh [Bab 7.15, 7.18].</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total: 20/20 — Unggul.</strong></p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>

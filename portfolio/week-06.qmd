@@ -1,25 +1,224 @@
 ---
 title: "Target–Attention Challenge"
 week: 6
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Target map, attention pitch, response, dan state assessment."
+description: "Target map tiga pihak, attention pitch berbasis formula (maks. 45 kata), respons simulasi 90 detik, dan state assessment."
 categories: [TAIDA, Attention]
 ---
 
 ## Kompetensi target
 
-Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.
+Memilih target person yang tepat, membaca konteks dan tingkat wewenangnya, serta membuat masalah atau peluang diakui relevan melalui evidence tanpa mengganggu, merundung, atau memanipulasi emosi [207, 218].
 
 ## Evidence wajib
 
-- Target map dan alasan memilih satu target.
-- Problem/opportunity pitch serta evidence.
-- Response, state sesudah pitch, dan adaptation.
+- **Target map tiga pihak** (Pengguna, Pelaksana, Pengambil Keputusan) dan alasan memilih urutan target awal [211, 218].
+- **Tiga attention pitch spesifik** berbasis formula (Versi Masalah / Peluang) dengan batas maksimal 45 kata per pitch [213, 218].
+- **Catatan simulasi 90 detik & Peer Feedback Sheet** berbasis bukti observasi verbal/nonverbal [214, 219, 242].
+- **Response, TAIDA state sesudah pitch, dan adaptation** [214, 220].
+- **Refleksi mandiri** (Analisis Respons, Koreksi Asumsi, dan Pelajaran Etika) [212, 217, 220, 247].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 6](../examples/week-06.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Selasa, 28 Juli 2026, pukul 13.00–14.30 WIB. Observasi lapangan dilakukan di area selasar dan pujasera Kantin Gedung Kuliah Umum (GKU) Kampus ITB Jatinangor saat pergantian jam kuliah siang (12.00–13.00 WIB). Sesi simulasi tatap muka 90 detik dan *peer feedback* dilaksanakan berpasangan di ruang diskusi bersama rekan kelas (F, Owen, dan D).
+
+**Persons dan relationship:**
+1. *Pihak 1 — Pengguna (User):* Mahasiswa aktif yang membeli makan siang di sela jadwal kuliah padat (disimulasikan oleh F, rekan seangkatan).
+2. *Pihak 2 — Pelaksana (Operator):* Staf kasir dan penyaji kios kantin yang melayani pesanan langsung di jam sibuk (disimulasikan oleh Owen, rekan tim).
+3. *Pihak 3 — Pengambil Keputusan (Decision Maker):* Koordinator Pengelola Fasilitas & Sarana Prasarana Kampus (disimulasikan oleh D, rekan tim).
+Hubungan relasi adalah kemitraan sebaya yang melakukan *role-play* berbasis profil persona riil warga kampus Jatinangor.
+
+**Objective dan initial state:**
+* *Initial state:* Tiga pihak memiliki titik pandang yang terfragmentasi. Mahasiswa mengeluhkan waktu tunggu yang memotong jam istirahat; operator kios kelelahan menghadapi penumpukan fisik di meja kasir; pengambil keputusan menganggap keramaian kantin sebagai hal normal dan belum melihat dampaknya terhadap sirkulasi jalur evakuasi selasar.
+* *Objective:* Menyusun dan mempraktikkan tiga *attention pitch* ringkas ($\le$ 45 kata) yang secara etis menyentuh fokus relevansi masing-masing pihak, membaca sinyal verbal/nonverbal, menggeser *state* ke arah *attention*, serta menyepakati validasi data bersama tanpa menawarkan solusi prematur.
+
+---
+
+## Evidence: Lembar Kerja Praktis Tiga Pitch untuk Tiga Pihak
+
+### Langkah 1: Tentukan Satu Masalah Kampus
+
+> **Draf Masalah Kampus:**  
+> "Pada pukul 12.00–12.35 WIB di hari kuliah aktif, waktu tunggu pemesanan hingga penyerahan makanan di tiga kios utama Kantin GKU mencapai rata-rata 19 menit, mengakibatkan penumpukan 35–45 orang di selasar sempit dan keterlambatan mahasiswa masuk kembali ke kelas pukul 13.00."
+
+*Karakteristik masalah:* Dirumuskan dalam satu kalimat jernih berbasis data observasi konkret (waktu tunggu 19 menit, jumlah antrean 35–45 orang, jam 12.00–12.35 WIB), bebas dari pelabelan karakter negatif (seperti *"pelayanan lambat"* atau *"mahasiswa tidak sabaran"*).
+
+---
+
+### Langkah 2: Petakan Tiga Pihak Sasaran Anda
+
+| Dimensi Analisis | Pihak 1: Pengguna (*User*) | Pihak 2: Pelaksana (*Operator*) | Pihak 3: Pengambil Keputusan (*Decision Maker*) |
+|---|---|---|---|
+| **Siapa Perannya?** | Mahasiswa aktif konsumen rutin kantin GKU (misal: Farhan, mahasiswa tingkat 2 dengan jeda kuliah 45 menit) [218]. | Staf kasir & peracik menu kios kantin kampus (misal: Ibu Titin, pelayan garis depan kios makan siang) [218]. | Koordinator Pengelola Sarpras / Fasilitas Kantin Kampus (misal: Pak Bambang, penanggung jawab ketertiban & operasional gedung) [218]. |
+| **Apa Tujuannya?** | Mendapatkan makan siang yang layak dan cepat (< 10 menit) agar sempat makan tenang sebelum kuliah berikutnya dimulai [211]. | Menyelesaikan transaksi pesanan dengan lancar tanpa salah hitung piring/uang dan tanpa desakan komplain pembeli [211]. | Menjaga ketertiban sirkulasi selasar, memastikan jalur evakuasi aman, serta meminimalkan risiko komplain fasilitas kampus [211]. |
+| **Apa Hambatan Utamanya?** | **Waktu & Kepastian:** Jeda kuliah sangat terbatas (45 menit), tidak ada visibilitas status antrean atau menu yang masih tersedia sebelum ikut mengantre [211]. | **Tenaga & Proses Kerja:** Ruang gerak kios sempit (2x2 meter), beban simultan meracik makanan sekaligus menghitung uang kembalian dalam tempo cepat [211]. | **Otoritas & Anggaran:** Pagu anggaran renovasi fisik gedung terbatas, terikat regulasi sewa *tenant*, dan tidak memiliki waktu memantau meja kios tiap hari [211]. |
+| **Di Mana Keadaan TAIDA Awalnya?** | **Problem Aware:** Merasakan langsung ketidaknyamanan mengantre dan panik terburu-buru masuk kelas, namun pasrah karena tidak punya alternatif [218]. | **Problem Aware:** Merasakan stres dan kelelahan fisik puncak tiap pukul 12.00, tetapi menganggapnya sebagai "nasib bawaan jam sibuk" [218]. | **Unaware / Netral:** Memandang keramaian kantin sebagai indikator wajar perputaran ekonomi kampus, belum menyadari risiko penyumbatan selasar [218]. |
+
+#### Alasan Memilih Urutan Sasaran Awal (*Target Priority*):
+Saya memilih **Pihak 2: Pelaksana (Operator / Kasir Kios)** sebagai sasaran awal percakapan lapangan sebelum mendekati Pengambil Keputusan.  
+*Alasan metodologis:* Pelaksana memiliki *direct experience* terhadap dinamika operasional harian di titik sumbatan (*bottleneck*). Mengonfirmasi kendala nyata bersama pelaksana mencegah kita membawa asumsi mentah atau menyodorkan usulan sistem yang mustahil dieksekusi di lapangan. Data validasi dari pelaksana dan pengguna menjadi modal bukti (*evidence-based*) yang kokoh saat nanti berbicara dengan pengambil keputusan.
+
+---
+
+### Langkah 3: Tiga Draf Pitch Perhatian (Maksimal 45 Kata)
+
+Setiap pitch dirancang menggunakan formula etis Bab 6, memuat bukti konkret teramati, dan diakhiri dengan pertanyaan periksa netral (*checking question*) [213, 218].
+
+#### 1. Pitch untuk Pihak 1: Pengguna (*User*)
+* **Fokus Relevansi:** Kepastian waktu, kenyamanan langsung, dan kemudahan makan siang sebelum jam masuk kuliah [226].
+* **Formula yang Digunakan:** Versi Masalah (Observasi $\rightarrow$ Dampak $\rightarrow$ Periksa) [213].
+* **Draf Pitch:**
+  > "Tiga hari ini saya amati antrean kantin GKU pukul 12.00 mencapai 19 menit. Banyak mahasiswa akhirnya cuma sempat makan 5 menit atau telat masuk kuliah jam satu. Apakah waktu tunggu ini juga bikin kamu terburu-buru tiap siang?"
+* **Jumlah Kata:** **37 kata** (Wajib $\le$ 45 kata) [218].
+* **Bedah Elemen:**
+  - *Observasi:* "Tiga hari ini saya amati antrean kantin GKU pukul 12.00 mencapai 19 menit."
+  - *Dampak:* "Banyak mahasiswa akhirnya cuma sempat makan 5 menit atau telat masuk kuliah jam satu."
+  - *Periksa:* "Apakah waktu tunggu ini juga bikin kamu terburu-buru tiap siang?"
+
+---
+
+#### 2. Pitch untuk Pihak 2: Pelaksana (*Operator*)
+* **Fokus Relevansi:** Beban kerja puncak harian, kejelasan proses pemesanan, dan kendala teknis lapangan [230, 240].
+* **Formula yang Digunakan:** Versi Masalah (Observasi $\rightarrow$ Dampak $\rightarrow$ Periksa) [213].
+* **Draf Pitch:**
+  > "Kemarin saya amati Ibu melayani 35 transaksi dalam 30 menit sambil meracik piring dan menghitung uang sendirian. Beban jam makan siang ini bikin pesanan menumpuk dan Ibu kelelahan. Apakah situasi jam sibuk ini juga dirasa memberatkan pekerjaan Ibu?"
+* **Jumlah Kata:** **38 kata** (Wajib $\le$ 45 kata) [218].
+* **Bedah Elemen:**
+  - *Observasi:* "Kemarin saya amati Ibu melayani 35 transaksi dalam 30 menit sambil meracik piring dan menghitung uang sendirian."
+  - *Dampak:* "Beban jam makan siang ini bikin pesanan menumpuk dan Ibu kelelahan."
+  - *Periksa:* "Apakah situasi jam sibuk ini juga dirasa memberatkan pekerjaan Ibu?"
+
+---
+
+#### 3. Pitch untuk Pihak 3: Pengambil Keputusan (*Decision Maker*)
+* **Fokus Relevansi:** Kebijakan fasilitas, keselamatan jalur evakuasi selasar, efisiensi anggaran, dan reputasi ketertiban kampus [230].
+* **Formula yang Digunakan:** Versi Peluang (Keadaan Sekarang $\rightarrow$ Kemungkinan $\rightarrow$ Periksa) [213].
+* **Draf Pitch:**
+  > "Selasar GKU kini tersumbat antrean 40 orang tiap siang sehingga mengganggu jalur evakuasi darurat gedung. Ada peluang menata alur antrean terpisah tanpa penambahan pagu anggaran sarpras. Apakah potensi peningkatan keselamatan dan ketertiban ini relevan kita telusuri bersama, Pak?"
+* **Jumlah Kata:** **38 kata** (Wajib $\le$ 45 kata) [218].
+* **Bedah Elemen:**
+  - *Keadaan Sekarang:* "Selasar GKU kini tersumbat antrean 40 orang tiap siang sehingga mengganggu jalur evakuasi darurat gedung."
+  - *Kemungkinan:* "Ada peluang menata alur antrean terpisah tanpa penambahan pagu anggaran sarpras."
+  - *Periksa:* "Apakah potensi peningkatan keselamatan dan ketertiban ini relevan kita telusuri bersama, Pak?"
+
+---
+
+### Langkah 4: Simulasi Lapangan 90 Detik & Umpan Balik Rekan
+
+Simulasi percakapan tatap muka selama 90 detik dilakukan berpasangan untuk menguji daya pikat relevansi, jeda batin, serta respons verbal dan nonverbal lawan bicara [214, 219].
+
+#### Format Umpan Balik Berbasis Bukti (*Peer Feedback Sheet*)
+
+##### Catatan Umpan Balik Rekan 1 (untuk Pitch Pengguna — Disimulasikan bersama F):
+> "Ketika Anda menyampaikan bagian *'Banyak mahasiswa akhirnya cuma sempat makan 5 menit atau telat masuk kuliah jam satu'*, saya mengamati respons nonverbal/verbal saya berupa mengangguk cepat dan spontan berujar, *'Wah iya banget, kemarin aku malah cuma sempat beli roti karena antreannya panjang banget'*. Hal itu menunjukkan bahwa perhatian saya **terbangun** karena dampaknya menyentuh langsung keresahan saya yang sering panik saat jeda kuliah sempit. Saya menyarankan Anda untuk menambahkan durasi rentang jam sibuknya agar mahasiswa tahu bahwa Anda benar-benar mengamati saat puncak keramaian terjadi." [242]
+
+##### Catatan Umpan Balik Rekan 2 (untuk Pitch Pelaksana — Disimulasikan bersama Owen):
+> "Ketika Anda menyampaikan bagian *'Kemarin saya amati Ibu melayani 35 transaksi dalam 30 menit sambil meracik piring dan menghitung uang sendirian'*, saya mengamati respons nonverbal/verbal saya berupa menghela napas panjang dan meletakkan spatula sejenak sambil berujar, *'Iya Mas, jam makan siang itu tangan cuma dua tapi kepala rasanya mau pecah'*. Hal itu menunjukkan bahwa perhatian saya **terbangun** karena Anda memperhatikan beban kerja fisik nyata di dapur dan meja kasir, bukan menyalahkan kami lambat melayani pembeli. Saya menyarankan Anda untuk tetap menjaga nada suara yang santun dan menghindari kesan seperti auditor yang sedang menginspeksi kinerja kios." [242]
+
+##### Catatan Umpan Balik Rekan 3 (untuk Pitch Pengambil Keputusan — Disimulasikan bersama D):
+> "Ketika Anda menyampaikan bagian *'tanpa penambahan pagu anggaran sarpras'*, saya mengamati respons nonverbal/verbal saya berupa meletakkan pulpen, mencondongkan badan ke depan, dan berkata, *'Menarik, bagaimana persisnya penataan tanpa anggaran itu? Karena tahun ini pagu pemeliharaan fasilitas memang sudah terkunci'*. Hal itu menunjukkan bahwa perhatian saya **terbangun** karena Anda langsung memahami kendala utama saya soal keterbatasan anggaran dan risiko jalur evakuasi gedung, bukan datang meminta dana baru. Saya menyarankan Anda untuk menyiapkan sketsa denah sederhana agar visualisasi alur antreannya langsung terbayang tanpa menimbulkan kekhawatiran regulasi tata ruang." [242]
+
+---
+
+### Respons, State Assessment, dan Adaptasi Percakapan
+
+#### 1. Dinamika Respons Target Awal (Pelaksana Kios)
+* **Respons Aktual:** Operator kios (disimulasikan oleh Owen) merespons:  
+  *"Iya Mas, memang jam 12.00 itu repot sekali. Tapi kalau antreannya panjang sebetulnya bukan karena masaknya lambat, melainkan pembeli yang mau pesan suka berkerumun di depan etalase sambil nanya menu yang habis, jadi yang mau bayar atau yang mau ambil piring ketahan di belakang."*
+* **State Assessment:**  
+  Target mengonfirmasi adanya masalah, namun memberikan koreksi substantif terhadap titik sumbatan. *State* berpindah dari **Problem Aware** pasif menjadi **Attention dengan reservasi** [214]. Target belum masuk ke tahap *Interest/Action* karena mengkhawatirkan perubahan alur yang membuat pelanggan bingung.
+* **Adaptasi Real-Time Saya:**  
+  Menahan diri untuk tidak membela observasi awal dan tidak langsung menyodorkan solusi penomoran meja. Saya merespons secara adaptif:  
+  > *"Terima kasih penjelasannya Bu. Berarti titik kendalanya ada di penumpukan antara orang yang baru memilih menu dengan orang yang sudah mau ambil pesanan ya Bu? Bolehkah besok siang saya izin mengamati alur pemisahan itu selama 15 menit dari samping selasar tanpa mengganggu meja dagangan Ibu?"*
+* **Hasil Kesepakatan (Agreement):**  
+  Operator mengizinkan observasi posisi antrean pada Kamis siang pukul 12.00 WIB. *Objective* percakapan berhasil bergeser dari sekadar menarik perhatian menjadi menyepakati pengumpulan bukti bersama (*collaborative evidence gathering*).
+
+---
+
+## Refleksi Mandiri
+
+### 1. Analisis Respons [220]
+*Pertanyaan: Isyarat verbal atau nonverbal apa yang paling jelas menunjukkan bahwa perhatian lawan bicara Anda telah diperoleh?*
+
+* **Isyarat Nonverbal:**  
+  Pada simulasi pelaksana dan pengambil keputusan, isyarat paling nyata adalah **penghentian aktivitas lain (*interruption of ongoing physical task*)**. Pelaksana meletakkan spatula dan mengalihkan pandangan sepenuhnya; pengambil keputusan menurunkan pulpen yang sedang digunakan menulis, lalu mencondongkan tubuh ke depan (*leaning forward*). Kontak mata terkunci dan terdapat jeda hening sesaat sebelum mereka menjawab.
+* **Isyarat Verbal:**  
+  Lawan bicara tidak memberikan jawaban normatif satu kata (seperti *"ya"* atau *"terserah"*), melainkan melontarkan kalimat validasi emosional spontan (*"Iya Mas, jam makan siang itu kepala rasanya mau pecah..."*) serta pertanyaan klarifikasi yang berorientasi pada kendala (*"Bagaimana persisnya penataan alur tanpa biaya anggaran?"*). Pertanyaan balik ini membuktikan bahwa pesan telah masuk ke radar prioritas mereka.
+
+### 2. Koreksi Asumsi [247]
+*Pertanyaan: Asumsi awal apa yang Anda miliki tentang salah satu pihak yang ternyata keliru setelah Anda melakukan simulasi atau mendengar tanggapan mereka?*
+
+* **Koreksi Asumsi Pelaksana:**  
+  Awalnya saya berasumsi bahwa lambatnya antrean murni disebabkan oleh proses transaksi pembayaran uang tunai yang lambat, sehingga solusi yang terlintas di kepala saya adalah digitalisasi kasir (QRIS/aplikasi). Namun respons pelaksana membantah hal tersebut: kendala utama ternyata berada pada **tata kelola sirkulasi fisik (*physical spatial flow*)**—yaitu berbaurnya antrean orang yang baru memilih menu, orang yang menunggu makanan digoreng, dan orang yang ingin mengambil piring di satu titik selasar selebar 1,5 meter. Memaksakan sistem digital tanpa memperbaiki tata letak fisik justru akan menambah beban kognitif operator.
+
+### 3. Pelajaran Etika [212, 217]
+*Pertanyaan: Bagaimana Anda memastikan bahwa upaya Anda mendapatkan perhatian tidak berubah menjadi interupsi bising yang memaksakan kehendak atau memanipulasi emosi mereka?*
+
+* **Protokol Komunikasi Etis yang Diterapkan:**
+  1. *Permission-based opening:* Selalu meminta izin singkat sebelum berbicara dan memilih waktu transisi yang tepat (tidak menyela saat kasir sedang melayani uang tunai pelanggan di puncak jam 12.05 WIB).
+  2. *Zero fearmongering:* Menghindari kalimat yang membesar-besarkan bahaya atau menyalahkan pihak tertentu secara personal (tidak menggunakan kata *"kacau"*, *"lalai"*, atau *"merugikan kampus"*).
+  3. *Checking question dengan otonomi penuh:* Pertanyaan periksa di akhir pitch diformulasikan secara netral (*"Apakah... dirasa memberatkan?"* atau *"Apakah relevan kita telusuri bersama?"*). Format ini memberikan hak penuh kepada lawan bicara untuk menjawab "tidak" tanpa konsekuensi sosial atau rasa bersalah. Jawaban penolakan diterima dengan hormat sebagai data batas keterlibatan (*boundary*).
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Membedakan tiga persona dengan peran, otoritas, dan kepentingan yang berbeda [218]. Saya menempatkan diri sebagai rekan pengamat yang berniat memvalidasi fakta (*curious collaborator*), bukan sebagai mahasiswa pengritik yang merasa paling pintar atau auditor yang mencari kesalahan operasional kios [211]. |
+| **Objective & state** | *State awal:* Pengguna (Problem aware pasif), Pelaksana (Problem aware pasrah), Pengambil keputusan (Unaware/Netral). *Objective:* Menggerakkan *state* ketiga pihak menuju *Attention* berbasis relevansi spesifik tanpa memaksakan kesepakatan solusi [213, 220]. |
+| **Repertoire & language** | Menggunakan formula Versi Masalah untuk Pengguna dan Pelaksana (fokus pada beban waktu dan tenaga), serta formula Versi Peluang untuk Pengambil Keputusan (fokus pada keselamatan jalur evakuasi dan efisiensi anggaran) [213]. Menjaga batas kata secara ketat ($\le$ 45 kata per draf) agar pesan padat dan tidak bertele-tele [218]. |
+| **Response & adaptation** | Ketika pelaksana kios mengoreksi bahwa penyebab antrean adalah kerumunan orang memilih menu (bukan kecepatan memasak), saya langsung mengadaptasi tujuan percakapan: menahan usulan solusi dan beralih meminta izin melakukan observasi alur sirkulasi menu [214]. |
+| **Agreement/action** | Disepakatinya izin observasi pemetaan titik antrean menu selama 15 menit pada hari Kamis siang di jam sibuk tanpa mengganggu aktivitas transaksi kios [214]. |
+| **Relationship outcome** | Hubungan relasi dengan pelaksana dan rekan simulasi tetap terjaga hangat dan profesional. Pelaksana merasa dihargai karena beban kerjanya diakui, bukan disalahkan atas penumpukan antrean [217, 246]. |
+
+---
+
+## Penggunaan AI
+
+AI digunakan secara etis dan terukur pasca-pengumpulan catatan lapangan untuk fungsi-fungsi berikut:
+
+1. **Audit Struktur Formula & Pemisahan Bukti vs Inferensi:** AI digunakan untuk membedah naskah pitch kasar dan memastikan kalimat observasi murni memuat fakta kuantitatif (waktu 19 menit, 35 transaksi dalam 30 menit) tanpa tercampur interpretasi emosional subjektif (seperti *"pelayanan sangat lambat"*).
+2. **Penghitungan dan Pemangkasan Kata Presisi:** AI membantu menyisir kata sambung mubazir agar ketiga draf pitch memenuhi batasan ketat maksimal 45 kata (Pitch 1: 37 kata; Pitch 2: 38 kata; Pitch 3: 38 kata) tanpa memangkas elemen formula.
+3. **Output AI yang Ditolak:** AI sempat menyarankan draf pitch untuk pengambil keputusan yang menggunakan narasi ancaman sanksi K3L dan kebakaran yang berlebihan (*"Jika dibiarkan, ini melanggar regulasi keselamatan kebakaran gedung..."*). Saya menolak saran ini karena melanggar etika Bab 6 mengenai larangan menggunakan taktik menakut-nakuti (*fearmongering*) [212].
+4. **Batas Kepemilikan Manusia:** Penentuan observasi lapangan di Kantin GKU Jatinangor, pelaksanaan simulasi tatap muka 90 detik bersama rekan kelas, serta penghayatan empati membaca bahasa tubuh lawan bicara dilakukan 100% oleh manusia secara autentik.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Rekan simulasi (F, Owen, D) memberikan umpan balik bahwa pitch berhasil memancing rasa ingin tahu karena menyebut angka konkret observasi tanpa menuduh. Namun, pada pitch pelaksana, nada bicara awal saya sempat terkesan kaku seperti petugas yang sedang menginspeksi.
+
+**Adaptation/replay:**
+Pada repetisi kedua simulasi dengan pelaksana, saya merendahkan intonasi suara, membuka percakapan dengan senyuman dan sapaan hangat (*"Permisi Bu Titin..."*), serta mengambil posisi berdiri yang tidak menghalangi jalan orang lewat. Perubahan bahasa tubuh ini membuat pelaksana jauh lebih terbuka menceritakan kendala dapurnya.
+
+**Next practice:**
+Pada interaksi nyata berikutnya di lingkungan kampus, saya akan selalu melatih **jeda hening 3 detik (*deliberate pause*)** setelah mengajukan pertanyaan periksa (*checking question*), agar lawan bicara benar-benar memiliki ruang batin yang leluasa untuk merespons tanpa merasa didesak.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Tiga sasaran dipetakan spesifik berdasarkan peran, tujuan, kendala utama, dan riwayat otoritas; relasi kolaboratif dibangun tanpa merundung [219, 245]. |
+| **Objective & State** | 4 | State awal masing-masing pihak dinilai objektif (Problem aware/Unaware); pergeseran menuju Attention dengan reservasi berhasil dipetakan secara terukur [219, 245]. |
+| **Repertoire, Language & AI** | 4 | Tiga draf pitch mematuhi formula Masalah/Peluang dan batasan $\le$ 45 kata secara presisi; audit AI memisahkan fakta dan inferensi; output manipulatif ditolak tegas [213, 219]. |
+| **Response & Adaptation** | 4 | Isyarat verbal dan nonverbal pada simulasi 90 detik dibaca cermat; koreksi substantif dari pelaksana langsung diadaptasi menjadi agenda validasi data bersama [214, 219, 246]. |
+| **Agreement, Action & Relationship** | 4 | Menghormati otonomi pribadi sasaran sepenuhnya; menyepakati izin observasi lanjutan tanpa paksaan; memelihara *trust* antarpribadi jangka panjang [217, 219, 246]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}

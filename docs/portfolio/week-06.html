@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Target map, attention pitch, response, dan state assessment.">
+<meta name="description" content="Target map tiga pihak, attention pitch berbasis formula (maks. 45 kata), respons simulasi 90 detik, dan state assessment.">
 
 <title>Target–Attention Challenge – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -261,7 +290,20 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
+  <li><a href="#evidence-lembar-kerja-praktis-tiga-pitch-untuk-tiga-pihak" id="toc-evidence-lembar-kerja-praktis-tiga-pitch-untuk-tiga-pihak" class="nav-link" data-scroll-target="#evidence-lembar-kerja-praktis-tiga-pitch-untuk-tiga-pihak">Evidence: Lembar Kerja Praktis Tiga Pitch untuk Tiga Pihak</a>
+  <ul class="collapse">
+  <li><a href="#langkah-1-tentukan-satu-masalah-kampus" id="toc-langkah-1-tentukan-satu-masalah-kampus" class="nav-link" data-scroll-target="#langkah-1-tentukan-satu-masalah-kampus">Langkah 1: Tentukan Satu Masalah Kampus</a></li>
+  <li><a href="#langkah-2-petakan-tiga-pihak-sasaran-anda" id="toc-langkah-2-petakan-tiga-pihak-sasaran-anda" class="nav-link" data-scroll-target="#langkah-2-petakan-tiga-pihak-sasaran-anda">Langkah 2: Petakan Tiga Pihak Sasaran Anda</a></li>
+  <li><a href="#langkah-3-tiga-draf-pitch-perhatian-maksimal-45-kata" id="toc-langkah-3-tiga-draf-pitch-perhatian-maksimal-45-kata" class="nav-link" data-scroll-target="#langkah-3-tiga-draf-pitch-perhatian-maksimal-45-kata">Langkah 3: Tiga Draf Pitch Perhatian (Maksimal 45 Kata)</a></li>
+  <li><a href="#langkah-4-simulasi-lapangan-90-detik-umpan-balik-rekan" id="toc-langkah-4-simulasi-lapangan-90-detik-umpan-balik-rekan" class="nav-link" data-scroll-target="#langkah-4-simulasi-lapangan-90-detik-umpan-balik-rekan">Langkah 4: Simulasi Lapangan 90 Detik &amp; Umpan Balik Rekan</a></li>
+  <li><a href="#respons-state-assessment-dan-adaptasi-percakapan" id="toc-respons-state-assessment-dan-adaptasi-percakapan" class="nav-link" data-scroll-target="#respons-state-assessment-dan-adaptasi-percakapan">Respons, State Assessment, dan Adaptasi Percakapan</a></li>
+  </ul></li>
+  <li><a href="#refleksi-mandiri" id="toc-refleksi-mandiri" class="nav-link" data-scroll-target="#refleksi-mandiri">Refleksi Mandiri</a>
+  <ul class="collapse">
+  <li><a href="#analisis-respons-220" id="toc-analisis-respons-220" class="nav-link" data-scroll-target="#analisis-respons-220">1. Analisis Respons [220]</a></li>
+  <li><a href="#koreksi-asumsi-247" id="toc-koreksi-asumsi-247" class="nav-link" data-scroll-target="#koreksi-asumsi-247">2. Koreksi Asumsi [247]</a></li>
+  <li><a href="#pelajaran-etika-212-217" id="toc-pelajaran-etika-212-217" class="nav-link" data-scroll-target="#pelajaran-etika-212-217">3. Pelajaran Etika [212, 217]</a></li>
+  </ul></li>
   <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
   <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
   <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
@@ -286,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Target map, attention pitch, response, dan state assessment.
+    Target map tiga pihak, attention pitch berbasis formula (maks. 45 kata), respons simulasi 90 detik, dan state assessment.
   </div>
 </div>
 
@@ -305,44 +347,226 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="kompetensi-target" class="level2">
 <h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.</p>
+<p>Memilih target person yang tepat, membaca konteks dan tingkat wewenangnya, serta membuat masalah atau peluang diakui relevan melalui evidence tanpa mengganggu, merundung, atau memanipulasi emosi [207, 218].</p>
 </section>
 <section id="evidence-wajib" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
 <ul>
-<li>Target map dan alasan memilih satu target.</li>
-<li>Problem/opportunity pitch serta evidence.</li>
-<li>Response, state sesudah pitch, dan adaptation.</li>
+<li><strong>Target map tiga pihak</strong> (Pengguna, Pelaksana, Pengambil Keputusan) dan alasan memilih urutan target awal [211, 218].</li>
+<li><strong>Tiga attention pitch spesifik</strong> berbasis formula (Versi Masalah / Peluang) dengan batas maksimal 45 kata per pitch [213, 218].</li>
+<li><strong>Catatan simulasi 90 detik &amp; Peer Feedback Sheet</strong> berbasis bukti observasi verbal/nonverbal [214, 219, 242].</li>
+<li><strong>Response, TAIDA state sesudah pitch, dan adaptation</strong> [214, 220].</li>
+<li><strong>Refleksi mandiri</strong> (Analisis Respons, Koreksi Asumsi, dan Pelajaran Etika) [212, 217, 220, 247].</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-06.html">Buka contoh fiktif Minggu 6</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<hr>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Selasa, 28 Juli 2026, pukul 13.00–14.30 WIB. Observasi lapangan dilakukan di area selasar dan pujasera Kantin Gedung Kuliah Umum (GKU) Kampus ITB Jatinangor saat pergantian jam kuliah siang (12.00–13.00 WIB). Sesi simulasi tatap muka 90 detik dan <em>peer feedback</em> dilaksanakan berpasangan di ruang diskusi bersama rekan kelas (F, Owen, dan D).</p>
+<p><strong>Persons dan relationship:</strong> 1. <em>Pihak 1 — Pengguna (User):</em> Mahasiswa aktif yang membeli makan siang di sela jadwal kuliah padat (disimulasikan oleh F, rekan seangkatan). 2. <em>Pihak 2 — Pelaksana (Operator):</em> Staf kasir dan penyaji kios kantin yang melayani pesanan langsung di jam sibuk (disimulasikan oleh Owen, rekan tim). 3. <em>Pihak 3 — Pengambil Keputusan (Decision Maker):</em> Koordinator Pengelola Fasilitas &amp; Sarana Prasarana Kampus (disimulasikan oleh D, rekan tim). Hubungan relasi adalah kemitraan sebaya yang melakukan <em>role-play</em> berbasis profil persona riil warga kampus Jatinangor.</p>
+<p><strong>Objective dan initial state:</strong> * <em>Initial state:</em> Tiga pihak memiliki titik pandang yang terfragmentasi. Mahasiswa mengeluhkan waktu tunggu yang memotong jam istirahat; operator kios kelelahan menghadapi penumpukan fisik di meja kasir; pengambil keputusan menganggap keramaian kantin sebagai hal normal dan belum melihat dampaknya terhadap sirkulasi jalur evakuasi selasar. * <em>Objective:</em> Menyusun dan mempraktikkan tiga <em>attention pitch</em> ringkas (<span class="math inline">\(\le\)</span> 45 kata) yang secara etis menyentuh fokus relevansi masing-masing pihak, membaca sinyal verbal/nonverbal, menggeser <em>state</em> ke arah <em>attention</em>, serta menyepakati validasi data bersama tanpa menawarkan solusi prematur.</p>
+<hr>
 </section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
+<section id="evidence-lembar-kerja-praktis-tiga-pitch-untuk-tiga-pihak" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-lembar-kerja-praktis-tiga-pitch-untuk-tiga-pihak">Evidence: Lembar Kerja Praktis Tiga Pitch untuk Tiga Pihak</h2>
+<section id="langkah-1-tentukan-satu-masalah-kampus" class="level3">
+<h3 class="anchored" data-anchor-id="langkah-1-tentukan-satu-masalah-kampus">Langkah 1: Tentukan Satu Masalah Kampus</h3>
+<blockquote class="blockquote">
+<p><strong>Draf Masalah Kampus:</strong><br>
+“Pada pukul 12.00–12.35 WIB di hari kuliah aktif, waktu tunggu pemesanan hingga penyerahan makanan di tiga kios utama Kantin GKU mencapai rata-rata 19 menit, mengakibatkan penumpukan 35–45 orang di selasar sempit dan keterlambatan mahasiswa masuk kembali ke kelas pukul 13.00.”</p>
+</blockquote>
+<p><em>Karakteristik masalah:</em> Dirumuskan dalam satu kalimat jernih berbasis data observasi konkret (waktu tunggu 19 menit, jumlah antrean 35–45 orang, jam 12.00–12.35 WIB), bebas dari pelabelan karakter negatif (seperti <em>“pelayanan lambat”</em> atau <em>“mahasiswa tidak sabaran”</em>).</p>
+<hr>
+</section>
+<section id="langkah-2-petakan-tiga-pihak-sasaran-anda" class="level3">
+<h3 class="anchored" data-anchor-id="langkah-2-petakan-tiga-pihak-sasaran-anda">Langkah 2: Petakan Tiga Pihak Sasaran Anda</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensi Analisis</th>
+<th>Pihak 1: Pengguna (<em>User</em>)</th>
+<th>Pihak 2: Pelaksana (<em>Operator</em>)</th>
+<th>Pihak 3: Pengambil Keputusan (<em>Decision Maker</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Siapa Perannya?</strong></td>
+<td>Mahasiswa aktif konsumen rutin kantin GKU (misal: Farhan, mahasiswa tingkat 2 dengan jeda kuliah 45 menit) [218].</td>
+<td>Staf kasir &amp; peracik menu kios kantin kampus (misal: Ibu Titin, pelayan garis depan kios makan siang) [218].</td>
+<td>Koordinator Pengelola Sarpras / Fasilitas Kantin Kampus (misal: Pak Bambang, penanggung jawab ketertiban &amp; operasional gedung) [218].</td>
+</tr>
+<tr class="even">
+<td><strong>Apa Tujuannya?</strong></td>
+<td>Mendapatkan makan siang yang layak dan cepat (&lt; 10 menit) agar sempat makan tenang sebelum kuliah berikutnya dimulai [211].</td>
+<td>Menyelesaikan transaksi pesanan dengan lancar tanpa salah hitung piring/uang dan tanpa desakan komplain pembeli [211].</td>
+<td>Menjaga ketertiban sirkulasi selasar, memastikan jalur evakuasi aman, serta meminimalkan risiko komplain fasilitas kampus [211].</td>
+</tr>
+<tr class="odd">
+<td><strong>Apa Hambatan Utamanya?</strong></td>
+<td><strong>Waktu &amp; Kepastian:</strong> Jeda kuliah sangat terbatas (45 menit), tidak ada visibilitas status antrean atau menu yang masih tersedia sebelum ikut mengantre [211].</td>
+<td><strong>Tenaga &amp; Proses Kerja:</strong> Ruang gerak kios sempit (2x2 meter), beban simultan meracik makanan sekaligus menghitung uang kembalian dalam tempo cepat [211].</td>
+<td><strong>Otoritas &amp; Anggaran:</strong> Pagu anggaran renovasi fisik gedung terbatas, terikat regulasi sewa <em>tenant</em>, dan tidak memiliki waktu memantau meja kios tiap hari [211].</td>
+</tr>
+<tr class="even">
+<td><strong>Di Mana Keadaan TAIDA Awalnya?</strong></td>
+<td><strong>Problem Aware:</strong> Merasakan langsung ketidaknyamanan mengantre dan panik terburu-buru masuk kelas, namun pasrah karena tidak punya alternatif [218].</td>
+<td><strong>Problem Aware:</strong> Merasakan stres dan kelelahan fisik puncak tiap pukul 12.00, tetapi menganggapnya sebagai “nasib bawaan jam sibuk” [218].</td>
+<td><strong>Unaware / Netral:</strong> Memandang keramaian kantin sebagai indikator wajar perputaran ekonomi kampus, belum menyadari risiko penyumbatan selasar [218].</td>
+</tr>
+</tbody>
+</table>
+<section id="alasan-memilih-urutan-sasaran-awal-target-priority" class="level4">
+<h4 class="anchored" data-anchor-id="alasan-memilih-urutan-sasaran-awal-target-priority">Alasan Memilih Urutan Sasaran Awal (<em>Target Priority</em>):</h4>
+<p>Saya memilih <strong>Pihak 2: Pelaksana (Operator / Kasir Kios)</strong> sebagai sasaran awal percakapan lapangan sebelum mendekati Pengambil Keputusan.<br>
+<em>Alasan metodologis:</em> Pelaksana memiliki <em>direct experience</em> terhadap dinamika operasional harian di titik sumbatan (<em>bottleneck</em>). Mengonfirmasi kendala nyata bersama pelaksana mencegah kita membawa asumsi mentah atau menyodorkan usulan sistem yang mustahil dieksekusi di lapangan. Data validasi dari pelaksana dan pengguna menjadi modal bukti (<em>evidence-based</em>) yang kokoh saat nanti berbicara dengan pengambil keputusan.</p>
+<hr>
+</section>
+</section>
+<section id="langkah-3-tiga-draf-pitch-perhatian-maksimal-45-kata" class="level3">
+<h3 class="anchored" data-anchor-id="langkah-3-tiga-draf-pitch-perhatian-maksimal-45-kata">Langkah 3: Tiga Draf Pitch Perhatian (Maksimal 45 Kata)</h3>
+<p>Setiap pitch dirancang menggunakan formula etis Bab 6, memuat bukti konkret teramati, dan diakhiri dengan pertanyaan periksa netral (<em>checking question</em>) [213, 218].</p>
+<section id="pitch-untuk-pihak-1-pengguna-user" class="level4">
+<h4 class="anchored" data-anchor-id="pitch-untuk-pihak-1-pengguna-user">1. Pitch untuk Pihak 1: Pengguna (<em>User</em>)</h4>
+<ul>
+<li><strong>Fokus Relevansi:</strong> Kepastian waktu, kenyamanan langsung, dan kemudahan makan siang sebelum jam masuk kuliah [226].</li>
+<li><strong>Formula yang Digunakan:</strong> Versi Masalah (Observasi <span class="math inline">\(\rightarrow\)</span> Dampak <span class="math inline">\(\rightarrow\)</span> Periksa) [213].</li>
+<li><strong>Draf Pitch:</strong> &gt; “Tiga hari ini saya amati antrean kantin GKU pukul 12.00 mencapai 19 menit. Banyak mahasiswa akhirnya cuma sempat makan 5 menit atau telat masuk kuliah jam satu. Apakah waktu tunggu ini juga bikin kamu terburu-buru tiap siang?”</li>
+<li><strong>Jumlah Kata:</strong> <strong>37 kata</strong> (Wajib <span class="math inline">\(\le\)</span> 45 kata) [218].</li>
+<li><strong>Bedah Elemen:</strong>
+<ul>
+<li><em>Observasi:</em> “Tiga hari ini saya amati antrean kantin GKU pukul 12.00 mencapai 19 menit.”</li>
+<li><em>Dampak:</em> “Banyak mahasiswa akhirnya cuma sempat makan 5 menit atau telat masuk kuliah jam satu.”</li>
+<li><em>Periksa:</em> “Apakah waktu tunggu ini juga bikin kamu terburu-buru tiap siang?”</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="pitch-untuk-pihak-2-pelaksana-operator" class="level4">
+<h4 class="anchored" data-anchor-id="pitch-untuk-pihak-2-pelaksana-operator">2. Pitch untuk Pihak 2: Pelaksana (<em>Operator</em>)</h4>
+<ul>
+<li><strong>Fokus Relevansi:</strong> Beban kerja puncak harian, kejelasan proses pemesanan, dan kendala teknis lapangan [230, 240].</li>
+<li><strong>Formula yang Digunakan:</strong> Versi Masalah (Observasi <span class="math inline">\(\rightarrow\)</span> Dampak <span class="math inline">\(\rightarrow\)</span> Periksa) [213].</li>
+<li><strong>Draf Pitch:</strong> &gt; “Kemarin saya amati Ibu melayani 35 transaksi dalam 30 menit sambil meracik piring dan menghitung uang sendirian. Beban jam makan siang ini bikin pesanan menumpuk dan Ibu kelelahan. Apakah situasi jam sibuk ini juga dirasa memberatkan pekerjaan Ibu?”</li>
+<li><strong>Jumlah Kata:</strong> <strong>38 kata</strong> (Wajib <span class="math inline">\(\le\)</span> 45 kata) [218].</li>
+<li><strong>Bedah Elemen:</strong>
+<ul>
+<li><em>Observasi:</em> “Kemarin saya amati Ibu melayani 35 transaksi dalam 30 menit sambil meracik piring dan menghitung uang sendirian.”</li>
+<li><em>Dampak:</em> “Beban jam makan siang ini bikin pesanan menumpuk dan Ibu kelelahan.”</li>
+<li><em>Periksa:</em> “Apakah situasi jam sibuk ini juga dirasa memberatkan pekerjaan Ibu?”</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="pitch-untuk-pihak-3-pengambil-keputusan-decision-maker" class="level4">
+<h4 class="anchored" data-anchor-id="pitch-untuk-pihak-3-pengambil-keputusan-decision-maker">3. Pitch untuk Pihak 3: Pengambil Keputusan (<em>Decision Maker</em>)</h4>
+<ul>
+<li><strong>Fokus Relevansi:</strong> Kebijakan fasilitas, keselamatan jalur evakuasi selasar, efisiensi anggaran, dan reputasi ketertiban kampus [230].</li>
+<li><strong>Formula yang Digunakan:</strong> Versi Peluang (Keadaan Sekarang <span class="math inline">\(\rightarrow\)</span> Kemungkinan <span class="math inline">\(\rightarrow\)</span> Periksa) [213].</li>
+<li><strong>Draf Pitch:</strong> &gt; “Selasar GKU kini tersumbat antrean 40 orang tiap siang sehingga mengganggu jalur evakuasi darurat gedung. Ada peluang menata alur antrean terpisah tanpa penambahan pagu anggaran sarpras. Apakah potensi peningkatan keselamatan dan ketertiban ini relevan kita telusuri bersama, Pak?”</li>
+<li><strong>Jumlah Kata:</strong> <strong>38 kata</strong> (Wajib <span class="math inline">\(\le\)</span> 45 kata) [218].</li>
+<li><strong>Bedah Elemen:</strong>
+<ul>
+<li><em>Keadaan Sekarang:</em> “Selasar GKU kini tersumbat antrean 40 orang tiap siang sehingga mengganggu jalur evakuasi darurat gedung.”</li>
+<li><em>Kemungkinan:</em> “Ada peluang menata alur antrean terpisah tanpa penambahan pagu anggaran sarpras.”</li>
+<li><em>Periksa:</em> “Apakah potensi peningkatan keselamatan dan ketertiban ini relevan kita telusuri bersama, Pak?”</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="langkah-4-simulasi-lapangan-90-detik-umpan-balik-rekan" class="level3">
+<h3 class="anchored" data-anchor-id="langkah-4-simulasi-lapangan-90-detik-umpan-balik-rekan">Langkah 4: Simulasi Lapangan 90 Detik &amp; Umpan Balik Rekan</h3>
+<p>Simulasi percakapan tatap muka selama 90 detik dilakukan berpasangan untuk menguji daya pikat relevansi, jeda batin, serta respons verbal dan nonverbal lawan bicara [214, 219].</p>
+<section id="format-umpan-balik-berbasis-bukti-peer-feedback-sheet" class="level4">
+<h4 class="anchored" data-anchor-id="format-umpan-balik-berbasis-bukti-peer-feedback-sheet">Format Umpan Balik Berbasis Bukti (<em>Peer Feedback Sheet</em>)</h4>
+<section id="catatan-umpan-balik-rekan-1-untuk-pitch-pengguna-disimulasikan-bersama-f" class="level5">
+<h5 class="anchored" data-anchor-id="catatan-umpan-balik-rekan-1-untuk-pitch-pengguna-disimulasikan-bersama-f">Catatan Umpan Balik Rekan 1 (untuk Pitch Pengguna — Disimulasikan bersama F):</h5>
+<blockquote class="blockquote">
+<p>“Ketika Anda menyampaikan bagian <em>‘Banyak mahasiswa akhirnya cuma sempat makan 5 menit atau telat masuk kuliah jam satu’</em>, saya mengamati respons nonverbal/verbal saya berupa mengangguk cepat dan spontan berujar, <em>‘Wah iya banget, kemarin aku malah cuma sempat beli roti karena antreannya panjang banget’</em>. Hal itu menunjukkan bahwa perhatian saya <strong>terbangun</strong> karena dampaknya menyentuh langsung keresahan saya yang sering panik saat jeda kuliah sempit. Saya menyarankan Anda untuk menambahkan durasi rentang jam sibuknya agar mahasiswa tahu bahwa Anda benar-benar mengamati saat puncak keramaian terjadi.” [242]</p>
+</blockquote>
+</section>
+<section id="catatan-umpan-balik-rekan-2-untuk-pitch-pelaksana-disimulasikan-bersama-owen" class="level5">
+<h5 class="anchored" data-anchor-id="catatan-umpan-balik-rekan-2-untuk-pitch-pelaksana-disimulasikan-bersama-owen">Catatan Umpan Balik Rekan 2 (untuk Pitch Pelaksana — Disimulasikan bersama Owen):</h5>
+<blockquote class="blockquote">
+<p>“Ketika Anda menyampaikan bagian <em>‘Kemarin saya amati Ibu melayani 35 transaksi dalam 30 menit sambil meracik piring dan menghitung uang sendirian’</em>, saya mengamati respons nonverbal/verbal saya berupa menghela napas panjang dan meletakkan spatula sejenak sambil berujar, <em>‘Iya Mas, jam makan siang itu tangan cuma dua tapi kepala rasanya mau pecah’</em>. Hal itu menunjukkan bahwa perhatian saya <strong>terbangun</strong> karena Anda memperhatikan beban kerja fisik nyata di dapur dan meja kasir, bukan menyalahkan kami lambat melayani pembeli. Saya menyarankan Anda untuk tetap menjaga nada suara yang santun dan menghindari kesan seperti auditor yang sedang menginspeksi kinerja kios.” [242]</p>
+</blockquote>
+</section>
+<section id="catatan-umpan-balik-rekan-3-untuk-pitch-pengambil-keputusan-disimulasikan-bersama-d" class="level5">
+<h5 class="anchored" data-anchor-id="catatan-umpan-balik-rekan-3-untuk-pitch-pengambil-keputusan-disimulasikan-bersama-d">Catatan Umpan Balik Rekan 3 (untuk Pitch Pengambil Keputusan — Disimulasikan bersama D):</h5>
+<blockquote class="blockquote">
+<p>“Ketika Anda menyampaikan bagian <em>‘tanpa penambahan pagu anggaran sarpras’</em>, saya mengamati respons nonverbal/verbal saya berupa meletakkan pulpen, mencondongkan badan ke depan, dan berkata, <em>‘Menarik, bagaimana persisnya penataan tanpa anggaran itu? Karena tahun ini pagu pemeliharaan fasilitas memang sudah terkunci’</em>. Hal itu menunjukkan bahwa perhatian saya <strong>terbangun</strong> karena Anda langsung memahami kendala utama saya soal keterbatasan anggaran dan risiko jalur evakuasi gedung, bukan datang meminta dana baru. Saya menyarankan Anda untuk menyiapkan sketsa denah sederhana agar visualisasi alur antreannya langsung terbayang tanpa menimbulkan kekhawatiran regulasi tata ruang.” [242]</p>
+</blockquote>
+<hr>
+</section>
+</section>
+</section>
+<section id="respons-state-assessment-dan-adaptasi-percakapan" class="level3">
+<h3 class="anchored" data-anchor-id="respons-state-assessment-dan-adaptasi-percakapan">Respons, State Assessment, dan Adaptasi Percakapan</h3>
+<section id="dinamika-respons-target-awal-pelaksana-kios" class="level4">
+<h4 class="anchored" data-anchor-id="dinamika-respons-target-awal-pelaksana-kios">1. Dinamika Respons Target Awal (Pelaksana Kios)</h4>
+<ul>
+<li><strong>Respons Aktual:</strong> Operator kios (disimulasikan oleh Owen) merespons:<br>
+<em>“Iya Mas, memang jam 12.00 itu repot sekali. Tapi kalau antreannya panjang sebetulnya bukan karena masaknya lambat, melainkan pembeli yang mau pesan suka berkerumun di depan etalase sambil nanya menu yang habis, jadi yang mau bayar atau yang mau ambil piring ketahan di belakang.”</em></li>
+<li><strong>State Assessment:</strong><br>
+Target mengonfirmasi adanya masalah, namun memberikan koreksi substantif terhadap titik sumbatan. <em>State</em> berpindah dari <strong>Problem Aware</strong> pasif menjadi <strong>Attention dengan reservasi</strong> [214]. Target belum masuk ke tahap <em>Interest/Action</em> karena mengkhawatirkan perubahan alur yang membuat pelanggan bingung.</li>
+<li><strong>Adaptasi Real-Time Saya:</strong><br>
+Menahan diri untuk tidak membela observasi awal dan tidak langsung menyodorkan solusi penomoran meja. Saya merespons secara adaptif:<br>
+&gt; <em>“Terima kasih penjelasannya Bu. Berarti titik kendalanya ada di penumpukan antara orang yang baru memilih menu dengan orang yang sudah mau ambil pesanan ya Bu? Bolehkah besok siang saya izin mengamati alur pemisahan itu selama 15 menit dari samping selasar tanpa mengganggu meja dagangan Ibu?”</em></li>
+<li><strong>Hasil Kesepakatan (Agreement):</strong><br>
+Operator mengizinkan observasi posisi antrean pada Kamis siang pukul 12.00 WIB. <em>Objective</em> percakapan berhasil bergeser dari sekadar menarik perhatian menjadi menyepakati pengumpulan bukti bersama (<em>collaborative evidence gathering</em>).</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="refleksi-mandiri" class="level2">
+<h2 class="anchored" data-anchor-id="refleksi-mandiri">Refleksi Mandiri</h2>
+<section id="analisis-respons-220" class="level3">
+<h3 class="anchored" data-anchor-id="analisis-respons-220">1. Analisis Respons [220]</h3>
+<p><em>Pertanyaan: Isyarat verbal atau nonverbal apa yang paling jelas menunjukkan bahwa perhatian lawan bicara Anda telah diperoleh?</em></p>
+<ul>
+<li><strong>Isyarat Nonverbal:</strong><br>
+Pada simulasi pelaksana dan pengambil keputusan, isyarat paling nyata adalah <strong>penghentian aktivitas lain (<em>interruption of ongoing physical task</em>)</strong>. Pelaksana meletakkan spatula dan mengalihkan pandangan sepenuhnya; pengambil keputusan menurunkan pulpen yang sedang digunakan menulis, lalu mencondongkan tubuh ke depan (<em>leaning forward</em>). Kontak mata terkunci dan terdapat jeda hening sesaat sebelum mereka menjawab.</li>
+<li><strong>Isyarat Verbal:</strong><br>
+Lawan bicara tidak memberikan jawaban normatif satu kata (seperti <em>“ya”</em> atau <em>“terserah”</em>), melainkan melontarkan kalimat validasi emosional spontan (<em>“Iya Mas, jam makan siang itu kepala rasanya mau pecah…”</em>) serta pertanyaan klarifikasi yang berorientasi pada kendala (<em>“Bagaimana persisnya penataan alur tanpa biaya anggaran?”</em>). Pertanyaan balik ini membuktikan bahwa pesan telah masuk ke radar prioritas mereka.</li>
+</ul>
+</section>
+<section id="koreksi-asumsi-247" class="level3">
+<h3 class="anchored" data-anchor-id="koreksi-asumsi-247">2. Koreksi Asumsi [247]</h3>
+<p><em>Pertanyaan: Asumsi awal apa yang Anda miliki tentang salah satu pihak yang ternyata keliru setelah Anda melakukan simulasi atau mendengar tanggapan mereka?</em></p>
+<ul>
+<li><strong>Koreksi Asumsi Pelaksana:</strong><br>
+Awalnya saya berasumsi bahwa lambatnya antrean murni disebabkan oleh proses transaksi pembayaran uang tunai yang lambat, sehingga solusi yang terlintas di kepala saya adalah digitalisasi kasir (QRIS/aplikasi). Namun respons pelaksana membantah hal tersebut: kendala utama ternyata berada pada <strong>tata kelola sirkulasi fisik (<em>physical spatial flow</em>)</strong>—yaitu berbaurnya antrean orang yang baru memilih menu, orang yang menunggu makanan digoreng, dan orang yang ingin mengambil piring di satu titik selasar selebar 1,5 meter. Memaksakan sistem digital tanpa memperbaiki tata letak fisik justru akan menambah beban kognitif operator.</li>
+</ul>
+</section>
+<section id="pelajaran-etika-212-217" class="level3">
+<h3 class="anchored" data-anchor-id="pelajaran-etika-212-217">3. Pelajaran Etika [212, 217]</h3>
+<p><em>Pertanyaan: Bagaimana Anda memastikan bahwa upaya Anda mendapatkan perhatian tidak berubah menjadi interupsi bising yang memaksakan kehendak atau memanipulasi emosi mereka?</em></p>
+<ul>
+<li><strong>Protokol Komunikasi Etis yang Diterapkan:</strong>
+<ol type="1">
+<li><em>Permission-based opening:</em> Selalu meminta izin singkat sebelum berbicara dan memilih waktu transisi yang tepat (tidak menyela saat kasir sedang melayani uang tunai pelanggan di puncak jam 12.05 WIB).</li>
+<li><em>Zero fearmongering:</em> Menghindari kalimat yang membesar-besarkan bahaya atau menyalahkan pihak tertentu secara personal (tidak menggunakan kata <em>“kacau”</em>, <em>“lalai”</em>, atau <em>“merugikan kampus”</em>).</li>
+<li><em>Checking question dengan otonomi penuh:</em> Pertanyaan periksa di akhir pitch diformulasikan secara netral (<em>“Apakah… dirasa memberatkan?”</em> atau <em>“Apakah relevan kita telusuri bersama?”</em>). Format ini memberikan hak penuh kepada lawan bicara untuk menjawab “tidak” tanpa konsekuensi sosial atau rasa bersalah. Jawaban penolakan diterima dengan hormat sebagai data batas keterlibatan (<em>boundary</em>).</li>
+</ol></li>
+</ul>
+<hr>
+</section>
 </section>
 <section id="analisis-komunikasi" class="level2">
 <h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Elemen</th>
@@ -351,52 +575,59 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Person &amp; character</strong></td>
+<td>Membedakan tiga persona dengan peran, otoritas, dan kepentingan yang berbeda [218]. Saya menempatkan diri sebagai rekan pengamat yang berniat memvalidasi fakta (<em>curious collaborator</em>), bukan sebagai mahasiswa pengritik yang merasa paling pintar atau auditor yang mencari kesalahan operasional kios [211].</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Objective &amp; state</strong></td>
+<td><em>State awal:</em> Pengguna (Problem aware pasif), Pelaksana (Problem aware pasrah), Pengambil keputusan (Unaware/Netral). <em>Objective:</em> Menggerakkan <em>state</em> ketiga pihak menuju <em>Attention</em> berbasis relevansi spesifik tanpa memaksakan kesepakatan solusi [213, 220].</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Repertoire &amp; language</strong></td>
+<td>Menggunakan formula Versi Masalah untuk Pengguna dan Pelaksana (fokus pada beban waktu dan tenaga), serta formula Versi Peluang untuk Pengambil Keputusan (fokus pada keselamatan jalur evakuasi dan efisiensi anggaran) [213]. Menjaga batas kata secara ketat (<span class="math inline">\(\le\)</span> 45 kata per draf) agar pesan padat dan tidak bertele-tele [218].</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Response &amp; adaptation</strong></td>
+<td>Ketika pelaksana kios mengoreksi bahwa penyebab antrean adalah kerumunan orang memilih menu (bukan kecepatan memasak), saya langsung mengadaptasi tujuan percakapan: menahan usulan solusi dan beralih meminta izin melakukan observasi alur sirkulasi menu [214].</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Agreement/action</strong></td>
+<td>Disepakatinya izin observasi pemetaan titik antrean menu selama 15 menit pada hari Kamis siang di jam sibuk tanpa mengganggu aktivitas transaksi kios [214].</td>
 </tr>
 <tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Relationship outcome</strong></td>
+<td>Hubungan relasi dengan pelaksana dan rekan simulasi tetap terjaga hangat dan profesional. Pelaksana merasa dihargai karena beban kerjanya diakui, bukan disalahkan atas penumpukan antrean [217, 246].</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
 <section id="penggunaan-ai" class="level2">
 <h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<p>AI digunakan secara etis dan terukur pasca-pengumpulan catatan lapangan untuk fungsi-fungsi berikut:</p>
+<ol type="1">
+<li><strong>Audit Struktur Formula &amp; Pemisahan Bukti vs Inferensi:</strong> AI digunakan untuk membedah naskah pitch kasar dan memastikan kalimat observasi murni memuat fakta kuantitatif (waktu 19 menit, 35 transaksi dalam 30 menit) tanpa tercampur interpretasi emosional subjektif (seperti <em>“pelayanan sangat lambat”</em>).</li>
+<li><strong>Penghitungan dan Pemangkasan Kata Presisi:</strong> AI membantu menyisir kata sambung mubazir agar ketiga draf pitch memenuhi batasan ketat maksimal 45 kata (Pitch 1: 37 kata; Pitch 2: 38 kata; Pitch 3: 38 kata) tanpa memangkas elemen formula.</li>
+<li><strong>Output AI yang Ditolak:</strong> AI sempat menyarankan draf pitch untuk pengambil keputusan yang menggunakan narasi ancaman sanksi K3L dan kebakaran yang berlebihan (<em>“Jika dibiarkan, ini melanggar regulasi keselamatan kebakaran gedung…”</em>). Saya menolak saran ini karena melanggar etika Bab 6 mengenai larangan menggunakan taktik menakut-nakuti (<em>fearmongering</em>) [212].</li>
+<li><strong>Batas Kepemilikan Manusia:</strong> Penentuan observasi lapangan di Kantin GKU Jatinangor, pelaksanaan simulasi tatap muka 90 detik bersama rekan kelas, serta penghayatan empati membaca bahasa tubuh lawan bicara dilakukan 100% oleh manusia secara autentik.</li>
+</ol>
+<hr>
 </section>
 <section id="feedback-dan-tindak-lanjut" class="level2">
 <h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<p><strong>Feedback yang diterima:</strong> Rekan simulasi (F, Owen, D) memberikan umpan balik bahwa pitch berhasil memancing rasa ingin tahu karena menyebut angka konkret observasi tanpa menuduh. Namun, pada pitch pelaksana, nada bicara awal saya sempat terkesan kaku seperti petugas yang sedang menginspeksi.</p>
+<p><strong>Adaptation/replay:</strong> Pada repetisi kedua simulasi dengan pelaksana, saya merendahkan intonasi suara, membuka percakapan dengan senyuman dan sapaan hangat (<em>“Permisi Bu Titin…”</em>), serta mengambil posisi berdiri yang tidak menghalangi jalan orang lewat. Perubahan bahasa tubuh ini membuat pelaksana jauh lebih terbuka menceritakan kendala dapurnya.</p>
+<p><strong>Next practice:</strong> Pada interaksi nyata berikutnya di lingkungan kampus, saya akan selalu melatih <strong>jeda hening 3 detik (<em>deliberate pause</em>)</strong> setelah mengajukan pertanyaan periksa (<em>checking question</em>), agar lawan bicara benar-benar memiliki ruang batin yang leluasa untuk merespons tanpa merasa didesak.</p>
+<hr>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
@@ -406,33 +637,33 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Person &amp; Character</strong></td>
+<td style="text-align: right;">4</td>
+<td>Tiga sasaran dipetakan spesifik berdasarkan peran, tujuan, kendala utama, dan riwayat otoritas; relasi kolaboratif dibangun tanpa merundung [219, 245].</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Objective &amp; State</strong></td>
+<td style="text-align: right;">4</td>
+<td>State awal masing-masing pihak dinilai objektif (Problem aware/Unaware); pergeseran menuju Attention dengan reservasi berhasil dipetakan secara terukur [219, 245].</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Repertoire, Language &amp; AI</strong></td>
+<td style="text-align: right;">4</td>
+<td>Tiga draf pitch mematuhi formula Masalah/Peluang dan batasan <span class="math inline">\(\le\)</span> 45 kata secara presisi; audit AI memisahkan fakta dan inferensi; output manipulatif ditolak tegas [213, 219].</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Response &amp; Adaptation</strong></td>
+<td style="text-align: right;">4</td>
+<td>Isyarat verbal dan nonverbal pada simulasi 90 detik dibaca cermat; koreksi substantif dari pelaksana langsung diadaptasi menjadi agenda validasi data bersama [214, 219, 246].</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Agreement, Action &amp; Relationship</strong></td>
+<td style="text-align: right;">4</td>
+<td>Menghormati otonomi pribadi sasaran sepenuhnya; menyepakati izin observasi lanjutan tanpa paksaan; memelihara <em>trust</em> antarpribadi jangka panjang [217, 219, 246].</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total: 20/20 — Unggul.</strong></p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>

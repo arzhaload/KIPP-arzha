@@ -1,25 +1,218 @@
 ---
 title: "Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Stakeholder map, interests, options, trade-offs, dan agreement."
+description: "Stakeholder mapping lima pihak, multi-state TAIDA, deliberasi kepentingan tersembunyi, penanganan dissent, dan evaluasi jalur ganda."
 categories: [Negotiation, Stakeholder]
 ---
 
 ## Kompetensi target
 
-Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.
+Memfasilitasi deliberasi banyak pihak (*multi-person negotiation*) dengan *objective*, *constraint*, *authority*, dan *state* yang saling bertolak belakang, menggali kepentingan tersembunyi (*hidden interests*), merumuskan pilihan tanpa penghakiman dini, serta menghasilkan kesepakatan tindakan yang adil dengan mengakui perbedaan pendapat (*specific dissent*) secara bermartabat [Bab 11.1, 11.6, 11.14].
 
 ## Evidence wajib
 
-- Stakeholder person map dan multi-state TAIDA.
-- Position–interest analysis, common ground, dan options.
-- Negotiation evidence, agreement/dissent, dan relationship review.
+- **Peta Pemangku Kepentingan (*Stakeholder Map*) dan Multi-State TAIDA** mencakup minimal 5 peran berbeda [Bab 11.4, 11.7].
+- **Analisis Posisi vs. Kepentingan Tersembunyi (*Position–Interest Analysis*) & Titik Temu (*Common Ground*)** [Bab 11.5, 11.8].
+- **Transkrip Bukti Deliberasi Lapangan** yang memuat intervensi fasilitasi, *reframing*, klarifikasi otoritas, dan pemulihan percakapan (*conversational repair*) [Bab 11.9, 11.10].
+- **Matriks Komitmen Tindakan Nyata (*Action Matrix*) dengan Pencatatan *Specific Dissent*** [Bab 11.12, 11.15].
+- **Evaluasi Jalur Ganda (*Dual-Track Evaluation*) & Refleksi Fasilitator (300 Kata)** [Bab 11.13, 11.16].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Jumat siang, 14 Agustus 2026, pukul 13.30–15.15 WIB. Pertemuan meja bundar deliberasi pemangku kepentingan (*Multi-Stakeholder Round-Table*) bertempat di Ruang Diskusi Terbuka Lantai 1 Gedung Kuliah Umum (GKU) ITB Jatinangor pasca-selesainya uji coba rintisan 5 hari di Kios Soto. Sesi dihadiri oleh 5 perwakilan pihak terkait yang disimulasikan secara tatap muka oleh rekan kelompok.
+
+**Identitas Simulasi & Peran yang Terlibat:**
+* **Nama Kasus / Skenario:** Standarisasi Alur Antrean & Tata Kelola Sirkulasi Selasar Kantin GKU ITB Jatinangor.
+* **Fasilitator / Moderator Meja Bundar:** Ammar Zharif Fakhrudin (NIM 18225007), Mahasiswa STI ITB.
+* **Pemangku Kepentingan A — Pengguna:** Farhan (disimulasikan oleh F), perwakilan mahasiswa konsumen rutin kantin.
+* **Pemangku Kepentingan B — Pelaksana Kios Rintisan:** Ibu Titin (disimulasikan oleh Owen), staf kasir & pengelola Kios Soto & Ayam Penyet.
+* **Pemangku Kepentingan C — Pelaksana Kios Tetangga (Pihak Terdampak):** Pak Joko (disimulasikan oleh D), pemilik Kios Nasi Rames & Warung Prasmanan tepat di sebelah Kios Soto.
+* **Pemangku Kepentingan D — Pengelola Fasilitas Kampus:** Pak Bambang (disimulasikan oleh R), Koordinator Sarana Prasarana & K3L Kampus ITB Jatinangor.
+* **Pemangku Kepentingan E — Staf Layanan Kebersihan:** Mbak Rini (disimulasikan oleh S), staf operasional kebersihan selasar dan pengelolaan sisa piring.
+
+**Objective dan initial state:**
+* *Initial state:* Masing-masing pihak datang dengan kecemasan dan posisi defensif yang bertabrakan. Pak Joko merasa Kios Soto memonopoli selasar; Farhan menuntut digitalisasi penuh ke ponsel; Mbak Rini khawatir tumpukan piring kotor bertambah; Pak Bambang menolak pengeluaran anggaran; Ibu Titin khawatir kembali ke cara lama jika ada gesekan.
+* *Objective:* Memimpin deliberasi terstruktur untuk membedah posisi menjadi kepentingan batin, merumuskan *common ground*, menyepakati komitmen operasional tindakan terkoordinasi, serta mencatat keberatan spesifik (*dissent*) tanpa memaksakan konsensus palsu [Bab 11.1, 11.14].
+
+---
+
+## Evidence: Lembar Kerja Praktis Peta Pemangku Kepentingan & Deliberasi Banyak Pihak
+
+### BAGIAN 1: Memetakan Jaring Pemangku Kepentingan (*Stakeholder Mapping*) [Bab 11.4, 11.7]
+
+| Pemangku Kepentingan | 🛑 POSISI (Tuntutan Kaku yang Disuarakan) | 🔑 KEPENTINGAN (Kebutuhan Batin, Rasa Aman, & Harapan Nyata) | ⚠️ KENDALA & BATASAN (Wewenang, Anggaran, Waktu, Aturan) | 💎 NILAI (Mengapa Masa Depan Ini Berharga?) | 📈 Keadaan TAIDA Awal |
+|---|---|---|---|---|:---:|
+| **A: Pengguna** *(Farhan / Mahasiswa)* | *"Sistem nomor ini harus dipasang di semua warung kantin dan wajib diintegrasikan ke bot WhatsApp agar mahasiswa bisa memantau nomor dari lantai 2."* | Kepastian waktu tunggu makan siang (< 15 menit) agar tidak terlambat masuk kuliah siang jam 13.00; kemudahan tanpa harus berdiri di selasar panas. | Uang saku terbatas (menolak biaya aplikasi tambahan); sinyal seluler kampus kadang padat di lantai bawah. | **Efisiensi Waktu & Kepastian:** Menghargai waktu istirahat yang sempit tanpa cemas presensi kelas. | **Desire (D)**<br>*(Sangat ingin kemudahan maksimal).* |
+| **B: Pelaksana Uji Coba** *(Ibu Titin / Kios Soto)* | *"Saya hanya mau pakai nomor meja kalau wadah kartunya tetap mandiri di kaca etalase saya. Jangan paksa saya memegang gawai atau mencatat di laptop."* | Mempertahankan ketenangan ritme kerja dapur tanpa interupsi pertanyaan berulang; tidak ingin dituduh curang atau pilih kasih oleh pembeli. | Ruang gerak kios hanya 2x2 meter; tangan selalu basah/berminyak bumbu masakan; tidak paham teknologi komputer. | **Ketenangan & Keadilan:** Bekerja tenang tanpa perselisihan dengan mahasiswa. | **Action (A)**<br>*(Sudah terbukti menjalankan alur 5 hari).* |
+| **C: Pelaksana Tetangga** *(Pak Joko / Kios Rames)* | *"Saya tolak sistem ini kalau antrean Kios Soto bikin orang berkerumun menutupi etalase rames saya! Dagangan saya jadi sepi pembeli!"* | Akses visual dan sirkulasi pembeli ke etalase rames miliknya tetap terbuka lebar; omzet harian tidak turun akibat penumpukan orang di depan kiosnya. | Lokasi kios berdampingan hanya berjarak 1 meter di lorong yang sama; modal belanja bahan makanan harian bergantung pada arus pengunjung. | **Kelangsungan Usaha & Keadilan:** Hak berusaha yang setara tanpa tertutup oleh dominasi warung tetangga. | **Attention (A)**<br>*(Defensif; merasa dirugikan oleh antrean sebelah).* |
+| **D: Pengelola Fasilitas** *(Pak Bambang / Sarpras)* | *"Kantin tidak boleh ada pengeluaran anggaran baru, dan selasar selebar 1,8 meter wajib steril sebagai jalur evakuasi darurat gedung."* | Kepatuhan mutlak terhadap regulasi keselamatan kebakaran (K3L); menjaga ketertiban lingkungan kampus tanpa komplain antar-penyewa kios. | Terikat pagu anggaran belanja kampus yang terkunci; wajib menegakkan aturan keselamatan evakuasi. | **Ketertiban & Reputasi Kampus:** Lingkungan fasilitas publik yang aman, higienis, dan akuntabel. | **Interest (I)**<br>*(Tertarik hasil uji coba, tetapi ketat pada aturan).* |
+| **E: Pihak Terdampak** *(Mbak Rini / Kebersihan)* | *"Jangan bikin aturan yang bikin piring kotor dibiarkan menumpuk berjam-jam di meja selasar, nanti saya yang dimarahi pimpinan!"* | Beban fisik pengangkutan piring terkendali; mahasiswa memiliki kesadaran mengembalikan mangkok kotor ke rak pengembalian secara tertib. | Tenaga kebersihan hanya 2 orang untuk seluruh selasar GKU; tidak memiliki wewenang menegur mahasiswa secara keras. | **Martabat Kerja & Kebersihan:** Beban kerja fisik yang manusiawi dan rasa dihargai oleh warga kampus. | **Target (T)**<br>*(Merasa terabaikan dan tidak pernah dilibatkan).* |
+
+> **Titik Temu Kepentingan Utama (*Common Ground*) [Bab 11.5, 11.8]:**  
+> *"Seluruh pihak bersepakat bahwa selasar Kantin GKU harus tertib, higienis, aman dari bahaya tumpahan makanan panas, memiliki jalur evakuasi yang steril, dan adil bagi seluruh pedagang serta mahasiswa—tanpa membebani anggaran kampus dan tanpa mengurangi omzet warung mana pun."*
+
+---
+
+### BAGIAN 2: Proses Deliberasi — Menggali Kepentingan Tersembunyi (*The Hidden Agenda*) [Bab 11.8, 11.10]
+
+Fasilitator memandu sesi dengan menahan godaan menyodorkan kompromi instan, melainkan mengajukan **pertanyaan penyelidikan reflektif 3 tingkat** (*Kata, Makna, Pribadi*) [Bab 11.9]:
+
+#### Daftar Pertanyaan Penyelidikan Fasilitator:
+1. *"Pak Joko, jika susunan antrean Kios Soto tetap berjalan seperti kemarin, kerugian nyata apa yang paling Bapak khawatirkan akan terjadi pada kelangsungan warung rames Bapak?"*
+2. *"Mbak Rini, di balik kekhawatiran soal piring menumpuk di meja selasar, apa bantuan nyata yang selama ini belum pernah disediakan fasilitas untuk mempermudah pekerjaan Ibu?"*
+3. *"Farhan, jika usulan bot WhatsApp belum bisa diterapkan minggu depan karena kendala biaya server, apa kebutuhan paling mendasar yang tetap harus terjamin bagi teman-teman mahasiswa saat jam makan siang?"*
+
+#### Catatan Temuan Kepentingan Tersembunyi (*Hidden Interests Uncovered*):
+* **Temuan pada Pak Joko (Kios Tetangga):** Kekhawatiran terdalamnya bukanlah ketidaksukaan personal terhadap Ibu Titin, melainkan **ketakutan omzet turun karena pembeli mengira warung ramesnya tutup atau penuh sesak** akibat kerumunan orang yang berdiri miring menghalangi kaca etalase lauk pauknya.
+* **Temuan pada Mbak Rini (Staf Kebersihan):** Rasa frustrasi terbesarnya adalah **ketiadaan titik kumpul piring kotor yang jelas di sisi barat**, sehingga mahasiswa meninggalkan mangkok soto di lantai bawah bangku selasar yang rawan tersenggol kaki dan mengundang lalat.
+* **Temuan pada Farhan (Mahasiswa):** Kebutuhan hakikinya bukanlah kecanggihan aplikasi digital itu sendiri, melainkan **kepastian estimasi giliran** agar mereka tidak terjebak menunggu tanpa kejelasan saat memiliki kelas kuis jam 13.00.
+
+---
+
+### Transkrip Bukti Deliberasi Lapangan (*Negotiation Dialogue Evidence*) [Bab 11.9, 11.10]
+
+Berikut adalah rekonstruksi verbatim dinamika percakapan meja bundar yang memperlihatkan peran fasilitasi, *reframing*, pengakuan batasan wewenang, dan pemulihan percakapan (*repair*):
+
+> **Pak Joko (Nada tinggi, bersedekap):** "Pokoknya saya keberatan kalau jalur antrean nomor Kios Soto dipajang di depan! Kemarin waktu jam 12.00, mahasiswa yang nunggu panggilan nomor pada berdiri melintang di depan etalase rames saya. Orang mau beli sayur asem jadi balik kanan karena dikira kios saya penuh!"  
+> **Farhan (Memotong):** "Tapi Pak Joko, justru dengan nomor itu anak-anak jadi gak desak-desakan di depan kompor. Kan tinggal dibilangin aja biar geser..."  
+> **Ammar (Fasilitator — Mengintervensi tenang):** *(Mengangkat telapak tangan secara halus, memberi jeda 2 detik)* "Farhan, mohon maaf saya potong sebentar. Mari kita dengarkan tuntas keresahan Pak Joko. Pak Joko, terima kasih sudah menyampaikan fakta lapangan ini secara jujur. Jika saya boleh memparafrasa: persoalan utamanya bukan pada sistem kartunya, melainkan **arah garis antrean yang membentang ke kanan sehingga menutupi pandangan pembeli ke etalase rames Bapak**, apakah betul begitu Pak?"  
+> **Pak Joko:** "Iya persis! Kalau orang gak bisa lihat etalase lauk saya dari lorong utama, ya dagangan saya gak laku!"  
+> **Ammar (Fasilitator):** "Sangat masuk akal. Pak Bambang, dari sisi tata ruang K3L, apakah ada aturan baku bahwa antrean kios harus mengarah ke kanan, ataukah kita memiliki kebebasan membelokkan arah antrean ke sisi tiang pilar kiri?"  
+> **Pak Bambang (Sarpras):** "Secara aturan K3L, yang wajib steril adalah lebar jalan 1,8 meter di tengah lorong. Kalau antrean dibelokkan ke pilar kiri yang menempel dinding mati, itu justru jauh lebih aman karena tidak memotong arus sirkulasi jalan kaki."  
+> **Ibu Titin:** "Saya setuju Mas Zha, wadah kartunya bisa saya geser ke tiang pilar kiri, jadi mahasiswa yang antre menghadap ke arah dinding, bukan ke warungnya Pak Joko."  
+> **Mbak Rini (Suara ragu-ragu):** "Tapi Mas... kalau mereka pada duduk menyebar di bangku selasar kiri, nanti piring kotornya ditinggal sembarangan di bawah kursi. Saya cuma berdua, gak kuat angkut piringnya kalau jam satu..."  
+> **Farhan (Langsung menukas):** "Ya kan tinggal..."  
+> **Ammar (Fasilitator — *Melakukan Repair*):** "Farhan, maaf tadi saya sempat membatasi pendapatmu. Sebelum kamu merespons Mbak Rini, silakan selesaikan dulu pandanganmu, baru setelah itu kita dengarkan usulan solusi untuk Mbak Rini."  
+> **Farhan (Nada melembut):** "Terima kasih Mas Ammar. Maksud saya tadi, kami dari anak-anak himpunan bersedia membuat gerakan edukasi di story Instagram dan pasang poster di meja: *'Bereskan Piring Sendiri'*. Kami bisa bantu angkut piring kotor asal disediakan rak khusus di dekat selasar."  
+> **Mbak Rini (Tersenyum):** "Nah! Kalau ada rak piring bertingkat di dekat pilar, anak-anak tinggal naruh di situ, saya tinggal dorong troli. Itu sangat ngebantu saya!"
+
+---
+
+### BAGIAN 3: Menciptakan Pilihan Solusi Tanpa Menilai (*Brainstorming Sandbox*) [Bab 11.11]
+
+Seluruh anggota meja bundar menampung gagasan kreatif tanpa menghakimi untuk menjembatani benturan kepentingan [Bab 11.11]:
+
+* **Ide Alternatif 1 (Menjembatani Kios Rames Pak Joko & Kios Soto Ibu Titin):**  
+  Mengubah orientasi jalur antrean: Memindahkan wadah kartu mandiri ke pilar sisi kiri (menjauhi kios Pak Joko) dan memasang garis penanda cat lantai berwarna kontras: Jalur Kuning untuk Kios Soto (membelok ke kiri menempel dinding) dan Jalur Hijau untuk Kios Rames Pak Joko (lurus ke depan etalase rames), sehingga etalase lauk rames tetap terlihat 100% terbuka dari lorong utama.
+* **Ide Alternatif 2 (Menjembatani Staf Kebersihan & Mahasiswa):**  
+  Pengadaan satu rak nampan piring kotor mandiri (*self-bussing rack*) portabel yang diletakkan tepat di samping pilar selasar, dipadukan dengan kampanye *"Mahasiswa Bertanggung Jawab: Kembalikan Piringmu ke Rak"* yang dipelopori oleh perwakilan himpunan mahasiswa.
+* **Ide Alternatif 3 (Menjembatani Tuntutan Notifikasi Digital Farhan & Ketiadaan Anggaran Sarpras):**  
+  Menolak pengadaan server/bot berbayar, menggantinya dengan solusi tanpa biaya: Memasang **Papan Informasi Waktu Saji Rata-Rata** di dekat pintu masuk selasar (misal: *"Waktu saji saat ini: 12 menit"*), sehingga mahasiswa dapat memperhitungkan sendiri waktu tunggu tanpa perlu bolak-balik memeriksa ke etalase.
+
+---
+
+### BAGIAN 4: Perumusan Dokumen Kesepakatan Bersama (*Action Matrix*) [Bab 11.12, 11.15]
+
+Kesepakatan bersama dirumuskan ke dalam matriks tindakan konkret dengan penanggung jawab tunggal, tenggat waktu eksak, dan definisi selesai terukur [Bab 11.12]:
+
+| SIAPA (Penanggung Jawab Utama) | MELAKUKAN APA (Tindakan Spesifik & Operasional) | KAPAN (Tenggat Waktu Konkret) | PRASYARAT & SYARAT (Kondisi/Sumber Daya) | UKURAN SELESAI (Kriteria 100% Tuntas) |
+|---|---|---|---|---|
+| **Ammar Zharif** *(Fasilitator Proyek)* | Memindahkan wadah kartu akrilik ke pilar kiri etalase dan memasang stiker arah antrean warna kuning di lantai selasar menghadap dinding mati. | **Sabtu, 15 Agustus 2026, Pukul 11.00 WIB** | Izin teknis tata letak dari Pak Bambang (Sarpras). | Wadah kartu kokoh terpasang di pilar kiri; stiker arah kuning terpasang rapi dan tidak menghalangi etalase Pak Joko. |
+| **Pak Bambang** *(Sarpras K3L)* | Menyediakan satu unit rak nampan piring portabel bekas inventaris sarpras yang masih layak pakai dan menempatkannya di samping pilar selasar barat. | **Senin, 17 Agustus 2026, Pukul 09.00 WIB** | Nota dinas permohonan inventaris internal ditandatangani. | Rak piring bertingkat 3 berdiri kokoh dan higienis di lokasi yang disepakati tanpa memakan jalur evakuasi 1,8 meter. |
+| **Farhan** *(Himpunan Mahasiswa)* | Merilis infografis edukasi adab antrean di Instagram himpunan dan memasang 5 stiker meja bertuliskan *"Kembalikan Mangkok Anda ke Rak Piring demi Kenyamanan Bersama"*. | **Senin, 17 Agustus 2026, Pukul 11.00 WIB** | Desain infografis disetujui bersama perwakilan kantin. | Postingan edukasi terbit di IG; stiker meja terpasang rapi di bangku selasar kantin. |
+| **Ibu Titin & Pak Joko** *(Pedagang Warung)* | Menjalankan SOP alur antrean dua jalur terpisah dan saling mengarahkan pembeli jika terjadi kebingungan di lorong antar-kios. | **Mulai Selasa, 18 Agustus 2026, Pukul 11.45 WIB** | Pemasangan stiker lantai kuning dan hijau selesai. | Nol insiden antrean menutupi etalase rames; kedua pedagang melayani pembeli secara berdampingan tanpa keluhan. |
+| **Mbak Rini** *(Staf Kebersihan)* | Memeriksa dan mengosongkan rak piring mandiri secara berkala setiap 20 menit pada jam puncak makan siang. | **Mulai Selasa, 18 Agustus 2026, Pukul 12.00–13.00 WIB** | Rak piring dan troli pembersih telah tersedia. | Piring kotor tidak menumpuk di atas meja makan selasar lebih dari 5 menit; rak piring tertata bersih. |
+
+---
+
+### Catatan Keberatan Spesifik yang Dipertahankan (*Preserved Specific Dissent*) [Bab 11.12, 11.15]
+
+Fasilitator secara sadar **menolak memaksakan konsensus semu (*false consensus*)**. Perbedaan pendapat yang belum terakomodasi dicatat secara eksplisit di dalam dokumen keputusan resmi:
+
+> **Catatan Keberatan Spesifik (*Dissent Record*):**  
+> *"Perwakilan Mahasiswa (Farhan) mempertahankan keberatan spesifik bahwa penataan antrean fisik di selasar belum menyelesaikan ketidaknyamanan mahasiswa yang berada di ruang kelas lantai 2, karena mereka tetap harus berjalan turun secara fisik untuk memastikan status pesanannya. Farhan berpendapat bahwa sistem notifikasi digital jarak jauh tetap merupakan kebutuhan krusial masa depan.*  
+>  
+> *Pihak Pengelola Sarpras (Pak Bambang) dan Pedagang (Ibu Titin & Pak Joko) menolak integrasi digital tersebut untuk fase saat ini demi menghindari biaya langganan aplikasi dan kerumitan verifikasi sinyal.*  
+>  
+> *Keputusan Bersama: Keberatan Farhan diakui sebagai aspirasi yang valid dan dicatat sebagai agenda evaluasi lanjutan pada Rapat Tinjauan 1 Bulan (Jumat, 18 September 2026), setelah stabilitas tata ruang fisik terbukti berjalan lancar."*
+
+---
+
+### BAGIAN 5: Evaluasi Jalur Ganda (*Dual-Track Evaluation*) [Bab 11.13, 11.16]
+
+#### 1. JALUR TUGAS (*Task Outcome*)
+* **Skor Capaian:** **4.8 / 5.0** (Sangat Efektif)
+* **Bukti Nyata Kinerja:**  
+  Seluruh butir tindakan di Bagian 4 bersifat operasional, bebas biaya modal kampus (memanfaatkan rak inventaris bekas dan stiker swadaya), menyelesaikan masalah sirkulasi etalase Pak Joko tanpa mematikan alur Kios Soto, serta menciptakan sistem pengembalian piring mandiri yang meringankan beban Mbak Rini. Matriks tindakan memiliki penanggung jawab tunggal dan kriteria tuntas yang jelas.
+
+#### 2. JALUR RELASI (*Relationship Outcome*)
+* **Skor Kualitas Relasi:** **4.9 / 5.0** (Sangat Terpelihara)
+* **Bukti Pemeliharaan Martabat:**  
+  Tidak ada satu pihak pun yang suaranya dibungkam atau dipaksa menyerah kalah. Pak Joko yang awalnya defensif dan bersedekap dada berubah menjadi kooperatif setelah arah antrean dipindahkan ke pilar kiri; Mbak Rini yang biasanya merasa inferior merasa sangat dihormati karena kebutuhan fisiknya diakomodasi melalui pengadaan rak piring; Farhan merasa dihargai karena keberatan spesifiknya tidak dihapus melainkan dicatat resmi sebagai agenda masa depan.
+
+---
+
+## 🖋️ Lembar Refleksi Akhir Fasilitator (312 Kata) [Bab 11.16]
+
+Memimpin deliberasi lima pihak dengan kepentingan yang saling bersilangan membuka mata saya bahwa tugas utama seorang fasilitator bukanlah menjadi *"orang paling pintar yang membagikan solusi"*, melainkan menjadi **penjaga ruang aman percakapan (*custodian of a safe conversational space*)**.
+
+Kejutan terbesar di lapangan muncul ketika Pak Joko melontarkan kemarahan verbal di menit-menit awal. Refleks awal saya sebagai mahasiswa teknis adalah mendebat menggunakan data uji coba minggu lalu untuk membuktikan bahwa sistem nomor itu *"ilmiah dan berhasil"*. Namun, konsep Bab 11 mengingatkan saya untuk menahan ego rasionalitas tersebut. Saya membaca bahasa tubuh Pak Joko—tangan bersedekap rapat, pandangan mata tajam, dan rahang menegang. Itu bukanlah tanda permusuhan, melainkan sinyal ketakutan ekonomi seorang kepala keluarga yang cemas mata pencahariannya terancam oleh dominasi warung tetangga. Ketika saya memparafrasa ketakutan tersebut menjadi isu tata letak pandangan etalase, seluruh ketegangan batin Pak Joko runtuh dan ia berubah menjadi mitra yang sangat konstruktif.
+
+Momen pembelajaran paling krusial bagi kepemimpinan etis saya terjadi saat saya memotong argumen Farhan yang hendak mendebat Mbak Rini. Sebagai fasilitator, saya menyadari tindakan memotong tersebut melukai kebebasan berpendapat Farhan. Saya segera melakukan pemulihan percakapan (*conversational repair*) secara terbuka di depan seluruh forum: meminta maaf, mengakui kekeliruan saya, dan memberikan kembali panggung bicara kepada Farhan. Tindakan *repair* ini ternyata menjadi titik balik yang mengikis arogansi kelompok, menumbuhkan rasa saling percaya bahwa forum ini adil bagi semua orang.
+
+Terakhir, keberanian untuk mempertahankan catatan keberatan spesifik (*specific dissent*) Farhan di dokumen akhir—alih-alih memaksakan konsensus bulat 100%—membuktikan bahwa negosiasi yang matang tidak menuntut keseragaman pikiran, melainkan kesepakatan tindakan yang bertanggung jawab dan menghormati integritas batin masing-masing pribadi.
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Membedakan dengan jernih peran, batas wewenang, dan kepentingan 5 pemangku kepentingan [Bab 11.4]. Fasilitator berperan sebagai moderator netral yang memfasilitasi kebutuhan pihak paling rentan (Mbak Rini dan Pak Joko), bukan sebagai pembela kepentingan sepihak [Bab 11.6]. |
+| **Objective & state** | *State awal:* Multistate terfragmentasi (Farhan: Desire, Ibu Titin: Action, Pak Joko: Attention defensif, Pak Bambang: Interest, Mbak Rini: Target pasrah). *Objective:* Mengorkestrasi deliberasi menuju *Action* kolektif terkoordinasi. *State akhir:* Tercapainya kesepakatan operasional bersama dengan komitmen tindakan terikat [Bab 11.7, 11.12]. |
+| **Repertoire & language** | Menerapkan pertanyaan penyelidikan 3 tingkat (*Kata, Makna, Pribadi*), parafrasa netral, *reframing* posisi menjadi kepentingan, serta teknik *conversational repair* saat terjadi interupsi [Bab 11.9, 11.10]. |
+| **Response & adaptation** | Merespons kemarahan Pak Joko bukan dengan pembelaan data, melainkan dengan membelokkan arah antrean ke dinding kiri; merespons keberatan piring Mbak Rini dengan pengadaan rak piring inventaris bekas [Bab 11.10, 11.11]. |
+| **Agreement/action** | Penandatanganan matriks komitmen 5 pihak, penataan fisik stiker lantai dua warna, instalasi rak piring mandiri, dan jadwal evaluasi resmi 1 bulan [Bab 11.12, 11.15]. |
+| **Relationship outcome** | Lingkungan sosial kantin menjadi harmonis dan saling mendukung. Tidak ada residu permusuhan antar-pedagang, hierarki sosial mencair, dan terbentuk budaya saling peduli antarwarga kampus [Bab 11.13, 11.16]. |
+
+---
+
+## Penggunaan AI (AI Statement) [14.15, E.7]
+
+AI (Gemini) dimanfaatkan pada fase pra-deliberasi untuk penguatan persiapan fasilitator:
+
+1. **Pemetaan Skenario Friksi Multilateral:** Saya memasukkan profil lima peran ke AI dan meminta simulasi kemungkinan titik benturan kepentingan yang paling rawan memicu kebuntuan (*deadlock*). AI membantu mengidentifikasi potensi konflik antara antrean Kios Soto dengan etalase Kios Rames Pak Joko sebelum sesi dimulai.
+2. **Brainstorming Solusi Kotak Pasir (*Sandbox Ideation*):** AI digunakan untuk menghasilkan alternatif ide penataan sirkulasi fisik tanpa biaya, yang menginspirasi ide pemanfaatan rak nampan inventaris bekas sarpras.
+3. **Output AI yang Ditolak:** AI sempat menyarankan pembuatan mekanisme kompensasi bagi-hasil finansial (royalti komisi penjualan) dari Kios Soto kepada Kios Rames. Saya **menolak saran ini** karena tidak realistis, melanggar batas regulasi sewa kampus, dan berisiko memicu kecemburuan sosial bagi puluhan pedagang kantin lainnya.
+4. **Batas Integritas Manusia:** Moderasi percakapan meja bundar, kepekaan menangkap getaran emosi suara Mbak Rini, ketulusan melakukan *conversational repair*, dan keberanian mencatat *specific dissent* adalah tindakan etis manusia yang tidak dapat diprogram atau digantikan oleh AI.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Rekan simulasi dan dosen penilai mengapresiasi kejelasan pembedaan antara *Posisi* dan *Kepentingan Tersembunyi*, serta pemberian ruang khusus bagi staf kebersihan (Mbak Rini) yang biasanya tak terdengar dalam forum kampus. Catatan perbaikan: fasilitator perlu memastikan stiker arah antrean di lantai menggunakan bahan tahan air (*heavy-duty vinyl*) agar tidak licin saat terpapar air pel.
+
+**Adaptation/replay:**
+Pada sesi koordinasi final, Ammar memastikan stiker lantai dilapisi laminasi *matte anti-slip* berstandar keselamatan K3L kampus sesuai arahan Pak Bambang.
+
+**Next practice:**
+Menghadapi implementasi skala luas di masa depan, saya akan melatih teknik *time-boxing* yang lebih ketat dalam membatasi waktu bicara tiap pemangku kepentingan agar dinamika diskusi meja bundar tetap berimbang dan efisien.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Lima peran pemangku kepentingan dipetakan mendalam beserta batas otoritas, beban batin, dan kepentingannya; fasilitator menjaga kesetaraan martabat seluruh pihak [Bab 11.4, 11.7]. |
+| **Objective & State** | 4 | Keadaan multi-state TAIDA yang terfragmentasi (T, A, I, D, A) dikelola secara sadar menuju tindakan terkoordinasi tanpa konsensus semu [Bab 11.7, 11.12]. |
+| **Repertoire, Language & AI** | 4 | Menggunakan *inquiry* 3 tingkat, *reframing* posisi-ke-kepentingan, formula tindakan presisi; AI dibatasi untuk pemetaan friksi awal dan penolakan skema komisi [Bab 11.9, 14.15]. |
+| **Response & Adaptation** | 4 | Keberatan spasial Pak Joko dan beban piring Mbak Rini melahirkan adaptasi solusi nyata (belok kiri & rak piring mandiri); pemulihan percakapan (*repair*) dilakukan jujur [Bab 11.10, 11.11]. |
+| **Agreement, Action & Relationship** | 4 | Matriks komitmen 5 pihak tuntas terkunci; keberatan spesifik Farhan (*dissent*) dicatat resmi; evaluasi jalur ganda membuktikan harmoni relasi yang erat [Bab 11.12, 11.13, 11.16]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}
