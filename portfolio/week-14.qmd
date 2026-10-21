@@ -1,25 +1,206 @@
 ---
 title: "AI-Mediated Communication Design"
 week: 14
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "AI role, prompt, output, human revision, boundary, dan risk."
+description: "Spesifikasi kopilot AI, matriks lampu lalu lintas risiko, human revision, batas privasi/otoritas, dan etika komunikasi berpusat pada manusia."
 categories: [AI, Ethics]
 ---
 
 ## Kompetensi target
 
-Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan relationship.
+Memilih dan membatasi peran AI secara etis sambil menjaga kompetensi manusia (*human competence*), kewenangan sah (*authority*), dan martabat relasi (*relationship dignity*) agar komunikasi tidak tereduksi menjadi sekadar otomatisasi teknis [Bab 14.1, 14.6, 14.15].
 
 ## Evidence wajib
 
-- Persons, characters, objective, dan state.
-- AI role, prompt/output, serta human revision.
-- Privacy/authority/risk review dan alasan tidak menggunakan lebih banyak AI.
+- **Pemetaan Tiga Lapis Keberadaan Manusia (*Persons, Characters, Objective, State*)** [Bab 1.7, 14.4].
+- **Matriks 'Lampu Lalu Lintas Risiko' AI (*Traffic Light Risk Matrix*)** mencakup kategori Hijau, Kuning, dan Merah [Bab 14.5, Lampiran E.4, E.5].
+- **Format Spesifikasi Kopilot Komunikasi & Rekam Jejak Prompting Berpusat pada Manusia** [Bab 14.8, 14.15].
+- **Tabel Koreksi Kritis Manusia (*Human Revision Table*)** yang membedah kekeliruan output AI dan justifikasi perubahannya [Bab 14.9, 14.12].
+- **Daftar Periksa Etika (*The Final Gate*), Uji Privasi/Otoritas, dan Pernyataan Transparansi AI (*AI Statement*)** [Bab 14.10, Lampiran E.7].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 14](../examples/week-14.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Rabu, 26 Agustus 2026, pukul 13.00–15.30 WIB. Perancangan dan audit sistem komunikasi termediasi AI bertempat di Laboratorium Rekayasa Perangkat Lunak STI ITB dan selasar Kantin GKU Jatinangor. Fokus kegiatan adalah menyusun *Panduan Komunikasi Operasional & Penanganan Keluhan Publik* (FAQ publik, panduan respon keluhan kasir, dan protokol eskalasi insiden) pasca-evaluasi uji coba sistem antrean.
+
+**Persons, Characters, Objective, dan State:**
+* **Komunikator / Arsitek Pesan:** Ammar Zharif Fakhrudin (NIM 18225007), mahasiswa STI ITB yang bertindak sebagai *Human Communication Architect*, bertanggung jawab penuh atas kebenaran fakta dan integritas etis pesan.
+* **Mitra Terdampak:** Ibu Titin (Kios Soto) dan Pak Bambang (Sarpras K3L), pemilik otoritas sah operasional dan tata kelola gedung kampus.
+* **Penerima Manfaat / Publik:** Mahasiswa konsumen kantin yang menyampaikan 18 lembar formulir masukan, pertanyaan, dan keluhan anonim di kotak saran selasar.
+* **Objective:** Memanfaatkan AI (Gemini) sebagai *Kopilot Teknis* untuk memilah pola masukan anonim dan merapikan draf teks FAQ, sembari menegakkan batasan mutlak (*red lines*) bahwa AI **dilarang menyentuh penanganan konflik personal, permohonan maaf, atau keputusan wewenang fasilitas** [Bab 14.1, 14.6].
+* **State Awal:** Risiko *AI creep*—godaan awal untuk menyerahkan seluruh perumusan jawaban keluhan kepada chatbot otomatis demi efisiensi waktu, yang berisiko menghasilkan respons dingin, halusinasi kebijakan kampus, dan merusak relasi saling percaya dengan pedagang.
+
+---
+
+## Evidence: Lembar Kerja Praktis Spesifikasi Kopilot dan Manajemen Risiko AI
+
+### 1. Identitas Pengguna & Pemetaan Tiga Lapis Keberadaan Manusia [Bab 1.7, 14.4]
+
+Sebelum memproses data apa pun melalui AI, komunikasi dipetakan ke dalam tiga lapis eksistensi manusia agar tidak tereduksi menjadi komputasi mekanistik [Bab 1.7]:
+
+| Lapisan Eksistensi Manusia | Realitas Lapangan pada Proyek Kantin GKU | Risiko Jika Tereduksi oleh AI | Tindakan Perlindungan Manusia (*Human Safeguard*) |
+|---|---|---|---|
+| **Lapis 1: Peran Fungsional (*Functional Role*)** | Mahasiswa butuh makan siang cepat (< 15 menit); pedagang butuh transaksi lancar; sarpras butuh lorong steril 1,8 meter. | AI menganggap manusia sebagai angka *throughput* antrean murni yang bisa diatur lewat algoritma pemaksaan. | Menjaga agar aturan antrean tetap fleksibel dan tidak menghukum keterlambatan saji dapur secara sepihak. |
+| **Lapis 2: Narasi Batin & Relasi (*Internal Story & Relationship*)** | Ibu Titin lelah fisik dan cemas dituduh curang; pembeli cemas tertinggal kelas kuis; Pak Joko takut kehilangan mata pencaharian. | AI tidak memiliki empati terhadap rasa malu kasir atau kecemasan nafkah keluarga pedagang kaki lima. | Seluruh komunikasi tatap muka dan mediasi keberatan dilakukan langsung secara manusiawi tanpa perantara bot. |
+| **Lapis 3: Martabat & Kemerdekaan (*Dignity & Sovereignty*)** | Warga kampus berhak dihormati hak suaranya, dihargai kebebasannya untuk memilih menu, dan tidak dimanipulasi data pribadinya. | AI memperlakukan manusia sebagai objek data yang bisa dimanipulasi melalui notifikasi persuasif palsu (*nudging* agresif). | Melarang penggunaan sistem skoring kepatuhan atau denda otomatis; seluruh partisipasi warga bersifat sukarela. |
+
+---
+
+### 2. Instrumen I: Matriks 'Lampu Lalu Lintas Risiko' AI (*Traffic Light Risk Matrix*) [Bab 14.5, Lampiran E.4, E.5]
+
+Menetapkan pagar pembatas kewenangan (*zones of autonomy*) berdasarkan tingkat risiko relasi dan konsekuensi etis:
+
+```
+  [ MERAH: RISIKO TINGGI ]  --> DILARANG MENGGUNAKAN AI (100% Manusia Autentik)
+            ▲
+  [ KUNING: RISIKO SEDANG ] --> AI Draf Awal + Wajib Review Ketat Manusia
+            ▲
+  [ HIJAU: RISIKO RENDAH ]  --> AI Digunakan Luas + Audit Akurasi Mandiri
+```
+
+| Zona Risiko | Kriteria & Konteks Situasi Proyek Kantin GKU | Kebijakan Penggunaan AI | Tindakan Mitigasi & Protokol Eskalasi Manusia |
+|:---:|---|---|---|
+| 🟢 **HIJAU** *(Risiko Rendah)* | 1. Mengelompokkan 18 masukan anonim mahasiswa menjadi 3 klaster tema (menu, nomor kartu, piring).<br>2. Merapikan ejaan dan tata bahasa draf pengumuman mading.<br>3. Menerjemahkan istilah teknis menjadi bahasa publik yang komunikatif. | **AI Digunakan Bebas sebagai Asisten Pola & Format.** | Ammar memeriksa kebenaran hasil pengelompokan; memastikan tidak ada intisari masukan mahasiswa yang terpotong atau terabaikan secara substantif. |
+| 🟡 **KUNING** *(Risiko Sedang)* | 1. Menyusun draf teks Tanya-Jawab (FAQ) resmi terkait prosedur penukaran kartu nomor.<br>2. Menyusun draf panduan tertulis tata cara pengembalian mangkok ke rak piring mandiri.<br>3. Mengestimasi rentang waktu tunggu rata-rata di jam sibuk. | **AI sebagai Penyusun Draf Awal (*Drafter*). DILARANG Publikasi Tanpa Verifikasi.** | Wajib dilakukan peninjauan manusia (*human-in-the-loop*) yang ketat; setiap angka estimasi waktu wajib dicocokkan dengan catatan *log* lapangan nyata Bab 10. |
+| 🔴 **MERAH** *(Risiko Tinggi)* | 1. **Permintaan Maaf & Pemulihan Relasi (*Apology & Repair*):** Menanggapi keluhan pembeli yang marah karena kuah soto habis setelah antre 15 menit.<br>2. **Mediasi Sengketa:** Menangani perselisihan batas meja antara Ibu Titin dan Pak Joko.<br>3. **Penilaian Integritas:** Menilai kejujuran kasir atau mahasiswa.<br>4. **Keputusan Wewenang:** Mengubah jam buka atau menetapkan sanksi fasilitas. | **DILARANG KERAS MENGGUNAKAN AI DALAM BENTUK APA PUN.** *(Zero AI Intervention)* | Komunikasi wajib dilakukan secara langsung, tatap muka, dan autentik oleh Ammar, Ibu Titin, atau Pak Bambang. AI dilarang menyusun naskah permohonan maaf karena manipulatif dan menghina martabat penerima [Lampiran E.4]. |
+
+---
+
+### 3. Instrumen II: Format Spesifikasi Kopilot Komunikasi [Bab 14.8]
+
+Mendefinisikan peran AI secara terukur sebagai kopilot teknis dengan batasan operasional yang tegas untuk melindungi integritas relasi:
+
+| Tugas Komunikasi | Peran AI (*AI Role*) | Batasan & Tanggung Jawab Manusia (*Human Responsibility*) | Status Risiko |
+|---|---|---|:---:|
+| **Mengelompokkan 18 masukan anonim mahasiswa** | *Pattern Assistant* (Pemilah Pola) | Menyaring dan menghapus data pribadi (nama/NIM), serta memeriksa validitas grouping tema secara manual. | 🟢 Hijau |
+| **Menyusun draf 3 butir teks FAQ Kantin GKU** | *Language Assistant* (Perapih Draf) | Menetapkan batasan fakta empiris, mengontrol nada bicara (*tone*), dan membatasi klaim wewenang (*authority*). | 🟡 Kuning |
+| **Menjawab komplain & keluhan keterlambatan saji** | **TIDAK DIGUNAKAN** *(Zero AI)* | Ibu Titin & Ammar menangani langsung secara personal dengan empati tatap muka dan solusi fleksibel. | 🔴 Merah |
+| **Mediasi batas meja & hak usaha pedagang** | **TIDAK DIGUNAKAN** *(Zero AI)* | Dialog langsung antarmanusia (Ibu Titin & Pak Joko) untuk menjaga rasa saling menghargai. | 🔴 Merah |
+| **Menyetujui publikasi panduan & materi mading** | **TIDAK DIGUNAKAN** *(Zero AI)* | Pak Bambang (Sarpras K3L) dan Ibu Titin memberikan persetujuan (*approval*) resmi bertanda tangan. | 🔴 Merah |
+
+* **Spesifikasi Teknis:** Google Gemini Pro (Model 1.5).
+* **Area Terlarang Mutlak (*Strict Red Lines*):**
+  - Dilarang membuat janji kebijakan kampus atas nama Sarpras ITB.
+  - Dilarang mengarang angka durasi waktu saji di luar lembar fakta brief.
+  - Dilarang menyusun kalimat permintaan maaf atau tanggapan keluhan emosional personal.
+* **Tanggung Jawab Akhir (*Final Accountability*):** Berada 100% pada Ammar Zharif Fakhrudin sebagai komunikator manusia.
+
+---
+
+### 4. Panduan Operasional: Rekam Jejak Prompting Berpusat pada Manusia [Bab 14.8, 14.15, 2.12]
+
+Berdasarkan prinsip Bab 14.15 dan Bab 2.12, perancangan interaksi dengan AI wajib menegakkan 4 pilar pagar etis:
+1. **Penegasan Peran Pendamping (*Role Anchor*):** Menempatkan AI semata-mata sebagai pengolah format dan struktur bahasa, bukan pemilik suara komunikasi atau penentu kebijakan.
+2. **Pagar Fakta Tertutup (*Closed-World Factual Bounding*):** Melarang keras AI berspekulasi atau mengambil asumsi di luar lembar fakta brief terlampir.
+3. **Klausul Eskalasi Ketidaktahuan (*Uncertainty Fallback*):** Memerintahkan AI untuk secara eksplisit menuliskan penanda eskalasi manusia `[PERLU KONFIRMASI]` jika informasi tidak tercantum.
+4. **Zona Larangan Mutlak (*Negative Constraints*):** Menetapkan larangan eksplisit terhadap fabrikasi wewenang institusi kampus, sanksi finansial, dan klaim teknologi palsu (*no fake real-time*).
+
+#### Naskah Prompt Berpagar Batasan (*Bounded Prompting Artifact*):
+> *"Bertindaklah sebagai asisten perumus bahasa publik. Tugasmu adalah mengelompokkan 8 masukan anonim mahasiswa berikut ke dalam draf FAQ Kantin GKU yang terdiri dari 3 butir tanya-jawab ringkas.  
+>  
+> **BATASAN KETAT (WAJIB DIPATUHI):**  
+> 1. Gunakan HANYA fakta yang tercantum pada lembar brief terlampir (Kios Soto buka jam 11.00–14.30 WIB; kartu nomor berjumlah 20 buah; biaya kartu gratis ditanggung proyek mahasiswa).  
+> 2. Batasi setiap jawaban maksimal 45 kata, gunakan kalimat aktif, dan nada bahasa yang ramah warga kampus.  
+> 3. JIKA informasi yang ditanyakan tidak tersedia pada brief, tulis: '[INFORMASI MEMERLUKAN KONFIRMASI DENGAN SARPRAS/PEDAGANG]'.  
+> 4. DILARANG membuat klaim bahwa sistem ini berjalan real-time, DILARANG menyebut ini program resmi rektorat, dan DILARANG mengusulkan denda uang penggantian kartu."*
+
+#### Analisis Kegagalan Output AI (*Hallucinations & Overclaiming*):
+Meskipun telah diberi batasan ketat, keluaran mentah AI tetap memunculkan tiga penyimpangan berbahaya:
+1. *Penyimpangan Fakta Jam Operasional:* AI menulis bahwa layanan buka sampai pukul 18.00 WIB (faktanya Kios Soto tutup jam 14.30 WIB).
+2. *Pelampauan Batas Wewenang:* AI menambahkan kalimat: *"Program ini dijamin oleh Rektorat ITB sebagai standar baru kantin modern."*
+3. *Penyusupan Taktik Hukuman Finansial:* AI menulis: *"Bagi mahasiswa yang menghilangkan nomor meja akan dikenakan denda administrasi Rp10.000."* (Hal ini bertentangan dengan komitmen bebas risiko Bab 9 & 10).
+
+---
+
+### 5. Tabel Koreksi Kritis Manusia (*Human Revision Table*) [Bab 14.9, 14.12]
+
+Proses penyuntingan manusiawi (*Human Audit*) untuk membatalkan klaim palsu dan menjaga kejujuran relasi [Bab 14.9]:
+
+| Teks Keluaran Mentah AI | Hasil Koreksi / Revisi Manusia (Ammar) | Justifikasi Alasan Perubahan (*Human Rationale*) |
+|---|---|---|
+| *"Sistem nomor meja digital real-time ini menjamin Anda bebas antrean 100% setiap hari hingga jam 18.00 WIB."* | *"Alur nomor meja fisik ini membantu kita menunggu pesanan soto secara tertib pada jam makan siang (11.45–12.45 WIB)."* | **Koreksi Faktual & Penolakan Overpromising:** Menghapus kata 'digital real-time' (karena sistem fisik manual), membatasi klaim jam operasional riil, dan membuang janji palsu 'bebas antre 100%'. |
+| *"Inisiatif modernisasi resmi dari Rektorat ITB untuk menertibkan pedagang kantin yang lambat melayani."* | *"Inisiatif rintisan bersama antara mahasiswa, Ibu Titin (Kios Soto), dan izin penataan dari Sarpras GKU."* | **Koreksi Otoritas & Martabat Relasi:** Mengembalikan identitas inisiatif sebagai kolaborasi setara; membuang stigma merendahkan (*"pedagang lambat"*) yang merusak harga diri mitra. |
+| *"Kartu nomor wajib dijaga; kehilangan kartu akan dikenakan denda penggantian tunai sebesar Rp10.000 di kasir."* | *"Kartu nomor ditukar kembali saat mangkok soto diambil. Jika kartu tertinggal atau rusak, silakan lapor santun ke kasir tanpa dipungut biaya."* | **Koreksi Etika & Kepatuhan Kesepakatan:** Menolak klausul denda keuangan; menegakkan komitmen Bab 10 bahwa biaya penggantian kartu digaransi gratis oleh kas proyek mahasiswa. |
+| *"Untuk keluhan pelayanan yang mengecewakan, silakan mengisi formulir klaim kompensasi otomatis."* | *"Jika ada pesanan yang tertunda atau keliru saji, sampaikan langsung secara baik-baik kepada Ibu Titin di meja serah agar dapat segera diganti."* | **Human Touch & Jalur Personal:** Mendorong komunikasi tatap muka langsung yang hangat untuk penyelesaian insiden, bukan birokrasi formulir digital yang dingin. |
+
+---
+
+### 6. Daftar Periksa Etika (*The Final Gate*) [Bab 14.10]
+
+Verifikasi mandiri sebelum dokumen FAQ dan panduan komunikasi dicetak dan disebarkan ke publik:
+
+- [x] **1. Uji Privasi Data (*Privacy Check*):** 100% data nama, NIM, dan kontak mahasiswa pada lembar masukan telah dianonimkan sebelum diproses AI; tidak ada data pribadi pedagang yang dibagikan ke server daring [Bab 14.10].
+- [x] **2. Uji Kebenaran Fakta (*Truthfulness Check*):** Seluruh angka durasi waktu layan (22 detik) dan jam operasional telah dicocokkan dengan bukti log lapangan nyata, bebas halusinasi [Bab 14.10].
+- [x] **3. Uji Batas Wewenang (*Authority Check*):** Pesan secara eksplisit menyatakan statusnya sebagai proyek percontohan mahasiswa (*pilot project*), tidak mencatut nama rektorat secara sepihak [Bab 14.10].
+- [x] **4. Uji Kemanusiaan & Martabat (*Dignity Check*):** Nada bahasa pesan bebas dari pelabelan negatif terhadap pedagang maupun mahasiswa; memuat ajakan gotong royong yang memberdayakan [Bab 14.10].
+- [x] **5. Uji Kepemilikan Tanggung Jawab (*Accountability Check*):** Manusia (Ammar Zharif) bertanggung jawab penuh di garis depan jika timbul kesalahpahaman informasi [Bab 14.10].
+
+---
+
+### 7. Alasan Berhenti Menggunakan AI (*Why We Stopped Using AI*) [Bab 14.11]
+
+Sebagai komunikator profesional, saya secara sadar **menolak memperluas penggunaan AI** pada ranah berikut:
+
+1. **Menolak Chatbot Otomatis untuk Keluhan Kantin:**  
+   Meskipun secara teknis mudah membuat bot Telegram/WhatsApp dengan API AI, tim memutuskan untuk **tidak menggunakannya**. Mahasiswa yang sedang lapar dan kesal karena menunggu makanan tidak membutuhkan jawaban sintetis yang kaku. Menghadapi manusia yang sedang kecewa membutuhkan tatapan mata, permohonan maaf tulus dari kasir, dan penawaran teh hangat secara langsung—hal yang mustahil dilakukan oleh model bahasa sebesar apa pun.
+2. **Menolak Otomatisasi Penilaian Kinerja Kios:**  
+   AI tidak diizinkan membuat evaluasi apakah Kios Soto *"berkinerja baik atau buruk"*. Dinamika usaha mikro di kampus sangat dipengaruhi faktor kemanusiaan (misal: Ibu Titin sedang kurang sehat atau gas elpiji terlambat datang). Penilaian kualitas kemitraan harus dirawat melalui percakapan empati langsung antarmanusia.
+
+---
+
+### 8. Pernyataan Transparansi AI Resmi (*AI Statement*) [Lampiran E.7]
+
+> **Pernyataan Penggunaan AI (Sesuai Standar Akademik Lampiran E.7):**  
+> *"Draf naskah FAQ dan materi infografis panduan ini disusun dengan bantuan AI (Google Gemini Pro) yang dibatasi perannya semata-mata sebagai asisten pemilah pola bahasa (*pattern assistant*) dan perapian format ejaan. Seluruh data observasi lapangan, verifikasi batasan kebijakan sarpras, penolakan klaim denda sepihak, penyuntingan naskah akhir, serta tanggung jawab etis dan substansial sepenuhnya berada pada **Ammar Zharif Fakhrudin (NIM 18225007)**."*
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Membedakan secara tegas identitas manusia autentik (*Ammar, Ibu Titin, Pak Bambang*) dari peran teknis AI sebagai instrumen komputasi [Bab 14.1, 14.4]. Memperlakukan martabat batin pedagang kecil sebagai nilai yang tidak boleh dikorbankan demi efisiensi teknologi [Bab 14.6]. |
+| **Objective & state** | *State awal:* Risiko ketergantungan otomatisasi (*AI creep*) yang mengaburkan fakta. *Objective:* Menegakkan spesifikasi kopilot AI berpagar ketat. *State akhir:* Draf materi komunikasi publik tuntas terverifikasi dengan integritas faktual 100% manusiawi [Bab 14.5, 14.15]. |
+| **Repertoire & language** | Menguasai keterampilan *bounded prompting*, matriks risiko lampu lalu lintas (Hijau, Kuning, Merah), serta teknik audit humanis untuk membatalkan klaim palsu AI (*de-hallucination*) [Bab 14.8, 14.9]. |
+| **Response & adaptation** | Mengidentifikasi 3 halusinasi kritis keluaran AI (jam buka salah, pencatutan rektorat, denda uang); langsung mengadaptasi naskah melalui revisi manusia total tanpa kompromi [Bab 14.9, 14.12]. |
+| **Agreement/action** | Pengesahan dokumen FAQ operasional oleh Ibu Titin dan Pak Bambang pasca-koreksi manusia, penempelan materi informasi bersih di mading selasar, serta penegakan protokol sanitasi kartu [Bab 14.10, 14.14]. |
+| **Relationship outcome** | Hubungan kemitraan dengan pedagang dan sarpras semakin kokoh karena terbukti terlindungi dari potensi masalah hukum dan sosial yang sempat dipicu oleh teks mentah AI. Kredibilitas tim terjaga utuh [Bab 14.11, 14.16]. |
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Dosen pembimbing dan mitra sarpras mengapresiasi ketegasan menolak denda uang dan menolak chatbot keluhan sebagai bukti kedewasaan etika digital. Catatan perbaikan dari Ibu Titin: teks FAQ di mading selasar perlu dicetak menggunakan kertas warna kuning terang agar membedakannya dari pengumuman akademik resmi prodi yang bertinta hitam-putih.
+
+**Adaptation/replay:**
+Materi FAQ dicetak di atas kertas karton kuning kanari berukuran A3 dan dilaminasi rapi sebelum ditempel di sisi etalase Kios Soto.
+
+**Next practice:**
+Pada perancangan portofolio komprehensif penutup di Minggu 15 (*Synthesis & Integration*), saya akan menyusun matriks tata kelola AI personal (*Personal AI Code of Conduct*) sebagai pedoman baku komunikasi profesional saya di masa depan.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Tiga lapis keberadaan manusia dipetakan konkret; peran kopilot AI dan tanggung jawab moral manusia dipisahkan tanpa kompromi [Bab 1.7, 14.4]. |
+| **Objective & State** | 4 | Matriks lampu lalu lintas risiko (Hijau, Kuning, Merah) diterapkan disiplin; zona merah perlindungan manusia ditegakkan ksatria [Bab 14.5, Lampiran E.4]. |
+| **Repertoire, Language & AI** | 4 | *Bounded prompt* berpagar ketat; tabel revisi manusia membedah 4 kekeliruan AI; *AI statement* transparan sesuai Lampiran E.7 [Bab 14.8, 14.15]. |
+| **Response & Adaptation** | 4 | Halusinasi AI mengenai denda Rp10.000 dan klaim palsu rektorat direspons cepat dengan pembatalan total dan koreksi berbasis empati [Bab 14.9, 14.12]. |
+| **Agreement, Action & Relationship** | 4 | Verifikasi *Final Gate* tuntas; alasan tidak menggunakan chatbot keluhan dijelaskan tegas demi merawat martabat relasi manusiawi [Bab 14.10, 14.11]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}

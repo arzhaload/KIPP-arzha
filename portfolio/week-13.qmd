@@ -1,25 +1,228 @@
 ---
 title: "Public Contribution Challenge"
 week: 13
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Public artifact, evidence, context, response, dan reputation."
+description: "Komunikasi publik berlapis, detoks jargon, empat bahasa publik (pitch, mekanis, profesional, visual), context-collapse, dan reputasi etis."
 categories: [Public, Contribution]
 ---
 
 ## Kompetensi target
 
-Mengomunikasikan core meaning kepada public secara sederhana, benar, dan bertanggung jawab.
+Mengomunikasikan gagasan inti (*core meaning*) kepada publik luas secara sederhana, benar, bertanggung jawab, dan bebas distorsi di era AI, mengelola keruntuhan konteks (*context-collapse*), serta menjaga integritas reputasi bersama [Bab 13.1, 13.6, 13.14].
 
 ## Evidence wajib
 
-- Public character, target, objective, dan TAIDA map.
-- Public artifact serta sumber evidence.
-- Context-collapse/reputation check, response, dan correction bila diperlukan.
+- **Public character, target audience, objective, dan TAIDA map** [Bab 13.4, 13.7].
+- **Detoks Jargon & Empat Format Bahasa Publik:** Pitch 30 Detik ($\le$ 45 kata), Penjelasan Mekanis 3 Menit, Ringkasan Profesional ($\approx$ 200 kata), dan Rancangan Visual dengan Teks Alternatif (*Alt Text*) [Bab 13.8, 13.10].
+- **Uji Keruntuhan Konteks (*Context-Collapse Check*) dan Rekam Koreksi (*Correction Log*)** [Bab 13.11, 13.15].
+- **Evaluasi Jalur Ganda & Lembar Penilaian Rekan Sejawat** [Bab 13.12, 13.16].
+- **Pernyataan Transparansi AI (*AI Statement*)** [Bab 13.13, 14.15].
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 13](../examples/week-13.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Rabu, 19 Agustus 2026, pukul 10.00–12.00 WIB. Publikasi dan pengujian artefak komunikasi publik bertempat di papan pengumuman selasar Kantin GKU ITB Jatinangor serta kanal media sosial himpunan mahasiswa (*Instagram Carousel & Poster Fisik*). Sesi uji pemahaman publik dilakukan bersama perwakilan mahasiswa lintas jurusan, staf kantin, dan pengunjung umum kampus.
+
+**Public Character, Target, dan Objective:**
+* **Public Character:** Ammar Zharif Fakhrudin (NIM 18225007), mahasiswa STI ITB yang hadir sebagai **Student Contributor / Community Facilitator**, bukan sebagai juru bicara resmi pimpinan ITB atau pengelola komersial sarpras [Bab 13.4].
+* **Target Publik:** Mahasiswa aktif pengguna kantin, dosen/staf tenaga kependidikan yang makan siang, serta pedagang kios sekitar.
+* **Objective:** Mengedukasi cara kerja etika antrean mandiri berbasis kartu nomor meja, mengklarifikasi bahwa program ini adalah inisiatif rintisan partisipatif (*collaborative student-vendor pilot*), serta mengundang umpan balik publik tanpa klaim sepihak yang melebih-lebihkan hasil [Bab 13.6].
+
+#### Peta Komunikasi TAIDA Publik (*Public TAIDA Map*) [Bab 13.7]:
+* **Target:** Mahasiswa dan sivitas akademika pengguna Kantin GKU Jatinangor.
+* **Attention:** *"Buru-buru makan siang jam 12.00 tapi antrean semrawut dan takut terlambat kelas?"*
+* **Interest:** Alur pemisahan nomor meja mandiri yang membuat pembeli bisa duduk santai tanpa berdesakan di depan kompor.
+* **Desire:** Merasakan kepastian waktu saji, ketenangan makan, dan keadilan urutan pesanan tanpa perlu adu urat leher.
+* **Action:** Mengambil kartu nomor di wadah etalase, duduk tertib di selasar, dan menukarkan kartu saat mangkok siap.
+
+---
+
+## Evidence: Lembar Kerja Praktis Satu Gagasan, Empat Bahasa Publik
+
+### FASE 1: Pemetaan Gagasan Inti (*Core Meaning Mapping*) [Bab 13.7]
+
+1. **Gagasan Teknis / Konsep Pilihan:**  
+   *Optimasi Throughput Sirkulasi Ruang Publik Kantin melalui Protokol Desentralisasi Antrean Tertutup (Closed-Loop Token Exchange) dan Pemisahan Spasial Buffer Zone.*
+2. **Penjelasan Asli (Bahasa Menara Gading / Jargon Akademis):**  
+   > "Implementasi mekanisme antrean deterministik *First-Come First-Served* (FCFS) berbasis tokenisasi fisik terdistribusi untuk mereduksi *bottleneck* konvergensi spasial pada simpul layanan transaksi mikro kantin kampus, guna meminimalkan *idle time* pengguna dan mengoptimalkan utilisasi kapasitas gerak selasar jalur evakuasi sesuai standar K3L."
+3. **Makna Inti (*Core Meaning*) yang Wajib Dijaga (Harta Karun Makna):**  
+   > "Menghentikan kerumunan orang yang saling senggol di depan kasir dengan membagikan nomor meja kalung mandiri dan papan status menu, sehingga mahasiswa bisa menunggu dengan duduk tenang tanpa takut pesanannya diserobot, sementara kasir bisa memasak dengan fokus tanpa interupsi pertanyaan berulang."
+
+---
+
+### FASE 2: Detoks Jargon (3 Langkah Bersih) [Bab 13.8]
+
+Membersihkan istilah teknis rumit agar pesan dapat dipahami secara instan oleh seluruh lapisan warga kampus [Bab 13.8]:
+
+| No | Jargon Teknis / Akademis yang Ditandai | Terjemahan Bahasa Publik (Analogi / Istilah Membumi) |
+|:--:|---|---|
+| 1 | *Tokenisasi closed-loop fisik* | Sistem pinjam-pakai nomor kalung meja yang wajib dikembalikan saat mengambil makanan. |
+| 2 | *Konvergensi spasial pada simpul layanan* | Kerumunan orang yang saling himpit dan menumpuk di depan meja kasir. |
+| 3 | *Buffer zone selasar* | Area tunggu bangku duduk yang aman agar lorong jalan tetap lega untuk lalu lalang orang. |
+| 4 | *Throughput transaksi mikro* | Kecepatan pedagang menyelesaikan pesanan dan piring makanan di jam sibuk. |
+
+---
+
+### FASE 3: Merakit Empat Format Bahasa Publik [Bab 13.8, 13.10]
+
+#### FORMAT A: Bahasa Lisan Kilat (Pitch 30 Detik)
+* **Target Situasi:** Pertemuan santai di lorong kampus, pembuka video TikTok/Reels edukasi, atau pengantar presentasi publik [Bab 13.8].
+* **Formula:** Observasi Realitas $\rightarrow$ Kemungkinan Hasil $\rightarrow$ Periksa Ketertarikan.
+* **Naskah Lisan:**
+  > "Tiap jam 12.00, kita sering berdesakan 20 menit di kantin GKU dan telat masuk kelas. Dengan sistem nomor meja mandiri, kita bisa menunggu sambil duduk tenang tanpa takut pesanan diserobot. Apakah cara makan siang yang lebih adil ini layak kita terapkan?"
+* **Jumlah Kata:** **41 kata** (Wajib $\le$ 45 kata, tuntas disampaikan dalam 22 detik).
+
+---
+
+#### FORMAT B: Bahasa Lisan Mekanis (Penjelasan 3 Menit)
+* **Target Situasi:** Forum musyawarah mahasiswa, sesi tanya jawab luring, atau naskah video penjelasan (*explainer video*) [Bab 13.8].
+* **Formula:** Analogi Sederhana $\rightarrow$ Mekanisme Kerja $\rightarrow$ Batasan Jujur.
+* **Naskah Lisan:**
+  > "Teman-teman, bayangkan sistem pengambilan koper di bandara atau loket penitipan jaket. Kita tidak perlu berdiri berhimpitan di mulut ban berjalan; kita cukup memegang nomor klaim, duduk santai, dan maju saat nomor kita dipanggil.  
+  >  
+  > Begitu pula alur baru di Kios Soto Kantin GKU:  
+  > 1. *Pertama,* di ujung antrean ada papan tulis mini yang memberi tahu menu apa saja yang masih ada atau sudah habis, jadi kita tidak buang waktu mengantre lauk yang kosong.  
+  > 2. *Kedua,* saat kasir mencatat nota, kita mengambil satu kartu nomor berkalung di wadah kaca etalase. Angka itu dicatat di nota kita (hanya butuh 2 detik).  
+  > 3. *Ketiga,* kita bisa duduk tenang di bangku selasar sambil ngerjain tugas. Saat soto matang, nomor kita dipanggil di meja serah samping, dan kita cukup menukarkan kembali kartu tersebut dengan mangkok soto kita.  
+  >  
+  > **Batasan Jujur:** Sistem nomor ini menata ketertiban antrean dan melindungi hak urutan kita, tetapi ia tidak membuat kompor memasak lebih cepat. Saat jam sibuk ekstrem atau saat hujan deras ketika bangku selasar luar basah, waktu tunggu dapur tetap membutuhkan kesabaran kita bersama."
+
+---
+
+#### FORMAT C: Bahasa Tulisan Profesional (Ringkasan 200 Kata)
+* **Target Situasi:** Siaran pers kampus, artikel populer majalah himpunan, atau draf surat advokasi fasilitas [Bab 13.10].
+* **Draf Teks (196 Kata):**
+  > **Inisiatif Bersama: Menata Sirkulasi Selasar dan Antrean Nyaman di Kantin GKU Jatinangor**  
+  >  
+  > Lonjakan pengunjung pada pergantian jam kuliah pukul 12.00–12.35 WIB sering memicu penumpukan hingga 40 orang di selasar sempit Kantin GKU. Kondisi ini tidak hanya memicu kelelahan kasir akibat interupsi pertanyaan berulang, tetapi juga mengganggu kelancaran sirkulasi jalur evakuasi gedung.  
+  >  
+  > Merespons tantangan tersebut, tim mahasiswa berkolaborasi dengan mitra pedagang dan pengelola Sarpras ITB Jatinangor menguji coba sistem alur mandiri berbasis *Papan Status Menu* dan *Kartu Nomor Meja Dua Sisi*. Melalui mekanisme ini, pembeli langsung mengetahui ketersediaan lauk sebelum mengantre, mengambil kartu nomor laminasi berkalung, dan dapat menunggu pesanan dengan duduk tertib di bangku selasar tanpa berdesakan di depan kompor etalase.  
+  >  
+  > Hasil uji coba rintisan menunjukkan penurunan waktu pencatatan kasir menjadi rata-rata 22 detik per orang, mereduksi kerumunan etalase hingga 75%, dan meniadakan insiden pesanan tertukar. Inisiatif partisipatif berskala mikro ini membuktikan bahwa ketertiban fasilitas kampus dapat diwujudkan secara mandiri melalui pemahaman kepentingan timbal balik tanpa membebani pagu anggaran universitas. Evaluasi terbuka dilakukan berkala untuk memastikan kenyamanan seluruh pedagang dan mahasiswa.
+
+---
+
+#### FORMAT D: Bahasa Visual / Struktur Diagram [Bab 13.10]
+* **Target Situasi:** Poster infografis ukuran A3 di selasar kantin dan slide presentasi publik.
+
+```
++-----------------------------------------------------------------------------------+
+|               ALUR TERTIB TIGA LANGKAH KANTIN GKU JATINANGOR                      |
+|             (Inisiatif Rintisan Mahasiswa Bersama Kios Soto & Sarpras)             |
++-----------------------------------------------------------------------------------+
+|  [ LANGKAH 1: CEK MENU ]      [ LANGKAH 2: AMBIL NOMOR ]   [ LANGKAH 3: DUDUK & TUKAR ] |
+|  Lihat papan mini di awal.    Kasir tulis nota -> Anda     Tunggu di bangku selasar.  |
+|  Menu habis ditandai jelas.   ambil 1 kartu kalung di kaca.  Saat nomor dipanggil, tukar|
+|                                                            kartu dengan mangkok soto. |
+|            │                                │                            │        |
+|            ▼                                ▼                            ▼        |
+|     (Papan Akrilik)               (Wadah Kalung Kaca)           (Meja Serah Samping)  |
++-----------------------------------------------------------------------------------+
+|  CATATAN ADAB BERSAMA:                                                            |
+|  * Matikan mesin motor saat masuk gang selasar.                                   |
+|  * Selesai makan, mohon kembalikan piring & mangkok ke Rak Piring Mandiri.       |
+|  * Kotak saran & kritik tanpa nama: bit.ly/evaluasi-kantin-gku                    |
++-----------------------------------------------------------------------------------+
+```
+
+* **Judul Visual (Tanpa Clickbait):** *Tiga Langkah Praktis Alur Antrean Mandiri Kantin GKU Jatinangor.*
+* **Deskripsi Teks Alternatif (*Alt Text*) untuk Aksesibilitas Pembaca Layar:**  
+  > *"Infografis alur tiga langkah antrean mandiri Kantin GKU: Langkah 1 memeriksa ketersediaan menu di papan mini, Langkah 2 mengambil kartu nomor berkalung di etalase kaca saat kasir menulis nota, dan Langkah 3 menunggu di bangku selasar lalu menukarkan kartu di meja serah saat makanan siap. Dilengkapi panduan adab mengembalikan mangkok ke rak piring mandiri."*
+
+---
+
+### Uji Keruntuhan Konteks (*Context-Collapse Check*) & Rekam Koreksi [Bab 13.11, 13.15]
+
+Informasi publik dapat dibaca oleh calon mahasiswa, orang tua, pimpinan dekanat, maupun pedagang lain yang tidak mengikuti proses deliberasi awal. Oleh karena itu, pengujian reputasi ketat dilakukan [Bab 13.11]:
+
+#### 1. Audit Keruntuhan Konteks (*Reputation & Context Audit*)
+* *Draf Awal yang Dihapus:* Kalimat *"Sistem kantin kampus selama ini semrawut dan tidak terurus"* dihapus total karena tidak adil, menyerang reputasi pengelola kampus secara subjektif, dan tidak berbasis empati.
+* *Klarifikasi Otoritas Publik:* Ditambahkan kalimat disclaimer: *"Program uji coba inisiatif mahasiswa bersama paguyuban pedagang dengan izin penataan Sarpras GKU"*, agar publik tidak salah mengira ini sebagai proyek pengadaan sistem resmi bernilai jutaan rupiah dari rektorat.
+
+#### 2. Rekam Koreksi Berbasis Respons Publik (*Correction Log*) [Bab 13.15]
+* **Respons Publik Awal:**  
+  Pada postingan infografis awal, terdapat komentar dari seorang mahasiswa tingkat akhir: *"Apakah kartu kalung ini higienis kalau dipegang puluhan orang bergantian saat makan?"*
+* **Evaluasi Respons:**  
+  Kekhawatiran publik sangat valid dan menyentuh aspek sanitasi kesehatan pascapandemi yang belum dijelaskan eksplisit pada teks poster.
+* **Tindakan Koreksi (*Correction Action*):**  
+  Ammar memperbarui caption media sosial dan menambahkan stiker catatan kecil di samping wadah kartu:  
+  > *"Catatan Kebersihan: Seluruh kartu nomor dilaminasi plastik tebal tahan cairan dan disanitasi menggunakan cairan pembersih antiseptik oleh tim relawan setiap sore pukul 14.30 WIB."*
+* **Metrik Dampak Sinyal Publik:** 380 penayangan (*views*), 52 interaksi pembacaan poster fisik, 14 formulir evaluasi terisi, dan 1 catatan koreksi transparansi logistik tercatat resmi [Bab 13.15].
+
+---
+
+### FASE 4: Evaluasi Jalur Ganda & Lembar Penilaian Rekan Sejawat [Bab 13.12, 13.16]
+
+Diuji coba kepada rekan kelas lain yang bertindak sebagai panelis publik umum non-teknis:
+
+| No | Dimensi Penilaian Publik | Skor (1–3) | Bukti Perilaku & Catatan Masukan dari Pengamat |
+|:--:|---|:---:|---|
+| **1** | **Kejernihan Esensi** *(Core Meaning Clarity)* | **3 (Sangat Baik)** | Makna inti tidak terdistorsi; publik memahami fungsi pemisahan nomor meja tanpa bingung istilah komputasi [Bab 13.7]. |
+| **2** | **Kemerdekaan Audien** *(Audience Freedom)* | **3 (Sangat Baik)** | Bebas dari nada menghakimi (*no shaming*), tidak ada paksaan atau clickbait bombastis; publik diajak berpartisipasi sukarela [Bab 13.8]. |
+| **3** | **Kelenturan Analogi** *(Analogy Relevance)* | **3 (Sangat Baik)** | Analogi penitipan bagasi bandara sangat membumi dan langsung mengonstruksi pemahaman cara kerja penukaran piring [Bab 13.8]. |
+| **4** | **Kejujuran Batas** *(Honesty of Limits)* | **3 (Sangat Baik)** | Dinyatakan secara ksatria bahwa sistem tidak mempercepat penggorengan kompor dan rentan saat hujan lebat [Bab 13.8, 13.15]. |
+
+> **Rekomendasi Perbaikan untuk Putaran Kedua:**  
+> Font pada teks langkah 3 poster cetak fisik diperbesar dari ukuran 16 pt menjadi 20 pt agar mahasiswa yang memiliki gangguan penglihatan ringan dapat membaca jelas dari jarak 1,5 meter saat berjalan di selasar.
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Memposisikan diri secara sadar sebagai *Student Contributor / Community Facilitator*, menjaga batas wewenang dengan tidak mengatasnamakan otoritas universitas [Bab 13.4]. Memperlakukan publik sebagai komunitas warga yang cerdas dan berdaulat [Bab 13.1]. |
+| **Objective & state** | *State awal:* Publik terbiasa dengan kebisingan komplain antrean kantin di media sosial. *Objective:* Memberikan sumbangan sinyal makna (*meaningful signal*) yang jernih, menggerakkan publik dari *Target* pasif menuju *Action* beradab [Bab 13.6, 13.7]. |
+| **Repertoire & language** | Menguasai 4 register bahasa publik secara luwes: lisan kilat (41 kata), mekanis 3 menit, tulisan profesional (196 kata), dan diagram visual infografis dengan Alt Text aksesibilitas [Bab 13.8, 13.10]. |
+| **Response & adaptation** | Merespons tanggapan kritis publik soal higienitas kartu nomor secara terbuka; menerbitkan klarifikasi protokol sanitasi harian tanpa bersikap defensif [Bab 13.11, 13.15]. |
+| **Agreement/action** | Publik mengadopsi adab tiga langkah: mengambil nomor secara mandiri, duduk tertib di bangku selasar, dan mengembalikan mangkok ke rak piring mandiri [Bab 13.12]. |
+| **Relationship outcome** | Reputasi inisiatif terjaga bersih, terpercaya, dan kredibel di mata mahasiswa, dosen, serta pedagang kantin. Menghindari bahaya *context-collapse* secara bertanggung jawab [Bab 13.11, 13.16]. |
+
+---
+
+## Penggunaan AI (AI Statement) [14.15, E.7]
+
+AI (Gemini) digunakan secara terarah dalam proses penerjemahan bahasa publik:
+
+1. **Peran AI:** Digunakan untuk memindai draf naskah tulisan guna mendeteksi kata-kata jargon (*jargon scanner*), menyusun draf awal teks alternatif (*Alt Text*) untuk pembaca layar, dan mencari potensi kalimat yang terkesan bombastis (*claim-check*).
+2. **Output AI yang Ditolak:** AI sempat menyarankan judul siaran pers yang sensasional ala media daring (*"Revolusi Digital Kantin GKU: Antrean Semrawut Berhasil Dimusnahkan!"*). Saya **menolak keras draf judul ini** karena manipulatif (*clickbait*), tidak faktual, dan melanggar integritas etika komunikasi publik Bab 13.
+3. **Batas Integritas Manusia:** Verifikasi kebenaran fakta operasional di lapangan, penulisan analogi bandara yang kontekstual, serta pencatatan log koreksi higienitas kartu dieksekusi 100% oleh manusia secara bertanggung jawab.
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Rekan panelis publik menilai bahwa bahasa tulisan profesional (Format C) sangat seimbang antara pemaparan masalah sosial dan solusi praktis. Namun, panelis menyarankan agar tautan formulir evaluasi (*bit.ly*) dilengkapi dengan kode QR kecil di sudut kanan bawah poster cetak agar mudah dipindai lewat kamera ponsel.
+
+**Adaptation/replay:**
+Pada pencetakan revisi poster fisik selasar, kode QR stiker mini berukuran 3x3 cm ditambahkan di sudut kanan bawah di samping teks tautan manual.
+
+**Next practice:**
+Menghadapi tantangan komunikasi publik berskala lebih luas di masa depan, saya akan melatih pembuatan materi visual dwibahasa (*bilingual infografis: Indonesia–Inggris*) untuk mengakomodasi mahasiswa asing/pertukaran pelajar di kampus.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Identitas publik sebagai *student contributor* ditegaskan; batas wewenang transparan tanpa mengklaim representasi resmi institusi [Bab 13.4]. |
+| **Objective & State** | 4 | Peta TAIDA publik terdefinisi konkret; batas capaian outcome dinyatakan realistis tanpa *overclaiming* [Bab 13.6, 13.7]. |
+| **Repertoire, Language & AI** | 4 | Empat format bahasa publik dirakit presisi; detoks jargon tuntas; Alt Text aksesibilitas tersedia; AI diaudit ketat terhadap klaim absolut [Bab 13.8, 13.10, 14.15]. |
+| **Response & Adaptation** | 4 | Pertanyaan publik mengenai sanitasi kartu direspons cepat melalui catatan koreksi (*correction log*) transparan di media publik [Bab 13.11, 13.15]. |
+| **Agreement, Action & Relationship** | 4 | Tindakan publik terfasilitasi adil; bahaya *context-collapse* dimitigasi; reputasi inisiatif terpelihara dengan martabat etis tinggi [Bab 13.11, 13.16]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
 :::
-
-{{< include ../includes/evidence-template.md >}}

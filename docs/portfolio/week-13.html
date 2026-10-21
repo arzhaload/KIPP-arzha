@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Public artifact, evidence, context, response, dan reputation.">
+<meta name="description" content="Komunikasi publik berlapis, detoks jargon, empat bahasa publik (pitch, mekanis, profesional, visual), context-collapse, dan reputasi etis.">
 
 <title>Public Contribution Challenge – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -261,9 +290,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
+  <li><a href="#evidence-lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik" id="toc-evidence-lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik" class="nav-link" data-scroll-target="#evidence-lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik">Evidence: Lembar Kerja Praktis Satu Gagasan, Empat Bahasa Publik</a>
+  <ul class="collapse">
+  <li><a href="#fase-1-pemetaan-gagasan-inti-core-meaning-mapping-bab-13.7" id="toc-fase-1-pemetaan-gagasan-inti-core-meaning-mapping-bab-13.7" class="nav-link" data-scroll-target="#fase-1-pemetaan-gagasan-inti-core-meaning-mapping-bab-13.7">FASE 1: Pemetaan Gagasan Inti (<em>Core Meaning Mapping</em>) [Bab 13.7]</a></li>
+  <li><a href="#fase-2-detoks-jargon-3-langkah-bersih-bab-13.8" id="toc-fase-2-detoks-jargon-3-langkah-bersih-bab-13.8" class="nav-link" data-scroll-target="#fase-2-detoks-jargon-3-langkah-bersih-bab-13.8">FASE 2: Detoks Jargon (3 Langkah Bersih) [Bab 13.8]</a></li>
+  <li><a href="#fase-3-merakit-empat-format-bahasa-publik-bab-13.8-13.10" id="toc-fase-3-merakit-empat-format-bahasa-publik-bab-13.8-13.10" class="nav-link" data-scroll-target="#fase-3-merakit-empat-format-bahasa-publik-bab-13.8-13.10">FASE 3: Merakit Empat Format Bahasa Publik [Bab 13.8, 13.10]</a></li>
+  <li><a href="#uji-keruntuhan-konteks-context-collapse-check-rekam-koreksi-bab-13.11-13.15" id="toc-uji-keruntuhan-konteks-context-collapse-check-rekam-koreksi-bab-13.11-13.15" class="nav-link" data-scroll-target="#uji-keruntuhan-konteks-context-collapse-check-rekam-koreksi-bab-13.11-13.15">Uji Keruntuhan Konteks (<em>Context-Collapse Check</em>) &amp; Rekam Koreksi [Bab 13.11, 13.15]</a></li>
+  <li><a href="#fase-4-evaluasi-jalur-ganda-lembar-penilaian-rekan-sejawat-bab-13.12-13.16" id="toc-fase-4-evaluasi-jalur-ganda-lembar-penilaian-rekan-sejawat-bab-13.12-13.16" class="nav-link" data-scroll-target="#fase-4-evaluasi-jalur-ganda-lembar-penilaian-rekan-sejawat-bab-13.12-13.16">FASE 4: Evaluasi Jalur Ganda &amp; Lembar Penilaian Rekan Sejawat [Bab 13.12, 13.16]</a></li>
+  </ul></li>
   <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
+  <li><a href="#penggunaan-ai-ai-statement-14.15-e.7" id="toc-penggunaan-ai-ai-statement-14.15-e.7" class="nav-link" data-scroll-target="#penggunaan-ai-ai-statement-14.15-e.7">Penggunaan AI (AI Statement) [14.15, E.7]</a></li>
   <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
   <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
   <ul class="collapse">
@@ -286,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Public artifact, evidence, context, response, dan reputation.
+    Komunikasi publik berlapis, detoks jargon, empat bahasa publik (pitch, mekanis, profesional, visual), context-collapse, dan reputasi etis.
   </div>
 </div>
 
@@ -305,44 +341,246 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="kompetensi-target" class="level2">
 <h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Mengomunikasikan core meaning kepada public secara sederhana, benar, dan bertanggung jawab.</p>
+<p>Mengomunikasikan gagasan inti (<em>core meaning</em>) kepada publik luas secara sederhana, benar, bertanggung jawab, dan bebas distorsi di era AI, mengelola keruntuhan konteks (<em>context-collapse</em>), serta menjaga integritas reputasi bersama [Bab 13.1, 13.6, 13.14].</p>
 </section>
 <section id="evidence-wajib" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
 <ul>
-<li>Public character, target, objective, dan TAIDA map.</li>
-<li>Public artifact serta sumber evidence.</li>
-<li>Context-collapse/reputation check, response, dan correction bila diperlukan.</li>
+<li><strong>Public character, target audience, objective, dan TAIDA map</strong> [Bab 13.4, 13.7].</li>
+<li><strong>Detoks Jargon &amp; Empat Format Bahasa Publik:</strong> Pitch 30 Detik (<span class="math inline">\(\le\)</span> 45 kata), Penjelasan Mekanis 3 Menit, Ringkasan Profesional (<span class="math inline">\(\approx\)</span> 200 kata), dan Rancangan Visual dengan Teks Alternatif (<em>Alt Text</em>) [Bab 13.8, 13.10].</li>
+<li><strong>Uji Keruntuhan Konteks (<em>Context-Collapse Check</em>) dan Rekam Koreksi (<em>Correction Log</em>)</strong> [Bab 13.11, 13.15].</li>
+<li><strong>Evaluasi Jalur Ganda &amp; Lembar Penilaian Rekan Sejawat</strong> [Bab 13.12, 13.16].</li>
+<li><strong>Pernyataan Transparansi AI (<em>AI Statement</em>)</strong> [Bab 13.13, 14.15].</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-13.html">Buka contoh fiktif Minggu 13</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<hr>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Rabu, 19 Agustus 2026, pukul 10.00–12.00 WIB. Publikasi dan pengujian artefak komunikasi publik bertempat di papan pengumuman selasar Kantin GKU ITB Jatinangor serta kanal media sosial himpunan mahasiswa (<em>Instagram Carousel &amp; Poster Fisik</em>). Sesi uji pemahaman publik dilakukan bersama perwakilan mahasiswa lintas jurusan, staf kantin, dan pengunjung umum kampus.</p>
+<p><strong>Public Character, Target, dan Objective:</strong> * <strong>Public Character:</strong> Ammar Zharif Fakhrudin (NIM 18225007), mahasiswa STI ITB yang hadir sebagai <strong>Student Contributor / Community Facilitator</strong>, bukan sebagai juru bicara resmi pimpinan ITB atau pengelola komersial sarpras [Bab 13.4]. * <strong>Target Publik:</strong> Mahasiswa aktif pengguna kantin, dosen/staf tenaga kependidikan yang makan siang, serta pedagang kios sekitar. * <strong>Objective:</strong> Mengedukasi cara kerja etika antrean mandiri berbasis kartu nomor meja, mengklarifikasi bahwa program ini adalah inisiatif rintisan partisipatif (<em>collaborative student-vendor pilot</em>), serta mengundang umpan balik publik tanpa klaim sepihak yang melebih-lebihkan hasil [Bab 13.6].</p>
+<section id="peta-komunikasi-taida-publik-public-taida-map-bab-13.7" class="level4">
+<h4 class="anchored" data-anchor-id="peta-komunikasi-taida-publik-public-taida-map-bab-13.7">Peta Komunikasi TAIDA Publik (<em>Public TAIDA Map</em>) [Bab 13.7]:</h4>
+<ul>
+<li><strong>Target:</strong> Mahasiswa dan sivitas akademika pengguna Kantin GKU Jatinangor.</li>
+<li><strong>Attention:</strong> <em>“Buru-buru makan siang jam 12.00 tapi antrean semrawut dan takut terlambat kelas?”</em></li>
+<li><strong>Interest:</strong> Alur pemisahan nomor meja mandiri yang membuat pembeli bisa duduk santai tanpa berdesakan di depan kompor.</li>
+<li><strong>Desire:</strong> Merasakan kepastian waktu saji, ketenangan makan, dan keadilan urutan pesanan tanpa perlu adu urat leher.</li>
+<li><strong>Action:</strong> Mengambil kartu nomor di wadah etalase, duduk tertib di selasar, dan menukarkan kartu saat mangkok siap.</li>
+</ul>
+<hr>
 </section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
+</section>
+<section id="evidence-lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik">Evidence: Lembar Kerja Praktis Satu Gagasan, Empat Bahasa Publik</h2>
+<section id="fase-1-pemetaan-gagasan-inti-core-meaning-mapping-bab-13.7" class="level3">
+<h3 class="anchored" data-anchor-id="fase-1-pemetaan-gagasan-inti-core-meaning-mapping-bab-13.7">FASE 1: Pemetaan Gagasan Inti (<em>Core Meaning Mapping</em>) [Bab 13.7]</h3>
+<ol type="1">
+<li><strong>Gagasan Teknis / Konsep Pilihan:</strong><br>
+<em>Optimasi Throughput Sirkulasi Ruang Publik Kantin melalui Protokol Desentralisasi Antrean Tertutup (Closed-Loop Token Exchange) dan Pemisahan Spasial Buffer Zone.</em></li>
+<li><strong>Penjelasan Asli (Bahasa Menara Gading / Jargon Akademis):</strong><br>
+&gt; “Implementasi mekanisme antrean deterministik <em>First-Come First-Served</em> (FCFS) berbasis tokenisasi fisik terdistribusi untuk mereduksi <em>bottleneck</em> konvergensi spasial pada simpul layanan transaksi mikro kantin kampus, guna meminimalkan <em>idle time</em> pengguna dan mengoptimalkan utilisasi kapasitas gerak selasar jalur evakuasi sesuai standar K3L.”</li>
+<li><strong>Makna Inti (<em>Core Meaning</em>) yang Wajib Dijaga (Harta Karun Makna):</strong><br>
+&gt; “Menghentikan kerumunan orang yang saling senggol di depan kasir dengan membagikan nomor meja kalung mandiri dan papan status menu, sehingga mahasiswa bisa menunggu dengan duduk tenang tanpa takut pesanannya diserobot, sementara kasir bisa memasak dengan fokus tanpa interupsi pertanyaan berulang.”</li>
+</ol>
+<hr>
+</section>
+<section id="fase-2-detoks-jargon-3-langkah-bersih-bab-13.8" class="level3">
+<h3 class="anchored" data-anchor-id="fase-2-detoks-jargon-3-langkah-bersih-bab-13.8">FASE 2: Detoks Jargon (3 Langkah Bersih) [Bab 13.8]</h3>
+<p>Membersihkan istilah teknis rumit agar pesan dapat dipahami secara instan oleh seluruh lapisan warga kampus [Bab 13.8]:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">No</th>
+<th>Jargon Teknis / Akademis yang Ditandai</th>
+<th>Terjemahan Bahasa Publik (Analogi / Istilah Membumi)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td><em>Tokenisasi closed-loop fisik</em></td>
+<td>Sistem pinjam-pakai nomor kalung meja yang wajib dikembalikan saat mengambil makanan.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td><em>Konvergensi spasial pada simpul layanan</em></td>
+<td>Kerumunan orang yang saling himpit dan menumpuk di depan meja kasir.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td><em>Buffer zone selasar</em></td>
+<td>Area tunggu bangku duduk yang aman agar lorong jalan tetap lega untuk lalu lalang orang.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td><em>Throughput transaksi mikro</em></td>
+<td>Kecepatan pedagang menyelesaikan pesanan dan piring makanan di jam sibuk.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="fase-3-merakit-empat-format-bahasa-publik-bab-13.8-13.10" class="level3">
+<h3 class="anchored" data-anchor-id="fase-3-merakit-empat-format-bahasa-publik-bab-13.8-13.10">FASE 3: Merakit Empat Format Bahasa Publik [Bab 13.8, 13.10]</h3>
+<section id="format-a-bahasa-lisan-kilat-pitch-30-detik" class="level4">
+<h4 class="anchored" data-anchor-id="format-a-bahasa-lisan-kilat-pitch-30-detik">FORMAT A: Bahasa Lisan Kilat (Pitch 30 Detik)</h4>
+<ul>
+<li><strong>Target Situasi:</strong> Pertemuan santai di lorong kampus, pembuka video TikTok/Reels edukasi, atau pengantar presentasi publik [Bab 13.8].</li>
+<li><strong>Formula:</strong> Observasi Realitas <span class="math inline">\(\rightarrow\)</span> Kemungkinan Hasil <span class="math inline">\(\rightarrow\)</span> Periksa Ketertarikan.</li>
+<li><strong>Naskah Lisan:</strong> &gt; “Tiap jam 12.00, kita sering berdesakan 20 menit di kantin GKU dan telat masuk kelas. Dengan sistem nomor meja mandiri, kita bisa menunggu sambil duduk tenang tanpa takut pesanan diserobot. Apakah cara makan siang yang lebih adil ini layak kita terapkan?”</li>
+<li><strong>Jumlah Kata:</strong> <strong>41 kata</strong> (Wajib <span class="math inline">\(\le\)</span> 45 kata, tuntas disampaikan dalam 22 detik).</li>
+</ul>
+<hr>
+</section>
+<section id="format-b-bahasa-lisan-mekanis-penjelasan-3-menit" class="level4">
+<h4 class="anchored" data-anchor-id="format-b-bahasa-lisan-mekanis-penjelasan-3-menit">FORMAT B: Bahasa Lisan Mekanis (Penjelasan 3 Menit)</h4>
+<ul>
+<li><strong>Target Situasi:</strong> Forum musyawarah mahasiswa, sesi tanya jawab luring, atau naskah video penjelasan (<em>explainer video</em>) [Bab 13.8].</li>
+<li><strong>Formula:</strong> Analogi Sederhana <span class="math inline">\(\rightarrow\)</span> Mekanisme Kerja <span class="math inline">\(\rightarrow\)</span> Batasan Jujur.</li>
+<li><strong>Naskah Lisan:</strong> &gt; “Teman-teman, bayangkan sistem pengambilan koper di bandara atau loket penitipan jaket. Kita tidak perlu berdiri berhimpitan di mulut ban berjalan; kita cukup memegang nomor klaim, duduk santai, dan maju saat nomor kita dipanggil.<br>
+&gt;<br>
+&gt; Begitu pula alur baru di Kios Soto Kantin GKU:<br>
+&gt; 1. <em>Pertama,</em> di ujung antrean ada papan tulis mini yang memberi tahu menu apa saja yang masih ada atau sudah habis, jadi kita tidak buang waktu mengantre lauk yang kosong.<br>
+&gt; 2. <em>Kedua,</em> saat kasir mencatat nota, kita mengambil satu kartu nomor berkalung di wadah kaca etalase. Angka itu dicatat di nota kita (hanya butuh 2 detik).<br>
+&gt; 3. <em>Ketiga,</em> kita bisa duduk tenang di bangku selasar sambil ngerjain tugas. Saat soto matang, nomor kita dipanggil di meja serah samping, dan kita cukup menukarkan kembali kartu tersebut dengan mangkok soto kita.<br>
+&gt;<br>
+&gt; <strong>Batasan Jujur:</strong> Sistem nomor ini menata ketertiban antrean dan melindungi hak urutan kita, tetapi ia tidak membuat kompor memasak lebih cepat. Saat jam sibuk ekstrem atau saat hujan deras ketika bangku selasar luar basah, waktu tunggu dapur tetap membutuhkan kesabaran kita bersama.”</li>
+</ul>
+<hr>
+</section>
+<section id="format-c-bahasa-tulisan-profesional-ringkasan-200-kata" class="level4">
+<h4 class="anchored" data-anchor-id="format-c-bahasa-tulisan-profesional-ringkasan-200-kata">FORMAT C: Bahasa Tulisan Profesional (Ringkasan 200 Kata)</h4>
+<ul>
+<li><strong>Target Situasi:</strong> Siaran pers kampus, artikel populer majalah himpunan, atau draf surat advokasi fasilitas [Bab 13.10].</li>
+<li><strong>Draf Teks (196 Kata):</strong> &gt; <strong>Inisiatif Bersama: Menata Sirkulasi Selasar dan Antrean Nyaman di Kantin GKU Jatinangor</strong><br>
+&gt;<br>
+&gt; Lonjakan pengunjung pada pergantian jam kuliah pukul 12.00–12.35 WIB sering memicu penumpukan hingga 40 orang di selasar sempit Kantin GKU. Kondisi ini tidak hanya memicu kelelahan kasir akibat interupsi pertanyaan berulang, tetapi juga mengganggu kelancaran sirkulasi jalur evakuasi gedung.<br>
+&gt;<br>
+&gt; Merespons tantangan tersebut, tim mahasiswa berkolaborasi dengan mitra pedagang dan pengelola Sarpras ITB Jatinangor menguji coba sistem alur mandiri berbasis <em>Papan Status Menu</em> dan <em>Kartu Nomor Meja Dua Sisi</em>. Melalui mekanisme ini, pembeli langsung mengetahui ketersediaan lauk sebelum mengantre, mengambil kartu nomor laminasi berkalung, dan dapat menunggu pesanan dengan duduk tertib di bangku selasar tanpa berdesakan di depan kompor etalase.<br>
+&gt;<br>
+&gt; Hasil uji coba rintisan menunjukkan penurunan waktu pencatatan kasir menjadi rata-rata 22 detik per orang, mereduksi kerumunan etalase hingga 75%, dan meniadakan insiden pesanan tertukar. Inisiatif partisipatif berskala mikro ini membuktikan bahwa ketertiban fasilitas kampus dapat diwujudkan secara mandiri melalui pemahaman kepentingan timbal balik tanpa membebani pagu anggaran universitas. Evaluasi terbuka dilakukan berkala untuk memastikan kenyamanan seluruh pedagang dan mahasiswa.</li>
+</ul>
+<hr>
+</section>
+<section id="format-d-bahasa-visual-struktur-diagram-bab-13.10" class="level4">
+<h4 class="anchored" data-anchor-id="format-d-bahasa-visual-struktur-diagram-bab-13.10">FORMAT D: Bahasa Visual / Struktur Diagram [Bab 13.10]</h4>
+<ul>
+<li><strong>Target Situasi:</strong> Poster infografis ukuran A3 di selasar kantin dan slide presentasi publik.</li>
+</ul>
+<pre><code>+-----------------------------------------------------------------------------------+
+|               ALUR TERTIB TIGA LANGKAH KANTIN GKU JATINANGOR                      |
+|             (Inisiatif Rintisan Mahasiswa Bersama Kios Soto &amp; Sarpras)             |
++-----------------------------------------------------------------------------------+
+|  [ LANGKAH 1: CEK MENU ]      [ LANGKAH 2: AMBIL NOMOR ]   [ LANGKAH 3: DUDUK &amp; TUKAR ] |
+|  Lihat papan mini di awal.    Kasir tulis nota -&gt; Anda     Tunggu di bangku selasar.  |
+|  Menu habis ditandai jelas.   ambil 1 kartu kalung di kaca.  Saat nomor dipanggil, tukar|
+|                                                            kartu dengan mangkok soto. |
+|            │                                │                            │        |
+|            ▼                                ▼                            ▼        |
+|     (Papan Akrilik)               (Wadah Kalung Kaca)           (Meja Serah Samping)  |
++-----------------------------------------------------------------------------------+
+|  CATATAN ADAB BERSAMA:                                                            |
+|  * Matikan mesin motor saat masuk gang selasar.                                   |
+|  * Selesai makan, mohon kembalikan piring &amp; mangkok ke Rak Piring Mandiri.       |
+|  * Kotak saran &amp; kritik tanpa nama: bit.ly/evaluasi-kantin-gku                    |
++-----------------------------------------------------------------------------------+</code></pre>
+<ul>
+<li><strong>Judul Visual (Tanpa Clickbait):</strong> <em>Tiga Langkah Praktis Alur Antrean Mandiri Kantin GKU Jatinangor.</em></li>
+<li><strong>Deskripsi Teks Alternatif (<em>Alt Text</em>) untuk Aksesibilitas Pembaca Layar:</strong><br>
+&gt; <em>“Infografis alur tiga langkah antrean mandiri Kantin GKU: Langkah 1 memeriksa ketersediaan menu di papan mini, Langkah 2 mengambil kartu nomor berkalung di etalase kaca saat kasir menulis nota, dan Langkah 3 menunggu di bangku selasar lalu menukarkan kartu di meja serah saat makanan siap. Dilengkapi panduan adab mengembalikan mangkok ke rak piring mandiri.”</em></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="uji-keruntuhan-konteks-context-collapse-check-rekam-koreksi-bab-13.11-13.15" class="level3">
+<h3 class="anchored" data-anchor-id="uji-keruntuhan-konteks-context-collapse-check-rekam-koreksi-bab-13.11-13.15">Uji Keruntuhan Konteks (<em>Context-Collapse Check</em>) &amp; Rekam Koreksi [Bab 13.11, 13.15]</h3>
+<p>Informasi publik dapat dibaca oleh calon mahasiswa, orang tua, pimpinan dekanat, maupun pedagang lain yang tidak mengikuti proses deliberasi awal. Oleh karena itu, pengujian reputasi ketat dilakukan [Bab 13.11]:</p>
+<section id="audit-keruntuhan-konteks-reputation-context-audit" class="level4">
+<h4 class="anchored" data-anchor-id="audit-keruntuhan-konteks-reputation-context-audit">1. Audit Keruntuhan Konteks (<em>Reputation &amp; Context Audit</em>)</h4>
+<ul>
+<li><em>Draf Awal yang Dihapus:</em> Kalimat <em>“Sistem kantin kampus selama ini semrawut dan tidak terurus”</em> dihapus total karena tidak adil, menyerang reputasi pengelola kampus secara subjektif, dan tidak berbasis empati.</li>
+<li><em>Klarifikasi Otoritas Publik:</em> Ditambahkan kalimat disclaimer: <em>“Program uji coba inisiatif mahasiswa bersama paguyuban pedagang dengan izin penataan Sarpras GKU”</em>, agar publik tidak salah mengira ini sebagai proyek pengadaan sistem resmi bernilai jutaan rupiah dari rektorat.</li>
+</ul>
+</section>
+<section id="rekam-koreksi-berbasis-respons-publik-correction-log-bab-13.15" class="level4">
+<h4 class="anchored" data-anchor-id="rekam-koreksi-berbasis-respons-publik-correction-log-bab-13.15">2. Rekam Koreksi Berbasis Respons Publik (<em>Correction Log</em>) [Bab 13.15]</h4>
+<ul>
+<li><strong>Respons Publik Awal:</strong><br>
+Pada postingan infografis awal, terdapat komentar dari seorang mahasiswa tingkat akhir: <em>“Apakah kartu kalung ini higienis kalau dipegang puluhan orang bergantian saat makan?”</em></li>
+<li><strong>Evaluasi Respons:</strong><br>
+Kekhawatiran publik sangat valid dan menyentuh aspek sanitasi kesehatan pascapandemi yang belum dijelaskan eksplisit pada teks poster.</li>
+<li><strong>Tindakan Koreksi (<em>Correction Action</em>):</strong><br>
+Ammar memperbarui caption media sosial dan menambahkan stiker catatan kecil di samping wadah kartu:<br>
+&gt; <em>“Catatan Kebersihan: Seluruh kartu nomor dilaminasi plastik tebal tahan cairan dan disanitasi menggunakan cairan pembersih antiseptik oleh tim relawan setiap sore pukul 14.30 WIB.”</em></li>
+<li><strong>Metrik Dampak Sinyal Publik:</strong> 380 penayangan (<em>views</em>), 52 interaksi pembacaan poster fisik, 14 formulir evaluasi terisi, dan 1 catatan koreksi transparansi logistik tercatat resmi [Bab 13.15].</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="fase-4-evaluasi-jalur-ganda-lembar-penilaian-rekan-sejawat-bab-13.12-13.16" class="level3">
+<h3 class="anchored" data-anchor-id="fase-4-evaluasi-jalur-ganda-lembar-penilaian-rekan-sejawat-bab-13.12-13.16">FASE 4: Evaluasi Jalur Ganda &amp; Lembar Penilaian Rekan Sejawat [Bab 13.12, 13.16]</h3>
+<p>Diuji coba kepada rekan kelas lain yang bertindak sebagai panelis publik umum non-teknis:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 20%">
+<col style="width: 33%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">No</th>
+<th>Dimensi Penilaian Publik</th>
+<th style="text-align: center;">Skor (1–3)</th>
+<th>Bukti Perilaku &amp; Catatan Masukan dari Pengamat</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>1</strong></td>
+<td><strong>Kejernihan Esensi</strong> <em>(Core Meaning Clarity)</em></td>
+<td style="text-align: center;"><strong>3 (Sangat Baik)</strong></td>
+<td>Makna inti tidak terdistorsi; publik memahami fungsi pemisahan nomor meja tanpa bingung istilah komputasi [Bab 13.7].</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>2</strong></td>
+<td><strong>Kemerdekaan Audien</strong> <em>(Audience Freedom)</em></td>
+<td style="text-align: center;"><strong>3 (Sangat Baik)</strong></td>
+<td>Bebas dari nada menghakimi (<em>no shaming</em>), tidak ada paksaan atau clickbait bombastis; publik diajak berpartisipasi sukarela [Bab 13.8].</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>3</strong></td>
+<td><strong>Kelenturan Analogi</strong> <em>(Analogy Relevance)</em></td>
+<td style="text-align: center;"><strong>3 (Sangat Baik)</strong></td>
+<td>Analogi penitipan bagasi bandara sangat membumi dan langsung mengonstruksi pemahaman cara kerja penukaran piring [Bab 13.8].</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>4</strong></td>
+<td><strong>Kejujuran Batas</strong> <em>(Honesty of Limits)</em></td>
+<td style="text-align: center;"><strong>3 (Sangat Baik)</strong></td>
+<td>Dinyatakan secara ksatria bahwa sistem tidak mempercepat penggorengan kompor dan rentan saat hujan lebat [Bab 13.8, 13.15].</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Rekomendasi Perbaikan untuk Putaran Kedua:</strong><br>
+Font pada teks langkah 3 poster cetak fisik diperbesar dari ukuran 16 pt menjadi 20 pt agar mahasiswa yang memiliki gangguan penglihatan ringan dapat membaca jelas dari jarak 1,5 meter saat berjalan di selasar.</p>
+</blockquote>
+<hr>
+</section>
 </section>
 <section id="analisis-komunikasi" class="level2">
 <h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Elemen</th>
@@ -351,52 +589,58 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Person &amp; character</strong></td>
+<td>Memposisikan diri secara sadar sebagai <em>Student Contributor / Community Facilitator</em>, menjaga batas wewenang dengan tidak mengatasnamakan otoritas universitas [Bab 13.4]. Memperlakukan publik sebagai komunitas warga yang cerdas dan berdaulat [Bab 13.1].</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Objective &amp; state</strong></td>
+<td><em>State awal:</em> Publik terbiasa dengan kebisingan komplain antrean kantin di media sosial. <em>Objective:</em> Memberikan sumbangan sinyal makna (<em>meaningful signal</em>) yang jernih, menggerakkan publik dari <em>Target</em> pasif menuju <em>Action</em> beradab [Bab 13.6, 13.7].</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Repertoire &amp; language</strong></td>
+<td>Menguasai 4 register bahasa publik secara luwes: lisan kilat (41 kata), mekanis 3 menit, tulisan profesional (196 kata), dan diagram visual infografis dengan Alt Text aksesibilitas [Bab 13.8, 13.10].</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Response &amp; adaptation</strong></td>
+<td>Merespons tanggapan kritis publik soal higienitas kartu nomor secara terbuka; menerbitkan klarifikasi protokol sanitasi harian tanpa bersikap defensif [Bab 13.11, 13.15].</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Agreement/action</strong></td>
+<td>Publik mengadopsi adab tiga langkah: mengambil nomor secara mandiri, duduk tertib di bangku selasar, dan mengembalikan mangkok ke rak piring mandiri [Bab 13.12].</td>
 </tr>
 <tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Relationship outcome</strong></td>
+<td>Reputasi inisiatif terjaga bersih, terpercaya, dan kredibel di mata mahasiswa, dosen, serta pedagang kantin. Menghindari bahaya <em>context-collapse</em> secara bertanggung jawab [Bab 13.11, 13.16].</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<section id="penggunaan-ai-ai-statement-14.15-e.7" class="level2">
+<h2 class="anchored" data-anchor-id="penggunaan-ai-ai-statement-14.15-e.7">Penggunaan AI (AI Statement) [14.15, E.7]</h2>
+<p>AI (Gemini) digunakan secara terarah dalam proses penerjemahan bahasa publik:</p>
+<ol type="1">
+<li><strong>Peran AI:</strong> Digunakan untuk memindai draf naskah tulisan guna mendeteksi kata-kata jargon (<em>jargon scanner</em>), menyusun draf awal teks alternatif (<em>Alt Text</em>) untuk pembaca layar, dan mencari potensi kalimat yang terkesan bombastis (<em>claim-check</em>).</li>
+<li><strong>Output AI yang Ditolak:</strong> AI sempat menyarankan judul siaran pers yang sensasional ala media daring (<em>“Revolusi Digital Kantin GKU: Antrean Semrawut Berhasil Dimusnahkan!”</em>). Saya <strong>menolak keras draf judul ini</strong> karena manipulatif (<em>clickbait</em>), tidak faktual, dan melanggar integritas etika komunikasi publik Bab 13.</li>
+<li><strong>Batas Integritas Manusia:</strong> Verifikasi kebenaran fakta operasional di lapangan, penulisan analogi bandara yang kontekstual, serta pencatatan log koreksi higienitas kartu dieksekusi 100% oleh manusia secara bertanggung jawab.</li>
+</ol>
+<hr>
 </section>
 <section id="feedback-dan-tindak-lanjut" class="level2">
 <h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<p><strong>Feedback yang diterima:</strong> Rekan panelis publik menilai bahwa bahasa tulisan profesional (Format C) sangat seimbang antara pemaparan masalah sosial dan solusi praktis. Namun, panelis menyarankan agar tautan formulir evaluasi (<em>bit.ly</em>) dilengkapi dengan kode QR kecil di sudut kanan bawah poster cetak agar mudah dipindai lewat kamera ponsel.</p>
+<p><strong>Adaptation/replay:</strong> Pada pencetakan revisi poster fisik selasar, kode QR stiker mini berukuran 3x3 cm ditambahkan di sudut kanan bawah di samping teks tautan manual.</p>
+<p><strong>Next practice:</strong> Menghadapi tantangan komunikasi publik berskala lebih luas di masa depan, saya akan melatih pembuatan materi visual dwibahasa (<em>bilingual infografis: Indonesia–Inggris</em>) untuk mengakomodasi mahasiswa asing/pertukaran pelajar di kampus.</p>
+<hr>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
@@ -406,33 +650,33 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Person &amp; Character</strong></td>
+<td style="text-align: right;">4</td>
+<td>Identitas publik sebagai <em>student contributor</em> ditegaskan; batas wewenang transparan tanpa mengklaim representasi resmi institusi [Bab 13.4].</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Objective &amp; State</strong></td>
+<td style="text-align: right;">4</td>
+<td>Peta TAIDA publik terdefinisi konkret; batas capaian outcome dinyatakan realistis tanpa <em>overclaiming</em> [Bab 13.6, 13.7].</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Repertoire, Language &amp; AI</strong></td>
+<td style="text-align: right;">4</td>
+<td>Empat format bahasa publik dirakit presisi; detoks jargon tuntas; Alt Text aksesibilitas tersedia; AI diaudit ketat terhadap klaim absolut [Bab 13.8, 13.10, 14.15].</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Response &amp; Adaptation</strong></td>
+<td style="text-align: right;">4</td>
+<td>Pertanyaan publik mengenai sanitasi kartu direspons cepat melalui catatan koreksi (<em>correction log</em>) transparan di media publik [Bab 13.11, 13.15].</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Agreement, Action &amp; Relationship</strong></td>
+<td style="text-align: right;">4</td>
+<td>Tindakan publik terfasilitasi adil; bahaya <em>context-collapse</em> dimitigasi; reputasi inisiatif terpelihara dengan martabat etis tinggi [Bab 13.11, 13.16].</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total: 20/20 — Unggul.</strong></p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>

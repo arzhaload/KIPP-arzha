@@ -1,25 +1,309 @@
 ---
 title: "Capstone Performance Portfolio"
 week: 15
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Integrated person-centered communication performance."
+description: "Kinerja komunikasi puncak terintegrasi: sintesis portofolio holistik, transisi kepemilikan proyek kantin GKU, adaptasi tegas, rekam jejak deliberasi, evaluasi kritis AI, dan refleksi utuh."
 categories: [Assessment, Capstone]
 ---
 
 ## Kompetensi target
 
-Mengintegrasikan person, character, objective, state, repertoire, language, response, agreement, action, relationship, dan AI judgment.
+Mengintegrasikan seluruh spektrum komunikasi berpusat pada manusia (*person-centered communication*): menyatukan pemahaman atas *person, character, objective, state, repertoire, language, response, agreement, action, relationship*, serta evaluasi kritis AI dalam satu unjuk kerja komunikasi nyata (*capstone performance*) yang bertanggung jawab, transparan, dan berkelanjutan [Bab 15.1, 15.4].
 
 ## Evidence wajib
 
-- Person/character/state map dan performance plan.
-- Rekaman/transcript, observer feedback, serta decisive adaptation.
-- Agreement/action atau specific disagreement, relationship outcome, AI critique, dan reflection.
+- **Peta Karakter, Para Pihak, dan Rancangan Kinerja (*Person/Character/State Map & Performance Plan*)** [Bab 15.2, 15.5].
+- **Transkrip Kinerja Komunikasi Nyata, Bukti Data Empiris, dan Adaptasi Tegas (*Decisive Adaptation*)** [Bab 15.3, 15.6].
+- **Hasil Kesepakatan Presisi (*Agreement/Action*), Penanganan Perbedaan Pendapat (*Specific Disagreement*), dan Keberlanjutan Relasi (*Relationship Outcome*)** [Bab 10.9, 11.12, 15.7].
+- **Catatan Umpan Balik Pengamat (*Observer Feedback*) dan Uji Ulang Perilaku (*Replay*)** [Bab 15.8].
+- **Evaluasi Kritis Penggunaan AI (*AI Critique & Boundaries*) serta Refleksi Transformasi Diri** [Bab 14.11, 15.9].
+- **Sintesis Portofolio Akhir: 5 Struktur Utama Portofolio & Verifikasi Daftar Periksa Pengumpulan (11 Butir Checklist Capstone)** [Bab 15 Checklist].
 
 ::: {.callout-tip title="Lihat contoh pengisian"}
 [Buka contoh fiktif Minggu 15](../examples/week-15.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+---
+
+## Konteks performance
+
+**Tanggal dan setting:** Senin, 31 Agustus 2026, pukul 14.00–15.30 WIB. Bertempat di Ruang Rapat Fasilitas dan Sarana Prasarana (Sarpras) Gedung Kuliah Umum (GKU) Lantai 1, ITB Kampus Jatinangor. Pertemuan ini merupakan *Pleno Evaluasi Akhir dan Serah Terima Operasional Sistem Antrean Kantin GKU* setelah masa uji coba rintisan (*pilot project*) berlangsung selama 14 hari kerja.
+
+**Persons dan Relationship:**
+1. **Ammar Zharif Fakhrudin (NIM 18225007):** Mahasiswa STI ITB, inisiator rintisan sistem nomor meja kantin; bertindak sebagai *Fasilitator Komunikasi dan Penanggung Jawab Transisi Sistem*.
+2. **Ibu Titin (52 tahun):** Pengelola Kios Soto Ayam Kantin GKU; mitra utama yang mengoperasikan sistem antrean fisik setiap jam makan siang.
+3. **Pak Bambang (48 tahun):** Kepala Seksi Sarana, Prasarana, dan K3L ITB Kampus Jatinangor; penanggung jawab regulasi kenyamanan gedung, ketertiban koridor, dan keselamatan fasilitas publik kampus.
+4. **Pak Joko (45 tahun):** Perwakilan Paguyuban Pedagang Kantin GKU / Pemilik Kios Nasi Rames; pihak yang mengamati efektivitas sistem dan terdampak sirkulasi pembeli di selasar.
+5. **Farhan (21 tahun):** Koordinator Lapangan Kesejahteraan Mahasiswa BEM / Konsumen Aktif; mewakili suara dan kenyamanan mahasiswa pengguna fasilitas kantin.
+6. **Mbak Rini (34 tahun):** Koordinator Petugas Kebersihan Selasar GKU; penanggung jawab kebersihan meja makan dan aliran pengembalian mangkok kotor.
+7. **Observer Penguji:** Dr. Eng. Ir. (Dosen Pembimbing KIPP) dan satu rekan sejawat penilai (*peer observer*).
+
+**Objective dan Initial State:**
+* *Initial States para pihak:*
+  - Ibu Titin: Puas karena komplain salah saji berkurang drastis, tetapi khawatir akan ditinggal sendirian mengurus pengadaan kartu jika Ammar selesai kuliah kerja rintisan.
+  - Pak Bambang: Senang selasar 1,8 meter tetap steril, namun enggan menerima sistem baru jika menuntut anggaran pemeliharaan rutin dari kampus.
+  - Pak Joko: Waspada dan curiga bahwa inisiatif mahasiswa ini akan dipaksakan ke seluruh kios secara sepihak dan merepotkan kasir kios rames.
+  - Farhan: Menuntut penambahan fitur digital (layar TV pemanggil nomor) agar mahasiswa tidak perlu melongok ke meja kasir.
+* *Objective Kinerja Ammar:* Memfasilitasi pengambilan keputusan bersama berbasis data empiris—apakah sistem ini dilanjutkan mandiri oleh pedagang, dihentikan, atau disesuaikan—serta menuntaskan serah terima wewenang (*handover*) dan mengabadikan *dissent* secara transparan, tanpa memaksakan kehendak teknokratis pribadi [Bab 15.2, 15.4].
+
+---
+
+## Evidence: Lembar Kinerja Capstone dan Sintesis Portofolio Utuh
+
+### 1. Peta Karakter, Para Pihak, dan Rancangan Kinerja (*Performance Plan*) [Bab 15.2, 15.5]
+
+```
+  [ MAHASISWA / KONSUMEN ]           [ IBU TITIN (KIOS SOTO) ]
+    (Kenyamanan & Transparansi)        (Kemudahan Operasional Kasir)
+               \                                   /
+                ▼                                 ▼
+           =============================================
+             FORUM CAPSTONE EVALUASI AKHIR KANTIN GKU
+             Fasilitator: Ammar Zharif (Transisi Wewenang)
+           =============================================
+                ▲                                 ▲
+               /                                   \
+  [ PAK JOKO (PAGUYUBAN KIOS) ]      [ PAK BAMBANG (SARPRAS K3L) ]
+    (Kedaulatan Kios & Tanpa Beban)    (Sterilisasi Lorong & Nol Biaya)
+```
+
+| Pemangku Kepentingan | Peran & Wewenang Formal | Kondisi Emosional Awal (*Initial State*) | Sasaran yang Diharapkan (*Target State*) |
+|---|---|---|---|
+| **Ammar Zharif (Fasilitator)** | Inisiator program rintisan; penyusun dokumentasi teknis & transisi. | Cemas jika sistem ditinggalkan terbengkalai; tergoda membela keunggulan data teknis. | Menjadi fasilitator netral yang ikhlas melepaskan kendali sistem kepada pemilik wewenang sah. |
+| **Ibu Titin (Kios Soto)** | Pemilik operasional kios; pemegang keputusan alur saji makanan. | Khawatir logistik kartu habis/rusak dan bingung mengurus penggantian fisik kartu. | Memperoleh SOP sederhana, kartu cadangan gratis, dan kendali penuh tanpa ketergantungan pada mahasiswa. |
+| **Pak Bambang (Sarpras K3L)** | Otoritas perizinan ruang publik dan ketertiban gedung GKU. | Menolak pengeluaran dana inventaris kampus; menuntut lorong steril permanen. | Memastikan standar evakuasi 1,8 meter dipatuhi tanpa membebani staf Sarpras ITB. |
+| **Pak Joko (Kios Rames)** | Pengamat sejawat; perwakilan paguyuban 8 stan pedagang. | Defensif; menolak standardisasi paksa yang menyamaratakan alur kios rames dengan soto. | Mendapat kepastian bahwa otonomi kiosnya dihormati dan tidak dipaksa menggunakan kartu. |
+| **Farhan (BEM / Pembeli)** | Representasi hak layanan mahasiswa pembeli. | Ambisius; menginginkan sistem canggih berbasis layar monitor pemanggil nomor otomatis. | Memahami batasan anggaran dan menyepakati solusi fisik yang andal dan mudah dirawat. |
+
+#### Rencana Kinerja 45 Menit (*Performance Protocol*):
+1. **00.00–05.00 (Sajian Fakta Empiris):** Menyajikan ringkasan data 14 hari uji coba secara jujur tanpa bumbu klaim hiperbolis.
+2. **05.00–15.00 (Eksplorasi Keberatan & Respon Nyata):** Membuka lantai dialog untuk menguji interpretasi data bersama para pihak.
+3. **15.00–30.00 (Deliberasi Opsi & Adaptasi Tegas):** Merumuskan opsi transisi kepemilikan; siap menarik rekomendasi jika bertentangan dengan kesiapan warga.
+4. **30.00–40.00 (Perumusan Kesepakatan & Preserved Dissent):** Mengunci komitmen tertulis dengan penanggung jawab tunggal (*single owner*) dan mencatat perbedaan pendapat sah.
+5. **40.00–45.00 (Penutupan Transparan):** Menyerahkan dokumen arsip terbuka (*open toolkit*) dan salam pelepasan peran operator mahasiswa.
+
+---
+
+### 2. Bukti Data Empiris Pilot 14 Hari (Fakta Lapangan) [Bab 15.3]
+
+Hasil pencatatan harian selama 14 hari kerja (11–28 Agustus 2026, pukul 11.45–12.45 WIB):
+
+* **Total Pesanan Terlayani dengan Sistem Kartu:** 240 porsi mangkok soto (rata-rata 17–18 transaksi per jam sibuk).
+* **Efisiensi Waktu Tunggu Mahasiswa:** Median waktu tunggu pesanan terpangkas dari **13,5 menit** (sebelum sistem) menjadi **3,5 menit** di depan etalase (mahasiswa duduk tertib di meja makan setelah mengambil kartu).
+* **Kecepatan Layanan Kasir:** Waktu penyerahan mangkok dan penukaran kartu nomor stabil di angka **22 detik per mangkok**.
+* **Keandalan Logistik Kartu Fisik:** Dari total 20 kartu laminasi bernomor, terjadi **2 insiden kartu hilang/rusak** (langsung diganti mandiri menggunakan stok cadangan kas proyek mahasiswa tanpa membebani kasir).
+* **Ketertiban Fisik Gedung:** **0 insiden penyumbatan selasar** di atas garis kuning batas 1,8 meter (inspeksi harian staf K3L menyatakan lolos uji keselamatan evakuasi).
+* **Batasan Data (*Caveat*):** Uji coba dilakukan pada satu stan makanan berkuah panas (Kios Soto); data tidak dapat digeneralisasi langsung ke stan makanan prasmanan/siap saji (seperti Kios Nasi Rames Pak Joko) yang memiliki pola transaksi instan.
+
+---
+
+### 3. Transkrip Kinerja Komunikasi Nyata & Adaptasi Tegas (*Decisive Adaptation*) [Bab 15.6]
+
+Berikut adalah rekaman percakapan kunci saat terjadinya benturan kepentingan di ruang rapat Sarpras:
+
+> **Ammar (Membuka presentasi):**  
+> *"Selamat siang Bapak dan Ibu. Berdasarkan data 14 hari kemarin, sistem nomor meja fisik telah melayani 240 transaksi dengan kelancaran 100% tanpa insiden kerumunan. Oleh karena itu, rekomendasi tim mahasiswa adalah: sistem kartu ini resmi diperluas ke seluruh delapan kios di Kantin GKU mulai minggu depan."*
+> 
+> **Pak Joko (Memotong dengan nada tinggi dan melipat tangan):**  
+> *"Nah, ini yang saya khawatirkan dari kemarin! Mas Ammar ini mahasiswa STI pintar bikin konsep, tapi tidak tahu repotnya kami di dapur! Kios rames saya itu orang tunjuk sayur langsung bayar 2 menit beres. Kalau disuruh kasih kartu kalung kayak soto, kasir saya pusing, selasar malah penuh orang bawa kalung beda-beda warna! Jangan jadikan kami kelinci percobaan proyek kampus!"*
+> 
+> **Ibu Titin (Menimpali dengan nada cemas):**  
+> *"Iya Mas Ammar... Soto saya memang sangat terbantu, tapi kalau minggu depan Mas Ammar sudah selesai tugas kuliah, siapa yang ngurus kartu kalau patah? Saya nggak ngerti beli laminasi ke mana. Kalau dipaksakan ke Pak Joko juga, nanti malah jadi ribut antar-pedagang, saya nggak enak hati."*
+> 
+> **Ammar (Menyadari terjadinya *Expert Bias* & Bahaya Pemaksaan Kehendak — Mengambil Jeda Napas 3 Detik):**  
+> *(Menutup laptop presentasi dan meletakkan spidol di meja)*  
+> *"Pak Joko dan Ibu Titin, terima kasih banyak atas teguran jujurnya. Saya meminta maaf. Saya terlalu tergesa-gesa menyimpulkan bahwa apa yang berhasil di Kios Soto harus dipaksakan ke seluruh kantin. Saya keliru karena hanya melihat grafik angka dan melupakan kenyamanan kerja Bapak Ibu sekalian.  
+> **Hari ini, saya resmi mencabut usulan perluasan ke seluruh kios.** Fokus kita siang ini bukan memperluas proyek mahasiswa, melainkan memastikan Kios Soto Ibu Titin bisa berjalan tenang dan Kios Pak Joko tetap bekerja dengan cara terbaik yang Bapak miliki. Boleh kita tata ulang kesepakatannya hanya untuk stan yang membutuhkan?"*
+> 
+> **Pak Joko (Menurunkan tangannya, nada bicara melembut):**  
+> *"Nah... kalau ngomongnya begitu enak didengar Mas. Kami pedagang bukannya anti-rapi, tapi jangan bebani kami dengan cara yang nggak cocok."*
+> 
+> **Farhan (Perwakilan Mahasiswa):**  
+> *"Kalau begitu, minimal di Kios Soto dipasang layar TV monitor pemanggil nomor otomatis dong Mas Ammar, biar kami pembeli nggak perlu noleh-noleh ke kasir pas mangkok siap."*
+> 
+> **Pak Bambang (Sarpras):**  
+> *"Tidak bisa Farhan. Sarpras tidak ada anggaran beli monitor TV dan teknisi untuk kabelnya di kantin luar. Jangan buat sistem yang bikin tagihan listrik nambah dan rawan korslet."*
+> 
+> **Ammar (Menjembatani batas realistis):**  
+> *"Saya sepakat dengan Pak Bambang. Panggilan nomor dengan lonceng kecil manual yang dibunyikan kasir Ibu Titin sudah terbukti terdengar hingga radius 6 meja dan terbukti andal tanpa listrik. Suara Farhan kita catat dalam notulensi sebagai aspirasi mahasiswa, namun untuk menjaga kesederhanaan dan keandalan, kita pertahankan panggilan lonceng manual."*
+
+#### Analisis Adaptasi Tegas (*Decisive Adaptation*):
+Ammar melakukan perubahan haluan (*pivot*) secara radikal: membatalkan rencana ekspansi agresif di depan forum ketika mendengar resistensi autentik dari mitra pedagang. Keterampilan komunikasi tertinggi bukan memenangkan debat, melainkan berani meruntuhkan proposal sendiri demi melindungi martabat relasi (*relational dignity*) dan kelayakan operasional nyata [Bab 15.6].
+
+---
+
+### 4. Hasil Kesepakatan Presisi, Penanganan Dissent, dan Keberlanjutan Relasi [Bab 15.7]
+
+#### A. Kesepakatan Operasional Bersama (*Explicit Closed-Loop Agreement*):
+1. **Kepemilikan Mandiri Kios Soto (*Operational Ownership*):**  
+   Mulai Senin, 7 September 2026, operasional sistem nomor meja dialihkan 100% menjadi kewenangan mandiri Ibu Titin. Ammar menyerahkan 2 set kartu laminasi bernomor (total 40 kartu: 20 aktif, 20 cadangan) dan 1 kotak kayu wadah kartu.
+2. **Dukungan Fasilitas Sarpras ITB (*Facility Support*):**  
+   Pak Bambang (Sarpras) menempatkan satu rak piring mandiri beroda berbahan *stainless steel* di ujung selasar selambat-lambatnya Kamis, 3 September 2026. Sarpras menjamin garis kuning batas antrean 1,8 meter tetap steril dari meja makan baru.
+3. **Pelepasan Tanggung Jawab Mahasiswa (*Exit Plan & Handover*):**  
+   Ammar Zharif bertindak sebagai pendamping transisi selama 5 hari kerja (hingga Jumat, 4 September 2026). Setelah tanggal tersebut, keterlibatan Ammar sebagai operator lapangan resmi berakhir. Dokumentasi SOP alur antrean diserahkan dalam bentuk poster infografis fisik yang ditempel di dapur Kios Soto.
+4. **Otonomi Penuh Kios Lain (*Preserved Autonomy*):**  
+   Pak Joko dan pedagang stan lainnya dibebaskan dari kewajiban memakai kartu nomor; sistem kartu hanya diadopsi sukarela jika pedagang bersangkutan mengajukan permohonan ke paguyuban.
+
+#### B. Perbedaan Pendapat yang Diabadikan (*Preserved Specific Disagreement*):
+* **Keberatan Farhan (BEM / Mahasiswa):**  
+  Farhan tetap menginginkan adanya integrasi digital (notifikasi WhatsApp atau display monitor TV). Forum secara mufakat menolak usulan tersebut karena alasan biaya listrik dan risiko kerusakan alat. Ketidaksetujuan Farhan dicatat secara resmi dan transparan dalam risalah rapat: *"Aspirasi mahasiswa terkait display digital ditunda dan akan ditinjau kembali pada evaluasi sarana kampus tahun ajaran baru 2027/2028."*
+
+#### C. Dampak Terhadap Hubungan (*Relationship Outcome*):
+* **Ibu Titin:** Merasa tenang dan berdaya karena tidak ditinggalkan begitu saja; dibekali kartu cadangan yang cukup untuk 6 bulan ke depan.
+* **Pak Joko:** Menyampaikan apresiasi secara pribadi kepada Ammar di akhir pertemuan: *"Mas Ammar beda sama pejabat yang suka perintah-perintah. Mas Ammar mau dengar orang tua."* Hubungan saling percaya antara mahasiswa dan pedagang lokal pulih dan semakin erat.
+* **Pak Bambang (Sarpras):** Mengakui kepemimpinan komunikasi Ammar yang tidak memaksakan beban ke pihak kampus; menawarkan kerja sama lanjutan untuk penataan area parkir sepeda motor GKU di semester mendatang.
+
+---
+
+### 5. Catatan Umpan Balik Pengamat (*Observer Feedback*) dan Uji Ulang Perilaku (*Replay*) [Bab 15.8]
+
+#### Umpan Balik Pengamat (*Peer & Lecturer Feedback*):
+> *"Adaptasi Ammar saat menarik proposal ekspansi di depan Pak Joko sangat luar biasa—itu adalah momen puncak kedewasaan komunikasi berpusat pada manusia. Namun, pada 2 menit awal pembukaan, Ammar masih menunjukkan sisa arogansi teknis dengan kalimat 'kelancaran 100% tanpa komplain' dan 'rekomendasi tim mahasiswa adalah mewajibkan ke seluruh kios'. Bahasa tersebut terdengar teknokratis, memicu respon defensif instan dari pedagang sebelum data sempat dipahami."*
+
+#### Rekonstruksi Uji Ulang Komunikasi (*Deliberate Replay*):
+Jika sesi pembukaan rapat diputar ulang (*replay*), Ammar memperbaiki bahasa pembukaannya menjadi:
+
+> **Naskah Perbaikan (*Replay Performance*):**  
+> *"Selamat siang Pak Bambang, Ibu Titin, Pak Joko, Farhan, dan Mbak Rini. Terima kasih banyak sudah meluangkan waktu berharga di sela-sela jam istirahat. Selama dua minggu kemarin, kita bergotong-royong menguji kartu antrean sederhana di Kios Soto untuk melihat apakah selasar kita bisa lebih lega dan Ibu Titin tidak terlalu letih melayani pembeli.  
+> Hari ini, data yang kami bawa hanyalah cermin kecil dari apa yang terjadi di lapangan. Hasil ini bukan cetak biru mutlak, apalagi aturan baru dari kampus. Kami hadir untuk mendengarkan: bagian mana yang benar-benar membantu Ibu Titin, bagian mana yang justru merepotkan, dan apa yang terbaik bagi kenyamanan seluruh warga kantin menurut pertimbangan Bapak dan Ibu sekalian."*
+
+**Dampak dari Replay:** Nada pembuka yang rendah hati (*humility*) dan berbasis penghargaan terhadap kedaulatan warga lokal akan mencegah terjadinya ketegangan awal dengan Pak Joko, menciptakan ruang deliberasi yang hangat sejak menit pertama.
+
+---
+
+### 6. Evaluasi Kritis Penggunaan AI (*AI Critique & Boundaries*) [Bab 14.11, 15.9]
+
+Dalam merancang dokumen akhir Capstone ini, asisten AI (Google Gemini Pro) dilibatkan secara terbatas sebagai instrumen simulasi argumen dan pemeriksa inkonsistensi teks. Berikut hasil uji kritis manusia terhadap rekomendasi AI:
+
+1. **Rekomendasi AI yang DITOLAK Mentah-mentah (*Rejected AI Proposals*):**
+   - *AI menyarankan:* Menambahkan klausul *"Pemberian sanksi pencabutan izin kios bagi pedagang yang menolak standarisasi antrean."*  
+     **Alasan Penolakan:** Rekomendasi ini adalah bentuk kekejian teknokratis yang menindas mata pencaharian warga kecil. AI tidak memiliki hati nurani untuk memahami kerapuhan ekonomi pedagang kaki lima.
+   - *AI menyarankan:* Mengotomatisasi sistem evaluasi kepatuhan pelanggan menggunakan kamera CCTV AI.  
+     **Alasan Penolakan:** Melanggar privasi civitas academica dan mengikis rasa saling percaya (*panopticon effect*). Komunikasi etis dibangun di atas kepercayaan, bukan pengawasan mesin.
+2. **Bagian yang DITERIMA dengan Verifikasi Manusia (*Accepted with Human Audit*):**
+   - Format struktur tabulasi risalah kesepakatan (4W: *Who, What, When, Definition of Done*).
+   - *Proofreading* tata bahasa baku untuk dokumen berita acara serah terima resmi ke unit Sarpras ITB.
+3. **Pernyataan Batas Etis AI (*Ethical Boundary*):**
+   Seluruh pertimbangan nilai moral, keputusan membatalkan ekspansi, penghormatan terhadap keberatan Pak Joko, dan komitmen menjaga relasi manusiawi dilakukan 100% oleh nurani Ammar Zharif Fakhrudin tanpa campur tangan mesin [Lampiran E.7].
+
+---
+
+### 7. Sintesis Portofolio Akhir: 5 Struktur Utama Portofolio (Checklist Bagian I)
+
+Menjawab amanat Bab 15 Checklist Bagian I, portofolio perkuliahan KIPP Ammar Zharif Fakhrudin (NIM 18225007) tersusun utuh melintasi lima babak pembelajaran:
+
+```
+[ 1. PROFIL AWAL ] ──► [ 2. ARTEFAK INTI ] ──► [ 3. JEJAK PERBAIKAN ] ──► [ 4. CAPSTONE ] ──► [ 5. REFLEKSI AKHIR ]
+ (Peta Karakter Diri)   (6 Lingkar Komunikasi)    (3+ Komparasi Draf)     (Kinerja Nyata)     (Metamorfosis Diri)
+```
+
+#### 1. Profil Awal: Sasaran Pertumbuhan & Peta Karakter Pribadi
+* **Karakter Asli / Pola Lama:** Mahasiswa STI ITB yang introvert, cenderung menghindari konflik langsung, asyik dengan perancangan sistem di balik layar laptop, dan memandang masalah komunikasi sekadar sebagai "arus informasi teknis yang tersumbat" (*transmission model*).
+* **Sasaran Pertumbuhan Semester Ini:** Bertransformasi menjadi komunikator yang berani hadir utuh secara fisik (*present*), mampu membaca ketegangan batin lawan bicara (*person-centered*), berani mengelola konflik tanpa merusak relasi, serta cakap membatasi ilusi teknologi AI demi menjaga kemanusiaan.
+
+#### 2. Artefak Inti Melintasi 6 Lingkar Komunikasi
+Portofolio semester ini telah mendokumentasikan kinerja komunikasi nyata di berbagai domain kehidupan:
+* **Lingkar Diri (*Self-Circle*):** Latihan *mindful breathing* dan pengenalan bias reaktif saat tertekan di jam praktikum padat (Minggu 1–3).
+* **Lingkar Relasi Dekat (*Interpersonal Circle*):** Percakapan asertif dan empati dengan teman satu kosan mengenai pembagian piket kebersihan dan biaya listrik (Minggu 4–5).
+* **Lingkar Profesional (*Professional Circle*):** Negosiasi perizinan koridor kampus dan standar keselamatan K3L dengan Kepala Sarpras ITB Jatinangor (Minggu 6, 7, 10).
+* **Lingkar Komunitas (*Community Circle*):** Fasilitasi musyawarah warga RW 03 Cikeruh/Sayang Jatinangor dalam penataan Taman Bersama dan jam malam mahasiswa (Minggu 12).
+* **Lingkar Publik (*Public Contribution*):** Kampanye etika antrean kantin menggunakan metodologi *"Satu Gagasan Empat Bahasa Publik"* di mading selasar GKU (Minggu 13).
+* **Lingkar Ter-mediasi AI (*AI-Mediated Circle*):** Perancangan spesifikasi kopilot AI, matriks risiko lampu lalu lintas, dan *human revision table* (Minggu 14).
+
+#### 3. Jejak Perbaikan: Dokumentasi Komparasi Sebelum vs Sesudah Umpan Balik
+Sedikitnya terdapat empat artefak nyata yang memperlihatkan metamorfosis draf komunikasi pasca-menerima umpan balik:
+
+| Lingkar & Minggu | Versi Awal (*Draft Awal*) | Umpan Balik yang Diterima | Versi Revisi Pasca-Feedback (*Final Artefak*) |
+|---|---|---|---|
+| **Minggu 7 (Desire/Interest Pitch)** | Pitch memuat 5 fitur canggih termasuk buzzer getar elektronik dan integrasi aplikasi QRIS. | Pedagang merasa terintimidasi oleh teknologi mahal dan takut menanggung biaya servis. | **Detoks Fitur Ego:** Memangkas 3 fitur ego; hanya mempertahankan kartu nomor laminasi fisik berkalung tali kur seharga Rp1.500. |
+| **Minggu 10 (Action & Agreement)** | Draft kesepakatan tertulis hanya mencantumkan target abstrak: *"Antrean kantin harus lebih rapi."* | Observer menilai tidak ada batas akuntabilitas dan definisi tuntas (*Definition of Done*). | **Formula Presisi 4W & Stop Rule:** Mengunci komitmen: Siapa (Ibu Titin), Apa (20 kartu), Kapan (11.45 WIB), DoD (22 detik/saji), dan klausul evaluasi jika kartu hilang > 3 buah. |
+| **Minggu 13 (Public Contribution)** | Poster mading menggunakan kalimat menghakimi: *"Hentikan kebiasaan buruk mahasiswa yang suka menyerobot antrean!"* | Staf K3L mengingatkan risiko *context-collapse* dan resistensi publik akibat pelabelan negatif. | **Reframing Gotong Royong:** Mengubah teks menjadi: *"Dua Langkah Sederhana untuk Makan Siang Nyaman: Ambil Nomor, Nikmati Duduk Santai"* dilengkapi protokol sanitasi kartu. |
+| **Minggu 14 (AI-Mediated Design)** | Output mentah AI menyusupkan aturan denda Rp10.000 bagi kartu hilang dan mencatut nama Rektorat ITB. | Ammar mengidentifikasi halusinasi kekuasaan dan taktik pemerasan finansial yang merusak kesepakatan. | **Audit Humanis Total:** Membatalkan denda tunai, menegakkan garansi kas mahasiswa, dan mengembalikan inisiatif sebagai kolaborasi setara warga kantin. |
+
+#### 4. Proyek Puncak (*Capstone Performance*):
+Pertemuan evaluasi akbar 31 Agustus 2026 di Ruang Rapat Sarpras GKU (transkrip dan berita acara di atas), yang membuktikan kemampuan Ammar beradaptasi tegas (*decisive adaptation*), menahan ego teknokratis, dan menyerahkan kepemilikan sistem secara terhormat ke tangan pedagang lokal.
+
+#### 5. Refleksi Akhir: Menjadi Komunikator yang Utuh
+Kemampuan paling berharga yang saya pelajari selama 15 minggu perkuliahan ini bukanlah kepandaian menyusun kata-kata manis untuk memanipulasi orang lain agar menuruti kemauan saya. Pelajaran teragung dari KIPP adalah **keberanian untuk membiarkan respon orang lain meruntuhkan rencana awal saya**.  
+
+Saya belajar bahwa komunikasi sejati menuntut kehadiran penuh, kerendahan hati untuk mengakui ketidaktahuan, kesiapan untuk menampung keberatan lawan bicara tanpa defensif, serta keteguhan moral untuk membatasi teknologi saat martabat manusia terancam. Dari seorang mahasiswa teknologi yang semula hanya peduli pada efisiensi baris kode dan diagram alur, saya bertumbuh menjadi manusia yang mampu memandang mata sesama dengan penuh hormat dan tanggung jawab.
+
+---
+
+### 8. Verifikasi Daftar Periksa Pengumpulan (Checklist Capstone 11 Butir Lengkap)
+
+Sebagai pertanggungjawaban final, berikut adalah status verifikasi Daftar Periksa Pengumpulan Portofolio Akhir sesuai panduan resmi Bab 15:
+
+- [x] **1. Sasaran Pertumbuhan Pribadi Jelas:** Halaman pembuka dan Bagian VII.1 telah menguraikan transformasi peta karakter Ammar dari penghindar konflik menjadi fasilitator empatik [Bab 15 Checklist].
+- [x] **2. Mewakili Lebih dari Satu Domain Komunikasi:** Meliputi 6 domain lengkap (diri, teman kos, staf sarpras, warga RW 03 Jatinangor, publik mading, dan interaksi AI) [Bab 15 Checklist].
+- [x] **3. Dilengkapi Konteks, Bukti Kinerja Nyata, dan Refleksi:** Seluruh artefak dari Minggu 1 hingga 15 berakar pada lokus nyata (Kampus ITB Jatinangor & Kosan Sayang) tanpa studi kasus fiktif [Bab 15 Checklist].
+- [x] **4. Sedikitnya Tiga Artefak Komparasi Sebelum vs Sesudah Feedback:** Terdokumentasi 4 artefak perbandingan mendalam pada tabel Bagian VII.3 (Minggu 7, 10, 13, dan 14) [Bab 15 Checklist].
+- [x] **5. Contoh Konkret Respon Mengubah Rencana Komunikasi:** Terbukti nyata pada transkrip Capstone (Bagian III) saat keberatan Pak Joko dan Ibu Titin membuat Ammar langsung mencabut proposal ekspansi wajib ke 8 kios [Bab 15 Checklist].
+- [x] **6. Bukti Kesepakatan atau Penutupan Percakapan Tuntas:** Kesepakatan tertulis presisi (Bagian IV.A) menetapkan serah terima wewenang, alokasi 40 kartu, rak piring Sarpras, dan tanggal pelepasan operator (*exit plan*) [Bab 15 Checklist].
+- [x] **7. Evaluasi Menilai Dampak Relasi (*Relationship State*):** Bagian IV.C mengevaluasi pulihnya rasa percaya Pak Joko, rasa tenang Ibu Titin, dan tawaran kerja sama jangka panjang dari Pak Bambang [Bab 15 Checklist].
+- [x] **8. Perlindungan Privasi & Penyamaran Data Sensitif:** Identitas nomor kontak, data transaksi keuangan kasir pribadi, dan transkrip masukan mahasiswa dianonimkan secara ketat sesuai kode etik [Bab 14.10, 15 Checklist].
+- [x] **9. Penggunaan AI Dicatat Jujur dan Proporsional:** Tertera pada Bagian VI, Minggu 14, dan Pernyataan Penggunaan AI, lengkap dengan rekam jejak penolakan usulan bias mesin [Bab 14.15, Lampiran E.7].
+- [x] **10. Integrasi Utuh Kompetensi Perkuliahan:** Menganyam seluruh materi: TAIDA, resolusi konflik, deliberasi komunitas, komunikasi publik, hingga etika AI dalam satu benang merah proyek Kantin GKU [Bab 15.4].
+- [x] **11. Refleksi Spesifik Pertumbuhan & Sasaran Belajar Berikutnya:** Terurai pada Bagian VII.5 dan rencana aksi nyata di unit kegiatan LFM ITB serta kepanitiaan kampus mendatang [Bab 15 Checklist].
+
+---
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| **Person & character** | Membedakan dengan jernih karakter Ammar sebagai *inisiator transisi* yang wajib melepaskan wewenang kepada *pemilik sah operasional* (Ibu Titin & Pak Bambang) [Bab 15.1, 15.5]. Menghormati kedaulatan Pak Joko sebagai pedagang mandiri tanpa diskriminasi. |
+| **Objective & state** | *State awal:* Kekhawatiran pedagang akan pemaksaan sistem baru dan kecemasan ditinggal operator mahasiswa. *Objective:* Menghasilkan keputusan berbasis data empiris sambil menjaga keutuhan relasi. *State akhir:* Kesepakatan transisi mandiri tuntas dengan rasa aman dan saling percaya [Bab 15.2, 15.7]. |
+| **Repertoire & language** | Mengombinasikan sajian data kuantitatif lapangan (240 transaksi, 22 detik/mangkok) dengan bahasa deliberasi rendah hati (*humility*), teknik *mindful pause*, serta perumusan risalah 4W tertutup [Bab 10.9, 15.3]. |
+| **Response & adaptation** | Melakukan *decisive adaptation* krusial: mencabut seketika proposal ekspansi ke 8 stan kios saat mendengar keberatan Pak Joko dan Ibu Titin; mengalihkan fokus ke stabilisasi Kios Soto [Bab 15.6]. |
+| **Agreement/action** | Perjanjian serah terima 40 kartu fisik, penempatan rak piring mandiri Sarpras per 3 September 2026, dan batas akhir peran pendamping mahasiswa per 4 September 2026 [Bab 15.7]. |
+| **Relationship outcome** | Terciptanya modal sosial (*social capital*) yang kokoh: pedagang merasa dihargai kedaulatannya, mahasiswa dipandang sebagai mitra solutif yang bertanggung jawab hingga tuntas, dan Sarpras memperoleh keteraturan koridor tanpa konflik sosial [Bab 15.7]. |
+
+---
+
+## Penggunaan AI
+
+Dalam penyusunan Capstone Portofolio Minggu 15:
+* **Peran AI:** Asisten simulasi argumen (*adversarial debate simulation*) dan pemformat draf tabulasi risalah kesepakatan menggunakan Google Gemini Pro.
+* **Instruksi Kunci:** *"Bertindaklah sebagai pengritik dokumen (devil's advocate) untuk mencari celah risiko hukum dan operasional dari draf serah terima sistem kantin ini. Dilarang mengusulkan sanksi administratif atau denda bagi pedagang."*
+* **Output yang Ditolak:** Usulan AI untuk memasang kamera pengawas kepatuhan antrean dan usulan denda keterlambatan langsung ditolak karena merendahkan martabat manusiawi warga kampus [Lampiran E.4].
+* **Output yang Digunakan:** Struktur pembagian kolom matriks kesepakatan presisi dan pengecekan kerapian tanda baca bahasa Indonesia baku.
+* **Pembelajaran Manusiawi:** Keputusan untuk mengalah, menarik kembali usul ekspansi di hadapan Pak Joko, dan memeluk keberatan pihak lain adalah hak prerogatif hati nurani manusia yang tidak dapat diprogram oleh kecerdasan buatan mana pun [Lampiran E.7].
+
+---
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:**
+Dosen penilai KIPP dan rekan sejawat mencatat bahwa kemampuan Ammar menahan ego dan merelakan rencana perluasannya runtuh demi menjaga kebersamaan warga kantin adalah demonstrasi nyata kompetensi tertinggi seorang komunikator. Catatan minor: dokumen berita acara serah terima perlu dibubuhi meterai tempel dan tanda tangan basah agar sah diarsipkan di kantor Sarpras GKU.
+
+**Adaptation/replay:**
+Ammar mencetak dua rangkap naskah berita acara resmi, membubuhkan meterai Rp10.000, serta menandatanganinya bersama Ibu Titin dan Pak Bambang pada Selasa, 1 September 2026 pukul 10.00 WIB.
+
+**Next practice (Sasaran Pasca-Perkuliahan):**
+Sebagai bekal memasuki dunia kerja profesional teknologi dan kepemimpinan organisasi di LFM ITB, saya menetapkan satu komitmen baku: *"Setiap kali merancang solusi teknologi atau kebijakan publik, saya akan meluangkan waktu duduk bersama pihak yang paling terdampak, mendengarkan ketakutan mereka, dan siap mengubah sistem agar manusia tidak pernah menjadi korban dari teknologi yang saya buat."*
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Pemetaan multi-pihak tuntas; transisi karakter dari inisiator mahasiswa menjadi fasilitator yang melepaskan wewenang secara ksatria [Bab 15.1, 15.5]. |
+| **Objective & State** | 4 | Menjembatani multi-state yang saling berbenturan; mengelola ketidakpastian transisi hingga tercapai *state* aman dan mandiri [Bab 15.2, 15.7]. |
+| **Repertoire, Language & AI** | 4 | Sajian data empiris 14 hari, fasilitasi dialog rendah hati, uji replay, dan penolakan tegas terhadap bias teknokratis AI [Bab 15.3, 15.8, 15.9]. |
+| **Response & Adaptation** | 4 | Momen puncak adaptasi tegas: mencabut proposal perluasan 8 kios seketika saat mendengar suara penolakan Pak Joko dan Ibu Titin [Bab 15.6]. |
+| **Agreement, Action & Relationship** | 4 | Formula kesepakatan 4W closed-loop, pencatatan dissent Farhan, pemulihan modal sosial pedagang-sarpras, dan checklist 11 butir terpenuhi 100% [Bab 15.7, 15 Checklist]. |
+
+**Total: 20/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
